@@ -19,7 +19,6 @@
   float: none;
   padding: 0;
   min-height: 1px;
-  height: 100%;
   position: relative;
 }
 
