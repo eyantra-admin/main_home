@@ -237,7 +237,7 @@ footer p strong {
             </div>
             <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
                 <i class="fa fa-smile-o"></i>
-                <p id="number2" class="number">3245 +</p>
+                <p id="number2" class="number">32450 +</p>
                 <span></span>
                 <p>Colleges Benefited</p>
             </div>
