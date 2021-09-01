@@ -37,17 +37,6 @@
                     <!-- </p> -->
                     </div>
                   <div class="grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-3 pb-12 px-6 mt-6 mx-24">
-                    <!-- Card 1 -->
-                    <!-- <div class="flex items-center p-4 border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800" style="background-color:#DE4757">
-                        <img alt="mountain" class="w-45 rounded-md border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                         <div id="body" class="flex flex-col ml-5">
-                            <h4 id="name" class="text-xl font-semibold mb-2 text-white">e-Yantra Robotics Competition (eYRC)</h4>
-                            <p id="job" class="text-gray-800 mt-2">A unique robotics competition providing a practical experience in Learning while Competing format.</p>
-                            <div class="flex mt-5">
-                               <p class="ml-3 text-white">Know more...</p>
-                            </div>
-                         </div>
-                    </div> -->
                     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" style="background-color:#DE4757">
                   <div class="md:flex">
                     <div class="md:flex-shrink-0">
@@ -60,18 +49,6 @@
                     </div>
                   </div>
                 </div>
-                    <!-- Card 2 -->
-                    <!-- <div class="flex items-center p-4 border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800" style="background-color:#DE4757">
-                           <img alt="mountain" class="w-45 rounded-md border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                         <div id="body" class="flex flex-col ml-5">
-                            <h4 id="name" class="text-xl font-semibold mb-2 text-white">e-Yantra Innovation Challenge (eYIC)</h4>
-                            <p id="job" class="text-gray-800 mt-2">A competition to solicit innovative projects from colleges across the nation.</p>
-                            <div class="flex mt-5">
-                               <img alt="avatar" class="w-6 rounded-full border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                               <p class="ml-3 text-white">Know more...</p>
-                            </div>
-                         </div>
-                    </div> -->
                     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" style="background-color:#DE4757">
                   <div class="md:flex">
                     <div class="md:flex-shrink-0">
@@ -84,18 +61,6 @@
                     </div>
                   </div>
                 </div>
-                    <!-- Card 3 -->
-                    <!-- <div class="flex items-center p-4 border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800" style="background-color:#DE4757">
-                            <img alt="mountain" class="w-45 rounded-md border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                         <div id="body" class="flex flex-col ml-5">
-                            <h4 id="name" class="text-xl font-semibold mb-2 text-white">e-Yantra Lab Setup Initiative (eLSI)</h4>
-                            <p id="job" class="text-gray-800 mt-2">An Initiative to train teachers and institutions by establishing a culture  of “Project Based Learning” and solving real problems using technology.</p>
-                            <div class="flex mt-5">
-                               <img alt="avatar" class="w-6 rounded-full border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                               <p class="ml-3 text-white">Know more...</p>
-                            </div>
-                         </div>
-                    </div> -->
                     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" style="background-color:#DE4757">
                   <div class="md:flex">
                     <div class="md:flex-shrink-0">
@@ -109,18 +74,6 @@
                     </div>
                   </div>
                 </div>
-                    <!-- Card 4 -->
-                    <!-- <div class="flex items-center p-4 border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800" style="background-color:#DE4757">
-                       <img alt="mountain" class="w-45 rounded-md border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                         <div id="body" class="flex flex-col ml-5">
-                            <h4 id="name" class="text-xl font-semibold mb-2 text-white">e-Yantra School Robotics Competition (eYSRC)</h4>
-                            <p id="job" class="text-gray-800 mt-2">A competition for school kids from grade 8th to 12th to think, ideate and innovate out-of-the box solutions to real-world problems.</p>
-                            <div class="flex mt-5">
-                               <img alt="avatar" class="w-6 rounded-full border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                               <p class="ml-3 text-white">Know more...</p>
-                            </div>
-                         </div>
-                    </div> -->
                     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" style="background-color:#DE4757">
                   <div class="md:flex">
                     <div class="md:flex-shrink-0">
@@ -133,18 +86,6 @@
                     </div>
                   </div>
                 </div>
-                    <!-- Card 5 -->
-                    <!-- <div class="flex items-center p-4 border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800" style="background-color:#DE4757">
-                            <img alt="mountain" class="w-45 rounded-md border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                         <div id="body" class="flex flex-col ml-5">
-                            <h4 id="name" class="text-xl font-semibold mb-2 text-white">e-Yantra MOOC (eYMOOC)</h4>
-                            <p id="job" class="text-gray-800 mt-2">This is an online platform developed to offer Massive Open Online Courses (MOOCs) for individuals from varying backgrounds.</p>
-                            <div class="flex mt-5">
-                               <img alt="avatar" class="w-6 rounded-full border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                               <p class="ml-3 text-white">Know more...</p>
-                            </div>
-                         </div>
-                    </div> -->
                     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" style="background-color:#DE4757">
                   <div class="md:flex">
                     <div class="md:flex-shrink-0">
@@ -157,18 +98,6 @@
                     </div>
                   </div>
                 </div>
-                    <!-- Card 6 -->
-                    <!-- <div class="flex items-center p-4 border-2 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800" style="background-color:#DE4757">
-                       <img alt="mountain" class="w-45 rounded-md border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                         <div id="body" class="flex flex-col ml-5">
-                            <h4 id="name" class="text-xl font-semibold mb-2 text-white">e-Yantra Farm Setup Initiative (eFSI)</h4>
-                            <p id="job" class="text-gray-800 mt-2">This deals with setting up an automated agriculture project  to give hands-on learning for students.</p>
-                            <div class="flex mt-5">
-                               <img alt="avatar" class="w-6 rounded-full border-2 border-gray-300" src="https://picsum.photos/seed/picsum/200" />
-                               <p class="ml-3 text-white">Know more...</p>
-                            </div>
-                         </div>
-                    </div> -->
                     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl" style="background-color:#DE4757">
                   <div class="md:flex">
                     <div class="md:flex-shrink-0">
