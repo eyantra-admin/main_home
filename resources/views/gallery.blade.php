@@ -2,30 +2,33 @@
 @section('content')
     <div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center">
       <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="3000">
-        <div class="flex flex-wrap" id="tabs-id">
+        <div class="flex flex-wrap justify-center" id="tabs-id">
+          <div class="w-full lg:w-6/12 px-4">
+                 <h1 class="w-full text-4xl font-bold leading-tight text-center text-gray-800">Our Gallery</h1>
+            </div>
           <div class="w-full">
             <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
                 <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-red-400" onclick="changeAtiveTab(event,'tab-eyrc')">
                   <i class="fas fa-space-shuttle text-base mr-1"></i>  eYRC
                 </a>
               </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
                 <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-600 bg-white" onclick="changeAtiveTab(event,'tab-eyic')">
                   <i class="fas fa-cog text-base mr-1"></i>  eYIC
                 </a>
               </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
                 <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-600 bg-white" onclick="changeAtiveTab(event,'tab-eysrc')">
                   <i class="fas fa-briefcase text-base mr-1"></i>  eYSRC
                 </a>
               </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
                 <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-600 bg-white" onclick="changeAtiveTab(event,'tab-efsi')">
                   <i class="fas fa-cog text-base mr-1"></i>  eFSI
                 </a>
               </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+              <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
                 <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-600 bg-white" onclick="changeAtiveTab(event,'tab-workshops')">
                   <i class="fas fa-briefcase text-base mr-1"></i>  Workshops
                 </a>

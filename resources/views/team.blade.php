@@ -1,5 +1,31 @@
 @extends('layout.main')
 @section('content')
+<div class="flex-row items-center justify-center text-center bg-gray-200 mt-4 ml-6 mr-6 mx-auto  md:pt-24" data-aos="fade-up" data-aos-duration="3000">
+  <h1 class="w-full text-4xl font-bold leading-tight text-center text-gray-800">Our Team</h1>
+  <!-- </div>
+
+      <div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center"> -->
+
+        <section class="m-2 font-sans leading-normal flex justify-center data-aos="fade-up" data-aos-duration="3000">
+          <!-- card container -->
+          <div class="max-w-lg shadow-lg rounded overflow-hidden m-4 sm:flex">
+
+            <div class="h-48 sm:h-auto sm:w-48 md:w-64 lg:w-4/3 lg:h-full flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" style="background-image: url('/img/avatar/core/above/kaviarya.jpg'); width: 220px; height: 220px">
+            </div>
+            
+             <div class="px-6 py-4">
+              <h2 class="mb-2 font-black">Prof. Kavi Arya</h2>
+              <p class="mb-4 text-grey-dark text-sm">
+                D.Phil.(Oxon.)<br>
+                Professor<br>
+                Principal Investigator,e-Yantra <br>
+                CSE Department, <br>
+                IIT Bombay
+               </p>
+            </div>
+          </div>
+        </section>
+</div>
     <div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center">
       <!-- <section class="pb-48">
       <div class="container mx-auto px-4">
@@ -213,15 +239,18 @@
         </div>
       </div>
       </section> -->
+
+
+
     
 
 
-      <section class="container-fluid  mx-auto flex flex-col md:flex-row items-center ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="3000">
+      <section class="container-fluid  mx-auto flex flex-col md:flex-row items-center ml-6 mr-6 bg-gray-200 md:pt-6 justify-center" data-aos="fade-up" data-aos-duration="3000">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
-            <div class="w-full lg:w-6/12 px-4">
+           <!--  <div class="w-full lg:w-6/12 px-4">
                  <h1 class="w-full text-4xl font-bold leading-tight text-center text-gray-800">Our Team</h1>
-            </div>
+            </div> -->
             <div>
               <div class="flex flex-wrap">
               <?php
