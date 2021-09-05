@@ -8,12 +8,21 @@
         <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600" rel="stylesheet">
         <link href="{{ asset('css/modal-video.min.css') }}" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <style type="text/css">
             html{
                 scroll-behavior: smooth;
                 overflow-y: scroll;
+            }
+            body {
+              font-family: 'Quicksand', sans-serif;
+              font-weight: 400;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+              font-weight: 600;
             }
             #menu-toggle:checked+#menu {
               display: block;
@@ -38,7 +47,7 @@
                 font-weight: 600;
                 color: #292524;
             }
-            
+
             .video-thumbnail {
                   position: relative;
                   display: inline-block;
@@ -455,43 +464,40 @@
         </nav> -->
 
         <nav class="flex items-center justify-between flex-wrap p-6">
-            <div class="flex items-center flex-shrink-0 text-gray-600 mr-6">
-                <Link href="/">
-                    <a class="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href="/">
-                        <img src="{!! asset('img/logo.svg') !!}" alt="e-Yantra" class="w-48 md:w-56" />
-                    </a>
-                </Link>
-            </div>
+          <div class="flex items-center flex-shrink-0 text-gray-600 mr-6">
+            <Link href="/">
+            <a class="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href="/">
+              <img src="{!! asset('img/logo.svg') !!}" alt="e-Yantra" class="w-48 md:w-56" />
+            </a>
+          </Link>
+        </div>
 
-          <label class="block lg:hidden cursor-pointer flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-gray-600 hover:border-gray" for="menu-toggle"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></label>
-          <input class="hidden" type="checkbox" id="menu-toggle" />
+        <label class="block lg:hidden cursor-pointer flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-gray-600 hover:border-gray" for="menu-toggle"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
 
-          <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="menu">
-            <div class="text-sm lg:flex-grow">
-                <ul>
-                    <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                        <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="/">About Us</a>
-                    </li>
-                    <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                        <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="/">Event Calender</a>
-                    </li>
-                    <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                        <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="/gallery">Gallery</a>
-                    </li>
-                    <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                        <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="/team">Our Team</a>
-                    </li>
-                    <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                        <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="/">Publications</a>
-                    </li>
-                    <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                        <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="/contact">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="block">
-              <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
-            </div>
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto justify-end" id="menu">
+          <div class="text-sm lg:flex-col">
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="">About Us</a>
+              </li>
+              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="">Event Calender</a>
+              </li>
+              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="gallery">Gallery</a>
+              </li>
+              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="team">Our Team</a>
+              </li>
+              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="">Publications</a>
+              </li>
+              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="contact">Contact Us</a>
+              </li>
+            </ul>
           </div>
-</nav>
+        </div>
+      </nav>
     </header>

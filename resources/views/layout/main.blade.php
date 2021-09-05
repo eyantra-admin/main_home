@@ -47,9 +47,9 @@
             //video model
             $(".js-modal-btn").modalVideo();
             //Javascript to toggle the menu
-            document.getElementById('nav-toggle').onclick = function(){
+            /*document.getElementById('nav-toggle').onclick = function(){
                 document.getElementById("nav-content").classList.toggle("hidden");
-            }
+            }*/
             //
             var activeclass = document.querySelectorAll('#navlist li a');
             for (var i = 0; i < activeclass.length; i++) {
