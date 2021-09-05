@@ -20,7 +20,7 @@
 
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
-            <div class="flex flex-col w-full justify-center items-start pt-12 pb-12 px-6 lg:ml-24 sm:ml-6 text-gray-700 text-xl">
+            <div class="flex flex-col w-full justify-center items-start py-18 lg:ml-24 sm:ml-6 text-gray-700 text-xl">
                 e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
                 The goal is to harness the intellectual talent of young engineers to to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defense, home, city maintenance and services industries.
                 <div class="rounded-full py-3 px-6 mt-12 justify-center bg-red-400 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 sm:w-48 text-lg" style="background-color:#DE4757">

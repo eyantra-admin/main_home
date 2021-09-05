@@ -1,5 +1,4 @@
 <style>
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -289,6 +288,6 @@ $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
 
 
 
-   
-  
+
+
 </script>

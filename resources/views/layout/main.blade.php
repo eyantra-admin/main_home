@@ -1,7 +1,7 @@
 		<!doctype html>
 <html lang="en">
 @yield('styles')
-<body style="padding-top: 1px; font-weight: 500; font-family: sans-serif">
+<body>
 	<header>
 		@include('includes.header')
 	</header>

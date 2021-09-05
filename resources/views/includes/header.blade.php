@@ -463,7 +463,7 @@
             </div>
         </nav> -->
 
-        <nav class="flex items-center justify-between flex-wrap p-6">
+        <nav class="fixed w-full z-30 top-0 flex items-center justify-between flex-wrap p-6 bg-white">
           <div class="flex items-center flex-shrink-0 text-gray-600 mr-6">
             <Link href="/">
             <a class="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href="/">
@@ -479,22 +479,22 @@
           <div class="text-sm lg:flex-col">
             <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="">About Us</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="">About Us</a>
               </li>
               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="">Event Calender</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="">Event Calender</a>
               </li>
               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="gallery">Gallery</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="gallery">Gallery</a>
               </li>
               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="team">Our Team</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="team">Our Team</a>
               </li>
               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="">Publications</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="">Publications</a>
               </li>
               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold" href="contact">Contact Us</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
               </li>
             </ul>
           </div>
