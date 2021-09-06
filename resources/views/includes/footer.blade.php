@@ -107,7 +107,7 @@
  <footer class="bg-gray-600 mx-6">
 <div class="container mx-auto px-8"><!-- class="w-full flex flex-col md:flex-row py-6" -->
    <div class=" px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
-     <div class="p-5">
+     <div class="p-5  w-2/3">
           <img  src="{!! asset('img/iitblogo.png') !!}">
             <!-- <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col
               max-w-screen-lg items-center">
