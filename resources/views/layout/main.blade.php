@@ -2,21 +2,9 @@
 <html lang="en">
 @yield('styles')
 <body>
-	<header>
-		@include('includes.header')
-	</header>
-
-	<div>
-
-		<!-- main content -->
-		<div>
-			@yield('content')
-		</div>
-	</div>
-
-	<footer>
-		@include('includes.footer')
-	</footer>
+	@include('includes.header')
+	@yield('content')
+	@include('includes.footer')
 </body>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

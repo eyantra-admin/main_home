@@ -1,51 +1,78 @@
 <!-- footer -->
-        <footer class="bg-gray-600 mx-6">
-            <div class="container mx-auto px-8">
-                <div class="w-full py-6">
-                    <p class="text-gray-900 text-center md:text-2xl">
-                        e-Yantra is a project sponsored by <a class="text-blue-600" href="http://mhrd.gov.in/" target="_blank">MoE</a> through the <a class="text-blue-600" href="//mhrd.gov.in/technology-enabled-learning-0" target="_blank">National Mission on Education through ICT (NMEICT)</a>
-                    </p>
+<div class="items-center mx-auto mt-20 bg-gray-400">
+    <footer class="text-blue-700 bg-gray-200">
+        <div class="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
+            <a href="https://e-yantra.org" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
+                <div class="inline-flex items-center">
+                    <img src="{!!asset('img/footer_iitb_eyantra.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
                 </div>
-                <div class="w-full flex flex-col md:flex-row py-6">
-                    <div class="w-full md:w-3/5 mb-6">
-                        <img src="{!! asset('img/mhrd.png') !!}">
-                    </div>
-                    <div class="w-full mx-auto mb-6 text-center md:text-right md:text-lg">
-                        <p>
-                            <!-- facebook -->
-                            <span class="mdi mdi-facebook text-orange-500"></span>
-                            <a href="//www.facebook.com/eyantra" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500 mr-3">Facebook</a>
-                            <!-- twitter -->
-                            <span class="mdi mdi-twitter text-orange-500"></span>
-                            <a href="//twitter.com/eyantra_iitb" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500 mr-3">Twitter</a>
-                            <!-- linkedin -->
-                            <span class="mdi mdi-linkedin text-orange-500"></span>
-                            <a href="https://www.linkedin.com/company/14407133/admin/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500 mr-3">LinkedIn</a>
-                            <!-- insta -->
-                            <span class="mdi mdi-instagram text-orange-500"></span>
-                            <a href="//www.instagram.com/eyantra/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500 mr-3">Insta</a>
-                            <!-- youtube -->
-                            <span class="mdi mdi-youtube text-orange-500"></span>
-                            <a href="https://www.youtube.com/user/eyantra/videos" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">YouTube</a>
-                        </p>
-                        <p class="mt-5">
-                            <a href="https://www.e-yantra.org" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500 mr-5">e-Yantra</a>
-                            <!-- elsi -->
-                            <a href="https://www.e-yantra.org/elsi" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">eLSI</a>
-                            <!-- eyic -->
-                            <a href="https://www.e-yantra.org/eyic" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500 mx-5">eYIC</a>
-                            <!-- eyrdc -->
-                            <a href="http://content.e-yantra.org/content" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">eYRDC</a>
-                        </p>
-                    </div>
+            </a>
+            <nav class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
+                <a href="https://www.mooc.e-yantra.org" target="_blank" class="px-4 py-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                    MOOC
+                </a>
+                <a href="https://eyic.e-yantra.org" target="_blank" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                    eYIC
+                </a>
+                <a href="http://elsi.e-yantra.org" target="_blank" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                    eLSI
+                </a>
+                <a href="https://www.e-yantra.org/eyrdc" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                    eYRDC
+                </a>
+            </nav>
+            <span class="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start text-xl">
+                <a class="text-blue-500 hover:text-black" target="_blank" href="https://www.facebook.com/eyantra">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-blue-500 hover:text-black" target="_blank" href="https://twitter.com/eyantra_iitb">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-blue-500 hover:text-black" target="_blank" href="https://www.instagram.com/eyantra/">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-blue-500 hover:text-black" target="_blank" href="https://www.linkedin.com/company/e-yantraiitb/">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-8 h-8" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+    <footer class="bg-blueGray-50">
+        <div class="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
+            <a href="http://mhrd.gov.in/" target="_blank" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
+                <div class="inline-flex items-center">
+                    <img src="{!!asset('img/moe.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
                 </div>
+            </a>
+            <div class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
+                <p class="lg:text-xl text-center">e-Yantra is a project sponsored by <br/><a class="text-blue-600" href="http://mhrd.gov.in/" target="_blank"> MoE</a> through the <a class="text-blue-600" href="//mhrd.gov.in/technology-enabled-learning-0" target="_blank">National Mission on Education through ICT (NMEICT)</a></p>
             </div>
-            <div class="w-full py-6 text-center text-gray-500">
-                <hr class="mb-5">
-                Copyright © {!!date('Y')!!} <a class="text-blue-600" href="//e-yantra.org" target="_blank">e-Yantra</a>. All rights reserved. <br>
-                <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
+            <div class="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start text-xl">
+                <a href="https://www.makeinindia.com/" target="_blank" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
+                    <div class="inline-flex items-center">
+                        <img src="{!!asset('img/make-in-india.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
+                    </div>
+                </a>
             </div>
-        </footer><!-- end -->
+        </div>
+    </footer>
+    <footer class="w-full py-2 text-center text-gray-500 pb-5">
+        <hr class="mb-5">
+        Copyright © {!!date('Y')!!} <a class="text-blue-600" href="//e-yantra.org" target="_blank">e-Yantra</a>. All rights reserved. <br>
+    </footer>
+</div>
 
         <script type="text/javascript" src="{{ url('js/app.js') }}"></script>
         <script src="{{url('js/jquery-modal-video.min.js')}}"></script>
