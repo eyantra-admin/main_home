@@ -1,80 +1,174 @@
-<!-- footer -->
-<div class="items-center mx-auto mt-20 bg-gray-400">
-    <footer class="text-blue-700 bg-gray-200">
-        <div class="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
-            <a href="https://e-yantra.org" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
-                <div class="inline-flex items-center">
-                    <img src="{!!asset('img/footer_iitb_eyantra.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
-                </div>
-            </a>
-            <nav class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
-                <a href="https://www.mooc.e-yantra.org" target="_blank" class="px-4 py-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
-                    MOOC
-                </a>
-                <a href="https://eyic.e-yantra.org" target="_blank" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
-                    eYIC
-                </a>
-                <a href="http://elsi.e-yantra.org" target="_blank" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
-                    eLSI
-                </a>
-                <a href="https://www.e-yantra.org/eyrdc" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
-                    eYRDC
-                </a>
-            </nav>
-            <span class="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start text-xl">
-                <a class="text-blue-500 hover:text-black" target="_blank" href="https://www.facebook.com/eyantra">
-                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                    </svg>
-                </a>
-                <a class="ml-3 text-blue-500 hover:text-black" target="_blank" href="https://twitter.com/eyantra_iitb">
-                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                        </path>
-                    </svg>
-                </a>
-                <a class="ml-3 text-blue-500 hover:text-black" target="_blank" href="https://www.instagram.com/eyantra/">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
-                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                    </svg>
-                </a>
-                <a class="ml-3 text-blue-500 hover:text-black" target="_blank" href="https://www.linkedin.com/company/e-yantraiitb/">
-                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-8 h-8" viewBox="0 0 24 24">
-                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
-                        </path>
-                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                    </svg>
-                </a>
-            </span>
-        </div>
-    </footer>
-    <footer class="bg-blueGray-50">
-        <div class="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
-            <a href="http://mhrd.gov.in/" target="_blank" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
-                <div class="inline-flex items-center">
-                    <img src="{!!asset('img/moe.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
-                </div>
-            </a>
-            <div class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
-                <p class="lg:text-xl text-center">e-Yantra is a project sponsored by <br/><a class="text-blue-600" href="http://mhrd.gov.in/" target="_blank"> MoE</a> through the <a class="text-blue-600" href="//mhrd.gov.in/technology-enabled-learning-0" target="_blank">National Mission on Education through ICT (NMEICT)</a></p>
-            </div>
-            <div class="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start text-xl">
-                <a href="https://www.makeinindia.com/" target="_blank" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
-                    <div class="inline-flex items-center">
-                        <img src="{!!asset('img/make-in-india.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </footer>
-    <footer class="w-full py-2 text-center text-gray-500 pb-5">
-        <hr class="mb-5">
-        Copyright © {!!date('Y')!!} <a class="text-blue-600" href="//e-yantra.org" target="_blank">e-Yantra</a>. All rights reserved. <br>
-    </footer>
-</div>
+<style type="text/css">
+    textarea {
+    resize: none;
+}
 
-        <script type="text/javascript" src="{{ url('js/app.js') }}"></script>
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+</style>
+<footer class="bg-gray-300 mt-8">
+    <div class="container px-6 py-4 mx-auto">
+        <div class="lg:flex">
+            <div class="w-full -mx-6 lg:w-2/5">
+                <div class="px-6">
+                    <a href="https://e-yantra.org" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
+                        <div class="inline-flex items-center">
+                            <img src="{!!asset('img/footer_iitb_eyantra.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
+                        </div>
+                    </a>
+
+                    <div class="max-w-md mt-2 text-gray-500 dark:text-gray-400">
+                        e-Yantra is a project sponsored by <a class="text-blue-600" href="http://mhrd.gov.in/" target="_blank"> MoE</a> through the <a class="text-blue-600" href="//mhrd.gov.in/technology-enabled-learning-0" target="_blank">National Mission on Education through ICT (NMEICT)</a>
+                    </div>
+
+                    <div class="flex mt-4 -mx-2 rounded-social-buttons items-center text-center">
+                        <a class="social-button facebook" href="https://www.facebook.com/eyantra" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-button twitter" href="https://twitter.com/eyantra_iitb" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="social-button linkedin" href="https://www.linkedin.com/company/e-yantraiitb/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a class="social-button youtube" href="https://www.youtube.com/user/eyantra" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="social-button instagram" href="https://www.instagram.com/eyantra/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 lg:mt-0 lg:flex-1">
+                <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
+                    <div>
+                        <h3 class="text-gray-700 uppercase dark:text-white">Competitions</h3>
+                        <a href="//portal.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYRC</a>
+                        <a href="//eyic.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYIC</a>
+                        <a href="//eysrc.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYSRC</a>
+                    </div>
+
+                    <div>
+                        <h3 class="text-gray-700 uppercase dark:text-white">Resources</h3>
+                        <a href="//mooc.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">MOOC</a>
+                        <a href="//content.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYRDC</a>
+                    </div>
+
+                    <div>
+                        <h3 class="text-gray-700 uppercase dark:text-white">Others</h3>
+                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eLSI</a>
+                        <a href="//efsi.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eFSI</a>
+                    </div>
+
+                    <div>
+                        <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
+                        <span class="block mt-2 text-sm text-gray-600">ERTS Lab,</span>
+                        <span class="block mt-2 text-sm text-gray-600">First Floor, KReSIT Building,</span>
+                        <span class="block mt-2 text-sm text-gray-600"> CSE Dept, IIT Bombay, Powai </span>
+                        <span class="block mt-2 text-sm text-gray-600"> Mumbai-400076, Maharashtra, India.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="h-px my-6 bg-gray-800 border-none dark:bg-gray-700">
+        <div class="text-center text-gray-800 dark:text-white">Copyright © {!!date('Y')!!} <a class="text-gray-100 font-bold" href="//e-yantra.org" target="_blank">e-Yantra</a>. All rights reserved.
+        </div>
+    </div>
+</footer>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="{{ url('js/app.js') }}"></script>
         <script src="{{url('js/jquery-modal-video.min.js')}}"></script>
 
         <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
@@ -143,31 +237,31 @@
         </script>
 
         <script>
-		    $.fn.jQuerySimpleCounter = function( options ) {
-		        var settings = $.extend({
-		            start:  0,
-		            end:    100,
-		            easing: 'swing',
-		            duration: 400,
-		            complete: ''
-		        }, options );
+            $.fn.jQuerySimpleCounter = function( options ) {
+                var settings = $.extend({
+                    start:  0,
+                    end:    100,
+                    easing: 'swing',
+                    duration: 400,
+                    complete: ''
+                }, options );
 
-		        var thisElement = $(this);
+                var thisElement = $(this);
 
-		        $({count: settings.start}).animate({count: settings.end}, {
-		            duration: settings.duration,
-		            easing: settings.easing,
-		            step: function() {
-		                var mathCount = Math.ceil(this.count);
-		                thisElement.text(mathCount);
-		            },
-		            complete: settings.complete
-		        });
-		    };
+                $({count: settings.start}).animate({count: settings.end}, {
+                    duration: settings.duration,
+                    easing: settings.easing,
+                    step: function() {
+                        var mathCount = Math.ceil(this.count);
+                        thisElement.text(mathCount);
+                    },
+                    complete: settings.complete
+                });
+            };
 
-		$('#number1').jQuerySimpleCounter({end: 12,duration: 3000});
-		$('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
-		$('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
-		$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+        $('#number1').jQuerySimpleCounter({end: 12,duration: 3000});
+        $('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
+        $('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
+        $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
 
-		</script>
+        </script>

@@ -138,8 +138,6 @@
                       eYSIP 2020 Intern, <br> eYRC- 2019-2020
                     </p>
                 </div>
-                <!-- <div class="relative shadow mx-auto h-24 w-24 -my-12 border-white rounded-full overflow-hidden border-4">   
-                </div> -->
                 <div class="mt-16">
                   <p class="text-center text-gray-600 px-8 mt-3 text-justify">
                     “There's a small story behind our team photo that is posted on e-Yantra's social media platforms(The SR theme winners photo). After setting up the beacon LEDs and making all the connections, we crossed our fingers and gave the power supply. But it didn't work the way it was intended to work. We got really worried because, if there would have been a problem with the LED or the power supply, we would have had to replace it, which meant losing valuable time. One of my teammates noticed that we had given a jumper wire as the 5V supply wire, and he said "Let's try by using a thick wire for the supply". Hence, we changed the wire, crossed our fingers, and again gave the connection. Voila! It worked. We had studied that wires offer resistance but had never seen it in action. We were so happy when it worked that we wore the LEDs around our necks and took that photo.”</p>
@@ -163,8 +161,6 @@
                       eYSIP 2020 Intern, <br> eYRC- 2019-2020
                     </p>
                 </div>
-                <!-- <div class="relative shadow mx-auto h-24 w-24 -my-12 border-white rounded-full overflow-hidden border-4">   
-                </div> -->
                 <div class="mt-16">
                   <p class="text-center text-gray-600 px-8 mt-3 text-justify">
                     “The story starts from the month of September when one of our college professors called us and ordered us..yes 'ordered us' to take part in eYRC. He told us that till then no team from our college had reached finals
@@ -192,8 +188,6 @@
                       eYSIP 2017 Intern,<br>eYRC- 2014 & 2016 (1st Place), <br>eYRC- 2015 (3rd Place)
                     </p>
                 </div>
-                <!-- <div class="relative shadow mx-auto h-24 w-24 -my-12 border-white rounded-full overflow-hidden border-4">   
-                </div> -->
                 <div class="mt-16">
                   <p class="text-center text-gray-600 px-8 mt-3 text-justify">
                     “I recently graduated with a Master’s degree in Robotic Systems from Carnegie Mellon University and I’m currently working on solving perception and SLAM problems for self-driving vehicles in the Bay Area. These are some of the core problems in robotics to solve to enable future AR/VR, home robotics, and autonomous vehicle technologies. I'm extremely grateful to have been introduced to e-Yantra right from the start of my first semester as an undergraduate student, which exposed me to robotics and computer vision.<br> I strongly believe that my experience and learning from e-Yantra played a major role in shaping my career path. I still remember the times when I was excited to work on every new task that was released in eYRC. I highly appreciate all of the e-Yantra initiatives led by the team and hope it continues to grow and inspire more students over the years to come!”</p>
