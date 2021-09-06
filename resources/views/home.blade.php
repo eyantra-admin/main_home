@@ -1,23 +1,6 @@
 @extends('layout.main')
 @section('content')
         <!--Hero-->
-        <!-- <div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center">
-
-            <div class="flex flex-col w-1/2 justify-center items-start pb-12 px-6 mt-6 text-gray-700 md:text-lg">
-                e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
-                The goal is to harness the intellectual talent of young engineers to to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defense, home, city maintenance and services industries.
-                <div class="rounded-full py-3 px-6 mt-12 justify-center bg-red-400 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 sm:w-48" style="background-color:#DE4757">
-                    <a href="/gallery" target="_blank">Visit Our Gallery</a>
-                </div>
-            </div>
-
-            <div class="w-full mb-2 md:w-1/3 md:mx-4 rounded-md transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 justify-center">
-                <a href="#" class="mb-4">
-                    <img class="js-modal-btn rounded w-full p-4" src="https://img.youtube.com/vi/nBEfuo1RC6g/0.jpg" alt="Sunset in the mountains" data-video-id="nBEfuo1RC6g">
-                </a>
-            </div>
-        </div> -->
-
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
             <div class="flex flex-col w-full justify-center items-start py-18 lg:ml-24 sm:ml-6 text-gray-700 text-xl">
@@ -207,18 +190,6 @@
                       <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/ag.png" alt="Man looking at item at a store"></div>
                       <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/blender.png" alt="Man looking at item at a store"></div>
                     </div>
-                    <!-- <div class="flex flex-wrap text-center items-center justify-center">
-                        <img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/3d-printer.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/imageprocessing.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/iot.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/embedded.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/machinelearning.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/python.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/drone.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/ag.png" alt="Man looking at item at a store">
-                        <img class="h-12 ml-12 w-1/2 object-cover md:h-full md:w-24" src="/img/blender.png" alt="Man looking at item at a store">
-
-                    </div> -->
                 </div>
             </section>
             <!-- End Section -->
