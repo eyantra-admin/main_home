@@ -19,13 +19,13 @@
         </div>
 
         <!-- counter -->
-            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="3000">
+            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="1500">
                 @include('counter')
             </section>
             <!-- End Section -->
 
             <!-- What we do -->
-            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="3000" id="about">
+            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="1500" id="about">
               <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800"> What we do</h1>
               <div class="w-full mb-4">
                 <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -143,7 +143,7 @@
 
             <!-- What makes us unique -->
 
-            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="3000">
+            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="1500">
                 <div class="container max-w-7xl mx-auto m-4">
                     <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">What makes us unique</h1>
                     <div class="w-full mb-4">
@@ -171,7 +171,7 @@
 
 
             <!-- Technology Stack -->
-            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="3000">
+            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="1500">
                 <div class="container max-w-7xl mx-auto m-4">
                     <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Technology Stack</h1>
                     <div class="w-full mb-4">
@@ -196,7 +196,7 @@
 
 
             <!-- Testimonials -->
-            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="3000">
+            <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="1500">
                 @include('carousel')
             </section>
             <!-- End Section -->

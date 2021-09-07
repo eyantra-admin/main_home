@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 <div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center">
-        <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="3000">
+        <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="1500">
                 <div class="container max-w-7xl mx-auto m-4">
                     <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Contact Us</h1>
                     <div class="w-full mb-4">

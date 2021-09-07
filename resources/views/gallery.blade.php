@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
     <div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center">
-      <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="3000">
+      <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="1500">
         <div class="flex flex-wrap justify-center" id="tabs-id">
           <div class="w-full lg:w-6/12 px-4">
                  <h1 class="w-full text-4xl font-bold leading-tight text-center text-gray-800">Our Gallery</h1>
@@ -40,29 +40,29 @@
                   <div class="block" id="tab-eyrc">
                     <section class="pt-8 px-4">
                       <div class="flex flex-wrap -mx-4">
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/1.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/2.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/3.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/4.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/5.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/6.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/7.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/8.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/9.jpg" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/1.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/2.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/3.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/4.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/5.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/6.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/7.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/8.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyrc/9.JPG" alt=""></div>
                       </div>
                     </section>
                   </div>
                   <div class="hidden" id="tab-eyic">
                     <section class="pt-8 px-4">
                       <div class="flex flex-wrap -mx-4">
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/1.jpg" alt=""></div>
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/2.jpg" alt=""></div>
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/3.jpg" alt=""></div>
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/4.jpg" alt=""></div>
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/5.jpg" alt=""></div>
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/6.jpg" alt=""></div>
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/7.jpg" alt=""></div>
-                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/8.jpg" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/1.JPG" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/2.JPG" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/3.JPG" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/4.JPG" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/5.JPG" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/6.JPG" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/7.JPG" alt=""></div>
+                        <div class="md:w-1/4 px-4 mb-8"><img class="rounded shadow-md" src="./assets/eyic/8.JPG" alt=""></div>
                       </div>
                     </section>
                   </div>
@@ -90,8 +90,8 @@
                     </section> -->
                     <section class="py-8 px-4"  id="tab-eysrc">
                       <div class="flex flex-wrap -mx-4">
-                        <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img class="rounded shadow-md" src="./assets/eysrc/1.jpg" alt=""></div>
-                        <div class=" px-4 mb-8 md:mb-0"><img class="rounded shadow-md" src="./assets/eysrc/collage.jpg" alt=""></div>
+                        <div class="md:w-1/2 px-4 mb-8 md:mb-0"><img class="rounded shadow-md" src="./assets/eysrc/1.JPG" alt=""></div>
+                        <div class=" px-4 mb-8 md:mb-0"><img class="rounded shadow-md" src="./assets/eysrc/collage.JPG" alt=""></div>
                       </div>
                     </section>
                   </div>
@@ -100,12 +100,12 @@
                   <div class="hidden" id="tab-efsi">
                     <section class="py-8 px-4">
                       <div class="flex flex-wrap -mx-4">
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/1.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/2.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/3.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/4.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/5.jpg" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/6.jpg" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/1.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/2.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/3.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/4.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/5.JPG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8"><img class="rounded shadow-md" src="./assets/efsi/6.JPG" alt=""></div>
                       </div>
                     </section>
                   </div>
@@ -113,21 +113,21 @@
                     <section class="py-8 px-4">
                   <div class="flex flex-wrap -mx-4">
                     <div class="hidden md:block md:w-1/2 px-4">
-                      <div class="h-full w-full bg-cover rounded shadow-md" style="background-image: url('./assets/elsi/4.jpg')"></div>
+                      <div class="h-full w-full bg-cover rounded shadow-md" style="background-image: url('./assets/elsi/4.JPG')"></div>
                     </div>
                     <div class="md:w-1/2 h-auto px-4">
-                      <div class="mb-8"><img class="rounded shadow-md" src="./assets/elsi/1.jpg" alt=""></div>
-                      <div><img class="rounded shadow-md" src="./assets/elsi/2.jpg" alt=""></div>
+                      <div class="mb-8"><img class="rounded shadow-md" src="./assets/elsi/1.JPG" alt=""></div>
+                      <div><img class="rounded shadow-md" src="./assets/elsi/2.JPG" alt=""></div>
                     </div>
 
 
 
                     <div class="md:w-1/2 h-auto px-4">
-                      <div class="mb-8"><img class="rounded shadow-md" src="./assets/elsi/3.jpg" alt=""></div>
-                      <div><img class="rounded shadow-md" src="./assets/elsi/7.jpg" alt=""></div>
+                      <div class="mb-8"><img class="h-full rounded shadow-md" src="./assets/elsi/3.JPG" alt=""></div>
+                      <<!-- div><img class="rounded shadow-md" src="./assets/elsi/7.JPG" alt=""></div> -->
                     </div>
                     <div class="hidden md:block md:w-1/2 px-4">
-                      <div class="h-full w-full bg-cover rounded shadow-md" style="background-image: url('./assets/elsi/5.jpg')"></div>
+                      <div class="h-full w-full bg-cover rounded shadow-md" style="background-image: url('./assets/elsi/5.JPG')"></div>
                     </div>
                   </div>
                     </section>

@@ -23,7 +23,7 @@
         </section>
 </div>
     <div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center">
-      <section class="container-fluid  mx-auto flex flex-col md:flex-row items-center ml-6 mr-6 bg-gray-200 md:pt-6 justify-center" data-aos="fade-up" data-aos-duration="3000">
+      <section class="container-fluid  mx-auto flex flex-col md:flex-row items-center ml-6 mr-6 bg-gray-200 md:pt-6 justify-center" data-aos="fade-up" data-aos-duration="1500">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div>
