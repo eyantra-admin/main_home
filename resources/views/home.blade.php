@@ -38,17 +38,17 @@
                   </div>
 
                   <div class="container mx-auto md:max-w-6xl">
-                    <div class="flex flex-wrap flex-col md:flex-row gap-2">
+                    <div class="flex flex-wrap flex-col md:flex-row gap-2 lg:gap-8">
                       <!-- eyrc -->
-                      <div class="flex-1 mx-4 lg:mx-0">
+                      <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eYRC</h3>
-                          <a href="//portal.e-yantra.org" target="_blank" class="mb-2 text-sm font-semibold text-blue-600 text-center">e-Yantra Robotics Competition</a>
-                          <hr class="border-b-2 border-green-800">
+                          <a href="//portal.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Robotics Competition</a>
+                          <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/eyrc.png')!!}">
                           </div>
-                          <hr class="border-b-2 border-green-800">
+                          <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
                             A unique robotics competition providing a practical experiences in Learning while Competing format executed at international level.
                           </p>
@@ -56,15 +56,15 @@
                       </div>
 
                       <!-- eyic -->
-                      <div class="flex-1 mx-4 lg:mx-0">
+                      <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eYIC</h3>
-                          <a href="//eyic.e-yantra.org" target="_blank" class="mb-2 text-sm font-semibold text-blue-600 text-center">e-Yantra Innovation Challenge</a>
-                          <hr class="border-b-2 border-green-800">
+                          <a href="//eyic.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Innovation Challenge</a>
+                          <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/eyic.png')!!}">
                           </div>
-                          <hr class="border-b-2 border-green-800">
+                          <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
                             A competition to solicit innovative projects from Engineering/ Science/ Polytechnic colleges across the nation based on domain specific training.
                           </p>
@@ -72,15 +72,15 @@
                       </div>
 
                       <!-- elsi -->
-                      <div class="flex-1 mx-4 lg:mx-0">
+                      <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eLSI</h3>
-                          <a href="//eyic.e-yantra.org" target="_blank" class="mb-2 text-sm font-semibold text-blue-600 text-center">e-Yantra Lab Set-up Initiative</a>
-                          <hr class="border-b-2 border-green-800">
+                          <a href="//eyic.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Lab Set-up Initiative</a>
+                          <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/elsi.png')!!}">
                           </div>
-                          <hr class="border-b-2 border-green-800">
+                          <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
                             An Initiative to train teachers and institutions by establishing a culture  of “Project Based Learning” and solving real problems using technology.
                           </p>
@@ -89,17 +89,17 @@
                     </div>
 
                     <!-- row 2 -->
-                    <div class="flex flex-wrap flex-col md:flex-row gap-2 mt-4">
+                    <div class="flex flex-wrap flex-col md:flex-row gap-2 lg:gap-8 mt-4 lg:mt-8">
                       <!-- eysrc -->
-                      <div class="flex-1 mx-4 lg:mx-0">
+                      <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eYSRC</h3>
-                          <a href="//eysrc.e-yantra.org" target="_blank" class="mb-2 text-sm font-semibold text-blue-600 text-center">e-Yantra School Robotics Competition</a>
-                          <hr class="border-b-2 border-green-800">
+                          <a href="//eysrc.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra School Robotics Competition</a>
+                          <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/eysrc.png')!!}">
                           </div>
-                          <hr class="border-b-2 border-green-800">
+                          <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
                             A unique robotics competition providing a practical experiences in Learning while Competing format executed at international level.
                           </p>
@@ -107,15 +107,15 @@
                       </div>
 
                       <!-- eymooc -->
-                      <div class="flex-1 mx-4 lg:mx-0">
+                      <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eYMOOC</h3>
-                          <a href="//mooc.e-yantra.org" target="_blank" class="mb-2 text-sm font-semibold text-blue-600 text-center">e-Yantra MOOC</a>
-                          <hr class="border-b-2 border-green-800">
+                          <a href="//mooc.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra MOOC</a>
+                          <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/eyrdc.png')!!}">
                           </div>
-                          <hr class="border-b-2 border-green-800">
+                          <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
                             e-Yantra MOOC is an online platform developed to offer Massive Open Online Courses (MOOCs) for  students / working professionals from varying backgrounds.
                           </p>
@@ -123,15 +123,15 @@
                       </div>
 
                       <!-- elsi -->
-                      <div class="flex-1 mx-4 lg:mx-0">
+                      <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eFSI</h3>
-                          <a href="//efsi.e-yantra.org" target="_blank" class="mb-2 text-sm font-semibold text-blue-600 text-center">e-Yantra Farm Set-up Initiative</a>
-                          <hr class="border-b-2 border-green-800">
+                          <a href="//efsi.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Farm Set-up Initiative</a>
+                          <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/efsi.png')!!}">
                           </div>
-                          <hr class="border-b-2 border-green-800">
+                          <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
                             Initiative deals with developing a know-how for setting up an automated agriculture project i.e Test Beds for addressing real world problems.
                           </p>
