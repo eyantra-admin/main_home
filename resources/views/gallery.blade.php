@@ -70,15 +70,15 @@
                     <div class="hidden" id="tab-eysrc">
                     <section class="pt-8 px-4">
                       <div class="flex flex-wrap -mx-4">
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/1.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/2.PNG" alt=""></div>
-                         <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/3.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/4.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/5.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/6.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/7.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/8.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/9.PNG" alt=""></div> 
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/1.png" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/2.png" alt=""></div>
+                         <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/3.png" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/4.png" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/5.png" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/6.png" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/7.png" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/8.png" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/9.png" alt=""></div> 
                       </div>
                     </section>
                   </div>
