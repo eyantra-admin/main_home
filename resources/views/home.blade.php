@@ -3,19 +3,21 @@
         <!--Hero-->
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
-            <div class="flex flex-col w-full justify-center items-start py-18 lg:ml-24 sm:ml-6 text-gray-700 text-xl">
+            <div class="flex flex-col w-full justify-center items-start py-18 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6">
                 <span class="inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-full mt-28 ml-4">e-Yantra Robotics Competitions Launched !!!<a href="portal.e-yantra.org" target="_blank"><span class="inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Go</span></a></span><br>
 
                 <p class="ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
-                The goal is to harness the intellectual talent of young engineers to to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defense, home, city maintenance and services industries.</p>
+                The goal is to harness the talent of young engineers to to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defense, home, smart-city maintenance and service industries.</p>
+
                 <div class="rounded-full py-3 px-6 mt-2 justify-center bg-red-400 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 sm:w-48 text-lg ml-4" style="background-color:#DE4757">
                     <a href="/gallery" target="_blank">Visit Our Gallery</a>
                 </div>
             </div>
             <!--Right Col-->
             <div class="w-full sm:w-1/2 rounded-md transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 justify-center">
-                <a href="#" class="mb-4">
-                    <img class="js-modal-btn rounded w-full p-4" src="https://img.youtube.com/vi/nBEfuo1RC6g/0.jpg" alt="Sunset in the mountains" data-video-id="nBEfuo1RC6g">
+                <a href="https://www.youtube.com/watch?v=EKssa8RMLts" class="mb-4">
+                    <!-- <img class="js-modal-btn rounded w-full p-4" src="https://img.youtube.com/vi/nBEfuo1RC6g/0.jpg" alt="Sunset in the mountains" data-video-id="nBEfuo1RC6g"> -->
+                    <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/EKssa8RMLts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </a>
             </div>
         </div>
@@ -35,7 +37,7 @@
               <!-- <div class="lg:ml-16 lg:mr-16 text-gray-700 text-xl justify-center text-justify mx-auto sm:w-auto"> -->
                 <div class="flex flex-col justify-center items-start  lg:ml-24 lg:mr-24 lg:p-8 text-gray-700 text-xl text-justify">
                   <!-- <p class="text-justify"> -->
-                    The goal is to complement the existing higher education system by bringing in a project based approach into higher education - i.e. “Learn by Doing”. More important is to train students, teachers and institutions by establishing a culture of “Project Based Learning” and solving real problems using technology.
+                    We complement the existing higher education system Project Based Learning - i.e. “Learn by Doing”. We train students, teachers and institutions by establishing an innovation culture tasked with solving real problems using technology. We build e-Yantra labs in colleges to facilitate training and to connect students and teachers to a wider innovation community served by e-Yantra.
                     <!-- </p> -->
                   </div>
 
@@ -52,7 +54,7 @@
                           </div>
                           <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
-                            A unique robotics competition providing a practical experiences in Learning while Competing format executed at international level.
+                            A unique robotics competition where participants “learn while they compete and compete while they learn.”  The competition is a “hardware MOOC (Massive Online Open Course) available internationally.
                           </p>
                         </div>
                       </div>
@@ -68,7 +70,7 @@
                           </div>
                           <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
-                            A competition to solicit innovative projects from Engineering/ Science/ Polytechnic colleges across the nation based on domain specific training.
+                            A unique Innovation Challenge where participants are mentored in Innovation & Entrepreneurship skills. e-Yantra provides platforms that accelerate the building of prototype solutions to real problems.
                           </p>
                         </div>
                       </div>
@@ -84,7 +86,7 @@
                           </div>
                           <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
-                            An Initiative to train teachers and institutions by establishing a culture  of “Project Based Learning” and solving real problems using technology.
+                            An Initiative to train teachers and institutions by establishing a culture of “Project Based Learning” and solving real problems using technology hosted in a physical lab.
                           </p>
                         </div>
                       </div>
@@ -103,7 +105,7 @@
                           </div>
                           <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
-                            A unique robotics competition providing a practical experiences in Learning while Competing format executed at international level.
+                            The junior version of the e-Yantra Robotics Competition targeted at school children internationally. Currently designed for students from standards 8th to 12th (13-17 years). 
                           </p>
                         </div>
                       </div>
@@ -119,12 +121,12 @@
                           </div>
                           <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
-                            e-Yantra MOOC is an online platform developed to offer Massive Open Online Courses (MOOCs) for  students / working professionals from varying backgrounds.
+                            e-Yantra MOOC is an online platform developed to offer Massive Open Online Courses (MOOCs) for students / working professionals from varying backgrounds.
                           </p>
                         </div>
                       </div>
 
-                      <!-- elsi -->
+                      <!-- eFsi -->
                       <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eFSI</h3>
@@ -135,7 +137,7 @@
                           </div>
                           <hr class="border-b-2 border-gray-700">
                           <p class="mt-2 text-justify">
-                            Initiative deals with developing a know-how for setting up an automated agriculture project i.e Test Beds for addressing real world problems.
+                            An Initiative deals with developing know-how for building smart agriculture projects i.e Test Beds for addressing real world problems.
                           </p>
                         </div>
                       </div>
@@ -153,18 +155,17 @@
                     </div>
                     <!-- right coloum -->
                     <div class="flex flex-wrap">
-                        <div class="w-6/6 sm:w-2/3 p-6 text-gray-700 text-xl">
+                        <div class="w-6/6 sm:w-2/3 p-6 text-gray-700 text-xl lg:text-2xl">
                                 <ul class="list-disc leading-loose">
-                                  <li> Project based learning</li>
-                                  <li>complement the existing higher education system by bringing in a project based component into engineering education - i.e. “learn by doing”</li>
-                                  <li>Domain specific training to inculcate real-world problem thinking</li>
-                                  <li>Create a sustainable ecosystem driven by students and faculty</li>
-                                  <li>The goal is for students to solve real problems, to do startups or be inspired to pursue higher level R&D skills</li>
+                                  <li>We bring a project based component into engineering education - i.e. “learn by doing”</li>
+                                  <li>Domain specific training to build real-world problem solving abilities</li>
+                                  <li>Create a sustainable ecosystem with  students and faculty</li>
+                                  <li>The goal is for students to solve real problems, to do startups and be inspired to pursue higher level R&D skills</li>
                                   <li>We have established robotics labs in more than 400 colleges across India</li>
                                 </ul>
                         </div>
-                        <div class="w-full sm:w-1/3 md:pt-2">
-                            <img class="w-full md:w-2/2 mx-auto" src="http://epic.e-yantra.org/img/FOSS.gif" height="450" width="400">
+                        <div class="w-full sm:w-1/3 md:pt-2"><!-- http://epic.e-yantra.org/img/FOSS.gif -->
+                            <img class="w-full md:w-2/2 mx-auto lg:mt-12" src="{!!asset('img/wordcloud.png')!!}" height="450" width="400">
                         </div>
                     </div>
                 </div>

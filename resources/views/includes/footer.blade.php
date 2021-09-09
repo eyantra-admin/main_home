@@ -133,21 +133,21 @@
                 <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Competitions</h3>
-                        <a href="//portal.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYRC</a>
-                        <a href="//eyic.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYIC</a>
-                        <a href="//eysrc.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYSRC</a>
+                        <a href="//portal.e-yantra.org" target="_blank" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYRC</a>
+                        <a href="//eyic.e-yantra.org" target="_blank" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYIC</a>
+                        <a href="//eysrc.e-yantra.org" target="_blank" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYSRC</a>
                     </div>
 
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Resources</h3>
-                        <a href="//mooc.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">MOOC</a>
-                        <a href="//content.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYRDC</a>
+                        <a href="//mooc.e-yantra.org" target="_blank" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">MOOC</a>
+                        <a href="//content.e-yantra.org" target="_blank" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eYRDC</a>
                     </div>
 
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Others</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eLSI</a>
-                        <a href="//efsi.e-yantra.org" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eFSI</a>
+                        <a href="#" target="_blank" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eLSI</a>
+                        <a href="//efsi.e-yantra.org" target="_blank" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">eFSI</a>
                     </div>
 
                     <div>
@@ -162,7 +162,7 @@
         </div>
 
         <hr class="h-px my-6 bg-gray-800 border-none dark:bg-gray-700">
-        <div class="text-center text-gray-800 dark:text-white">Copyright © {!!date('Y')!!} <a class="text-gray-100 font-bold" href="//e-yantra.org" target="_blank">e-Yantra</a>. All rights reserved.
+        <div class="text-center text-gray-800 dark:text-gray-800">Copyright © {!!date('Y')!!} <a class="text-gray-700 font-bold" href="//e-yantra.org" target="_blank">e-Yantra</a>. All rights reserved.
         </div>
     </div>
 </footer>
