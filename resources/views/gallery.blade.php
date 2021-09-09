@@ -76,9 +76,9 @@
                         <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/4.PNG" alt=""></div>
                         <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/5.PNG" alt=""></div>
                         <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/6.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="" alt=""></div>
                         <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/7.PNG" alt=""></div>
-                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="" alt=""></div> 
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/8.PNG" alt=""></div>
+                        <div class="md:w-1/3 px-4 mb-8 w-full h-1/2"><img class="rounded shadow-md" src="./assets/eysrc/9.PNG" alt=""></div> 
                       </div>
                     </section>
                   </div>
