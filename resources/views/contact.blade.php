@@ -22,7 +22,7 @@
               <div class="text-gray-700 text-2xl mb-8">
                   <p>Email Addresses for our initiatives</p><br>
                     <p class="text-lg">
-                        eYRC: eyrc@e-yantra.org<br>
+                        eYRC: helpdesk@e-yantra.org<br>
                         eYIC: eyic@e-yantra.org<br>
                         eYSRC: school@e-yantra.org<br>
                         eLSI: support@e-yantra.org<br>
