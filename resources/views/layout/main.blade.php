@@ -12,16 +12,16 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 @yield('javascript')
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145861739-1"></script>
 <script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-	ga('create', 'UA-65584389-1', 'auto');
-	ga('send', 'pageview');
-
+  gtag('config', 'UA-145861739-1');
 </script>
+
 </html>
 
 
@@ -74,15 +74,6 @@
                     }
                 });
             });
-        </script>
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145861739-15"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-145861739-15');
         </script>
 
         <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
