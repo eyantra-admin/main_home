@@ -16,8 +16,7 @@
             <!--Right Col-->
             <div class="w-full sm:w-1/2 rounded-md transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 justify-center">
                 <a href="https://www.youtube.com/watch?v=EKssa8RMLts" class="mb-4">
-                    <!-- <img class="js-modal-btn rounded w-full p-4" src="https://img.youtube.com/vi/nBEfuo1RC6g/0.jpg" alt="Sunset in the mountains" data-video-id="nBEfuo1RC6g"> -->
-                    <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/EKssa8RMLts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/vA6yE0rFEAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </a>
             </div>
         </div>
