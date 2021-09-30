@@ -9,7 +9,7 @@
                <div class="w-6/6 sm:w-2/3 p-6">
                     <p class="font-bold"><i class="fas fa-file-chart-column"></i> What is eYIC ? </p><br>
                     <p>e-Yantra Innovation Challenge: a competition that trains you in Innovation & Entrepreneurship</p><br><br>
-                    <p class="font-bold">Purpose:</p><br>
+                    <p class="font-bold">Purpose:</p>
                     <ul class="list-disc leading-loose m-6">
                          <li>Theme driven innovation challenge</li>
                          <li>"Project Based Learning" to solve real-world problems</li>
