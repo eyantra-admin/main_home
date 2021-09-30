@@ -14,7 +14,7 @@
                <!-- right coloum -->
                <div class="flex flex-wrap">
                     <div class="w-6/6 sm:w-2/3 p-6">
-                    <p class="font-bold"><i class="fas fa-file-chart-column"></i> Why take part in this competition?</p><br>
+                    <p class="font-bold"><i class="fas fa-file-chart-column"></i> Why take part in this competition?</p>
                          <ul class="list-disc leading-loose m-6">
                               <li>Develop real-world problem-solving skills.</li>
                               <li>Expand the toolkit of knowledge required to take on challenges of steadily increasing difficulty level.</li>
