@@ -478,7 +478,7 @@
                <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <div x-data="{ open: false }" @mouseleave="open = false" class="relative">
                     <!-- Dropdown toggle button -->
-                    <button @mouseover="open = true" class="flex items-center block p-2 bg-white bg-gray-100 rounded-md ">
+                    <button @mouseover="open = true" class="flex items-center block p-2 bg-white rounded-md ">
                         <span class="inline-block px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">Initiatives</span>
                         <svg class="w-6 h-6 text-white text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                             fill="currentColor">
@@ -489,8 +489,8 @@
                     </button>
 
                     <!-- Dropdown menu -->
-                    <div x-show="open" x-transition:enter.duration.500ms x-transition:leave.duration.800ms
-                        class="absolute right-0 w-48 py-2 mt-2 bg-white bg-gray-100 rounded-md shadow-xl">
+                    <div x-show="open" x-transition:enter.duration.500ms x-transition:leave.duration.3000ms
+                        class="absolute right-0 w-48 mt-2 bg-white rounded-md shadow-xl">
                         <a href="/elsi"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eLSI
@@ -498,6 +498,18 @@
                         <a href="/eyrc"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYRC
+                        </a>
+                        <a href="/eyic"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            eYIC
+                        </a>
+                        <a href="/eysrc"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            eYSRC
+                        </a>
+                        <a href="/efsi"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            eFSI
                         </a>
                     </div>
                 </div>
