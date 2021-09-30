@@ -23,21 +23,63 @@
       <div class="container mx-auto md:max-w-6xl mt-8">
           <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
             <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
-              <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-red-400" onclick="changeAtiveTab(event,'tab-intconference')">
-                <i class="fas fa-briefcase text-base mr-1"></i> International Conferences
-              </a>
-            </li>
-            <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
-              <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-white" onclick="changeAtiveTab(event,'tab-intjournal')">
+              <a class="text-lg font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-red-400" onclick="changeAtiveTab(event,'tab-intjournal')">
                 <i class="fas fa-cog text-base mr-1"></i>  International Journals
               </a>
             </li>
+            <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
+              <a class="text-lg font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-white font-bold" onclick="changeAtiveTab(event,'tab-intconference')">
+                <i class="fas fa-briefcase text-base mr-1"></i>International Conferences
+              </a>
+            </li>
+            
           </ul>
 
-        <div class="tab-content tab-space lg:mt-8">  
+        <div class="tab-content tab-space lg:mt-8"> 
+          <!-- JOURNAL PAPERS -->
           <!-- row 1 -->
+          <div class="block" id="tab-intjournal">
+              <!-- journal 1 -->
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                <div class="p-5 shadow-sm rounded-md bg-white m-4">
+                  <p class="mt-2 text-justify">
+                    <h3 class="text-lg">1.  Biswas, R., Arya, K., Fernandes, V., & Shah, T. (2021). Find A Loo: an app for sanitation governance. Information Communication and Society, 24(11), 1586-1602.  <a href="https://doi.org/10.1080/1369118X.2020.1716038" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
+                  </p>
+                </div>
+              </div>
+              
+             <!-- journal 2-->
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                <div class="p-5 shadow-sm rounded-md bg-white m-4">
+                  <p class="mt-2 text-justify">
+                    <h3 class="text-lg">2.  Biswas, Rathin, Arya, K., & Deshpande, S. (2020). More toilet infrastructures do not nullify open defecation: a perspective from squatter settlements in megacity Mumbai. Applied Water Science, 10, 96.  <a href="https://doi.org/10.1007/s13201-020-1169-4" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
+                  </p>
+                </div>
+              </div> 
+
+              <!-- journal 3 -->
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                <div class="p-5 shadow-sm rounded-md bg-white m-4">
+                  <p class="mt-2 text-justify">
+                    <h3 class="text-lg">3.  Biswas, Rathin, Jana, A., Arya, K., & Ramamritham, K. (2019). A Good-Governance Framework for Urban Management. Journal of Urban Management, 8(2), 225–236.  <a href="https://doi.org/10.1016/j.jum.2018.12.009" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
+                  </p>
+                </div>
+              </div> 
+              <!-- journal 4 -->
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                <div class="p-5 shadow-sm rounded-md bg-white m-4">
+                  <p class="mt-2 text-justify">
+                    <h3 class="text-lg">4.  BISWAS, R., ARYA, K., & Deshpande, S. (2018). Sanitation planning for squatter settlements as urban water management in Mumbai. Urban Water Journal, 15(05), 470–478.  <a href="https://doi.org/10.1080/1573062X.2018.1509100" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
+                  </p>
+                </div>
+              </div> 
+          </div>
+
+
+
+          <!-- row 2 -->
           <!-- CONFERENCE PAPERS -->
-          <div class="block" id="tab-intconference">
+          <div class="hidden" id="tab-intconference">
             <!-- conf 1 -->
             <div class="flex-1 mx-4 lg:mx-0">
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
@@ -241,48 +283,11 @@
                 </p>
               </div>
             </div>
+            </div>
           </div>
-        </div>
 
           
-          <!-- JOURNAL PAPERS -->
-          <!-- row 2 -->
-          <div class="hidden" id="tab-intjournal">
-              <!-- journal 1 -->
-              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
-                <div class="p-5 shadow-sm rounded-md bg-white m-4">
-                  <p class="mt-2 text-justify">
-                    <h3 class="text-lg">1.  Biswas, R., Arya, K., Fernandes, V., & Shah, T. (2021). Find A Loo: an app for sanitation governance. Information Communication and Society, 24(11), 1586-1602.  <a href="https://doi.org/10.1080/1369118X.2020.1716038" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
-                  </p>
-                </div>
-              </div>
-              
-             <!-- journal 2-->
-              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
-                <div class="p-5 shadow-sm rounded-md bg-white m-4">
-                  <p class="mt-2 text-justify">
-                    <h3 class="text-lg">2.  Biswas, Rathin, Arya, K., & Deshpande, S. (2020). More toilet infrastructures do not nullify open defecation: a perspective from squatter settlements in megacity Mumbai. Applied Water Science, 10, 96.  <a href="https://doi.org/10.1007/s13201-020-1169-4" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
-                  </p>
-                </div>
-              </div> 
-
-              <!-- journal 3 -->
-              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
-                <div class="p-5 shadow-sm rounded-md bg-white m-4">
-                  <p class="mt-2 text-justify">
-                    <h3 class="text-lg">3.  Biswas, Rathin, Jana, A., Arya, K., & Ramamritham, K. (2019). A Good-Governance Framework for Urban Management. Journal of Urban Management, 8(2), 225–236.  <a href="https://doi.org/10.1016/j.jum.2018.12.009" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
-                  </p>
-                </div>
-              </div> 
-              <!-- journal 4 -->
-              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
-                <div class="p-5 shadow-sm rounded-md bg-white m-4">
-                  <p class="mt-2 text-justify">
-                    <h3 class="text-lg">4.  BISWAS, R., ARYA, K., & Deshpande, S. (2018). Sanitation planning for squatter settlements as urban water management in Mumbai. Urban Water Journal, 15(05), 470–478.  <a href="https://doi.org/10.1080/1573062X.2018.1509100" class="text-xl font-medium text-indigo-500">View Paper</a></h3>
-                  </p>
-                </div>
-              </div> 
-            </div>
+          
 
             <hr class="border-b-2 border-gray-700 mt-8">
 

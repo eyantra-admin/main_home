@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600" rel="stylesheet">
         <link href="{{ asset('css/modal-video.min.css') }}" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
         <style type="text/css">
             html{
                 scroll-behavior: smooth;
@@ -415,7 +416,7 @@
                         }
                     }
 
-                    .dropdown:hover .dropdown-menu {
+                     .dropdown:hover .dropdown-menu {
                       display: block;
                     }
         </style>
@@ -474,6 +475,33 @@
               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
               </li>
+               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <div x-data="{ open: false }" @mouseleave="open = false" class="relative">
+                    <!-- Dropdown toggle button -->
+                    <button @mouseover="open = true" class="flex items-center block p-2 bg-white bg-gray-100 rounded-md ">
+                        <span class="inline-block px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">Initiatives</span>
+                        <svg class="w-6 h-6 text-white text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown menu -->
+                    <div x-show="open" x-transition:enter.duration.500ms x-transition:leave.duration.800ms
+                        class="absolute right-0 w-48 py-2 mt-2 bg-white bg-gray-100 rounded-md shadow-xl">
+                        <a href="/elsi"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            eLSI
+                        </a>
+                        <a href="/eyrc"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            eYRC
+                        </a>
+                    </div>
+                </div>
+                </li>
             </ul>
           </div>
         </div>
