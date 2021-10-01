@@ -16,7 +16,7 @@
                 </ul>
               <br>
             </p>
-            <p class="font-bold"><i class="fas fa-file-chart-column"></i> e-Yantra Role?</p><br>
+            <p class="font-bold"><i class="fas fa-file-chart-column"></i> e-Yantra Role?</p>
             <p>
              <ul class="list-disc leading-loose m-6">
                   <li>e-Yantra transfers this know-how to interested eLSI colleges. This project seeds a live demo project in the eLSI college where students “own” this project which serves as a base for original B.E. projects.</li>
@@ -27,7 +27,7 @@
               <br>
             </p>
 
-            <p class="font-bold"><i class="fas fa-file-chart-column"></i> What is expected of interested eLSI colleges</p><br>
+            <p class="font-bold"><i class="fas fa-file-chart-column"></i> What is expected of interested eLSI colleges</p>
             <p>
              <ul class="list-disc leading-loose m-6">
                   <li>Expression of interest – through a letter of intent, Committing resources and manpower appoint a teacher as a coordinator of this project. Provide the caretaker for this project and a team of students comprising third year and second year students.</li>

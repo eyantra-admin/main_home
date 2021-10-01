@@ -45,6 +45,13 @@
                    </div>
                </div>
           </div>
+
+
+          <p class="font-bold mt-4 text-center">For More Information on eYIC, please 
+                   <a href="http://eyic.e-yantra.org" target="_blank" class="bg-blue-400 rounded-md p-2">
+                     Click Me!!
+                   </a>
+               </p>
      </div><!-- end container -->
 </section>
 @stop
