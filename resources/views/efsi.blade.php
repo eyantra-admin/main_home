@@ -27,7 +27,7 @@
               <br>
             </p>
 
-            <p class="font-bold"><i class="fas fa-file-chart-column"></i> What is expected of interested eLSI colleges</p>
+            <p class="font-bold"><i class="fas fa-file-chart-column"></i> What is expected of interested eLSI colleges?</p>
             <p>
              <ul class="list-disc leading-loose m-6">
                   <li>Expression of interest – through a letter of intent, Committing resources and manpower appoint a teacher as a coordinator of this project. Provide the caretaker for this project and a team of students comprising third year and second year students.</li>
