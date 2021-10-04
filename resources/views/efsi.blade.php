@@ -8,11 +8,12 @@
           <div class="px-4 py-6 rounded-md lg:text-xl md:text-lg text-gray-700 lg:ml-24 lg:mr-24">
             <p class="font-bold"><i class="fas fa-eye"></i> Overview & <i class="fas fa-cog"></i> Model of engagement</p><br>
             <p>
-             k-Yantra project develops a know-how for setting up an automated agriculture project – test bed for addressing real world problem and hands-on learning for students on application of what they learnt in theory through a fun and productive exercise.<br>
+             k-Yantra project develops a know-how for setting up an automated agriculture project. It comprises a test bed for hands-on learning for students to apply what they learnt in theory.<br>
              <ul class="list-disc leading-loose m-6">
-                  <li>This entails first generating the soil through a recycling waste and resource recovery of garden and kitchen waste which is in sync with the municipal solid waste management agenda of both central and state government and consistent with “Swach Bharat.</li>
-                  <li>Plan and execute the creation of beds for growing plants</li>
-                  <li>Making the little gadgets, tools, the networking for maintaining and monitoring the growth of plants.</li>
+                 <li> We prepare a “growing medium” through recycling waste and resource recovery of garden and kitchen waste  is in sync with municipal solid waste management and consistent with “Swach Bharat</li>
+               <li>Plan and execute the creation of beds for growing plants</li>
+               <li>Making gadgets, tools and networking for monitoring the growth of plants</li>
+
                 </ul>
               <br>
             </p>
@@ -20,9 +21,9 @@
             <p>
              <ul class="list-disc leading-loose m-6">
                   <li>e-Yantra transfers this know-how to interested eLSI colleges. This project seeds a live demo project in the eLSI college where students “own” this project which serves as a base for original B.E. projects.</li>
-                  <li>Complete hand-holding in the setting up of the demo-project in the college premises for a fixed period of time.</li>
+                  <li>Hand-holding of the setting up of the demo-project in the college premises for a fixed period of time.</li>
                   <li>Providing documented procedures for the various steps involved.</li>
-                  <li>Provide a list of required materials, consumables etc for setting up the test bed.</li>
+                  <li>Provide a list of required materials, consumables etc. for setting up the test bed.</li>
                 </ul>
               <br>
             </p>
@@ -30,9 +31,9 @@
             <p class="font-bold"><i class="fas fa-file-chart-column"></i> What is expected of interested eLSI colleges?</p>
             <p>
              <ul class="list-disc leading-loose m-6">
-                  <li>Expression of interest – through a letter of intent, Committing resources and manpower appoint a teacher as a coordinator of this project. Provide the caretaker for this project and a team of students comprising third year and second year students.</li>
+                  <li>Expression of interest – through a letter of intent, Committing resources and manpower by appointing a teacher as a coordinator of this project. Provide the caretaker for this project and a team of students comprising third year and second year students.</li>
                   <li>Allocate garden or terrace space for this project Estimated cost of developing a 150 sq. ft of garden including troughs, ingredients for creating soil, pumps, pipes, controller valves, electronics items etc. works out to Rs. 1 lakh. (This does not include land cost, supporting staff cost)</li>
-                  <li>This space suffices for two teams of students to work on a project. Multiples of this may be deployed as per the desire of the college.</li>
+                  <li>This space suffices for two teams of students to work on a project. Multiples of these may be deployed as per the desire of the college.</li>
                 </ul>
               <br>
             </p>

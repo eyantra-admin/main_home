@@ -17,7 +17,7 @@
                     <p class="font-bold"><i class="fas fa-file-chart-column"></i> Why take part in this competition?</p>
                          <ul class="list-disc leading-loose m-6">
                               <li>Develop real-world problem-solving skills.</li>
-                              <li>Expand the toolkit of knowledge required to take on challenges of steadily increasing difficulty level.</li>
+                              <li>Expand the toolkit of knowledge to take on challenges of steadily increasing difficulty level.</li>
                               <li>Integrate & apply different STEM concepts from school in exciting and stimulating problem statements.</li>
                               <li>Step by step approach to learning the concepts such as-
                               <ul>

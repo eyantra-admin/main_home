@@ -11,11 +11,11 @@
                     <p>e-Yantra Innovation Challenge: a competition that trains you in Innovation & Entrepreneurship</p><br><br>
                     <p class="font-bold">Purpose:</p>
                     <ul class="list-disc leading-loose m-6">
-                         <li>Theme driven innovation challenge</li>
+                         <li>Theme based innovation challenge</li>
                          <li>"Project Based Learning" to solve real-world problems</li>
                          <li>Domain specific training</li>
                          <li>Effectively utilise e-Yantra Labs in College/University</li>
-                         <li>Platform to showcase solutions to potential incubators</li>
+                         <li>Platform to pitch proposals to potential incubators</li>
                          <li>Encourage startup culture</li>
                          <li>Create sustainable innovation ecosystem in college</li>
                     </ul>
@@ -34,13 +34,11 @@
                     <div class="align-middle">
                         <p class="font-bold"><i class="fas fa-file-chart-column"></i> Who can register for the competition? </p><br>
                          <ul class="list-disc leading-loose m-6">
-                              <li>Theme driven innovation challenge</li>
-                              <li>"Project Based Learning" to solve real-world problems</li>
-                              <li>Domain specific training</li>
-                              <li>Effectively utilise e-Yantra Labs in College/University</li>
-                              <li>Platform to showcase solutions to potential incubators</li>
-                              <li>Encourage startup culture</li>
-                              <li>Create sustainable innovation ecosystem in college</li>
+                              <li>The competition is open for registration to full time Engineering/ Science/ Polytechnic college students who are studying in universities/ colleges, for a degree in any discipline.</li>
+                              <li>Each team must have 2-4 members.</li>
+                              <li>All members of a team must belong to the same college/institution. However team members may belong to different disciplines and years of study.</li>
+                              <li>Each student can join only one team.</li>
+                              <li>One member of the team should be designated as the team leader, who is responsible for all communications with e-Yantra.</li>
                          </ul><br><br>
                    </div>
                </div>
