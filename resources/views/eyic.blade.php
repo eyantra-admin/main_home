@@ -6,7 +6,7 @@
 
            <!-- right coloum -->
           <div class="flex flex-wrap">
-               <div class="w-6/6 sm:w-2/3 p-6">
+               <div class="w-6/6 sm:w-2/3">
                     <p class="font-bold"><i class="fas fa-file-chart-column"></i> What is eYIC ? </p><br>
                     <p>e-Yantra Innovation Challenge: a competition that trains you in Innovation & Entrepreneurship</p><br><br>
                     <p class="font-bold">Purpose:</p>
@@ -28,9 +28,9 @@
            <!-- left coloum -->
           <div class="flex flex-wrap sm:flex-row">
                <div class="w-full md:w-1/2 p-6 mt-6">
-                    <img class="w-2/3 mx-auto" src="{!!asset('img/eyic_wordcloud.png')!!}">
+                    <img class="w-full mx-auto" src="{!!asset('img/eyic_wordcloud.png')!!}">
                </div>
-               <div class="w-full sm:w-1/2 p-6">
+               <div class="w-full sm:w-1/2 lg:mt-12">
                     <div class="align-middle">
                         <p class="font-bold"><i class="fas fa-file-chart-column"></i> Who can register for the competition? </p><br>
                          <ul class="list-disc leading-loose m-6">

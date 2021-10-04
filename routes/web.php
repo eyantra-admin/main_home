@@ -47,3 +47,19 @@ Route::post('/stats_yearwise', [Home\HomeController::class, 'stats_yearwise'])->
 
 
 Route::get('/publications', [Home\HomeController::class, 'publications'])->name('publications');
+
+Route::get('/efsi', function () {
+    return view('efsi');
+})->name('efsi');
+
+Route::get('/eysrc', function () {
+    return view('eysrc');
+})->name('eysrc');
+
+Route::get('/eyic', function () {
+    return view('eyic');
+})->name('eyic');
+
+Route::get('/eyrdc', function () {
+    return view('eyrdc');
+})->name('eyrdc');

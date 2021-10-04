@@ -46,7 +46,7 @@
                       <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eYRC</h3>
-                          <a href="//portal.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Robotics Competition</a>
+                          <a href="/eyrc" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Robotics Competition</a>
                           <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/eyrc.png')!!}">
@@ -62,7 +62,7 @@
                       <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eYIC</h3>
-                          <a href="//eyic.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Innovation Challenge</a>
+                          <a href="/eyic" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Innovation Challenge</a>
                           <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/eyic.png')!!}">
@@ -97,7 +97,7 @@
                       <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eYSRC</h3>
-                          <a href="//eysrc.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra School Robotics Competition</a>
+                          <a href="/eysrc" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra School Robotics Competition</a>
                           <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/eysrc.png')!!}">
@@ -129,7 +129,7 @@
                       <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
                         <div class="h-full p-5 shadow-sm rounded-md" style="background-color: #F87171">
                           <h3 class="text-xl">eFSI</h3>
-                          <a href="//efsi.e-yantra.org" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Farm Set-up Initiative</a>
+                          <a href="/efsi" target="_blank" class="mb-2 text-md font-bold text-gray-700 text-center">e-Yantra Farm Set-up Initiative</a>
                           <hr class="border-b-2 border-gray-700">
                           <div class="flex justify-center">
                             <img class="h-48" src="{!!asset('img/robot/efsi.png')!!}">

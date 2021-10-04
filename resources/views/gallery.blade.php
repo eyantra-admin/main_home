@@ -4,8 +4,8 @@
       <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="1500">
         <div class="flex flex-wrap justify-center" id="tabs-id">
           <div class="w-full lg:w-6/12 px-4">
-                 <h1 class="w-full text-4xl font-bold leading-tight text-center text-gray-800">Our Gallery</h1>
-            </div>
+            <h1 class="w-full text-4xl font-bold leading-tight text-center text-gray-800">Our Gallery</h1>
+          </div>
           <div class="w-full">
             <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
               <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">

@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
      <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center" data-aos="fade-up" data-aos-duration="1500">
-        <div class="flex flex-wrap justify-center" id="tabs-id">
+          <div class="flex flex-wrap justify-center" id="tabs-id">
           <div class="w-full lg:w-6/12 px-4">
             <h1 class="w-full my-2 lg:text-4xl sm:text-xl mt-24 lg:mt-4  font-bold leading-tight text-center text-gray-800">e-Yantra Farm Setup Initiative (eFSI)</h1>
           </div>
@@ -38,10 +38,7 @@
               <br>
             </p>
           </div>
-
-
-
-        </div>
-      </section>
+          </div>
+     </section>
 @stop
 

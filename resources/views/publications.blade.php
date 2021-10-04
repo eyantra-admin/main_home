@@ -1,19 +1,5 @@
 @extends('layout.main')
-<style type="text/css">
-  .filter-switch label {
-  cursor: pointer;
-}
-.filter-switch-item input:checked + label {
-  color: inherit;
-}
-.filter-switch-item input:not(:checked) + label {
-  --bg-opacity: 0;
-  box-shadow: none;
-}
-
-</style>
 @section('content')
-<div class="container-fluid  mx-auto flex flex-col md:flex-row items-center mt-4 ml-6 mr-6 bg-gray-200 md:pt-24 justify-center">
   <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="1500">
     <div class="flex flex-wrap justify-center" id="tabs-id">
       <div class="w-full lg:w-6/12 px-4">
@@ -321,32 +307,32 @@
       </div>
     </div>
   </section>
-</div>
+
 @stop
 
 
 <script type="text/javascript">
-      function changeAtiveTab(event,tabID){
-        let element = event.target;
-        while(element.nodeName !== "A"){
-          element = element.parentNode;
-        }
-        ulElement = element.parentNode.parentNode;
-        aElements = ulElement.querySelectorAll("li > a");
-        tabContents = document.getElementById("tabs-id").querySelectorAll(".tab-content > div");
-        for(let i = 0 ; i < aElements.length; i++){
-          aElements[i].classList.remove("text-white");
-          aElements[i].classList.remove("bg-red-400");
-          aElements[i].classList.add("text-grey-400");
-          aElements[i].classList.add("bg-white");
-          tabContents[i].classList.add("hidden");
-          tabContents[i].classList.remove("block");
-        }
-        element.classList.remove("text-grey-400");
-        element.classList.remove("bg-white");
-        element.classList.add("text-white");
-        element.classList.add("bg-red-400");
-        document.getElementById(tabID).classList.remove("hidden");
-        document.getElementById(tabID).classList.add("block");
+    function changeAtiveTab(event,tabID){
+      let element = event.target;
+      while(element.nodeName !== "A"){
+        element = element.parentNode;
       }
-    </script>
+      ulElement = element.parentNode.parentNode;
+      aElements = ulElement.querySelectorAll("li > a");
+      tabContents = document.getElementById("tabs-id").querySelectorAll(".tab-content > div");
+      for(let i = 0 ; i < aElements.length; i++){
+        aElements[i].classList.remove("text-white");
+        aElements[i].classList.remove("bg-red-400");
+        aElements[i].classList.add("text-grey-400");
+        aElements[i].classList.add("bg-white");
+        tabContents[i].classList.add("hidden");
+        tabContents[i].classList.remove("block");
+      }
+      element.classList.remove("text-grey-400");
+      element.classList.remove("bg-white");
+      element.classList.add("text-white");
+      element.classList.add("bg-red-400");
+      document.getElementById(tabID).classList.remove("hidden");
+      document.getElementById(tabID).classList.add("block");
+    }
+</script>
