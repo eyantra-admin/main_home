@@ -52,22 +52,15 @@ class HomeController extends Controller
     //----------------------eYRC-------------------------------------
     public function eyrc(){
         $year = DB::table('eyrc_themes')->select('year')->orderBy('year', 'desc')->distinct()->get();
-        $teams = DB::table('eyrc_participation')
-                 ->select(DB::raw('Sum(teams_registered) as number_of_teams, eyrc_participation.year'))
-                ->groupBy('eyrc_participation.year')
-                ->get();
-        return view('eyrc')->with('year', $year)->with('teams', $teams)->with('stats', 0);
+        // $teams = DB::table('eyrc_participation')
+        //          ->select(DB::raw('Sum(teams_registered) as number_of_teams, eyrc_participation.year'))
+        //         ->groupBy('eyrc_participation.year')
+        //         ->get();
+        return view('eyrc')->with('year', $year);
     }//end
 
     public function stats_yearwise(Request $request)
     {
-        //get yearwise total teams count
-        $teams = DB::table('eyrc_participation')
-                ->select(DB::raw('Sum(teams_registered) as number_of_teams, eyrc_participation.year'))
-                ->groupBy('eyrc_participation.year')
-                ->where('eyrc_participation.year','=', $request->year)
-                ->get();
-
         //get yearwise theme names
         $theme_names = DB::table('eyrc_themes')
                 ->select(DB::raw('eyrc_themes.theme_name'))
@@ -80,7 +73,7 @@ class HomeController extends Controller
         $winners = DB::table('eyrc_winners')->where('eyrc_winners.year', '=', $request->year)->get();
         log::info($winners);
 
-        $getdata = ['teams' => $teams, 'theme_list' => $theme_names, 'stats_list' => $stats , 'winners_list' => $winners];
+        $getdata = ['theme_list' => $theme_names, 'stats_list' => $stats , 'winners_list' => $winners];
         log::info($getdata);   
         return response()->json($getdata);  
     }//end

@@ -3,18 +3,19 @@
   <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="1500">
     <div class="flex flex-wrap justify-center" id="tabs-id">
       <div class="w-full lg:w-6/12 px-4">
-        <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">e-Yantra Publications</h1>
+        <!-- <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">e-Yantra Publications</h1> -->
+        <h1 class="w-full my-2 lg:text-4xl sm:text-xl mt-24 lg:mt-32  font-bold leading-tight text-center text-gray-800">Publications</h1>
       </div>
 
       <div class="container mx-auto md:max-w-6xl mt-8">
           <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
             <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
-              <a class="text-lg font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-red-400" onclick="changeAtiveTab(event,'tab-intjournal')">
+              <a class="text-lg font-bold px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-red-400" onclick="changeAtiveTab(event,'tab-intjournal')">
                 <i class="fas fa-cog text-base mr-1"></i>  International Journals
               </a>
             </li>
             <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
-              <a class="text-lg font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-white font-bold" onclick="changeAtiveTab(event,'tab-intconference')">
+              <a class="text-lg font-bold px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-white font-bold" onclick="changeAtiveTab(event,'tab-intconference')">
                 <i class="fas fa-briefcase text-base mr-1"></i>International Conferences
               </a>
             </li>

@@ -63,3 +63,15 @@ Route::get('/eyic', function () {
 Route::get('/eyrdc', function () {
     return view('eyrdc');
 })->name('eyrdc');
+
+
+    //get log info
+Route::prefix('admin')->group(function () {
+Route::get('downloadLogFile', 'LogController@downloadLogFile');
+Route::get('viewLogFile', 'LogController@viewLogFile');
+Route::get('eraseLogFile', 'LogController@eraseLogFile');
+});
+
+Route::get('/log/downloadLogFile/{year}/{month}/{date}', 'LogController@downloadLogFile');
+Route::get('/log/viewLogFile/{year}/{month}/{date}', 'LogController@viewLogFile');
+Route::get('/log/eraseLogFile/{year}/{month}/{date}', 'LogController@eraseLogFile');
