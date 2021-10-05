@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Colleges extends Model
 {
     use HasFactory;
-
     protected $connection = 'college_db';
     protected $table = 'college_list';
 

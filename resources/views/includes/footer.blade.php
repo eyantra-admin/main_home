@@ -169,7 +169,7 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="{{ url('js/app.js') }}"></script>
-        <script src="{{url('js/jquery-modal-video.min.js')}}"></script>
+        <!-- <script src="{{url('js/jquery-modal-video.min.js')}}"></script> -->
 
         <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
