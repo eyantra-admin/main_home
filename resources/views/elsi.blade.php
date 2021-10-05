@@ -119,9 +119,9 @@ $.ajax({
          document.getElementById("nolab").style.display = "none";
           $('#lab_list').append('<thead>\
             <tr>\
-              <th class="border border-gray-600 p-2">S. No.</th>\
-              <th class="border border-gray-600 p-2">College Name</th>\
-              <th class="border border-gray-600 p-2">Pincode</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">S. No.</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">College Name</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Pincode</th>\
             </tr>\
           </thead>');
 

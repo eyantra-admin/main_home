@@ -106,8 +106,8 @@ $.ajax({
           $("#theme_table").removeClass('hidden').addClass('show');
           $('#theme_list').append('<thead>\
             <tr>\
-              <th class="border border-gray-600 p-2">Sr No.</th>\
-              <th class="border border-gray-600 p-2">Theme Name</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Sr No.</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Theme Name</th>\
             </tr>\
           </thead>');
 
@@ -134,11 +134,11 @@ $.ajax({
           $("#stats_table").removeClass('hidden').addClass('show');
            $('#stats_list').append('<thead>\
             <tr>\
-              <th class="border border-gray-600 p-2">Year</th>\
-              <th class="border border-gray-600 p-2">Total Teams</th>\
-              <th class="border border-gray-600 p-2">Total Colleges</th>\
-              <th class="border border-gray-600 p-2">Students Registered</th>\
-              <th class="border border-gray-600 p-2">Finalists</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Year</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Total Teams</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Total Colleges</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Students Registered</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Finalists</th>\
             </tr>\
            </thead>');
 
@@ -170,9 +170,9 @@ $.ajax({
           $("#winners_table").removeClass('hidden').addClass('show');
            $('#winners_list').append('<thead>\
             <tr>\
-              <th class="border border-gray-600 p-2">Position</th>\
-              <th class="border border-gray-600 p-2">Theme</th>\
-              <th class="border border-gray-600 p-2">College</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Position</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">Theme</th>\
+              <th class="border border-gray-600 p-2 bg-gray-400 text-gray-800">College</th>\
             </tr>\
            </thead>');
 
@@ -186,22 +186,12 @@ $.ajax({
               // html += '<td class="border border-gray-600 p-2 text-center">'+parseInt(i+1)+'</td>'
               html += '<td class="border border-gray-600 p-1 text-center">'+data.winners_list[i].position+'</td>'
               html += '<td class="border border-gray-600 p-1 text-center">'+data.winners_list[i].theme+'</td>'
-              html += '<td class="border border-gray-600 p-1 text-center">'+data.winners_list[i].college+'</td>'
+              html += '<td class="border border-gray-600 p-1">'+data.winners_list[i].college+'</td>'
             }
           }//end for
           $('#winners_list').append(html);
         }//end of data length if
         //-----------End Winners-----------
-
-
-
-
-
-
-
-
-
-
       }//end of data error if
     });
 });
