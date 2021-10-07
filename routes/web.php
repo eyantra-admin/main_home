@@ -65,6 +65,14 @@ Route::get('/eyrdc', function () {
 })->name('eyrdc');
 
 
+Route::get('/products', function () {
+    return view('products');
+})->name('products');
+
+Route::get('/hardware_doc', [Home\HomeController::class, 'hardware_doc'])->name('hardware_doc');
+Route::get('/software_doc', [Home\HomeController::class, 'software_doc'])->name('software_doc');
+Route::get('/eylfa_doc', [Home\HomeController::class, 'eylfa_doc'])->name('eylfa_doc');
+
     //get log info
 Route::prefix('admin')->group(function () {
 Route::get('downloadLogFile', 'LogController@downloadLogFile');

@@ -59,8 +59,7 @@
                     <hr class="my-4">
 
                     <div class="mt-4">
-                      <table id="stats_list" class="table-auto border-separate border border-gray-800 lg:w-full md:w-6/24
-                      "></table>
+                      <table id="stats_list" class="table-auto border-separate border border-gray-800 lg:w-full"></table>
                     </div>
                   </div>
                 </div>
@@ -73,7 +72,7 @@
                     <hr class="my-4">
 
                     <div class="mt-4">
-                      <table id="winners_list" class="table-auto border-separate border border-gray-800 lg:w-full md:w-6/12"></table>
+                      <table id="winners_list" class="table-auto border-separate border border-gray-800 lg:w-full"></table>
                     </div>
                   </div>
                 </div>

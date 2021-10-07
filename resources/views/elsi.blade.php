@@ -33,7 +33,7 @@
           </div>
 
          <div class="container mt-16 py-4 lg:w-2/3 md:6/12 mt-8 rounded mx-auto bg-white lg:text-xl md:text-lg text-gray-700">
-            <div class="mt-8 px-8">
+            <div class="mt-8 px-2 lg:px-8">
               <h2 class="text-xl text-center text-gray-700">Check our eLSI family</h2>
               <hr class="my-2">
               <form>

@@ -8,6 +8,7 @@ use Log;
 use Input;
 use Redirect;
 use DB;
+use Storage;
 use Inertia\Inertia;
 use App\Models\Colleges;
 
@@ -52,10 +53,6 @@ class HomeController extends Controller
     //----------------------eYRC-------------------------------------
     public function eyrc(){
         $year = DB::table('eyrc_themes')->select('year')->orderBy('year', 'desc')->distinct()->get();
-        // $teams = DB::table('eyrc_participation')
-        //          ->select(DB::raw('Sum(teams_registered) as number_of_teams, eyrc_participation.year'))
-        //         ->groupBy('eyrc_participation.year')
-        //         ->get();
         return view('eyrc')->with('year', $year);
     }//end
 
@@ -71,16 +68,55 @@ class HomeController extends Controller
         $stats = DB::table('eyrc_stats')->where('eyrc_stats.year','=', $request->year)->get();
 
         $winners = DB::table('eyrc_winners')->where('eyrc_winners.year', '=', $request->year)->get();
-        log::info($winners);
 
-        $getdata = ['theme_list' => $theme_names, 'stats_list' => $stats , 'winners_list' => $winners];
-        log::info($getdata);   
+        $getdata = ['theme_list' => $theme_names, 'stats_list' => $stats , 'winners_list' => $winners]; 
         return response()->json($getdata);  
     }//end
 
     public function publications(){
         return view('publications');
     }//end
+
+    public function hardware_doc()
+    {
+        try{
+           $response=Storage::disk(config('constants.StorageDriver'))->download('downloads/Hardware-Manual-of-eYFi-Mega-v0.1.pdf','Hardware-Manual-of-eYFi-Mega-v0.1.pdf', ['content-type' =>['application/pdf']]);
+            ob_end_clean();
+            return $response;
+         }
+         catch(Exception $e)
+         {
+            log::info($e);
+           return back()->withErrors('There was some problem while downloading.');
+         }
+    }
+    public function software_doc()
+    {
+        try{
+           $response=Storage::disk(config('constants.StorageDriver'))->download('downloads/Software-Manual-of-eYFi-Mega-v0.1.pdf','Software-Manual-of-eYFi-Mega-v0.1.pdf', ['content-type' =>['application/pdf']]);
+            ob_end_clean();
+            return $response;
+         }
+         catch(Exception $e)
+         {
+            log::info($e);
+           return back()->withErrors('There was some problem while downloading.');
+         }
+    }
+
+    public function eylfa_doc()
+    {
+        try{
+           $response=Storage::disk(config('constants.StorageDriver'))->download('downloads/Hookup guide for Line Follower Array v0.2.pdf','Hookup guide for Line Follower Array v0.2.pdf', ['content-type' =>['application/pdf']]);
+            ob_end_clean();
+            return $response;
+         }
+         catch(Exception $e)
+         {
+            log::info($e);
+           return back()->withErrors('There was some problem while downloading.');
+         }
+    }
 
 }
 

@@ -438,44 +438,22 @@
         <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto justify-end" id="menu">
           <div class="text-sm lg:flex-col">
             <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="/">About Us</a>
-              </li>
-              <!-- <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="/">Competitions</a>
-            
-                    <ul class="absolute left-0 top-0 mt-10 p-2 rounded-lg shadow-lg bg-gray-600 z-10 hidden group-hover:block">
-                        <svg class="block fill-current text-white w-4 h-4 absolute left-0 top-0 ml-3 -mt-3 z-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path></svg>
-                        <li class="p-1 whitespace-no-wrap rounded-full text-sm md:text-base text-gray-600 hover:text-gray-800 hover:bg-gray-100">
-                            <a class="px-2 py-1" href="http://www.italiansubs.local:8081/forum/index.php?action=admin;area=featuresettings">
-                                <span class="">Funzioni ed opzioni</span>
-                            </a>
-                        </li>
-                        <li class="p-1 whitespace-no-wrap rounded-full text-sm md:text-base text-gray-600 hover:text-gray-800 hover:bg-gray-100">
-                            <a class="px-2 py-1" href="http://www.italiansubs.local:8081/forum/index.php?action=admin;area=packages">
-                                <span class="">Gestore Pacchetti</span>
-                            </a>
-                        </li>
-                        <li class="p-1 whitespace-no-wrap rounded-full text-sm md:text-base text-gray-600 hover:text-gray-800 hover:bg-gray-100">
-                            <a class="px-2 py-1" href="http://www.italiansubs.local:8081/forum/index.php?action=admin;area=permissions">
-                                <span class="">Permessi</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li> -->
-              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="gallery">Gallery</a>
-              </li>
-              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="team">Our Team</a>
-              </li>
-              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="publications">Publications</a>
-              </li>
-              <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
-              </li>
-               <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            </li>
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="gallery">Gallery</a>
+            </li>
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="team">Our Team</a>
+            </li>
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="publications">Publications</a>
+            </li>
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
+            </li>
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <div x-data="{ open: false }" @mouseleave="open = false" class="relative">
                     <!-- Dropdown toggle button -->
                     <button @mouseover="open = true" class="flex items-center block p-2 bg-white rounded-md ">
@@ -518,7 +496,11 @@
                         </a>
                     </div>
                 </div>
-                </li>
+            </li>
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="/products">Products</a>
+            </li>
+
             </ul>
           </div>
         </div>
