@@ -68,6 +68,9 @@ Route::get('/eyrdc', function () {
 Route::get('/products', function () {
     return view('products');
 })->name('products');
+Route::get('/productsdtl', function () {
+    return view('productsdtl');
+})->name('productsdtl');
 
 Route::get('/hardware_doc', [Home\HomeController::class, 'hardware_doc'])->name('hardware_doc');
 Route::get('/software_doc', [Home\HomeController::class, 'software_doc'])->name('software_doc');
