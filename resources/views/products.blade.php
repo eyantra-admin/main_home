@@ -149,9 +149,4 @@
 
 </section>
 @stop
-<script type="text/javascript">
-     function toggleModal() {
-     document.getElementById('modal').classList.toggle('hidden')
-}
-</script>
 
