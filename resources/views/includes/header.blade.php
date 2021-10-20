@@ -451,8 +451,9 @@
             <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="publications">Publications</a>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="/products">Products</a>
             </li>
+            
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <div x-data="{ open: false }" @mouseleave="open = false" class="relative">
                     <!-- Dropdown toggle button -->
@@ -498,8 +499,9 @@
                 </div>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="/products">Products</a>
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
             </li>
+
 
             </ul>
           </div>
