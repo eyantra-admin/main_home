@@ -155,33 +155,6 @@
                     <div class="bg-white my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-4xl rounded-lg shadow-sm mx-auto border-2 border-red-600 transition duration-500 ease-in-out hover:bg-grey-200 transform hover:-translate-y-1 hover:scale-110">
                 <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800">
                     <p class="text-2xl text-gray-800 text-center">
-                      Ayushi Gautam
-                    </p>
-                    <p class="text-sm text-gray-600 text-center">
-                      eYSIP 2020 Intern, <br> eYRC- 2019-2020
-                    </p>
-                </div>
-                <div class="mt-16">
-                  <p class="text-center text-gray-600 px-8 mt-3 text-justify">
-                    “The story starts from the month of September when one of our college professors called us and ordered us..yes 'ordered us' to take part in eYRC. He told us that till then no team from our college had reached finals
-                  or even till stage 2 for that matter. Thus, there was huge responsibility on our shoulders.We registered for eYRC and appeared for the test. The results were announced and we were alloted the theme 'Survey and Rescue'<br>
-                    We were all pumped up and worked really hard. Through those stages we saw a boost in our confidence.We started working for our final task and scored quite well but thought that the score would not suffice to qualify to the finals.
-                    Quite dejected, we sat there when suddenly a mail popped! It read,
-                    "It is our pleasure to inform you that you have been shortlisted for the e-Yantra Summer Internship Program (eYSIP-2020)" and three of us were ecstatic. This internship is a very precious gift to us from eYRC.”</p>
-                </div>
-                </div>
-                </div>
-        </div>
-        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-        <div class="carousel-item">
-                       <div class="container max-w-7xl mx-auto m-4">
-                    <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Testimonials</h1>
-                    <div class="w-full mb-4">
-                        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-                    </div>
-                    <div class="bg-white my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-4xl rounded-lg shadow-sm mx-auto border-2 border-red-600 transition duration-500 ease-in-out hover:bg-grey-200 transform hover:-translate-y-1 hover:scale-110">
-                <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800">
-                    <p class="text-2xl text-gray-800 text-center">
                       Heethesh Vhavle
                     </p>
                     <p class="text-sm text-gray-600 text-center">
@@ -194,6 +167,34 @@
                 </div>
                 </div>
                 </div>
+        </div>
+
+        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+            <div class="container max-w-7xl mx-auto m-4">
+                <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Testimonials</h1>
+                <div class="w-full mb-4">
+                    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <div class="bg-white my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-4xl rounded-lg shadow-sm mx-auto border-2 border-red-600 transition duration-500 ease-in-out hover:bg-grey-200 transform hover:-translate-y-1 hover:scale-110">
+                    <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800">
+                        <p class="text-2xl text-gray-800 text-center">
+                          Aayushi Gautam
+                        </p>
+                        <p class="text-sm text-gray-600 text-center">
+                          eYSIP 2020 Intern, <br> eYRC- 2019-2020
+                        </p>
+                    </div>
+                    <div class="mt-16">
+                      <p class="text-center text-gray-600 px-8 mt-3 text-justify">
+                        “The story starts from the month of September when one of our college professors called us and ordered us..yes 'ordered us' to take part in eYRC. He told us that till then no team from our college had reached finals
+                        or even till stage 2 for that matter. Thus, there was huge responsibility on our shoulders.We registered for eYRC and appeared for the test. The results were announced and we were alloted the theme 'Survey and Rescue'<br>
+                        We were all pumped up and worked really hard. Through those stages we saw a boost in our confidence.We started working for our final task and scored quite well but thought that the score would not suffice to qualify to the finals.
+                        Quite dejected, we sat there when suddenly a mail popped! It read,
+                        "It is our pleasure to inform you that you have been shortlisted for the e-Yantra Summer Internship Program (eYSIP-2020)" and three of us were ecstatic. This internship is a very precious gift to us from eYRC.”</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <label for="carousel-3" class="carousel-control prev control-1">‹</label>
         <label for="carousel-2" class="carousel-control next control-1">›</label>
