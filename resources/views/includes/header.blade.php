@@ -482,18 +482,17 @@
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYIC
                         </a>
-                       
-                        <!-- <a href="/eyrdc"
-                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
-                            eYRDC
-                        </a> -->
                         <a href="/efsi"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eFSI
                         </a>
-                         <a href="/eysrc"
+                        <a href="/eysrc"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYSRC
+                        </a>
+                        <a href="/eyrdc"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            eYRDC
                         </a>
                     </div>
                 </div>
