@@ -494,13 +494,16 @@
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYRDC
                         </a>
+                        <a href="/mooc"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            MOOC
+                        </a>
                     </div>
                 </div>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
             </li>
-
 
             </ul>
           </div>

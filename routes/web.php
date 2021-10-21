@@ -64,6 +64,10 @@ Route::get('/eyrdc', function () {
     return view('eyrdc');
 })->name('eyrdc');
 
+Route::get('/mooc', function () {
+    return view('mooc');
+})->name('mooc');
+
 
 Route::get('/products', function () {
     return view('products');
