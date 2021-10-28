@@ -468,7 +468,7 @@
                     </button>
 
                     <!-- Dropdown menu -->
-                    <div x-show="open" x-transition:enter.duration.500ms x-transition:leave.duration.3000ms
+                    <div x-show="open" x-transition:enter.duration.500ms x-transition:leave.duration.9000ms
                         class="absolute right-0 w-48 mt-2 bg-white rounded-md shadow-xl">
                         <a href="/elsi"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">

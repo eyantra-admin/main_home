@@ -6,6 +6,15 @@
           <div class="w-full lg:w-6/12 px-4">
             <h1 class="w-full text-4xl font-bold leading-tight text-center text-gray-800">Our Gallery</h1>
           </div>
+          
+          <div class="float-right mt-2">
+              <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-lg font-bold leading-none text-red-100 bg-red-400 rounded-full">
+                <a class="leading-normal text-gray-700 text-lg font-bold" href="/videos" target="_blank">
+                  <i class="fas fa-eye"></i>&nbsp; Watch our Videos
+                </a>
+              </span>
+            </div>
+
           <div class="w-full">
             <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
               <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">

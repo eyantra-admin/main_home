@@ -24,6 +24,10 @@
                 <iframe class="lg:w-full lg:h-1/2" src="https://www.youtube.com/embed/8hNQIpS_VY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div> 
+         <p class="font-bold mt-4 text-center">For More Information on eYRDC:
+                <a href="http://content.e-yantra.org/content" target="_blank" class="bg-blue-400 rounded-md p-2">Click Me!!
+                </a>
+            </p>
     </div><!-- end container -->
 </section>
 @stop

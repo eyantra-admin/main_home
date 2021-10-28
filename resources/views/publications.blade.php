@@ -1,13 +1,13 @@
 @extends('layout.main')
 @section('content')
-  <section class="container-fluid px-6 py-4 mx-auto bg-cover items-center ml-6 mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="1500">
+  <section class="container-fluid py-4 mx-auto bg-cover items-center mr-6 bg-gray-200 justify-center" data-aos="fade-up" data-aos-duration="1500">
     <div class="flex flex-wrap justify-center" id="tabs-id">
       <div class="w-full lg:w-6/12 px-4">
         <!-- <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">e-Yantra Publications</h1> -->
         <h1 class="w-full my-2 lg:text-4xl sm:text-xl mt-24 lg:mt-32  font-bold leading-tight text-center text-gray-800">Publications</h1>
       </div>
 
-      <div class="container mx-auto md:max-w-6xl mt-8">
+      <div class="container mx-auto md:max-w-6xl">
           <!-- <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
             <li class="-mb-px mr-2 mt-2 last:mr-0 flex-auto text-center">
               <a class="text-lg font-bold px-5 py-3 shadow-lg rounded block leading-normal text-gray-700 bg-red-400" onclick="changeAtiveTab(event,'tab-intjournal')">
@@ -21,8 +21,17 @@
             </li>
             
           </ul> -->
+          <!-- <div class="float-right">
+            <select id='purpose'>
+            <option value="0">Year</option>
+            <option value="2">Conference Papers</option>
+            <option value="1">Journal Papers</option>
+            </select>
+            
+          </div> -->
 
-        <div class="tab-content tab-space lg:mt-8"> 
+        <div class="tab-content tab-space
+         lg:mt-8"> 
           <!-- JOURNAL PAPERS -->
           <!-- row 1 -->
           
@@ -33,7 +42,7 @@
           <!-- CONFERENCE PAPERS -->
          <!--  <div class="hidden" id="tab-intconference"> -->
             <!-- conf 1 -->
-            <div class="flex-1 mx-4 lg:mx-0">
+            <div class="flex-1 mx-4 lg:mx-0" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                  1.  S. Jadhav, K. Karia, P. Trimukhe, S. Jena and K. Arya, PBL Approach in Online Robotics Competition in Resource-Poor Environments: Maze Solver Robot, 2021 IEEE Global Engineering Education Conference (EDUCON), 2021, pp. 492-498. <a href="https://doi.org/10.1109/EDUCON46332.2021.9453995" class="text-xl font-medium text-indigo-500" target="_blank">View Paper</a>
@@ -41,7 +50,7 @@
               </div>
               <!-- journal 1 -->
 
-              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
                 <div class="p-5 shadow-sm rounded-md bg-white m-4">
                   <p class="mt-2 text-justify text-gray-700 text-lg">
                     2. Biswas, R., Arya, K., Fernandes, V., & Shah, T. (2021). Find A Loo: an app for sanitation governance. Information Communication and Society, 24(11), 1586-1602.  <a href="https://doi.org/10.1080/1369118X.2020.1716038" class="text-xl font-medium text-indigo-500">View Paper</a>
@@ -51,16 +60,16 @@
           
          
             <!-- conf 2 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  3.  Bhat, M., Mahto, G., Kesaria, S, Fernandes, V., & Arya, K., Real time gesture control UAV with a low resource framework, 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), 2021, IIT Goa.
+                  3. Bhat, M., Mahto, G., Kesaria, S, Fernandes, V., & Arya, K., Real time gesture control UAV with a low resource framework, 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), 2021, IIT Goa.
                 </p>
               </div>
             </div> 
 
             <!-- conf 3 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   4. Mahangade, S., Gautam, A., Gupta, V., Madan, R., & Arya., K., An experimental comparison of visual SLAM systems, 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), 2021, IIT Goa.
@@ -70,7 +79,7 @@
             </div> 
 
             <!-- journal 2-->
-              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
                 <div class="p-5 shadow-sm rounded-md bg-white m-4">
                   <p class="mt-2 text-justify text-gray-700 text-lg">
                     5.  Biswas, R., Arya, K., & Deshpande, S. (2020). More toilet infrastructures do not nullify open defecation: a perspective from squatter settlements in megacity Mumbai. Applied Water Science, 10, 96.  <a href="https://doi.org/10.1007/s13201-020-1169-4" class="text-xl font-medium text-indigo-500">View Paper</a>
@@ -79,7 +88,7 @@
               </div> 
 
             <!-- conf 4 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   6. Panwar, A., Chauhan, A., & Arya, K. (2020). Analyzing Learning Outcomes for a Massive Online Competition through a Project-Based Learning Engagement. 2020 IEEE Global Engineering Education Conference (EDUCON), 1246–1251. <a href="https://doi.org/10.1109/EDUCON45650.2020.9125379" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -89,7 +98,7 @@
             </div> 
 
             <!-- conf 5 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   7.  Sarkar, A., & Arya, K. (2020). Teaching Marker-based Augmented Reality in a PBL Based Online Robotics Competition. 2020 IEEE 20th International Conference on Advanced Learning Technologies (ICALT), 338–340. 
@@ -99,7 +108,7 @@
             </div> 
 
             <!-- conf 6 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   8. Karthik P., Kumar K. Fernandes V., & Arya K. (2020). Reinforcement Learning for Altitude Hold and Path Planning in a Quadcopter. 2020 6th International Conference on Control, Automation and Robotics (ICCAR), 463–467. <a href="https://doi.org/10.1109/ICCAR49639.2020.9108104" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -108,7 +117,7 @@
             </div> 
 
             <!-- conf 7 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   9. Pocker, F., Madan, R., & Arya, K. (2020). Learning autonomous path planning and navigation of nano-drone in a PBL focused online robotics competition. EpiSTEME8.
@@ -117,7 +126,7 @@
             </div>
 
             <!-- conf 8 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   10. Biswas, R., & Arya, K. (2020). A Decision-Support Work-book for Choosing a Sanitation Technology. International Conference on Urban Science and Engineering (ICUSE) 2020.
@@ -126,7 +135,7 @@
             </div>
 
             <!-- journal 3 -->
-              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
                 <div class="p-5 shadow-sm rounded-md bg-white m-4">
                   <p class="mt-2 text-justify text-gray-700 text-lg">
                     11.  Biswas, Rathin, Jana, A., Arya, K., & Ramamritham, K. (2019). A Good-Governance Framework for Urban Management. Journal of Urban Management, 8(2), 225–236.  <a href="https://doi.org/10.1016/j.jum.2018.12.009" class="text-xl font-medium text-indigo-500">View Paper</a>
@@ -135,7 +144,7 @@
               </div>
 
             <!-- conf 9 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   12.  Ekatpure, R., Jadhav, S., Karia, K., & Arya, K. (2019). Musical Mimicry to Learn Audio Processing. 2019 IEEE Tenth International Conference on Technology for Education (T4E), 214–217.<a href="https://doi.org/10.1109/T4E.2019.00048" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -144,7 +153,7 @@
             </div>
 
             <!-- conf 10 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   13. Sabanwar, V., & Arya, K. (2019). Motivation as Basis for Building Infrastructure for Hardware MOOCs. 2019 IEEE International Conference on Engineering, Technology and Education (TALE), 1–6.<a href="https://doi.org/10.1109/TALE48000.2019.9226020" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -153,7 +162,7 @@
             </div>
 
             <!-- conf 11 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   14. Belapurkar, G., Chauhan, A., Panwar, A., Fernandes, V., & Arya, K. (2019). Automated Theme Allotment to Optimise Learning Outcomes in Robotic Competition. 2019 IEEE International Conference on Engineering, Technology and Education (TALE), 1–6.<a href="https://doi.org/10.1109/TALE48000.2019.9225870" class="text-xl font-medium text-indigo-500"> View Paper</a>
@@ -162,7 +171,7 @@
             </div>
 
             <!-- journal 4 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   15.  BISWAS, R., ARYA, K., & Deshpande, S. (2018). Sanitation planning for squatter settlements as urban water management in Mumbai. Urban Water Journal, 15(05), 470–478.  <a href="https://doi.org/10.1080/1573062X.2018.1509100" class="text-xl font-medium text-indigo-500">View Paper</a>
@@ -171,7 +180,7 @@
             </div> 
 
             <!-- conf 12 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                  16. Karia, K., Bessariya, R., Lala, K., & Arya, K. (2018). Learning while Competing-3D Modeling & Design. 2018 IEEE Tenth International Conference on Technology for Education (T4E), 93–96.<a href="https://doi.org/10.1109/T4E.2018.00026" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -180,7 +189,7 @@
             </div>
 
             <!-- conf 13 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   17. Biswas, Rathin, Arya, K., & Deshpande, S. (2018). Root-cause behind poor public-sanitation: A case of developing country. Elsevier Urban Transition 2018, Sitges, Barcelona, Spain
@@ -189,7 +198,7 @@
             </div>
 
             <!-- conf 14 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   18. Biswas, Rathin, & Arya, K. (2018). Addressing sanitation issues through IoT based platform. International Water Association (IWA) Reuse 2018, Phuket.
@@ -198,7 +207,7 @@
             </div>
 
             <!-- conf 15 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   19. Biswas, R., Arya, K. & Deshpande, S., (2017) Deriving pragmatic factors behind geo-spatial variation of public sanitation relating to health: A case from a mega-city in lower-middle income developing country, American Geophysical Union (AGU) Fall Meeting, AGU, 11-15 December 2017, New Orleans, United States of America. <a href="https://ui.adsabs.harvard.edu/#abs/2017AGUFM.H41E1499B/abstract" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -207,7 +216,7 @@
             </div>
 
             <!-- conf 16 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                  20. Biswas, R., Punamiya, K. Arya, K. & Lala, K., (2016) Powering from waste: a study of green energy in IIT Bombay Campus, India International Science Festival (IISF) - Young Scientists Conclave (YSC), Government of India - Ministry of Science & Technology and Earth Sciences, 8-11 December 2016, CSIR National Physical Laboratory, New Delhi, India
@@ -216,7 +225,7 @@
             </div> 
 
             <!-- conf 17 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   21. Krithivasan, S., Gupta, S., Shandilya, S., Arya, K., & Lala, K. (2016). Auto-Tagging for Massive Online Selection Tests: Machine Learning to the Rescue. In 2016 IEEE Eighth International Conference on Technology for Education (T4E) (pp. 204-207). IEEE. <a href="https://doi.org/10.1109/T4E.2016.050" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -225,7 +234,7 @@
             </div>
 
             <!-- conf 18 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   22. Krithivasan, S., Shandilya, S., Shakya, S., Arya, K., & Lala, K. (2016). Building Inclusiveness in a PBL Based Online Robotics Competition: Challenges and Outcomes. In 2016 International Conference on Learning and Teaching in Computing and Engineering (LaTICE) (pp. 9-13). IEEE. <a href="https://doi.org/10.1109/LaTiCE.2016.39" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -234,7 +243,7 @@
             </div>
 
             <!-- conf 19 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   23. Lala, K., Krithivasan, S., & Arya, K., (2015) e-Yantra Summer Internship Program (eYSIP): a Priceless Prize for Students, Student Driven Research for Inspired Learning in Science and Technology, 16 - 17 October 2015.
@@ -243,7 +252,7 @@
             </div>
 
             <!-- conf 20 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   24. Krithivasan, S., Shandilya, S., Lala, K., & Arya, K. (2014). Massive Project Based Learning through a Competition: Impact of and Insights from the e-Yantra Robotics Competition (eYRC--2013). In 2014 IEEE Sixth International Conference on Technology for Education (pp. 156-163). IEEE.<a href="https://doi.org/10.1109/T4E.2014.13" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -252,7 +261,7 @@
             </div>
 
             <!-- conf 21 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">     
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   25. Krithivasan, S., Lala, K., Arya, K., Shandilya, S., Jain, S., Manavar, P., & Patii, S. (2014). e-yantra lab setup initiative: Sustainable knowledge creation and scalable infrastructure creation at engineering colleges. In 2014 IEEE Frontiers in Education Conference (FIE) Proceedings (pp. 1-8). IEEE. 
@@ -262,7 +271,7 @@
             </div>
 
             <!-- conf 22 -->
-            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
                   26. Krithivasan, S., Shandilya, S., Arya, K., Lala, K., Manavar, P., Patii, S., & Jain, S. (2014). Learning by competing and competing by learning: experience from the e-yantra robotics competition. In 2014 IEEE Frontiers in Education Conference (FIE) Proceedings (pp. 1-8). IEEE.<a href="https://doi.org/10.1109/FIE.2014.7044136" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
@@ -307,6 +316,27 @@
   </section>
 
 @stop
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('#purpose').on('change', function() {
+      if ( this.value == '1')
+      {
+        $("#journal").show();
+        $("#conf").hide();
+      }
+      else if( this.value =='2')
+      {
+        $("#journal").hide();
+        $("#conf").show();
+      }
+      else{
+        $("#journal").show();
+        $("#conf").show();
+      }
+    });
+});
+</script>
 
 
 <!-- <script type="text/javascript">

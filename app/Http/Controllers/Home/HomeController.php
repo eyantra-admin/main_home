@@ -118,5 +118,12 @@ class HomeController extends Controller
          }
     }
 
+
+    public function videos(){
+        $video_link = DB::table('videos')->select('video_link')->get();
+        log::info($video_link);
+        return view('videos')->with('video_link', $video_link);
+    }//end
+
 }
 
