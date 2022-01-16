@@ -36,6 +36,15 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+/*School Routes Starts*/
+
+Route::get('/schools', [Home\HomeController::class, 'school_present'])->name('school_present');
+Route::post('/getStateSchool', [Home\HomeController::class, 'getStateSchool'])->name('getStateSchool');
+Route::post('/getSchoolName', [Home\HomeController::class, 'getSchoolName'])->name('getSchoolName');
+
+Route::post('/school_records', [Home\HomeController::class, 'school_records'])->name('school_records');
+/*School Routes Ends*/
+
 Route::get('/elsi', [Home\HomeController::class, 'elsiFamily'])->name('elsiFamily');
 
 Route::get('/country', [Home\HomeController::class, 'country'])->name('country');

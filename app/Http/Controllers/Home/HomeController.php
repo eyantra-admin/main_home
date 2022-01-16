@@ -8,13 +8,17 @@ use Log;
 use Input;
 use Redirect;
 use DB;
+use Validator;
 use Storage;
 use Inertia\Inertia;
 use App\Models\Colleges;
-
+use App\Models\CountryState;
+use App\Models\SchoolSahodaya;
+use App\Models\SchoolList;
 class HomeController extends Controller
 {
 
+    
     //show elsi page
     public function elsiFamily(){
         $countries = DB::table('countries')->where('active','=', 1)->orderBy('country_name', 'asc')->get();
@@ -124,6 +128,62 @@ class HomeController extends Controller
         log::info($video_link);
         return view('videos')->with('video_link', $video_link);
     }//end
+
+    //show school page
+    public function school_present(){
+        $countries = CountryState::select('country')->distinct('country')->orderBy('country', 'asc')->get();
+        return view('school')->with('countries', $countries);
+    }
+
+    public function getStateSchool(Request $request)
+    {
+        $data['state'] = CountryState::where('country','=', $request->country)->orderBy('state','asc')->get(["state","id"]);
+        return response()->json($data);
+    }
+
+    public function getSchoolName(Request $request)
+    {
+    
+        $data['school'] = SchoolList::where('state','=', $request->state)->orderBy('school_name','asc')->get(["school_name","id"]);
+        return response()->json($data);
+    }
+
+
+    public function school_records(Request $req)
+    {
+        $validator = $req->validate([
+            'state' => 'required',
+            'country' => 'required',
+            'first_name' => 'required|string',
+            'last_name' => 'required|string',
+            'email' => 'required|string|email|unique:school_db.school_sahodaya,email|max:255',
+            'contact' => 'required|digits_between:9,15',
+            'designation'=> 'required'
+            ],['email.unique' => 'Email ID already registered!',
+             'first_name.required'=>'The institute name is required.',
+             'last_name.required'=>' The institute location is required.'
+            ]);          
+           
+            DB::beginTransaction();
+            $feed = new SchoolSahodaya;
+            $feed->school_name = $req->school_name; 
+            $feed->country = $req->country;
+            $feed->district = $req->district;
+            $feed->state = $req->state;
+            
+            $feed->full_name = trim($req->first_name).' '.trim($req->last_name);           
+            $feed->email = strtolower($req->email);
+            $feed->contact = $req->contact;
+            $feed->designation = $req->designation;
+            
+            $feed->save();            
+            DB::commit();
+
+            return redirect()->route('school_present')->with('success', 'Successfully you have submitted the details. We will get back to you soon!');
+            }
+
+
+   //end
 
 }
 
