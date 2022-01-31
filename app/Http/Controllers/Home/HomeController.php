@@ -125,5 +125,31 @@ class HomeController extends Controller
         return view('videos')->with('video_link', $video_link);
     }//end
 
+    public function eyantra1PdfDownload()
+    {
+        // $response= Response::download(Config::get('constants.DOWNLOAD_LOCATION').'AtmelStudio_Guide.zip', 'atmelStudio_Guide.zip');
+
+        $filepath = public_path('\logo\eyantra\eyantra_logo_1.pdf');
+        return Response::download($filepath);
+        ob_end_clean();
+        return $response;   
+    }
+
+    public function eyantra2PdfDownload()
+    {
+        $filepath = public_path('logo\eyantra\eyantra_logo_2.pdf');
+        return Response::download($filepath);
+        ob_end_clean();
+        return $response;   
+    }
+
+    public function eyantracdrDownload()
+    {
+        $filepath = public_path('logo\eyantra\eyantra_logo~cdr_file.cdr');
+        return Response::download($filepath);
+        ob_end_clean();
+        return $response;   
+    }
+
 }
 

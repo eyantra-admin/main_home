@@ -47,6 +47,9 @@ Route::post('/stats_yearwise', [Home\HomeController::class, 'stats_yearwise'])->
 
 
 Route::get('/publications', [Home\HomeController::class, 'publications'])->name('publications');
+Route::get('/achievements', function () {
+    return view('achievements');
+})->name('achievements');
 
 Route::get('/efsi', function () {
     return view('efsi');
@@ -92,3 +95,16 @@ Route::get('/log/viewLogFile/{year}/{month}/{date}', 'LogController@viewLogFile'
 Route::get('/log/eraseLogFile/{year}/{month}/{date}', 'LogController@eraseLogFile');
 
 Route::get('/videos', [Home\HomeController::class, 'videos'])->name('videos');
+
+Route::get('/press', function () {
+    return view('press');
+})->name('press');
+
+Route::get('/logo1PdfDownload', [Home\HomeController::class, 'eyantra1PdfDownload'])->name('logo1PdfDownload');
+Route::get('/logo2PdfDownload', [Home\HomeController::class, 'eyantra2PdfDownload'])->name('logo2PdfDownload');
+Route::get('/eyantracdrDownload', [Home\HomeController::class, 'eyantracdrDownload'])->name('eyantracdrDownload');
+
+
+
+
+
