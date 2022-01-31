@@ -41,19 +41,39 @@
           <!-- row 2 -->
           <!-- CONFERENCE PAPERS -->
          <!--  <div class="hidden" id="tab-intconference"> -->
+
+            <div class="flex-1 mx-4 lg:mx-0" id='journal'>
+              <div class="p-5 shadow-sm rounded-md bg-white m-4">
+                  <p class="mt-2 text-justify text-gray-700 text-lg">
+                     Madan R., Jena S., Biswas R., Arya K. (2021) Desk-Farmer: Cultivation on the Office-Desk. In: Jana 
+                      A., Banerji P. (eds) Urban Science and Engineering. Lecture Notes in Civil Engineering, vol 121. 
+                      Springer, Singapore. <a href="https://doi.org/10.1007/978-981-33-4114-2_19" class="text-xl font-medium text-indigo-500">View Paper</a>
+                  </p>
+              </div>
+              </div>
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
+              <div class="p-5 shadow-sm rounded-md bg-white m-4">
+                  <p class="mt-2 text-justify text-gray-700 text-lg">
+                    Biswas, R., Arya, S., & Arya, K. (2021). A quantifiable framework for ‘Covid-19 exposure’ to support 
+                    the Vaccine prioritization and resource allocation for resource-constraint societies. Urban 
+                    Governance Journal (Elsevier). <a href="https://doi.org/10.1016/j.ugj.2021.11.001" class="text-xl font-medium text-indigo-500">View Paper</a>
+                  </p>
+              </div>
+              </div>
             <!-- conf 1 -->
-            <div class="flex-1 mx-4 lg:mx-0" id='conf'>
+            <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                 1.  S. Jadhav, K. Karia, P. Trimukhe, S. Jena and K. Arya, PBL Approach in Online Robotics Competition in Resource-Poor Environments: Maze Solver Robot, 2021 IEEE Global Engineering Education Conference (EDUCON), 2021, pp. 492-498. <a href="https://doi.org/10.1109/EDUCON46332.2021.9453995" class="text-xl font-medium text-indigo-500" target="_blank">View Paper</a>
+                 S. Jadhav, K. Karia, P. Trimukhe, S. Jena and K. Arya, PBL Approach in Online Robotics Competition in Resource-Poor Environments: Maze Solver Robot, 2021 IEEE Global Engineering Education Conference (EDUCON), 2021, pp. 492-498. <a href="https://doi.org/10.1109/EDUCON46332.2021.9453995" class="text-xl font-medium text-indigo-500" target="_blank">View Paper</a>
                 </p>
               </div>
+            </div>
               <!-- journal 1 -->
 
               <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
                 <div class="p-5 shadow-sm rounded-md bg-white m-4">
                   <p class="mt-2 text-justify text-gray-700 text-lg">
-                    2. Biswas, R., Arya, K., Fernandes, V., & Shah, T. (2021). Find A Loo: an app for sanitation governance. Information Communication and Society, 24(11), 1586-1602.  <a href="https://doi.org/10.1080/1369118X.2020.1716038" class="text-xl font-medium text-indigo-500">View Paper</a>
+                    Biswas, R., Arya, K., Fernandes, V., & Shah, T. (2021). Find A Loo: an app for sanitation governance. Information Communication and Society, 24(11), 1586-1602.  <a href="https://doi.org/10.1080/1369118X.2020.1716038" class="text-xl font-medium text-indigo-500">View Paper</a>
                   </p>
                 </div>
               </div>
@@ -63,7 +83,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  3. Bhat, M., Mahto, G., Kesaria, S, Fernandes, V., & Arya, K., Real time gesture control UAV with a low resource framework, 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), 2021, IIT Goa.
+                   Bhat, M., Mahto, G., Kesaria, S, Fernandes, V., & Arya, K., Real time gesture control UAV with a low resource framework, 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), 2021, IIT Goa.
                 </p>
               </div>
             </div> 
@@ -72,7 +92,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  4. Mahangade, S., Gautam, A., Gupta, V., Madan, R., & Arya., K., An experimental comparison of visual SLAM systems, 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), 2021, IIT Goa.
+                   Mahangade, S., Gautam, A., Gupta, V., Madan, R., & Arya., K., An experimental comparison of visual SLAM systems, 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), 2021, IIT Goa.
                 </p>
                 
               </div>
@@ -82,7 +102,7 @@
               <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
                 <div class="p-5 shadow-sm rounded-md bg-white m-4">
                   <p class="mt-2 text-justify text-gray-700 text-lg">
-                    5.  Biswas, R., Arya, K., & Deshpande, S. (2020). More toilet infrastructures do not nullify open defecation: a perspective from squatter settlements in megacity Mumbai. Applied Water Science, 10, 96.  <a href="https://doi.org/10.1007/s13201-020-1169-4" class="text-xl font-medium text-indigo-500">View Paper</a>
+                     Biswas, R., Arya, K., & Deshpande, S. (2020). More toilet infrastructures do not nullify open defecation: a perspective from squatter settlements in megacity Mumbai. Applied Water Science, 10, 96.  <a href="https://doi.org/10.1007/s13201-020-1169-4" class="text-xl font-medium text-indigo-500">View Paper</a>
                   </p>
                 </div>
               </div> 
@@ -91,7 +111,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  6. Panwar, A., Chauhan, A., & Arya, K. (2020). Analyzing Learning Outcomes for a Massive Online Competition through a Project-Based Learning Engagement. 2020 IEEE Global Engineering Education Conference (EDUCON), 1246–1251. <a href="https://doi.org/10.1109/EDUCON45650.2020.9125379" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Panwar, A., Chauhan, A., & Arya, K. (2020). Analyzing Learning Outcomes for a Massive Online Competition through a Project-Based Learning Engagement. 2020 IEEE Global Engineering Education Conference (EDUCON), 1246–1251. <a href="https://doi.org/10.1109/EDUCON45650.2020.9125379" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
                 
               </div>
@@ -101,7 +121,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  7.  Sarkar, A., & Arya, K. (2020). Teaching Marker-based Augmented Reality in a PBL Based Online Robotics Competition. 2020 IEEE 20th International Conference on Advanced Learning Technologies (ICALT), 338–340. 
+                   Sarkar, A., & Arya, K. (2020). Teaching Marker-based Augmented Reality in a PBL Based Online Robotics Competition. 2020 IEEE 20th International Conference on Advanced Learning Technologies (ICALT), 338–340. 
                   <a href="https://doi.org/10.1109/ICALT49669.2020.00108" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>               
               </div>
@@ -111,7 +131,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  8. Karthik P., Kumar K. Fernandes V., & Arya K. (2020). Reinforcement Learning for Altitude Hold and Path Planning in a Quadcopter. 2020 6th International Conference on Control, Automation and Robotics (ICCAR), 463–467. <a href="https://doi.org/10.1109/ICCAR49639.2020.9108104" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Karthik P., Kumar K. Fernandes V., & Arya K. (2020). Reinforcement Learning for Altitude Hold and Path Planning in a Quadcopter. 2020 6th International Conference on Control, Automation and Robotics (ICCAR), 463–467. <a href="https://doi.org/10.1109/ICCAR49639.2020.9108104" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div> 
@@ -120,7 +140,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  9. Pocker, F., Madan, R., & Arya, K. (2020). Learning autonomous path planning and navigation of nano-drone in a PBL focused online robotics competition. EpiSTEME8.
+                 Pocker, F., Madan, R., & Arya, K. (2020). Learning autonomous path planning and navigation of nano-drone in a PBL focused online robotics competition. EpiSTEME8.
                 </p>
               </div>
             </div>
@@ -129,7 +149,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  10. Biswas, R., & Arya, K. (2020). A Decision-Support Work-book for Choosing a Sanitation Technology. International Conference on Urban Science and Engineering (ICUSE) 2020.
+                  Biswas, R., & Arya, K. (2020). A Decision-Support Work-book for Choosing a Sanitation Technology. International Conference on Urban Science and Engineering (ICUSE) 2020.
                 </p>
               </div>
             </div>
@@ -138,7 +158,7 @@
               <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
                 <div class="p-5 shadow-sm rounded-md bg-white m-4">
                   <p class="mt-2 text-justify text-gray-700 text-lg">
-                    11.  Biswas, Rathin, Jana, A., Arya, K., & Ramamritham, K. (2019). A Good-Governance Framework for Urban Management. Journal of Urban Management, 8(2), 225–236.  <a href="https://doi.org/10.1016/j.jum.2018.12.009" class="text-xl font-medium text-indigo-500">View Paper</a>
+                     Biswas, Rathin, Jana, A., Arya, K., & Ramamritham, K. (2019). A Good-Governance Framework for Urban Management. Journal of Urban Management, 8(2), 225–236.  <a href="https://doi.org/10.1016/j.jum.2018.12.009" class="text-xl font-medium text-indigo-500">View Paper</a>
                   </p>
                 </div>
               </div>
@@ -147,7 +167,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  12.  Ekatpure, R., Jadhav, S., Karia, K., & Arya, K. (2019). Musical Mimicry to Learn Audio Processing. 2019 IEEE Tenth International Conference on Technology for Education (T4E), 214–217.<a href="https://doi.org/10.1109/T4E.2019.00048" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                   Ekatpure, R., Jadhav, S., Karia, K., & Arya, K. (2019). Musical Mimicry to Learn Audio Processing. 2019 IEEE Tenth International Conference on Technology for Education (T4E), 214–217.<a href="https://doi.org/10.1109/T4E.2019.00048" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -156,7 +176,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  13. Sabanwar, V., & Arya, K. (2019). Motivation as Basis for Building Infrastructure for Hardware MOOCs. 2019 IEEE International Conference on Engineering, Technology and Education (TALE), 1–6.<a href="https://doi.org/10.1109/TALE48000.2019.9226020" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Sabanwar, V., & Arya, K. (2019). Motivation as Basis for Building Infrastructure for Hardware MOOCs. 2019 IEEE International Conference on Engineering, Technology and Education (TALE), 1–6.<a href="https://doi.org/10.1109/TALE48000.2019.9226020" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -165,7 +185,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  14. Belapurkar, G., Chauhan, A., Panwar, A., Fernandes, V., & Arya, K. (2019). Automated Theme Allotment to Optimise Learning Outcomes in Robotic Competition. 2019 IEEE International Conference on Engineering, Technology and Education (TALE), 1–6.<a href="https://doi.org/10.1109/TALE48000.2019.9225870" class="text-xl font-medium text-indigo-500"> View Paper</a>
+                   Belapurkar, G., Chauhan, A., Panwar, A., Fernandes, V., & Arya, K. (2019). Automated Theme Allotment to Optimise Learning Outcomes in Robotic Competition. 2019 IEEE International Conference on Engineering, Technology and Education (TALE), 1–6.<a href="https://doi.org/10.1109/TALE48000.2019.9225870" class="text-xl font-medium text-indigo-500"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -174,7 +194,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='journal'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  15.  BISWAS, R., ARYA, K., & Deshpande, S. (2018). Sanitation planning for squatter settlements as urban water management in Mumbai. Urban Water Journal, 15(05), 470–478.  <a href="https://doi.org/10.1080/1573062X.2018.1509100" class="text-xl font-medium text-indigo-500">View Paper</a>
+                    BISWAS, R., ARYA, K., & Deshpande, S. (2018). Sanitation planning for squatter settlements as urban water management in Mumbai. Urban Water Journal, 15(05), 470–478.  <a href="https://doi.org/10.1080/1573062X.2018.1509100" class="text-xl font-medium text-indigo-500">View Paper</a>
                 </p>
               </div>
             </div> 
@@ -183,7 +203,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                 16. Karia, K., Bessariya, R., Lala, K., & Arya, K. (2018). Learning while Competing-3D Modeling & Design. 2018 IEEE Tenth International Conference on Technology for Education (T4E), 93–96.<a href="https://doi.org/10.1109/T4E.2018.00026" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Karia, K., Bessariya, R., Lala, K., & Arya, K. (2018). Learning while Competing-3D Modeling & Design. 2018 IEEE Tenth International Conference on Technology for Education (T4E), 93–96.<a href="https://doi.org/10.1109/T4E.2018.00026" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -192,7 +212,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  17. Biswas, Rathin, Arya, K., & Deshpande, S. (2018). Root-cause behind poor public-sanitation: A case of developing country. Elsevier Urban Transition 2018, Sitges, Barcelona, Spain
+                   Biswas, Rathin, Arya, K., & Deshpande, S. (2018). Root-cause behind poor public-sanitation: A case of developing country. Elsevier Urban Transition 2018, Sitges, Barcelona, Spain
                 </p>
               </div>
             </div>
@@ -201,7 +221,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  18. Biswas, Rathin, & Arya, K. (2018). Addressing sanitation issues through IoT based platform. International Water Association (IWA) Reuse 2018, Phuket.
+                   Biswas, Rathin, & Arya, K. (2018). Addressing sanitation issues through IoT based platform. International Water Association (IWA) Reuse 2018, Phuket.
                 </p>
               </div>
             </div>
@@ -210,7 +230,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  19. Biswas, R., Arya, K. & Deshpande, S., (2017) Deriving pragmatic factors behind geo-spatial variation of public sanitation relating to health: A case from a mega-city in lower-middle income developing country, American Geophysical Union (AGU) Fall Meeting, AGU, 11-15 December 2017, New Orleans, United States of America. <a href="https://ui.adsabs.harvard.edu/#abs/2017AGUFM.H41E1499B/abstract" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Biswas, R., Arya, K. & Deshpande, S., (2017) Deriving pragmatic factors behind geo-spatial variation of public sanitation relating to health: A case from a mega-city in lower-middle income developing country, American Geophysical Union (AGU) Fall Meeting, AGU, 11-15 December 2017, New Orleans, United States of America. <a href="https://ui.adsabs.harvard.edu/#abs/2017AGUFM.H41E1499B/abstract" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -219,7 +239,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                 20. Biswas, R., Punamiya, K. Arya, K. & Lala, K., (2016) Powering from waste: a study of green energy in IIT Bombay Campus, India International Science Festival (IISF) - Young Scientists Conclave (YSC), Government of India - Ministry of Science & Technology and Earth Sciences, 8-11 December 2016, CSIR National Physical Laboratory, New Delhi, India
+                 Biswas, R., Punamiya, K. Arya, K. & Lala, K., (2016) Powering from waste: a study of green energy in IIT Bombay Campus, India International Science Festival (IISF) - Young Scientists Conclave (YSC), Government of India - Ministry of Science & Technology and Earth Sciences, 8-11 December 2016, CSIR National Physical Laboratory, New Delhi, India
                 </p>
               </div>
             </div> 
@@ -228,7 +248,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  21. Krithivasan, S., Gupta, S., Shandilya, S., Arya, K., & Lala, K. (2016). Auto-Tagging for Massive Online Selection Tests: Machine Learning to the Rescue. In 2016 IEEE Eighth International Conference on Technology for Education (T4E) (pp. 204-207). IEEE. <a href="https://doi.org/10.1109/T4E.2016.050" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Krithivasan, S., Gupta, S., Shandilya, S., Arya, K., & Lala, K. (2016). Auto-Tagging for Massive Online Selection Tests: Machine Learning to the Rescue. In 2016 IEEE Eighth International Conference on Technology for Education (T4E) (pp. 204-207). IEEE. <a href="https://doi.org/10.1109/T4E.2016.050" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -237,7 +257,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  22. Krithivasan, S., Shandilya, S., Shakya, S., Arya, K., & Lala, K. (2016). Building Inclusiveness in a PBL Based Online Robotics Competition: Challenges and Outcomes. In 2016 International Conference on Learning and Teaching in Computing and Engineering (LaTICE) (pp. 9-13). IEEE. <a href="https://doi.org/10.1109/LaTiCE.2016.39" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Krithivasan, S., Shandilya, S., Shakya, S., Arya, K., & Lala, K. (2016). Building Inclusiveness in a PBL Based Online Robotics Competition: Challenges and Outcomes. In 2016 International Conference on Learning and Teaching in Computing and Engineering (LaTICE) (pp. 9-13). IEEE. <a href="https://doi.org/10.1109/LaTiCE.2016.39" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -246,7 +266,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  23. Lala, K., Krithivasan, S., & Arya, K., (2015) e-Yantra Summer Internship Program (eYSIP): a Priceless Prize for Students, Student Driven Research for Inspired Learning in Science and Technology, 16 - 17 October 2015.
+                  Lala, K., Krithivasan, S., & Arya, K., (2015) e-Yantra Summer Internship Program (eYSIP): a Priceless Prize for Students, Student Driven Research for Inspired Learning in Science and Technology, 16 - 17 October 2015.
                 </p>
               </div>
             </div>
@@ -255,7 +275,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  24. Krithivasan, S., Shandilya, S., Lala, K., & Arya, K. (2014). Massive Project Based Learning through a Competition: Impact of and Insights from the e-Yantra Robotics Competition (eYRC--2013). In 2014 IEEE Sixth International Conference on Technology for Education (pp. 156-163). IEEE.<a href="https://doi.org/10.1109/T4E.2014.13" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Krithivasan, S., Shandilya, S., Lala, K., & Arya, K. (2014). Massive Project Based Learning through a Competition: Impact of and Insights from the e-Yantra Robotics Competition (eYRC--2013). In 2014 IEEE Sixth International Conference on Technology for Education (pp. 156-163). IEEE.<a href="https://doi.org/10.1109/T4E.2014.13" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
@@ -264,7 +284,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">     
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  25. Krithivasan, S., Lala, K., Arya, K., Shandilya, S., Jain, S., Manavar, P., & Patii, S. (2014). e-yantra lab setup initiative: Sustainable knowledge creation and scalable infrastructure creation at engineering colleges. In 2014 IEEE Frontiers in Education Conference (FIE) Proceedings (pp. 1-8). IEEE. 
+                  Krithivasan, S., Lala, K., Arya, K., Shandilya, S., Jain, S., Manavar, P., & Patii, S. (2014). e-yantra lab setup initiative: Sustainable knowledge creation and scalable infrastructure creation at engineering colleges. In 2014 IEEE Frontiers in Education Conference (FIE) Proceedings (pp. 1-8). IEEE. 
                   <a href="https://doi.org/10.1109/FIE.2014.7044455" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
@@ -274,7 +294,7 @@
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
                 <p class="mt-2 text-justify text-gray-700 text-lg">
-                  26. Krithivasan, S., Shandilya, S., Arya, K., Lala, K., Manavar, P., Patii, S., & Jain, S. (2014). Learning by competing and competing by learning: experience from the e-yantra robotics competition. In 2014 IEEE Frontiers in Education Conference (FIE) Proceedings (pp. 1-8). IEEE.<a href="https://doi.org/10.1109/FIE.2014.7044136" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                  Krithivasan, S., Shandilya, S., Arya, K., Lala, K., Manavar, P., Patii, S., & Jain, S. (2014). Learning by competing and competing by learning: experience from the e-yantra robotics competition. In 2014 IEEE Frontiers in Education Conference (FIE) Proceedings (pp. 1-8). IEEE.<a href="https://doi.org/10.1109/FIE.2014.7044136" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
                 </p>
               </div>
             </div>
