@@ -113,7 +113,9 @@ Route::get('/logo1PdfDownload', [Home\HomeController::class, 'eyantra1PdfDownloa
 Route::get('/logo2PdfDownload', [Home\HomeController::class, 'eyantra2PdfDownload'])->name('logo2PdfDownload');
 Route::get('/eyantracdrDownload', [Home\HomeController::class, 'eyantracdrDownload'])->name('eyantracdrDownload');
 
-
+Route::get("/events", function(){
+   return \File::get(public_path() . '/events/index.html');
+});
 
 
 
