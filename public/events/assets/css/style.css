@@ -740,7 +740,9 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   margin-bottom: 30px;
   background: black;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+
 }
 #speakers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
@@ -1087,7 +1089,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
+  height: 250px;
 }
 #supporters .supporter-logo:hover img {
   transform: scale(1.2);
@@ -1523,11 +1525,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #e0072f;
 }
 #footer .copyright {
+  font-size: 10px;
   text-align: center;
   padding-top: 30px;
 }
 #footer .credits {
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   color: #ddd;
 }
