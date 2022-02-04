@@ -50,12 +50,32 @@
                     <option value="">Select State</option>
                   </select>
                 </div> <br/>
+                
+                <!-- Dropdown Status -->
                 <div class="text-gray-700 mt-4">
+                  <label for="school_type">Type of Insititute</label>
+                  <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="school-type" name="school_type">
+                    <option value="0">Select Type</option>
+                    <option value="1">K12 / School</option>
+                    <option value="2">College/Institute/University</option>
+                  </select>
+                </div> <br/>
+
+                <!-- Hide/show School or College -->
+                <div class="text-gray-700 mt-4" id="school_name">
                   <label for="school_name">School Name</label>
                   <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="school-dropdown" name="school_name">
                     <option value="">Select School Name</option>
                   </select>
                 </div> <br/>
+                <div class="text-gray-700 mt-4" id="college_name">
+                  <label for="college_name">College Name</label>
+                  <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="college-dropdown" name="college_name">
+                    <option value="">Select College Name</option>
+                  </select>
+                </div> <br/>
+                <!-- Hide/Show ends -->
+
                 <div class="bg-blue-200 rounded-md px-4 py-2"> 
                 If your school is not listed above, please fill the school details below -
                 <a href="http://eyrc20.e-yantra.org/add-college" target="_blank" class="bg-red-200 text-sm rounded-md p-2 hover:bg-red-400 font-bold text-red-900">Add School</a>
@@ -115,6 +135,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
+  /*Hide the college and school before*/
+  $('#college_name').hide();
+  $('#school_name').hide();
+
 //select state
 $('#country-dropdown').on('change', function() {
 country = this.value;
@@ -146,12 +170,31 @@ $.ajax({
   },
   dataType : 'json',
   success: function(result){
-  $('#school-dropdown').html('<option value="">Select School Name</option>'); 
-  $.each(result.school,function(key,value){
-  $("#school-dropdown").append('<option value="'+value.school_name+'">'+value.school_name+'</option>');
-  });
+    console.log(result)
+    $('#school-dropdown').html('<option value="">Select School Name</option>'); 
+    $.each(result.school,function(key,value){
+      $("#school-dropdown").append('<option value="'+value.school_name+'">'+value.school_name+'</option>');
+    });
+    $('#college-dropdown').html('<option value="">Select College Name</option>'); 
+    $.each(result.college,function(key,value){
+      $("#college-dropdown").append('<option value="'+value.college_name+'">'+value.college_name+'</option>');
+    });
   }
 });
 });//end  
+
+/*Type Change*/
+$('#school-type').on('change', function() {
+$('#college_name').hide();
+$('#school_name').hide();
+
+if (this.value == 1)
+  $('#school_name').show();
+else if(this.value == 2)
+  $('#college_name').show();
+
+
+})
+
 });
 </script>
