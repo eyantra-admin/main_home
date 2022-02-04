@@ -171,8 +171,18 @@ class HomeController extends Controller
     {
     
         $data['school'] = SchoolList::where('state','=', $request->state)->orderBy('school_name','asc')->get(["school_name","id"]);
+        log::info('school');
+        Log::info($data['school'] );
+        $state_name = CountryState::where('id','=', $request->state)->value('state');
+        
+        //get the state name
+        Log::info($state_name);
+        $data['college'] = Colleges::where('state', $state_name)->orderBy('college_name','asc')->get(["college_name","id"]);
+        log::info('colleges');
+        log::info($data['college'] );
         return response()->json($data);
     }
+
 
 
     public function school_records(Request $req)

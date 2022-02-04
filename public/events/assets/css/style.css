@@ -618,21 +618,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     text-align: right;
 }
-@media only screen and (max-width: 767px) {
-  .timer-container{
-      right: 0;
-      left: 0;
-      margin: 30px auto 0 15px;
-      text-align: right;
-  }
 
-   #timer div {
-      font-size: 30px;
-      margin: 0 20px 0 0;
-      position: relative;
-    }
-
-}
 #timer {
     margin-bottom: 35px;
   }
@@ -681,7 +667,43 @@ h1, h2, h3, h4, h5, h6 {
 .timer-container #timer div#seconds{
   color: #efa506;
 }
+@media only screen and (max-width: 767px) {
 
+  #hero h1::before {
+    content: '';
+    display: none;
+    }
+
+  #hero h1 {
+    font-size: 28px;
+  }
+  .timer-container{
+      right: 0;
+      left: 0;
+      margin: 30px auto 0 15px;
+      text-align: right;
+  }
+
+   #timer div {
+      font-size: 28px;
+      margin: 0 20px 0 0;
+      position: relative;
+      width: 50px;
+      height: 50px;
+    }
+
+    #timer span {
+    font-size:12px;
+    position :relative;
+    top: 15px;
+    right: -10px;
+    transform: rotate(0deg);
+    margin-top: -31px;
+    letter-spacing: 1px;
+                
+  }
+
+}
 
  
 /*--------------------------------------------------------------
