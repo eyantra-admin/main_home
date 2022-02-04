@@ -236,7 +236,7 @@ class HomeController extends Controller
             $feed->save();            
             DB::commit();
 
-            return redirect()->route('school_present')->with('success', 'Successfully you have submitted the details. We will get back to you soon!');
+            return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will get back to you soon!');
             }
 
 
