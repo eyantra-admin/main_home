@@ -187,7 +187,7 @@ class HomeController extends Controller
 
     public function school_records(Request $req)
     {
-        $validator = $req->validate([
+        $rules = [
             'state' => 'required',
             'country' => 'required',
             'first_name' => 'required|string',
@@ -195,18 +195,39 @@ class HomeController extends Controller
             'email' => 'required|string|email|unique:school_db.school_sahodaya,email|max:255',
             'contact' => 'required|digits_between:9,15',
             'designation'=> 'required'
-            ],['email.unique' => 'Email ID already registered!',
-             'first_name.required'=>'The institute name is required.',
-             'last_name.required'=>' The institute location is required.'
-            ]);          
+            ];
+            
+            $messages = 
+            ['email.unique' => 'Email ID already registered!',
+             'first_name.required'=>'Your first name is required.',
+             'last_name.required'=>' Your last name is required.'
+            ];
+
+            $validator = Validator::make($req->all(), $rules, $messages);
+
+            $validator->after(function ($validator) use ($req){
+                if ($req->school_type == 1 && $req->school_name == NULL) {
+                    $validator->errors()->add('school_name', 'Please Select the School Name!');
+                }
+                if ($req->school_type == 2 && $req->college_name == NULL) {
+                    $validator->errors()->add('college_name', 'Please Select the College Name!');
+                }
+            });
+
+            $validator->validate();
            
             DB::beginTransaction();
             $feed = new SchoolSahodaya;
-            $feed->school_name = $req->school_name; 
+            if ($req->school_type == 1) {
+                $feed->school_name = $req->school_name; 
+            }
+            elseif($req->school_type == 2)
+                $feed->college_name = $req->college_name; 
+            
             $feed->country = $req->country;
             $feed->district = $req->district;
             $feed->state = $req->state;
-            
+            $feed->type = $req->school_type;
             $feed->full_name = trim($req->first_name).' '.trim($req->last_name);           
             $feed->email = strtolower($req->email);
             $feed->contact = $req->contact;
