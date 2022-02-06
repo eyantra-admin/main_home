@@ -1079,7 +1079,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 992px) {
   #gallery .swiper-wrapper {
-    padding: 40px 0;
+    padding: 40px;
   }
   #gallery .swiper-slide-active {
     border: 5px solid #f82249;
@@ -1106,7 +1106,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 20px;
   border-right: 1px solid #e0e5fa;
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
