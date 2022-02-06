@@ -118,7 +118,14 @@
                   <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-designation" class="validate">
                     Designation
                   </label>
-                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-designation" name="designation" type="text" class="validate" placeholder="Enter designation">
+                  <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="designation-dropdown" name="designation">
+                  <option value="">Select Designation</option>
+                  @foreach ($designation as $designation) 
+                  <option value="{{$designation->name}}">
+                  {{$designation->name}}
+                  </option>
+                  @endforeach
+                  </select>
 <!--                   <p class="text-red-500 text-xs italic">Please fill out this field.</p>
  -->                </div>
               </div>  

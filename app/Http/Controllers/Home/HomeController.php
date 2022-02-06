@@ -15,6 +15,7 @@ use App\Models\Colleges;
 use App\Models\CountryState;
 use App\Models\SchoolSahodaya;
 use App\Models\SchoolList;
+use App\Models\Designation;
 class HomeController extends Controller
 {
 
@@ -158,7 +159,8 @@ class HomeController extends Controller
     //show school page
     public function school_present(){
         $countries = CountryState::select('country')->distinct('country')->orderBy('country', 'asc')->get();
-        return view('school')->with('countries', $countries);
+        $designation = Designation::select('name')->distinct('name')->orderBy('name', 'asc')->get();
+        return view('school')->with(['countries' => $countries, 'designation' => $designation]);
     }
 
     public function getStateSchool(Request $request)
