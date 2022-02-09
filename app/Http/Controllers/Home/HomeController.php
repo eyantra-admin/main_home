@@ -243,14 +243,14 @@ class HomeController extends Controller
             $feed->save();            
             DB::commit();
 
-            if($feed->reg_complete == 0){
+          /*  if($feed->reg_complete == 0){
                  Mail::to($req->email)
                 ->cc('master@e-yantra.org','e-Yantra IITB')
                 ->send(new RegistrationSuccess());
             }
            
             $feed->reg_complete = 1;
-            $feed->save(); 
+            $feed->save(); */
 
             return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will share the credentials soon!');
             }
