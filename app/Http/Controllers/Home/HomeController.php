@@ -18,6 +18,7 @@ use App\Models\SchoolSahodaya;
 use App\Models\SchoolList;
 use App\Mail\RegistrationSuccess;
 use App\Models\Designation;
+use App\Models\GamesList;
 class HomeController extends Controller
 {
 
@@ -255,17 +256,16 @@ class HomeController extends Controller
             return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will share the credentials soon!');
             }
 
-            public function index(){
-                if(Auth::user() == null)
-                    return redirect()->route('keycloak.login');
-                
-                elseif(Auth::user()->reg_complete== -1)
-                    return redirect()->route('school_present');
-                
-                else 
-                    return redirect()->route('dashboard');
+        public function dashboard() {
+            $games = GamesList::where('screenshot','!=','NULL')->get();
+            
+            return view('dashboard')->with(['games' => $games]);;
 
-                }
+        }
+
+        public function LoginCredentials() {
+            
+        }
 
 
    //end

@@ -24,9 +24,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
+Route::get('/dashboard', [Home\HomeController::class, 'dashboard'])->name('dashboard')->middleware(['auth']);
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -123,5 +121,4 @@ Route::get("/events", function(){
    return \File::get(public_path() . '/events/index.html');
 });
 
-
-
+require __DIR__.'/auth.php';
