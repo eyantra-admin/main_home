@@ -10,11 +10,13 @@ use Redirect;
 use DB;
 use Validator;
 use Storage;
+use Mail;
 use Inertia\Inertia;
 use App\Models\Colleges;
 use App\Models\CountryState;
 use App\Models\SchoolSahodaya;
 use App\Models\SchoolList;
+use App\Mail\RegistrationSuccess;
 use App\Models\Designation;
 class HomeController extends Controller
 {
@@ -181,7 +183,7 @@ class HomeController extends Controller
         Log::info($state_name);
         $data['college'] = Colleges::where('state', $state_name)->orderBy('college_name','asc')->get(["college_name","id"]);
         log::info('colleges');
-        log::info($data['college'] );
+        // log::info($data['college'] );
         return response()->json($data);
     }
 
@@ -196,25 +198,27 @@ class HomeController extends Controller
             'last_name' => 'required|string',
             'email' => 'required|string|email|unique:school_db.school_sahodaya,email|max:255',
             'contact' => 'required|digits_between:9,15',
-            'designation'=> 'required'
+            'designation'=> 'required',
+            'school_name' => 'required'
             ];
             
             $messages = 
             ['email.unique' => 'Email ID already registered!',
              'first_name.required'=>'Your first name is required.',
-             'last_name.required'=>' Your last name is required.'
+             'last_name.required'=>' Your last name is required.',
+             'school_name.required' => 'Please enter the School/College Name!'
             ];
 
             $validator = Validator::make($req->all(), $rules, $messages);
-
+/*
             $validator->after(function ($validator) use ($req){
                 if ($req->school_type == 1 && $req->school_name == NULL) {
-                    $validator->errors()->add('school_name', 'Please Select the School Name!');
+                    $validator->errors()->add('school_name', 'Please Select the School/College Name!');
                 }
                 if ($req->school_type == 2 && $req->college_name == NULL) {
                     $validator->errors()->add('college_name', 'Please Select the College Name!');
                 }
-            });
+            });*/
 
             $validator->validate();
            
@@ -229,17 +233,39 @@ class HomeController extends Controller
             $feed->country = $req->country;
             $feed->district = $req->district;
             $feed->state = $req->state;
-            $feed->type = $req->school_type;
-            $feed->full_name = trim($req->first_name).' '.trim($req->last_name);           
+            $feed->school_name = $req->school_name;
+            $feed->full_name = trim($req->first_name).' '.trim($req->last_name);
             $feed->email = strtolower($req->email);
             $feed->contact = $req->contact;
             $feed->designation = $req->designation;
+
             
             $feed->save();            
             DB::commit();
 
-            return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will get back to you soon!');
+            if($feed->reg_complete == 0){
+                 Mail::to($req->email)
+                ->cc('master@e-yantra.org','e-Yantra IITB')
+                ->send(new RegistrationSuccess());
             }
+           
+            $feed->reg_complete = 1;
+            $feed->save(); 
+
+            return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will share the credentials soon!');
+            }
+
+            public function index(){
+                if(Auth::user() == null)
+                    return redirect()->route('keycloak.login');
+                
+                elseif(Auth::user()->reg_complete== -1)
+                    return redirect()->route('school_present');
+                
+                else 
+                    return redirect()->route('dashboard');
+
+                }
 
 
    //end

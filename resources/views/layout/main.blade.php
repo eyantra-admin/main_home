@@ -26,14 +26,14 @@
 
 
 		<script type="text/javascript" src="{{ url('js/app.js') }}"></script>
-        <script src="{{url('js/jquery-modal-video.min.js')}}"></script>
+        <!-- <script src="{{url('js/jquery-modal-video.min.js')}}"></script> -->
 
         <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
         <script type="text/javascript">
             //video model
-            $(".js-modal-btn").modalVideo();
+            /*$(".js-modal-btn").modalVideo();*/
             //Javascript to toggle the menu
             /*document.getElementById('nav-toggle').onclick = function(){
                 document.getElementById("nav-content").classList.toggle("hidden");

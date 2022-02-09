@@ -24,6 +24,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
 Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');
@@ -39,6 +43,8 @@ Route::get('/contact', function () {
 /*School Routes Starts*/
 
 Route::get('/schools', [Home\HomeController::class, 'school_present'])->name('school_present');
+Route::get('/index', [Home\HomeController::class, 'index'])->name('index');
+
 Route::post('/getStateSchool', [Home\HomeController::class, 'getStateSchool'])->name('getStateSchool');
 Route::post('/getSchoolName', [Home\HomeController::class, 'getSchoolName'])->name('getSchoolName');
 
