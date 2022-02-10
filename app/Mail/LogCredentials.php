@@ -31,6 +31,8 @@ class LogCredentials extends Mailable
     public function build()
     {
         return $this->view('emails.login_credentials')
+                    ->from('helpdesk@e-yantra.org','e-Yantra IITB')
+                    ->replyTo('school@e-yantra.org','e-Yantra IITB')
                     ->subject('IIT Bombay, e-Yantra: Login Credentials for the Event Details');
     }
 }
