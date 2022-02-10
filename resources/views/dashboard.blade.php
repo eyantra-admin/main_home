@@ -134,12 +134,6 @@
                
             </div>
             <div class="border-b-2 border-gray-200 my-4"></div>
-
-            <div class="flex place-content-between text-lg mt-4 px-4">
-                <p><time class="border-gray-500 pr-4 border-r-2">03:50 - 04:15 PM</time> <span class="pl-4">Panel Discussion</span></p>              
-               
-            </div>
-            <div class="border-b-2 border-gray-200 my-4"></div>
             
             <div class="flex place-content-between text-lg mt-4 px-4">
                 <p><time class="border-gray-500 pr-4 border-r-2">05:00 - 05:15 PM</time> <span class="pl-4">IoT, eYFI Mega</span></p>              
