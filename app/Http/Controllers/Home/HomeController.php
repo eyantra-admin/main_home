@@ -300,6 +300,8 @@ class HomeController extends Controller
                     /*Log::info($mailData);*/
                     Mail::to($login->email)
                         ->cc('master@e-yantra.org','e-Yantra IITB')
+                        ->from('helpdesk@e-yantra.org','e-Yantra IITB')
+                        ->replyTo('school@e-yantra.org','e-Yantra IITB')
                         ->send(new LogCredentials($mailData));
                 }
 
