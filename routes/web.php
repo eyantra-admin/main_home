@@ -30,6 +30,7 @@ Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');
 
+
 Route::get('/team', function () {
     return view('team');
 })->name('team');
@@ -123,6 +124,11 @@ Route::get('/LoginCredentials', [App\Http\Controllers\Home\HomeController::class
 
 Route::get("/events", function(){
    return \File::get(public_path() . '/events/index.html');
+});
+
+
+Route::get("/playground", function(){
+   return \File::get(public_path() . '/playground/index.html');
 });
 
 require __DIR__.'/auth.php';

@@ -221,8 +221,9 @@
                          Game Name<br>
                          <i class="fab fa-windows"></i>
                       </p>
+                      @if($gaming->win_download)
                       <a
-                         href="javascript:void(0)"
+                         href="{{$gaming->win_download}}"
                          class="
                          inline-block
                          border border-black
@@ -238,8 +239,10 @@
                       class="h-12 w-12"
                       />
                       </a>
+                      @endif
+                      @if($gaming->linux_download)
                       <a
-                         href="javascript:void(0)"
+                         href="{{$gaming->linux_download}}"
                          class="
                          inline-block
                          border border-black
@@ -255,8 +258,10 @@
                       class="h-12 w-12"
                       />
                       </a>
+                      @endif
+                      @if($gaming->win_download)
                       <a
-                         href="javascript:void(0)"
+                         href="{{$gaming->mac_download}}"
                          class="
                          inline-block
                          border border-black
@@ -272,6 +277,7 @@
                       class="h-12 w-12"
                       />
                       </a>
+                      @endif
                    </div>
                 </div>
              </div>
