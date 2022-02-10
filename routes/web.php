@@ -24,6 +24,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/dashboard', [Home\HomeController::class, 'dashboard'])->name('dashboard')->middleware(['auth']);
+
 Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');
@@ -39,6 +41,8 @@ Route::get('/contact', function () {
 /*School Routes Starts*/
 
 Route::get('/schools', [Home\HomeController::class, 'school_present'])->name('school_present');
+Route::get('/index', [Home\HomeController::class, 'index'])->name('index');
+
 Route::post('/getStateSchool', [Home\HomeController::class, 'getStateSchool'])->name('getStateSchool');
 Route::post('/getSchoolName', [Home\HomeController::class, 'getSchoolName'])->name('getSchoolName');
 
@@ -113,7 +117,8 @@ Route::get('/logo1PdfDownload', [Home\HomeController::class, 'eyantra1PdfDownloa
 Route::get('/logo2PdfDownload', [Home\HomeController::class, 'eyantra2PdfDownload'])->name('logo2PdfDownload');
 Route::get('/eyantracdrDownload', [Home\HomeController::class, 'eyantracdrDownload'])->name('eyantracdrDownload');
 
+Route::get("/events", function(){
+   return \File::get(public_path() . '/events/index.html');
+});
 
-
-
-
+require __DIR__.'/auth.php';

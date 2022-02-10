@@ -27,9 +27,9 @@
           @endif
 
             <div class="mt-8 px-2 lg:px-8">
-              <h2 class="text-xl text-center text-gray-700">e-Yantra School Robotics Competition (eYSRC) - Contact</h2>
+              <h2 class="text-xl text-center text-gray-700">Grand Finals of e-Yantra School Robotics Competition (eYSRC) & Symposium 2022<br><span style="color: #EF4444;">Registration Form</span></h2>
               <hr class="my-2">
-              <p class="text-lg" style="padding-bottom: 20px;">For more information, please submit your details. We will get back to you soon!</p>
+              <p class="text-lg" style="padding-bottom: 20px; text-align: center;">Submit the registration form to be a part of the Grand Event!</p>
               <form id="msform" method="POST" action="/school_records">
                 @csrf
                <p class="py-8 font-bold">School Details</p>
@@ -37,10 +37,9 @@
                   <label for="country" class="text-gray-700">Country</label>
                   <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="country-dropdown" name="country">
                   <option value="">Select Country</option>
-                  @foreach ($countries as $country) 
-                  <option value="{{$country->country}}">
-                  {{$country->country}}
-                  </option>
+                  @foreach ($countries as $country)
+                  <option {{ ($country->country) == 'India' ? 'selected' : '' }}  value="{{$country->country}}">
+                  {{$country->country}}</option>
                   @endforeach
                   </select>
                 </div>
@@ -50,17 +49,47 @@
                     <option value="">Select State</option>
                   </select>
                 </div> <br/>
-                <div class="text-gray-700 mt-4">
+                
+                <!-- Dropdown Status -->
+             <!--    <div class="text-gray-700 mt-4">
+                  <label for="school_type">Type of Insititute</label>
+                  <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="school-type" name="school_type">
+                    <option value="0">Select Type</option>
+                    <option value="1">K12 / School</option>
+                    <option value="2">College/Institute/University</option>
+                  </select>
+                </div> <br/> -->
+
+                <!-- Hide/show School or College -->
+                <!-- <div class="text-gray-700 mt-4" id="school_name">
                   <label for="school_name">School Name</label>
                   <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="school-dropdown" name="school_name">
                     <option value="">Select School Name</option>
                   </select>
                 </div> <br/>
+                <div class="text-gray-700 mt-4" id="college_name">
+                  <label for="college_name">College Name</label>
+                  <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="college-dropdown" name="college_name">
+                    <option value="">Select College Name</option>
+                  </select>
+                </div> <br/> -->
+                <!-- Hide/Show ends -->
+<!-- 
                 <div class="bg-blue-200 rounded-md px-4 py-2"> 
                 If your school is not listed above, please fill the school details below -
                 <a href="http://eyrc20.e-yantra.org/add-college" target="_blank" class="bg-red-200 text-sm rounded-md p-2 hover:bg-red-400 font-bold text-red-900">Add School</a>
                 </div>
-                
+                 -->
+                <div class="w-full px-3 mb-6 md:mb-0">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name" class="validate">
+                    School/College Name
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" name="school_name" type="text" placeholder="School/College Name">
+<!--                   <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+ -->             </div>
+              <span class="text-md py-2 px-2 rounded-md mt-4 bg-green-200">If you're a Parent/Guardian, please enter your ward's school details.</span>
+
+
                 <p class="py-8 font-bold">Contact Details</p>
                 <!-- Personal Information -->
                 <div class="flex flex-wrap -mx-3 mb-6">
@@ -98,7 +127,14 @@
                   <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-designation" class="validate">
                     Designation
                   </label>
-                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-designation" name="designation" type="text" class="validate" placeholder="Enter designation">
+                  <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="designation-dropdown" name="designation">
+                  <option value="">Select Designation</option>
+                  @foreach ($designation as $designation) 
+                  <option value="{{$designation->name}}">
+                  {{$designation->name}}
+                  </option>
+                  @endforeach
+                  </select>
 <!--                   <p class="text-red-500 text-xs italic">Please fill out this field.</p>
  -->                </div>
               </div>  
@@ -115,25 +151,40 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-//select state
-$('#country-dropdown').on('change', function() {
-country = this.value;
-$.ajax({
-  url:"{{url('getStateSchool')}}",
-  type: "POST",
-  data: {
-  country: country,
-  _token: '{{csrf_token()}}' 
-  },
-  dataType : 'json',
-  success: function(result){
-  $('#state-dropdown').html('<option value="">Select State</option>'); 
-  $.each(result.state,function(key,value){
-  $("#state-dropdown").append('<option value="'+value.id+'">'+value.state+'</option>');
-  });
+  /*Hide the college and school before*/
+  $('#college_name').hide();
+  $('#school_name').hide();
+  //dosomthing();
+  country = $('#country-dropdown option:selected').val();
+  if(country === "India"){
+    getState(country);
   }
 });
+
+function getState(country){
+  $.ajax({
+    url:"{{url('getStateSchool')}}",
+    type: "POST",
+    data: {
+    country: country,
+    _token: '{{csrf_token()}}' 
+    },
+    dataType : 'json',
+    success: function(result){
+    $('#state-dropdown').html('<option value="">Select State</option>'); 
+    $.each(result.state,function(key,value){
+    $("#state-dropdown").append('<option value="'+value.id+'">'+value.state+'</option>');
+    });
+    }
+  });
+}
+
+//select state
+$('#country-dropdown').on('change', function() {
+  country = this.value;
+  getState(country);
 });//end    
+
 /*Select School Name*/
 $('#state-dropdown').on('change', function() {
 state = this.value;
@@ -146,12 +197,31 @@ $.ajax({
   },
   dataType : 'json',
   success: function(result){
-  $('#school-dropdown').html('<option value="">Select School Name</option>'); 
-  $.each(result.school,function(key,value){
-  $("#school-dropdown").append('<option value="'+value.school_name+'">'+value.school_name+'</option>');
-  });
+    console.log(result)
+    $('#school-dropdown').html('<option value="">Select School Name</option>'); 
+    $.each(result.school,function(key,value){
+      $("#school-dropdown").append('<option value="'+value.school_name+'">'+value.school_name+'</option>');
+    });
+    $('#college-dropdown').html('<option value="">Select College Name</option>'); 
+    $.each(result.college,function(key,value){
+      $("#college-dropdown").append('<option value="'+value.college_name+'">'+value.college_name+'</option>');
+    });
   }
 });
 });//end  
+
+/*Type Change*/
+$('#school-type').on('change', function() {
+$('#college_name').hide();
+$('#school_name').hide();
+
+if (this.value == 1)
+  $('#school_name').show();
+else if(this.value == 2)
+  $('#college_name').show();
+
+
 });
+
+
 </script>

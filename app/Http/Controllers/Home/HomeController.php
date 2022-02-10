@@ -10,11 +10,15 @@ use Redirect;
 use DB;
 use Validator;
 use Storage;
+use Mail;
 use Inertia\Inertia;
 use App\Models\Colleges;
 use App\Models\CountryState;
 use App\Models\SchoolSahodaya;
 use App\Models\SchoolList;
+use App\Mail\RegistrationSuccess;
+use App\Models\Designation;
+use App\Models\GamesList;
 class HomeController extends Controller
 {
 
@@ -158,7 +162,8 @@ class HomeController extends Controller
     //show school page
     public function school_present(){
         $countries = CountryState::select('country')->distinct('country')->orderBy('country', 'asc')->get();
-        return view('school')->with('countries', $countries);
+        $designation = Designation::select('name')->distinct('name')->orderBy('name', 'asc')->get();
+        return view('school')->with(['countries' => $countries, 'designation' => $designation]);
     }
 
     public function getStateSchool(Request $request)
@@ -171,42 +176,96 @@ class HomeController extends Controller
     {
     
         $data['school'] = SchoolList::where('state','=', $request->state)->orderBy('school_name','asc')->get(["school_name","id"]);
+        log::info('school');
+        Log::info($data['school'] );
+        $state_name = CountryState::where('id','=', $request->state)->value('state');
+        
+        //get the state name
+        Log::info($state_name);
+        $data['college'] = Colleges::where('state', $state_name)->orderBy('college_name','asc')->get(["college_name","id"]);
+        log::info('colleges');
+        // log::info($data['college'] );
         return response()->json($data);
     }
 
 
+
     public function school_records(Request $req)
     {
-        $validator = $req->validate([
+        $rules = [
             'state' => 'required',
             'country' => 'required',
             'first_name' => 'required|string',
             'last_name' => 'required|string',
             'email' => 'required|string|email|unique:school_db.school_sahodaya,email|max:255',
             'contact' => 'required|digits_between:9,15',
-            'designation'=> 'required'
-            ],['email.unique' => 'Email ID already registered!',
-             'first_name.required'=>'The institute name is required.',
-             'last_name.required'=>' The institute location is required.'
-            ]);          
+            'designation'=> 'required',
+            'school_name' => 'required'
+            ];
+            
+            $messages = 
+            ['email.unique' => 'Email ID already registered!',
+             'first_name.required'=>'Your first name is required.',
+             'last_name.required'=>' Your last name is required.',
+             'school_name.required' => 'Please enter the School/College Name!'
+            ];
+
+            $validator = Validator::make($req->all(), $rules, $messages);
+/*
+            $validator->after(function ($validator) use ($req){
+                if ($req->school_type == 1 && $req->school_name == NULL) {
+                    $validator->errors()->add('school_name', 'Please Select the School/College Name!');
+                }
+                if ($req->school_type == 2 && $req->college_name == NULL) {
+                    $validator->errors()->add('college_name', 'Please Select the College Name!');
+                }
+            });*/
+
+            $validator->validate();
            
             DB::beginTransaction();
             $feed = new SchoolSahodaya;
-            $feed->school_name = $req->school_name; 
+            if ($req->school_type == 1) {
+                $feed->school_name = $req->school_name; 
+            }
+            elseif($req->school_type == 2)
+                $feed->college_name = $req->college_name; 
+            
             $feed->country = $req->country;
             $feed->district = $req->district;
             $feed->state = $req->state;
-            
-            $feed->full_name = trim($req->first_name).' '.trim($req->last_name);           
+            $feed->school_name = $req->school_name;
+            $feed->full_name = trim($req->first_name).' '.trim($req->last_name);
             $feed->email = strtolower($req->email);
             $feed->contact = $req->contact;
             $feed->designation = $req->designation;
+
             
             $feed->save();            
             DB::commit();
 
-            return redirect()->route('school_present')->with('success', 'Successfully you have submitted the details. We will get back to you soon!');
+          /*  if($feed->reg_complete == 0){
+                 Mail::to($req->email)
+                ->cc('master@e-yantra.org','e-Yantra IITB')
+                ->send(new RegistrationSuccess());
             }
+           
+            $feed->reg_complete = 1;
+            $feed->save(); */
+
+            return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will share the credentials soon!');
+            }
+
+        public function dashboard() {
+            $games = GamesList::where('screenshot','!=','NULL')->get();
+            
+            return view('dashboard')->with(['games' => $games]);;
+
+        }
+
+        public function LoginCredentials() {
+            
+        }
 
 
    //end

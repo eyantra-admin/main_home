@@ -174,26 +174,7 @@
         <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-        <script type="text/javascript">
-            //video model
-            $(".js-modal-btn").modalVideo();
-            //Javascript to toggle the menu
-            document.getElementById('nav-toggle').onclick = function(){
-                document.getElementById("nav-content").classList.toggle("hidden");
-            }
-            //
-            var activeclass = document.querySelectorAll('#navlist li a');
-            for (var i = 0; i < activeclass.length; i++) {
-                activeclass[i].addEventListener('click', activateClass);
-            }
-
-            function activateClass(e) {
-                for (var i = 0; i < activeclass.length; i++) {
-                    activeclass[i].classList.remove("text-pink-500","font-bold");
-                }
-                e.target.classList.add("text-pink-500","font-bold");
-            }
-        </script>
+        
         <script>
             /*on scroll change the font-bold class*/
             var mainNavLinks = document.querySelectorAll("#navlist li a");
