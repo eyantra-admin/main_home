@@ -257,10 +257,6 @@ class HomeController extends Controller
             if(!$login->save()){
                 
             }
-
-            SchoolSahodaya::where('email',$login->email)->update(['login_id'=>$login->id, 'reg_complete' => 12]);
-
-            $num_accs += 1;
                     
             $mailData = [];
                     //$emailSubj = "e-Yantra, IIT-B : Login Credentials for eYRDC Portal";
@@ -273,7 +269,9 @@ class HomeController extends Controller
             Mail::to($login->email)
                 ->cc('master@e-yantra.org','e-Yantra IITB')
                 ->send(new LogCredentials($mailData));
-          
+            SchoolSahodaya::where('email',$login->email)->update(['login_id'=>$login->id, 'reg_complete' => 12]);
+
+            $num_accs += 1;
             return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will share the credentials soon!');
             }
 
