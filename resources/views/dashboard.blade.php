@@ -17,14 +17,20 @@
       <div id="tab-contents">
         <div id="first" class="p-4">
           <!-- day 1 -->
-          <div class="bg-blue-300 py-4 text-xl px-4 border-l-4 border-yellow-700 flex place-content-between">
-                <p><span class="font-bold">Day 1 - Friday, February 11th, 2022</span></p>
+          <div class="bg-blue-100 py-4 text-xl px-4 border-l-4 border-blue-400 flex place-content-between rounded-r-md">
+                <p>
+                  <b>Join Zoom Meeting</b>: <br>
+                    <a href="https://us02web.zoom.us/j/82495542727?pwd=LzBROS9RcHBkd001Rzk2aVVoV1Jndz09" target="_blank">https://us02web.zoom.us/j/82495542727?pwd=LzBROS9RcHBkd001Rzk2aVVoV1Jndz09</a><br>
+
+                    <b>Meeting ID:</b> 824 9554 2727<br>
+                    <b>Passcode:</b> 637951<br>
+                  </p>
                 
             </div>
           <div class="container mx-auto overflow-hidden mt-4">
             <div class="bg-yellow-300 py-4 text-xl px-4 border-l-4 border-yellow-700 flex place-content-between">
                 <p><span class="font-bold">Day 1 - Friday, February 11th, 2022</span></p>
-                <a href="https://www.google.com/url?q=https://us02web.zoom.us/j/82495542727?pwd%3DLzBROS9RcHBkd001Rzk2aVVoV1Jndz09&sa=D&source=calendar&ust=1644910680171132&usg=AOvVaw1DYw6KzzsB9y2jfhxacKVP" target="_blank" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="https://www.google.com/url?q=https://us02web.zoom.us/j/82495542727?pwd%3DLzBROS9RcHBkd001Rzk2aVVoV1Jndz09&sa=D&source=calendar&ust=1644910680171132&usg=AOvVaw1DYw6KzzsB9y2jfhxacKVP" target="_blank" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
@@ -73,7 +79,7 @@
           <div class="container mx-auto overflow-hidden mt-4">
             <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
                 <span class="font-bold">Day 2 - Saturday, February 12th, 2022</span>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
@@ -115,9 +121,19 @@
         </div>
         <div id="second" class="hidden p-4">
           <div class="container mx-auto overflow-hidden mt-4">
-            <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
+             <div class="bg-blue-100 py-4 text-xl px-4 border-l-4 border-blue-400 flex place-content-between rounded-r-md ">
+                <p>
+                  <b>Join Zoom Meeting</b>: <br>
+                    <a href="https://us02web.zoom.us/j/82495542727?pwd=LzBROS9RcHBkd001Rzk2aVVoV1Jndz09" target="_blank">https://us02web.zoom.us/j/88261270099?pwd=bTBwVWRQcTVqTDlGSWV1VytJanJEdz09</a><br>
+
+                    <b>Meeting ID:</b> 882 6127 0099<br>
+                    <b>Passcode:</b> 474346<br>
+                  </p>
+                
+            </div>
+            <div class="bg-green-200 py-4 mt-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
                 <p><span class="font-bold">Day 1 - Friday, February 11th, 2022</span></p>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
@@ -146,7 +162,7 @@
           <div class="container mx-auto overflow-hidden mt-4">
             <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
                 <span class="font-bold">Day 2 - Saturday, February 12th, 2022</span>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
