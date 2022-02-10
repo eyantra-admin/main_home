@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers\Home;
 use App\Http\Controllers\Controller;
+use Illuminate\Mail\Mailable;
+use App\Models\User;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Response;
 use Log;
+use Hash;
 use Input;
 use Redirect;
 use DB;
@@ -19,6 +23,7 @@ use App\Models\SchoolList;
 use App\Mail\RegistrationSuccess;
 use App\Models\Designation;
 use App\Models\GamesList;
+use App\Mail\LogCredentials;
 class HomeController extends Controller
 {
 
@@ -263,8 +268,45 @@ class HomeController extends Controller
 
         }
 
-        public function LoginCredentials() {
-            
+        public function login_credentials() {
+            $details = SchoolSahodaya::where('email', '!=', 'NULL')->where('reg_complete', 1)->get();
+            $num_accs = 0;
+        
+            foreach($details as $cur_teacher){
+                if($cur_teacher->email != Null && !empty($cur_teacher->email)){
+
+                    $password = Str::random(10);
+                    $login = new User;
+                    $login->name = $cur_teacher->full_name;
+                    $login->email = $cur_teacher->email;
+                    $login->password = Hash::make($password);
+                    $login->active = 1;
+
+                    if(!$login->save()){
+                        Log::info($login);
+                    }
+
+                    SchoolSahodaya::where('email',$cur_teacher->email)->update(['login_id'=>$login->id, 'reg_complete' => 12]);
+
+                    $num_accs += 1;
+                            
+                    $mailData = [];
+                    //$emailSubj = "e-Yantra, IIT-B : Login Credentials for eYRDC Portal";
+                    $mailData = array(
+                       'name'         => $cur_teacher->full_name,
+                       'username'     => $login->email,
+                       'password'     => $password,
+                    );
+                    /*Log::info($mailData);*/
+                    Mail::to($login->email)
+                        ->cc('master@e-yantra.org','e-Yantra IITB')
+                        ->send(new LogCredentials($mailData));
+                }
+
+            }
+        
+
+        return $num_accs;
         }
 
 

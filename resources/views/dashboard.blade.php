@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <!-- Tabs -->
-      <ul id="tabs" class="inline-flex pt-4 px-2 w-full border-b text-xl bg-green-200">
+      <ul id="tabs" class="inline-flex pt-4 px-2 w-full border-b text-xl bg-red-200">
           <li class="bg-white px-4 text-gray-800 font-semibold py-2 rounded-t border-t border-r border-l -mb-px"><a id="default-tab" href="#first">Auditorium</a></li>
           <li class="px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#second">Technical Exhibition</a></li>
           <li class="px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#third">Play Games</a></li>
@@ -17,15 +17,18 @@
       <div id="tab-contents">
         <div id="first" class="p-4">
           <!-- day 1 -->
-          <div class="container mx-auto overflow-hidden mt-4">
-            <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
+          <div class="bg-blue-300 py-4 text-xl px-4 border-l-4 border-yellow-700 flex place-content-between">
                 <p><span class="font-bold">Day 1 - Friday, February 11th, 2022</span></p>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                
+            </div>
+          <div class="container mx-auto overflow-hidden mt-4">
+            <div class="bg-yellow-300 py-4 text-xl px-4 border-l-4 border-yellow-700 flex place-content-between">
+                <p><span class="font-bold">Day 1 - Friday, February 11th, 2022</span></p>
+                <a href="https://www.google.com/url?q=https://us02web.zoom.us/j/82495542727?pwd%3DLzBROS9RcHBkd001Rzk2aVVoV1Jndz09&sa=D&source=calendar&ust=1644910680171132&usg=AOvVaw1DYw6KzzsB9y2jfhxacKVP" target="_blank" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
-                <p><time class="border-gray-500 pr-4 border-r-2">02:00 - 02:15 PM</time> <span class="pl-4">Inauguration of the Event</span></p>              
-                
+                <p><time class="border-gray-500 pr-4 border-r-2">02:00 - 02:15 PM</time> <span class="pl-4">Inauguration of the Event</span></p> 
             </div>
             <div class="border-b-2 border-gray-200 my-4"></div>
 
