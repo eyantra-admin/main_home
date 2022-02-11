@@ -272,7 +272,7 @@ class HomeController extends Controller
             SchoolSahodaya::where('email',$login->email)->update(['login_id'=>$login->id, 'reg_complete' => 12]);
 
             $num_accs += 1;
-            return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We will share the credentials soon!');
+            return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We have sent an email to you!');
             }
 
         public function dashboard() {
