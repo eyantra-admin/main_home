@@ -79,7 +79,7 @@
           <div class="container mx-auto overflow-hidden mt-4">
             <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
                 <span class="font-bold">Day 2 - Saturday, February 12th, 2022</span>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
+                <a href="https://us02web.zoom.us/j/89634057921?pwd=WnI3b1ZJd2dUaElxSmEwaVhiakpqUT09" target="_blank" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
