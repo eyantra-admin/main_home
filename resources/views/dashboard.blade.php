@@ -186,8 +186,20 @@
         </div>
         </div>
         <div id="third" class="hidden p-4">
+         <div class="bg-blue-100 py-4 text-xl px-4 border-l-4 border-blue-400 flex place-content-between rounded-r-md">
+                <p>
+                  <b>For Linux and macOS users:</b>: <br>
+                    Please follow these steps if you are unable to run the game, <br>
+
+                    <b>1:</b> Open the Terminal app in the folder where the game is downloaded.<br>
+                    <b>2:</b> Run the command <b>chmod u+x {Filename}</b><br>
+                    <b>3:</b> Start the game using the command <b>./{Filename)</b><br>
+                  </p>
+                
+            </div>
          <div class="container">
             <div class="container mx-auto p-6 grid grid-cols-3 gap-6">
+
                 @foreach($games as $gaming)
                     <div class="col-span-1 flex flex-col bg-green-200 border-2 p-4 rounded-md">
                         <h2 class="mb-2 font-bold text-xl text-green-800 text-center">
