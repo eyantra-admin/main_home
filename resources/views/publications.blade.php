@@ -107,6 +107,15 @@
                 </div>
               </div> 
 
+              <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
+              <div class="p-5 shadow-sm rounded-md bg-white m-4">
+                <p class="mt-2 text-justify text-gray-700 text-lg">
+                  Kashinath Narvekar, S., Bessariya, R., Sadananda, A., & Arya, K. (2020). Learn, Build and Compete: An Aquatic Robot-Fish Challenge. In 2020 3rd International Conference on Education Technology Management (pp. 60-65). 
+                  <a href="https://doi.org/10.1145/3446590.3446600" class="text-xl font-medium text-indigo-500" target="_blank"> View Paper</a>
+                </p> 
+              </div>
+            </div>
+
             <!-- conf 4 -->
             <div class="flex-1 mx-4 lg:mx-0 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" id='conf'>
               <div class="p-5 shadow-sm rounded-md bg-white m-4">
