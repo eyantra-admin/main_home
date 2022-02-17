@@ -30,6 +30,7 @@ Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');
 
+
 Route::get('/team', function () {
     return view('team');
 })->name('team');
@@ -116,9 +117,18 @@ Route::get('/press', function () {
 Route::get('/logo1PdfDownload', [Home\HomeController::class, 'eyantra1PdfDownload'])->name('logo1PdfDownload');
 Route::get('/logo2PdfDownload', [Home\HomeController::class, 'eyantra2PdfDownload'])->name('logo2PdfDownload');
 Route::get('/eyantracdrDownload', [Home\HomeController::class, 'eyantracdrDownload'])->name('eyantracdrDownload');
+/*Login Credentials*/
+Route::get('/LoginCredentials', [App\Http\Controllers\Home\HomeController::class, 'login_credentials'])
+    ->middleware(['auth'])
+    ->name('login_credentials');
 
 Route::get("/events", function(){
    return \File::get(public_path() . '/events/index.html');
+});
+
+
+Route::get("/playground", function(){
+   return \File::get(public_path() . '/playground/index.html');
 });
 
 require __DIR__.'/auth.php';

@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <!-- Tabs -->
-      <ul id="tabs" class="inline-flex pt-4 px-2 w-full border-b text-xl bg-green-200">
+      <ul id="tabs" class="inline-flex pt-4 px-2 w-full border-b text-xl bg-red-200">
           <li class="bg-white px-4 text-gray-800 font-semibold py-2 rounded-t border-t border-r border-l -mb-px"><a id="default-tab" href="#first">Auditorium</a></li>
           <li class="px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#second">Technical Exhibition</a></li>
           <li class="px-4 text-gray-800 font-semibold py-2 rounded-t"><a href="#third">Play Games</a></li>
@@ -17,15 +17,24 @@
       <div id="tab-contents">
         <div id="first" class="p-4">
           <!-- day 1 -->
+          <div class="bg-blue-100 py-4 text-xl px-4 border-l-4 border-blue-400 flex place-content-between rounded-r-md">
+                <p>
+                  <b>Join Zoom Meeting</b>: <br>
+                    <a href="https://us02web.zoom.us/j/82495542727?pwd=LzBROS9RcHBkd001Rzk2aVVoV1Jndz09" target="_blank">https://us02web.zoom.us/j/82495542727?pwd=LzBROS9RcHBkd001Rzk2aVVoV1Jndz09</a><br>
+
+                    <b>Meeting ID:</b> 824 9554 2727<br>
+                    <b>Passcode:</b> 637951<br>
+                  </p>
+                
+            </div>
           <div class="container mx-auto overflow-hidden mt-4">
-            <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
+            <div class="bg-yellow-300 py-4 text-xl px-4 border-l-4 border-yellow-700 flex place-content-between">
                 <p><span class="font-bold">Day 1 - Friday, February 11th, 2022</span></p>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="https://www.google.com/url?q=https://us02web.zoom.us/j/82495542727?pwd%3DLzBROS9RcHBkd001Rzk2aVVoV1Jndz09&sa=D&source=calendar&ust=1644910680171132&usg=AOvVaw1DYw6KzzsB9y2jfhxacKVP" target="_blank" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
-                <p><time class="border-gray-500 pr-4 border-r-2">02:00 - 02:15 PM</time> <span class="pl-4">Inauguration of the Event</span></p>              
-                
+                <p><time class="border-gray-500 pr-4 border-r-2">02:00 - 02:15 PM</time> <span class="pl-4">Inauguration of the Event</span></p> 
             </div>
             <div class="border-b-2 border-gray-200 my-4"></div>
 
@@ -70,7 +79,7 @@
           <div class="container mx-auto overflow-hidden mt-4">
             <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
                 <span class="font-bold">Day 2 - Saturday, February 12th, 2022</span>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="https://us02web.zoom.us/j/89634057921?pwd=WnI3b1ZJd2dUaElxSmEwaVhiakpqUT09" target="_blank" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
@@ -112,9 +121,19 @@
         </div>
         <div id="second" class="hidden p-4">
           <div class="container mx-auto overflow-hidden mt-4">
-            <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
+             <div class="bg-blue-100 py-4 text-xl px-4 border-l-4 border-blue-400 flex place-content-between rounded-r-md ">
+                <p>
+                  <b>Join Zoom Meeting</b>: <br>
+                    <a href="https://us02web.zoom.us/j/88011130140?pwd=WUwrT2JJVVE0ZXNGUlNvMnVQdm1ndz09" target="_blank">https://us02web.zoom.us/j/88261270099?pwd=bTBwVWRQcTVqTDlGSWV1VytJanJEdz09</a><br>
+
+                    <b>Meeting ID:</b> 880 1113 0140<br>
+                    <b>Passcode:</b> 294634<br>
+                  </p>
+                
+            </div>
+            <div class="bg-green-200 py-4 mt-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
                 <p><span class="font-bold">Day 1 - Friday, February 11th, 2022</span></p>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="https://us02web.zoom.us/j/88011130140?pwd=WUwrT2JJVVE0ZXNGUlNvMnVQdm1ndz09" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
@@ -134,12 +153,6 @@
                
             </div>
             <div class="border-b-2 border-gray-200 my-4"></div>
-
-            <div class="flex place-content-between text-lg mt-4 px-4">
-                <p><time class="border-gray-500 pr-4 border-r-2">03:50 - 04:15 PM</time> <span class="pl-4">Panel Discussion</span></p>              
-               
-            </div>
-            <div class="border-b-2 border-gray-200 my-4"></div>
             
             <div class="flex place-content-between text-lg mt-4 px-4">
                 <p><time class="border-gray-500 pr-4 border-r-2">05:00 - 05:15 PM</time> <span class="pl-4">IoT, eYFI Mega</span></p>              
@@ -149,7 +162,7 @@
           <div class="container mx-auto overflow-hidden mt-4">
             <div class="bg-green-200 py-4 text-xl px-4 border-l-4 border-green-900 flex place-content-between">
                 <span class="font-bold">Day 2 - Saturday, February 12th, 2022</span>
-                <a href="#" class="bg-blue-400 rounded-md text-md py-2 px-4">Join Us!</a>
+                <a href="https://us02web.zoom.us/j/88654683877?pwd=bWJpNFdSM0NDVVhIMG9pRW9mNlU4QT09" class="bg-blue-400 rounded-md text-md py-2 px-4">Click here to Join!</a>
             </div>
 
             <div class="flex place-content-between text-lg mt-4 px-4">
@@ -173,97 +186,94 @@
         </div>
         </div>
         <div id="third" class="hidden p-4">
+         <div class="bg-blue-100 py-4 text-xl px-4 border-l-4 border-blue-400 flex place-content-between rounded-r-md">
+                <p>
+                  <b>For Linux and macOS users:</b>: <br>
+                    Please follow these steps if you are unable to run the game, <br>
+
+                    <b>1:</b> Open the Terminal app in the folder where the game is downloaded.<br>
+                    <b>2:</b> Run the command <b>chmod u+x {Filename}</b><br>
+                    <b>3:</b> Start the game using the command <b>./{Filename)</b><br>
+                  </p>
+                
+            </div>
          <div class="container">
-          <p class="bg-gray-200 px-4 py-4 font-bold">Coming Soon ...</p>
-          <!-- <div class="flex flex-wrap -mx-4 items-stretch">
-            @foreach($games as $gaming)
-             <div class="w-full md:w-1/2 xl:w-1/3 px-4 my-2">
-                <div class="bg-blue-100 rounded-lg overflow-hidden mb-10 shadow-lg">
-                   <img
-                      src="{{$gaming->screenshot}}"
-                      alt="image"
-                      class="w-full"
-                      />
-                   <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                      <h3>
-                         <a
-                            href="javascript:void(0)"
-                            class="
-                            font-semibold
-                            text-dark text-xl
-                            sm:text-[22px]
-                            md:text-xl
-                            lg:text-[22px]
-                            xl:text-xl
-                            2xl:text-[22px]
-                            mb-4
-                            block
-                            hover:text-primary
-                            "
+            <div class="container mx-auto p-6 grid grid-cols-3 gap-6">
+
+                @foreach($games as $gaming)
+                    <div class="col-span-1 flex flex-col bg-green-200 border-2 p-4 rounded-md">
+                        <h2 class="mb-2 font-bold text-xl text-green-800 text-center">
+                          Team ID: {{$gaming->team_id}} - {{$gaming->game_name}}
+                        </h2>
+                        <div class="border-b-2 border-green-400 mx-4"></div>
+                        <img
+                          src="{{$gaming->screenshot}}"
+                          alt="image"
+                          class="w-full"
+                        />                        
+                        <div class="mb-4 flex flex-wrap text-center">
+                            @if($gaming->win_download)
+                            <a
+                             href="{{$gaming->win_download}}"
+                             class="
+                             inline-block
+                             border border-black
+                             text-base text-body-color
+                             font-medium
+                             hover:border-primary hover:bg-primary hover:text-white
+                             transition
+                             "
                             >
-                      </a>
-                      </h3>
-                      <p class="text-base text-body-color leading-relaxed mb-7">
-                         Team ID: {{$gaming->team_id}}
-                         Game Name<br>
-                         <i class="fab fa-windows"></i>
-                      </p>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         border border-black
-                         text-base text-body-color
-                         font-medium
-                         hover:border-primary hover:bg-primary hover:text-white
-                         transition
-                         "
-                         >
-                      <img
-                      src="/img/windows.png"
-                      alt="image"
-                      class="h-12 w-12"
-                      />
-                      </a>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         border border-black
-                         text-base text-body-color
-                         font-medium
-                         hover:border-primary hover:bg-primary hover:text-white
-                         transition
-                         "
-                         >
-                      <img
-                      src="/img/linux.png"
-                      alt="image"
-                      class="h-12 w-12"
-                      />
-                      </a>
-                      <a
-                         href="javascript:void(0)"
-                         class="
-                         inline-block
-                         border border-black
-                         text-base text-body-color
-                         font-medium
-                         hover:border-primary hover:bg-primary hover:text-white
-                         transition
-                         "
-                         >
-                      <img
-                      src="/img/mac.png"
-                      alt="image"
-                      class="h-12 w-12"
-                      />
-                      </a>
-                   </div>
-                </div>
-             </div>
-            @endforeach
-          </div> -->
+                                <img
+                                  src="/img/windows.png"
+                                  alt="image"
+                                  class="h-12 w-12"
+                                />
+                            </a>
+                            @endif
+                            @if($gaming->linux_download)
+                            <a
+                                 href="{{$gaming->linux_download}}"
+                                 class="
+                                 inline-block
+                                 border border-black
+                                 text-base text-body-color
+                                 font-medium
+                                 hover:border-primary hover:bg-primary hover:text-white
+                                 transition
+                                 "
+                            >
+                              <img
+                              src="/img/linux.png"
+                              alt="image"
+                              class="h-12 w-12"
+                              />
+                            </a>
+                            @endif
+                            @if($gaming->mac_download)
+                            <a
+                             href="{{$gaming->mac_download}}"
+                             class="
+                             inline-block
+                             border border-black
+                             text-base text-body-color
+                             font-medium
+                             hover:border-primary hover:bg-primary hover:text-white
+                             transition
+                             "
+                            >
+                              <img
+                              src="/img/mac.png"
+                              alt="image"
+                              class="h-12 w-12"
+                              />
+                            </a>
+                            @endif
+                        </div>
+                        
+                    </div>
+                @endforeach                
+            </div>          
         </div>
         </div>        
       </div>
