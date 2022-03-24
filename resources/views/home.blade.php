@@ -3,10 +3,14 @@
         <!--Hero-->
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
-            <div class="flex flex-col w-full justify-center items-start py-18 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6">
-                <span class="inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-full mt-28 ml-4">eYSRC Finals and e-Yantra Symposium 2022 !!! <a style="margin-left: 10px;" href="/events" ><span class="inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a></span><br>
+            <div class="flex flex-col w-full justify-center items-start py-18 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6 sm:mt-24">
+                <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md mt-8 ml-4 sm:mt-24">
+                <p>Join us to celebrate e-Yantra's 1st Virtual Symposium on Saturday, April 2<sup>nd</sup> 2022.
+                </p>  
+                 <a href="/events" ><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a>
+                </div>
 
-                <p class="ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
+                <p class="mt-4 ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
                 The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.</p>
 
                 <div class="rounded-full py-3 px-6 mt-2 justify-center bg-red-400 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 sm:w-48 text-lg ml-4" style="background-color:#DE4757">
