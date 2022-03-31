@@ -486,6 +486,10 @@
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eFSI
                         </a>
+                        <a href="/eysip"
+                            class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
+                            eYSIP
+                        </a>
                         <a href="/eysrc"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYSRC
