@@ -24,7 +24,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/dashboard', [Home\HomeController::class, 'dashboard'])->name('dashboard')->middleware(['auth']);
+Route::get('/dashboard', [Home\HomeController::class, 'dashboard'])->name('dashboard');
 
 Route::get('/gallery', function () {
     return view('gallery');
