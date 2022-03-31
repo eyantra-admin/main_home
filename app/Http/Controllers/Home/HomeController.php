@@ -90,6 +90,25 @@ class HomeController extends Controller
         return view('publications');
     }//end
 
+    public function eysip(){
+        $year = DB::table('eysip_projects')->select('year')->orderBy('year', 'desc')->distinct()->get();
+        return view('eysip')->with('year', $year);
+    }//end
+
+    public function eysip_yearwise(Request $request)
+    {
+        //get yearwise theme names
+        $project_names = DB::table('eysip_projects')
+                        ->where('eysip_projects.year','=', $request->year)
+                        ->get(); 
+        log::info($project_names);       
+        //get yearwise stats
+        $stats = DB::table('eysip_projects')->where('eysip_projects.year','=', $request->year)->get();
+
+        $getdata = ['project_list' => $project_names]; 
+        return response()->json($getdata);  
+    }//end
+
     public function hardware_doc()
     {
         try{

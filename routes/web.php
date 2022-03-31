@@ -59,6 +59,8 @@ Route::post('/elsi_colleges', [Home\HomeController::class, 'geteLSIColleges'])->
 Route::get('/eyrc', [Home\HomeController::class, 'eyrc'])->name('eyrc');
 Route::post('/stats_yearwise', [Home\HomeController::class, 'stats_yearwise'])->name('stats_yearwise');
 
+Route::get('/eysip', [Home\HomeController::class, 'eysip'])->name('eysip');
+Route::post('/eysip_yearwise', [Home\HomeController::class, 'eysip_yearwise'])->name('eysip_yearwise');
 
 Route::get('/publications', [Home\HomeController::class, 'publications'])->name('publications');
 Route::get('/achievements', function () {
