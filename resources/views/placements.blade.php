@@ -2,14 +2,15 @@
 @section('content')
      <div class="container mx-auto mt-28">
           <div class="h-8"></div>
-          <div class="w-full md:w-2/4 text-center mx-auto">
-               <h1 class="text-4xl font-semibold text-red-500 mb-4">Startups By e-Yantra alumni</h1>
-               <p class="text-xl">
+          <div class="w-full md:w-2/4 mx-auto">
+               <h1 class="text-4xl font-semibold text-red-500 mb-4 text-center">Startups By e-Yantra alumni</h1>
+               <p class="text-xl text-justify">
                     Members of the e-Yantra family join a community of like-minded game changers with the energy, courage, and capability to make a difference.
                </p>
-               <p class="text-xl">
+               <p class="text-xl text-justify">
                     See a sampling of past participants who executed their plans to become an entrepreneur.
                </p>
+               <p class="text-lg text-red-500 text-justify">These startups provide intership/job opportunities, For more information, please write to us <a class="text-blue-600" href="mailto:placements@e-yantra.org">placements@e-yantra.org</a></p>
           </div>
           <div class="masonry sm:masonry-sm md:masonry-md mt-8">
                <!-- company profile -->
@@ -17,8 +18,10 @@
                <div class="border-2 rounded-md border-green-600 mt-2 break-inside">
                     <div class="border rounded-md m-1">
                         <div class="flex flex-col justify-center items-center bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 py-4 mx-auto border-b-2 border-green-300 mx-2">
-                              <img src="{!!asset('img/placements/dronelk.png')!!}">
-                              <a href="http://dronelok.com/" class="text-xl text-blue-600 font-semibold" target="_blank">Advitiya Labs</a>
+                              <a href="http://dronelok.com/" class="text-xl text-blue-600 font-semibold" target="_blank">
+                                   <img src="{!!asset('img/placements/dronelk.png')!!}">
+                              </a>
+                              <a href="http://dronelok.com/" class="text-xl text-blue-600 font-semibold mt-2" target="_blank">Advitiya Labs</a>
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
@@ -37,8 +40,10 @@
                <div class="border-2 rounded-md border-green-600 mt-2 break-inside">
                     <div class="border rounded-md m-1">
                         <div class="flex flex-col justify-center items-center bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 py-4 mx-auto border-b-2 border-green-300">
-                              <img src="{!!asset('img/placements/CarlomanSystems.svg')!!}">
-                              <a href="https://carlomansystems.com/" class="text-xl text-blue-600 font-semibold" target="_blank">Carloman Systems</a>
+                              <a href="https://carlomansystems.com/" class="text-xl text-blue-600 font-semibold" target="_blank">
+                                   <img src="{!!asset('img/placements/CarlomanSystems.svg')!!}">
+                              </a>
+                              <a href="https://carlomansystems.com/" class="text-xl text-blue-600 font-semibold mt-2" target="_blank">Carloman Systems</a>
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
@@ -55,8 +60,10 @@
                <div class="border-2 rounded-md border-green-600 mt-2 break-inside">
                     <div class="border rounded-md m-1">
                         <div class="flex flex-col justify-center items-center bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 py-4 mx-auto border-b-2 border-green-300">
-                              <img src="{!!asset('img/placements/DronaAutomations.png')!!}">
-                              <a href="https://dronaautomations.com/" class="text-xl text-blue-600 font-semibold" target="_blank">Drona Automations</a>
+                              <a href="https://dronaautomations.com/" class="text-xl text-blue-600 font-semibold" target="_blank">
+                                   <img class="w-56" src="{!!asset('img/placements/DronaAutomations.png')!!}">
+                              </a>
+                              <a href="https://dronaautomations.com/" class="text-xl text-blue-600 font-semibold mt-2" target="_blank">Drona Automations</a>
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
@@ -73,8 +80,10 @@
                <div class="border-2 rounded-md border-green-600 mt-2 break-inside">
                     <div class="border rounded-md m-1">
                         <div class="flex flex-col justify-center items-center bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 py-4 mx-auto border-b-2 border-green-300">
-                              <img src="{!!asset('img/placements/HeavenSolar.png')!!}">
-                              <a href="https://heavendesigns.in/" class="text-xl text-blue-600 font-semibold" target="_blank">Heaven Solar Energy Pvt. Ltd.</a>
+                              <a href="https://heavendesigns.in/" class="text-xl text-blue-600 font-semibold" target="_blank">
+                                   <img class="w-56" src="{!!asset('img/placements/HeavenSolar.png')!!}">
+                              </a>
+                              <a href="https://heavendesigns.in/" class="text-xl text-blue-600 font-semibold mt-2" target="_blank">Heaven Solar Energy Pvt. Ltd.</a>
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
@@ -91,8 +100,10 @@
                <div class="border-2 rounded-md border-green-600 mt-2 break-inside">
                     <div class="border rounded-md m-1">
                         <div class="flex flex-col justify-center items-center bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 py-4 mx-auto border-b-2 border-green-300">
-                              <img src="{!!asset('img/placements/Katomaran.png')!!}">
-                              <a href="https://www.katomaran.com/" class="text-xl text-blue-600 font-semibold" target="_blank">Katomaran Technologies Pvt Ltd</a>
+                              <a href="https://www.katomaran.com/" class="text-xl text-blue-600 font-semibold" target="_blank">
+                                   <img class="w-56" src="{!!asset('img/placements/Katomaran.png')!!}">
+                              </a>
+                              <a href="https://www.katomaran.com/" class="text-xl text-blue-600 font-semibold mt-2" target="_blank">Katomaran Technologies Pvt. Ltd.</a>
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
@@ -110,8 +121,10 @@
                <div class="border-2 rounded-md border-green-600 mt-2 break-inside">
                     <div class="border rounded-md m-1">
                         <div class="flex flex-col justify-center items-center bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 py-4 mx-auto border-b-2 border-green-300">
-                              <img src="{!!asset('img/placements/surveyaan.png')!!}">
-                              <a href="https://www.surveyaan.com/" class="text-xl text-blue-600 font-semibold" target="_blank">Nibrus Technologies Private Limited</a>
+                              <a href="https://www.surveyaan.com/" class="text-xl text-blue-600 font-semibold" target="_blank">
+                                   <img src="{!!asset('img/placements/surveyaan.png')!!}">
+                              </a>
+                              <a href="https://www.surveyaan.com/" class="text-xl text-blue-600 font-semibold mt-2" target="_blank">Nibrus Technologies Pvt. Ltd.</a>
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
@@ -129,8 +142,10 @@
                <div class="border-2 rounded-md border-green-600 mt-2 break-inside">
                     <div class="border rounded-md m-1">
                         <div class="flex flex-col justify-center items-center bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 py-4 mx-auto border-b-2 border-green-300">
-                              <img src="{!!asset('img/placements/rymo.webp')!!}">
-                              <a href="https://www.rymo.in/" class="text-xl text-blue-600 font-semibold" target="_blank">Rymo Technologies Pvt Ltd</a>
+                              <a href="https://www.rymo.in/" class="text-xl text-blue-600 font-semibold" target="_blank">
+                                   <img src="{!!asset('img/placements/rymo.webp')!!}">
+                              </a>
+                              <a href="https://www.rymo.in/" class="text-xl text-blue-600 font-semibold mt-2" target="_blank">Rymo Technologies Pvt. Ltd.</a>
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
