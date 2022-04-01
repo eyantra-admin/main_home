@@ -423,10 +423,10 @@
     </head>
 
     <header>
-        <nav class="fixed w-full z-30 top-0 flex items-center justify-between flex-wrap p-6 bg-white">
+        <nav class="fixed w-full z-30 top-0 flex items-center justify-between flex-wrap p-6 bg-white border-b-2 border-gray-700">
           <div class="flex items-center flex-shrink-0 text-gray-600 mr-6">
             <Link href="/">
-            <a class="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href="/">
+            <a class="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href="{!!route('home')!!}">
               <img src="{!! asset('img/logo.svg') !!}" alt="e-Yantra" class="w-48 md:w-56" />
             </a>
           </Link>
@@ -439,19 +439,19 @@
           <div class="text-sm lg:flex-col">
             <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="/">About Us</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('home')!!}">About Us</a>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="gallery">Gallery</a>
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('gallery')!!}">Gallery</a>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="team">Our Team</a>
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('team')!!}">Our Team</a>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="publications">Publications</a>
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('publications')!!}">Publications</a>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="/products">Products</a>
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('products')!!}">Products</a>
             </li>
             
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
@@ -470,35 +470,35 @@
                     <!-- Dropdown menu -->
                     <div x-show="open" x-transition:enter.duration.500ms x-transition:leave.duration.9000ms
                         class="absolute right-0 w-48 mt-2 bg-white rounded-md shadow-xl">
-                        <a href="/elsi"
+                        <a href="{!!route('elsiFamily')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eLSI
                         </a>
-                        <a href="/eyrc"
+                        <a href="{!!route('eyrc')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYRC
                         </a>
-                        <a href="/eyic"
+                        <a href="{!!route('eyic')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYIC
                         </a>
-                        <a href="/efsi"
+                        <a href="{!!route('efsi')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eFSI
                         </a>
-                        <a href="/eysip"
+                        <a href="{!!route('eysip')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYSIP
                         </a>
-                        <a href="/eysrc"
+                        <a href="{!!route('eysrc')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYSRC
                         </a>
-                        <a href="/eyrdc"
+                        <a href="{!!route('eyrdc')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             eYRDC
                         </a>
-                        <a href="/mooc"
+                        <a href="{!!route('mooc')!!}"
                             class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl">
                             MOOC
                         </a>
@@ -506,7 +506,7 @@
                 </div>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="contact">Contact Us</a>
+            <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('contact')!!}">Contact Us</a>
             </li>
 
             </ul>

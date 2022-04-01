@@ -22,7 +22,7 @@ Route::get('/carousel', function () {
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/games', [Home\HomeController::class, 'dashboard'])->name('dashboard');
 
@@ -86,6 +86,10 @@ Route::get('/eyrdc', function () {
 Route::get('/mooc', function () {
     return view('mooc');
 })->name('mooc');
+
+Route::get('/placements', function () {
+    return view('placements');
+})->name('placements');
 
 
 Route::get('/products', function () {

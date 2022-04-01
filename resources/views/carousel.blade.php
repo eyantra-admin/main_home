@@ -130,7 +130,7 @@
                         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                     </div>
                     <div class="bg-white my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-4xl rounded-lg shadow-sm mx-auto border-2 border-red-600 transition duration-500 ease-in-out hover:bg-grey-200 transform hover:-translate-y-1 hover:scale-110">
-                <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800">
+                <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800 py-4">
                     <p class="text-2xl text-gray-800 text-center">
                       Chetan Bhat
                     </p>
@@ -153,7 +153,7 @@
                         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                     </div>
                     <div class="bg-white my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-4xl rounded-lg shadow-sm mx-auto border-2 border-red-600 transition duration-500 ease-in-out hover:bg-grey-200 transform hover:-translate-y-1 hover:scale-110">
-                <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800">
+                <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800 py-4">
                     <p class="text-2xl text-gray-800 text-center">
                       Heethesh Vhavle
                     </p>
@@ -176,7 +176,7 @@
                 <div class="w-full mb-4">
                     <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
-                <div class="bg-white my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-4xl rounded-lg shadow-sm mx-auto border-2 border-red-600 transition duration-500 ease-in-out hover:bg-grey-200 transform hover:-translate-y-1 hover:scale-110">
+                <div class="bg-white my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-4xl rounded-lg shadow-sm mx-auto border-2 border-red-600 transition duration-500 ease-in-out hover:bg-grey-200 transform hover:-translate-y-1 hover:scale-110 py-4">
                     <div class="relative h-28 bg-red-100 text-2xl text-center text-gray-800">
                         <p class="text-2xl text-gray-800 text-center">
                           Aayushi Gautam

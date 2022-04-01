@@ -3,8 +3,8 @@
         <!--Hero-->
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
-            <div class="flex flex-col w-full justify-center items-start py-18 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6 sm:mt-24">
-                <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md mt-8 ml-4 sm:mt-24">
+            <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6">
+                <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
                 <p>Join us to celebrate e-Yantra's 1st Virtual Symposium on Saturday, April 2<sup>nd</sup> 2022.
                 </p>  
                  <a href="https://e-yantra.vfairs.com/" ><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <!--Right Col-->
-            <div class="w-full sm:w-1/2 rounded-md transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 justify-center">
+            <div class="w-full sm:w-1/2 rounded-md transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 justify-center mt-2">
                 <a href="https://youtu.be/JUWw8GhBg2s" class="mb-4">
                     <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/JUWw8GhBg2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </a>
@@ -184,17 +184,17 @@
                         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                     </div>
                     <div class="grid grid-cols-9 divide-x sm:divide-y-3 justify-center">
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/3d-printer.png" alt="Man looking at item at a store"></div>
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/imageprocessing.png" alt="Man looking at item at a store"></div>
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/iot.png" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/3d-printer.png')!!}" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/imageprocessing.png')!!}" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/iot.png')!!}" alt="Man looking at item at a store"></div>
 
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/embedded.png" alt="Man looking at item at a store"></div>
-                      <div><img class="h-12  w-1/2 object-cover md:h-full md:w-24" src="/img/machinelearning.png" alt="Man looking at item at a store"></div>
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/python.png" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/embedded.png')!!}" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12  w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/machinelearning.png')!!}" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/python.png')!!}" alt="Man looking at item at a store"></div>
 
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/drone.png" alt="Man looking at item at a store"></div>
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/ag.png" alt="Man looking at item at a store"></div>
-                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="/img/blender.png" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/drone.png')!!}" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/ag.png')!!}" alt="Man looking at item at a store"></div>
+                      <div><img class="h-12 w-1/2 object-cover md:h-full md:w-24" src="{!!asset('img/blender.png')!!}" alt="Man looking at item at a store"></div>
                     </div>
                 </div>
             </section>
