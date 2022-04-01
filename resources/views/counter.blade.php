@@ -230,13 +230,13 @@ footer p strong {
         <div class="projectFactsWrap ">
             <div class="item wow fadeInUpBig animated animated" data-number="162073" style="visibility: visible;">
                 <i class="fa fa-briefcase"></i>
-                <p id="number1" class="number">162073 +</p>
+                <p id="number1" class="number">207300 +</p>
                 <span></span>
                 <p>Students Benefited</p>
             </div>
             <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
                 <i class="fa fa-smile-o"></i>
-                <p id="number2" class="number">&nbsp; 3245 +</p>
+                <p id="number2" class="number">&nbsp; 3250 +</p>
                 <span></span>
                 <p>Colleges Benefited</p>
             </div>
