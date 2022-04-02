@@ -3,7 +3,7 @@
      <div class="container mx-auto mt-28">
           <div class="h-8"></div>
           <div class="w-full md:w-2/4 mx-auto">
-               <h1 class="text-4xl font-semibold text-red-500 mb-4 text-center">Startups By e-Yantra alumni</h1>
+               <h1 class="text-4xl font-semibold text-red-500 mb-4 text-center">Startups by e-Yantra Alumni</h1>
                <p class="text-xl text-justify">
                     Members of the e-Yantra family join a community of like-minded game changers with the energy, courage, and capability to make a difference.
                </p>
@@ -67,7 +67,17 @@
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
-                                   Drona deals with cleaning and inspection of sewer pipes using of manholes and buildings using low cost robots
+                                  Drona was started to give solutions to societal problems from Sewage To Space.<br>
+
+                                  Currently, Drona is into eliminating manual scavenging of manholes using low-cost and easy-to-use robots.<br>
+
+                                  Robots to clean and inspect sewer pipes of manholes and commercial buildings. The robot enters the pipes and cleans them for any blockages and scaling. They can be also used for inspection purposes.<br>
+
+                                  Robots can be used for pipe sizes ranging from 3 inches to 14 inches in diameter.<br>
+
+                                  Currently our products are in the market and have few customers.<br>
+
+
                               </p>
                         </div>
                         <div class="flex justify-center items-center py-4 bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 border-t-2 border-yellow-300">
@@ -87,7 +97,8 @@
                         </div>
                         <div class="bg-gradient-to-b from-yellow-200 via-green-200 to-green-300">
                               <p class="text-left p-4">
-                                   We provide solar design and engineering services
+                                   Heaven Designs Pvt. Ltd is leading solar design, engineering and consultancy company. We provide complete solution of solar power plant design for rooftop and MW scale ground mount projects.<br>
+                                   Our vision is to help & grow our client's Solar EPC business. We work as technical back office team with our customers.
                               </p>
                         </div>
                         <div class="flex justify-center items-center py-4 bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 border-t-2 border-yellow-300">
