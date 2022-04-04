@@ -5,9 +5,11 @@
             <!--Left Col-->
             <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6">
                 <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
-                <p>Join us to celebrate e-Yantra's 1st Virtual Symposium on Saturday, April 2<sup>nd</sup> 2022.
+                <p>
+                  We will be back with a bang soon!!!<br/>
+                  Stay Tuned for our next version of <a href="https://portal.e-yantra.org/notify" target="_blank" class="text-blue-300 text-semibold">Robotics Competition (eYRC)</a> & <a href="https://eyic.e-yantra.org/notify" target="_blank" class="text-blue-300 text-semibold">Innovation Challenge (eYIC)</a>.
                 </p>  
-                 <a href="https://e-yantra.vfairs.com/" ><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a>
+                 <!-- <a href="https://portal.e-yantra.org/notify" target="_blank"><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a> -->
                 </div>
 
                 <p class="mt-4 ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
