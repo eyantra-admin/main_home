@@ -451,6 +451,9 @@
             <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('publications')!!}">Publications</a>
             </li>
             <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('jobs')!!}">Jobs</a>
+            </li>
+            <li class="mr-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 <a class="inline-block py-2 px-4 text-gray-400 text-red-500 no-underline hover:text-red-800 hover:text-underline font-bold text-xl" href="{!!route('products')!!}">Products</a>
             </li>
             
