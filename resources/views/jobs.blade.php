@@ -14,7 +14,7 @@
     <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Sr. Project Technical Assistant (Web/Software)</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
-        <p><strong>Positions:</strong> 3</p>
+        <!-- <p><strong>Positions:</strong> 3</p> -->
         <p>
             <strong>Essential Qualification</strong> 
             B.E/B.Tech in Computer Science or IT or MCA
@@ -40,7 +40,7 @@
     <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Sr. Project Technical Assistant (Robotics/ Embedded Systems)</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
-        <p><strong>Positions:</strong> 6</p>
+       <!--  <p><strong>Positions:</strong> 6</p> -->
         <p>
             <strong>Essential Qualification</strong> 
             B.E/B.Tech/ or ME/M.Tech or PG Diploma in Electronics/Electrical/ Instrumentation
