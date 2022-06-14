@@ -83,6 +83,10 @@ Route::get('/eyrdc', function () {
     return view('eyrdc');
 })->name('eyrdc');
 
+Route::get('/jobs', function () {
+    return view('jobs');
+})->name('jobs');
+
 Route::get('/mooc', function () {
     return view('mooc');
 })->name('mooc');
