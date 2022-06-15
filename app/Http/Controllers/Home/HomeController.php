@@ -220,7 +220,7 @@ class HomeController extends Controller
             'country' => 'required',
             'first_name' => 'required|string',
             'last_name' => 'required|string',
-            'email' => 'required|string|email|unique:school_db.school_sahodaya,email|max:255',
+            'email' => 'required|string|email|max:255',
             'contact' => 'required|digits_between:9,15',
             'designation'=> 'required',
             'school_name' => 'required'
@@ -266,7 +266,7 @@ class HomeController extends Controller
             $feed->save();            
             DB::commit();
             $num_accs = 0;
-            $password = Str::random(10);
+            /*$password = Str::random(10);
             $login = new User;
             $login->name = $feed->full_name;
             $login->email = $feed->email;
@@ -275,23 +275,23 @@ class HomeController extends Controller
 
             if(!$login->save()){
                 
-            }
+            }*/
                     
             $mailData = [];
                     //$emailSubj = "e-Yantra, IIT-B : Login Credentials for eYRDC Portal";
             $mailData = array(
-               'name'         => $login->name,
-               'username'     => $login->email,
-               'password'     => $password,
+               'name'         => $feed->full_name,
+               'username'     => $feed->email,
+              /* 'password'     => $password,*/
             );
             
-            Mail::to($login->email)
+            Mail::to($feed->email)
                 ->cc('master@e-yantra.org','e-Yantra IITB')
                 ->send(new LogCredentials($mailData));
-            SchoolSahodaya::where('email',$login->email)->update(['login_id'=>$login->id, 'reg_complete' => 12]);
+            SchoolSahodaya::where('email',$feed->email)->update(['reg_complete' => 12]);
 
             $num_accs += 1;
-            return redirect()->route('school_present')->with('success', 'You have successfully submitted the details. We have sent an email to you!');
+            return redirect()->route('school_present')->with('success', 'You have successfully registered for the event. We have sent the meeting details to you via email!');
             }
 
         public function dashboard() {

@@ -7,14 +7,9 @@
 	<div class="content">
       Dear {{ $mailData['name'] }},<br/><br/>
       Greetings from e-Yantra!<br/><br/>
-      Thank you for showing interest in attending the Grand Finale of eYSRC and Symposium 2022.
+      Thank you for showing interest in attending the Grand Finale of Virtual Museum Competition 2022.
       <br/><br/>    
-        The detailed schedule and meeting details are available in the dashboard.
-      <br/>
-      To access the website, please visit: <a href="https://e-yantra.org/login" target="_blank">https://e-yantra.org/login</a>.<br/><br/>
-      The username and password are as below:<br/><br/>
-      Username: {{ $mailData['username'] }}<br/>
-      Password: {{ $mailData['password'] }}<br/>
+      The detailed schedule is available on the website - <a href="https://www.e-yantra.org/events" target="_blank">www.e-yantra.org/events</a>
       <br/>
       <br/>
       Looking forward to seeing you in the event online!<br/><br/>

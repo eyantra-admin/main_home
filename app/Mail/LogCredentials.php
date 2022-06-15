@@ -33,6 +33,6 @@ class LogCredentials extends Mailable
         return $this->view('emails.login_credentials')
                     ->from('helpdesk@e-yantra.org','e-Yantra IITB')
                     ->replyTo('school@e-yantra.org','e-Yantra IITB')
-                    ->subject('IIT Bombay, e-Yantra: Login Credentials for the Grand Finale of eYSRC Event');
+                    ->subject('IIT Bombay, e-Yantra: Virtual Museum Competition Grand Finale - Registration Confirmed');
     }
 }
