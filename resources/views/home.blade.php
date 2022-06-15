@@ -9,7 +9,7 @@
                   <!-- We will be back with a bang soon!!!<br/>
                   Stay Tuned for our next version of <a href="https://portal.e-yantra.org/notify" target="_blank" class="text-blue-300 text-semibold">Robotics Competition (eYRC)</a> & <a href="https://eyic.e-yantra.org/notify" target="_blank" class="text-blue-300 text-semibold">Innovation Challenge (eYIC)</a>. -->
                   Amazing News!!!🤩<br>
-                  Grand Finale of Virtual Museum Competition 2022 is scheduled on June 25th, 20222.<br>To know more, please visit - <a class="text-blue-300" href="https://e-yantra.org/events">https://e-yantra.org/events</a>. Register Now!
+                  Grand Finale of Virtual Museum Competition 2022 is scheduled on June 25th, 2022.<br>To know more, please visit - <a class="text-blue-300" href="https://e-yantra.org/events">https://e-yantra.org/events</a>. Register Now!
                 </p>  
                  <!-- <a href="https://portal.e-yantra.org/notify" target="_blank"><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a> -->
                 </div>
