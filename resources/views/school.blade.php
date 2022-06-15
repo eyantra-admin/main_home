@@ -27,7 +27,7 @@
           @endif
 
             <div class="mt-8 px-2 lg:px-8">
-              <h2 class="text-xl text-center text-gray-700">Grand Finals of e-Yantra School Robotics Competition (eYSRC) & Symposium 2022<br><span style="color: #EF4444;">Registration Form</span></h2>
+              <h2 class="text-xl text-center text-gray-700">Grand Finals of e-Yantra Virtual Museum Competition 2022<br><span style="color: #EF4444;">Registration Form</span></h2>
               <hr class="my-2">
               <p class="text-lg" style="padding-bottom: 20px; text-align: center;">Submit the registration form to be a part of the Grand Event!</p>
               <form id="msform" method="POST" action="/school_records">
