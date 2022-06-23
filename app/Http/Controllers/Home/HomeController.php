@@ -216,10 +216,9 @@ class HomeController extends Controller
     public function school_records(Request $req)
     {
         $rules = [
-            'state' => 'required',
-            'country' => 'required',
+            
+            
             'first_name' => 'required|string',
-            'last_name' => 'required|string',
             'email' => 'required|string|email|max:255',
             'contact' => 'required|digits_between:9,15',
             'designation'=> 'required',
@@ -229,7 +228,6 @@ class HomeController extends Controller
             $messages = 
             ['email.unique' => 'Email ID already registered!',
              'first_name.required'=>'Your first name is required.',
-             'last_name.required'=>' Your last name is required.',
              'school_name.required' => 'Please enter the School/College Name!'
             ];
 
@@ -248,17 +246,13 @@ class HomeController extends Controller
            
             DB::beginTransaction();
             $feed = new SchoolSahodaya;
-            if ($req->school_type == 1) {
-                $feed->school_name = $req->school_name; 
-            }
-            elseif($req->school_type == 2)
-                $feed->college_name = $req->college_name; 
             
+            $feed->school_name = $req->school_name; 
             $feed->country = $req->country;
             $feed->district = $req->district;
             $feed->state = $req->state;
             $feed->school_name = $req->school_name;
-            $feed->full_name = trim($req->first_name).' '.trim($req->last_name);
+            $feed->full_name = trim($req->first_name);
             $feed->email = strtolower($req->email);
             $feed->contact = $req->contact;
             $feed->designation = $req->designation;

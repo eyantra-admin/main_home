@@ -43,12 +43,12 @@
                   @endforeach
                   </select>
                 </div>
-                <div class="text-gray-700 mt-4">
+                <!-- <div class="text-gray-700 mt-4">
                   <label for="state">State</label>
                   <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="state-dropdown" name="state">
                     <option value="">Select State</option>
                   </select>
-                </div> <br/>
+                </div> <br/> -->
                 
                 <!-- Dropdown Status -->
              <!--    <div class="text-gray-700 mt-4">
@@ -80,34 +80,24 @@
                 <a href="http://eyrc20.e-yantra.org/add-college" target="_blank" class="bg-red-200 text-sm rounded-md p-2 hover:bg-red-400 font-bold text-red-900">Add School</a>
                 </div>
                  -->
-                <div class="w-full px-3 mb-6 md:mb-0">
-                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name" class="validate">
-                    School/College Name
+                <div class="w-full mt-4 mb-6 md:mb-0">
+                  <label class="block tracking-wide text-gray-700  mb-2" for="grid-first-name" class="validate">
+                    School/College/Organization Name
                   </label>
                   <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" name="school_name" type="text" placeholder="School/College Name">
 <!--                   <p class="text-red-500 text-xs italic">Please fill out this field.</p>
  -->             </div>
-              <span class="text-md py-2 px-2 rounded-md mt-4 bg-green-200">If you're a Parent/Guardian, please enter your ward's school details.</span>
-
 
                 <p class="py-8 font-bold">Contact Details</p>
                 <!-- Personal Information -->
                 <div class="flex flex-wrap -mx-3 mb-6">
                 <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                   <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name" class="validate">
-                    First Name
+                    Name
                   </label>
                   <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" name="first_name" type="text" placeholder="First Name">
 <!--                   <p class="text-red-500 text-xs italic">Please fill out this field.</p>
  -->                </div>
-                <div class="w-full md:w-1/2 px-3">
-                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-                    Last Name
-                  </label>
-                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" name="last_name" placeholder="Last Name">
-                </div>
-              </div>
-              <div class="flex flex-wrap -mx-3 mb-6">
                 <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                   <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email" class="validate">
                     Email ID
@@ -115,12 +105,9 @@
                   <input class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-email" name="email" type="text" class="validate" placeholder="Enter email id.">
 <!--                   <p class="text-red-500 text-xs italic">Please fill out this field.</p>
  -->                </div>
-                <div class="w-full md:w-1/2 px-3">
-                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-contact">
-                    Contact Number
-                  </label>
-                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-contact" type="text" name="contact" placeholder="Enter Contact Number">
-                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                
               </div>
               <div class="flex flex-wrap -mx-3 mb-6">
                 <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -129,14 +116,20 @@
                   </label>
                   <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="designation-dropdown" name="designation">
                   <option value="">Select Designation</option>
-                  @foreach ($designation as $designation) 
-                  <option value="{{$designation->name}}">
-                  {{$designation->name}}
-                  </option>
-                  @endforeach
+                  <option value="Teacher">Teacher</option>
+                  <option value="Student">Student</option>
+                  <option value="Parent">Parent</option>
+                  <option value="Principal">Principal</option>
+                  <option value="Other">Other</option>
                   </select>
 <!--                   <p class="text-red-500 text-xs italic">Please fill out this field.</p>
  -->                </div>
+ <div class="w-full md:w-1/2 px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-contact">
+                    Contact Number
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-contact" type="text" name="contact" placeholder="Enter Contact Number">
+                </div>
               </div>  
               
                 <div class="row">
