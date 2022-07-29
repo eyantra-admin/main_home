@@ -6,6 +6,18 @@
 
         <title>e-Yantra: Engneering a better tomorrow</title>
 
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="e-Yantra: Engneering a better tomorrow">
+        <meta name="description" content="e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay. The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.e-yantra.org/">
+        <meta property="og:title" content="e-Yantra: Engneering a better tomorrow">
+        <meta property="og:description" content="e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay. The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.">
+        <meta property="og:image" content="https://www.e-yantra.org/img/logo.svg">
+
+        <!-- extra -->
         <meta name="description" content="e-Yantra Robotics Competition (eYRC) is a unique annual competition for undergraduate students in Engineering/ Science/ Polytechnic colleges." /> 
         <meta name="description" content="e-Yantra Robotics Compeititon">
         <meta name="description" content="Innovation Challenge">
@@ -13,6 +25,7 @@
         <meta name="description" content="IIT Bombay">
         <meta name="description" content="Robotics">
         <meta name="description" content="Technical">
+        
         <meta name="author" content="e-Yantra">
 
 
