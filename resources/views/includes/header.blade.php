@@ -4,7 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>e-Yantra</title>
+        <title>e-Yantra: Engneering a better tomorrow</title>
+
+        <meta name="description" content="e-Yantra Robotics Competition (eYRC) is a unique annual competition for undergraduate students in Engineering/ Science/ Polytechnic colleges." /> 
+        <meta name="description" content="e-Yantra Robotics Compeititon">
+        <meta name="description" content="Innovation Challenge">
+        <meta name="description" content="Robotics Compeititon">
+        <meta name="description" content="IIT Bombay">
+        <meta name="description" content="Robotics">
+        <meta name="description" content="Technical">
+        <meta name="author" content="e-Yantra">
+
+
         <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
