@@ -6,8 +6,8 @@
             <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6">
                 <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
                 <p>
-                  We will be back with a bang soon!!!<br/>
-                  Stay Tuned for our next version of <a href="https://portal.e-yantra.org/notify" target="_blank" class="text-blue-300 text-semibold">Robotics Competition (eYRC)</a> & <a href="https://eyic.e-yantra.org/notify" target="_blank" class="text-blue-300 text-semibold">Innovation Challenge (eYIC)</a>.
+                  Amazing News!!!🥳🥳<br/>
+                  e-Yantra Robotics Competition (eYRC 2022-23) registrations open! <a href="https://portal.e-yantra.org" target="_blank" class="text-blue-300 text-semibold">www.portal.e-yantra.org</a>. <br/>Register TODAY for Early Bird Discount!!!
                   <!-- Amazing News!!!🤩<br>
                   Grand Finale of Virtual Museum Competition 2022 is scheduled on June 25th, 2022.<br>To know more, please visit - <a class="text-blue-300" href="https://e-yantra.org/events">https://e-yantra.org/events</a>. Register Now! -->
                 </p>  
