@@ -7,7 +7,7 @@
                 <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
                 <p>
                   Amazing News!!!<br/>
-                  e-Yantra Robotics Competition (eYRC 2022-23) registrations open! <a href="https://portal.e-yantra.org" target="_blank" class="text-blue-300 text-semibold">www.portal.e-yantra.org</a>. <br/>Today is the last date for registration!!!
+                  To register for e-Yantra Innovation Challenge (eYIC 2022-23), click <a href="https://eyic.e-yantra.org" target="_blank" class="text-blue-300 text-semibold">https://eyic.e-yantra.org</a>. <br/>Register before September 25th, 2022!!!
                   <!-- Amazing News!!!🤩<br>
                   Grand Finale of Virtual Museum Competition 2022 is scheduled on June 25th, 2022.<br>To know more, please visit - <a class="text-blue-300" href="https://e-yantra.org/events">https://e-yantra.org/events</a>. Register Now! -->
                 </p>  
@@ -24,7 +24,7 @@
             <!--Right Col-->
             <div class="w-full sm:w-1/2 rounded-md transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 justify-center mt-2">
                 <a href="https://youtu.be/JUWw8GhBg2s" class="mb-4">
-                    <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/JUWw8GhBg2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/S_a2tH8sfrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </a>
             </div>
         </div>
