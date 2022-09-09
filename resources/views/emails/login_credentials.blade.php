@@ -1,6 +1,6 @@
 <div style="width:700px; padding: 10px; background-color:#E5E5E6">
 <div style="padding:20px 50px; margin:-10px -10px 10px -10px; background-color: #CCCCCC">
-	<a href="www.e-yantra.org/events"><img width="120" height="28" src="https://portal.e-yantra.org/img/eyantra_logo.png" alt="e-Yantra"/></a>
+	<a href="school.e-yantra.org"><img width="120" height="28" src="https://portal.e-yantra.org/img/eyantra_logo.png" alt="e-Yantra"/></a>
 </div>
 
 <div style="padding: 20px 50px; background-color: #FFFFFF ; font-family: Verdana, Geneva, sans-serif;font-size:14px;">
