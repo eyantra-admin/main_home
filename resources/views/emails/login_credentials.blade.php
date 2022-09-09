@@ -9,7 +9,7 @@
       Greetings from e-Yantra!<br/><br/>
       Thank you for showing your interest in attending the Two-Day workshop on Blender, Photogrammetry and Handling History!
       <br/><br/>    
-      The detailed schedule is available on the website - <a href="https://www.school.e-yantra.org/schedule" target="_blank">https://www.school.e-yantra.org/schedule</a>
+      The detailed schedule is available on the website - <a href="https://school.e-yantra.org/schedule" target="_blank">https://school.e-yantra.org/schedule</a>
       <br/>
 
       Please note the payment for workshop is online. Please refer to this video to do one time registration on our school website and complete the payment - <a href="https://www.youtube.com/watch?v=eXeTkV2FQho" target="_blank">Registration Reference Video</a> <br/><br/>

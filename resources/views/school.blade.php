@@ -27,9 +27,9 @@
           @endif
 
             <div class="mt-8 px-2 lg:px-8">
-              <h2 class="text-xl text-center text-gray-700">"History in 3D"<br>e-Yantra Two-Day Workshop on Blender, Photogrammetry and Handling History<span style="color: #EF4444;">Registration Form</span></h2>
+              <h2 class="text-xl text-center text-gray-700">"History in 3D"<br>e-Yantra Two-Day Workshop on Blender, Photogrammetry and Handling History<span style="color: #EF4444;"><br>Registration Form</span></h2>
               <hr class="my-2">
-              <p class="text-lg" style="padding-bottom: 20px; text-align: center;">Submit the registration form to be a part of the Grand Event!</p>
+              <p class="text-lg" style="padding-bottom: 20px; text-align: center;">Submit the registration form to be part of the workshop on 16th-17th September 2022!</p>
               <form id="msform" method="POST" action="/school_records">
                 @csrf
                <p class="py-8 font-bold">School Details</p>
