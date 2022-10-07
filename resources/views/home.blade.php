@@ -4,15 +4,15 @@
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
             <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6">
-                <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
+                <!-- <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
                 <p>
                   Amazing News!!!<br/>
                   To register for e-Yantra Innovation Challenge (eYIC 2022-23), click <a href="https://eyic.e-yantra.org" target="_blank" class="text-blue-300 text-semibold">https://eyic.e-yantra.org</a>. <br/>Register before September 25th, 2022!!!
-                  <!-- Amazing News!!!🤩<br>
-                  Grand Finale of Virtual Museum Competition 2022 is scheduled on June 25th, 2022.<br>To know more, please visit - <a class="text-blue-300" href="https://e-yantra.org/events">https://e-yantra.org/events</a>. Register Now! -->
+                  Amazing News!!!🤩<br>
+                  Grand Finale of Virtual Museum Competition 2022 is scheduled on June 25th, 2022.<br>To know more, please visit - <a class="text-blue-300" href="https://e-yantra.org/events">https://e-yantra.org/events</a>. Register Now!
                 </p>  
-                 <!-- <a href="https://portal.e-yantra.org/notify" target="_blank"><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a> -->
-                </div>
+                 <a href="https://portal.e-yantra.org/notify" target="_blank"><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a>
+                </div> -->
 
                 <p class="mt-4 ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
                 The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.</p>
