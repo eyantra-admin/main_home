@@ -4,16 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>e-Yantra: Engneering a better tomorrow</title>
+        <title>e-Yantra: Engineering a better tomorrow</title>
 
         <!-- Primary Meta Tags -->
-        <meta name="title" content="e-Yantra: Engneering a better tomorrow">
+        <meta name="title" content="e-Yantra: Engineering a better tomorrow">
         <meta name="description" content="e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay. The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.e-yantra.org/">
-        <meta property="og:title" content="e-Yantra: Engneering a better tomorrow">
+        <meta property="og:title" content="e-Yantra: Engineering a better tomorrow">
         <meta property="og:description" content="e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay. The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.">
         <meta property="og:image" content="https://www.e-yantra.org/img/logo.svg">
 
