@@ -47,6 +47,8 @@
             B.E/B.Tech in Computer Science or IT / MCA  / M.Tech CS/IT
         </p>
         <strong>Positions: 2</strong><br>
+        <p><strong>Advertisement Reference code:</strong> IRCC/EXT272/2022<br>
+        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4QUZCQ0NCNjNEMDMzREQmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
         <strong>Job Profile:</strong>        
         <ul class="list-disc ml-8">
             <li>Managing application software & web related activities.</li>
@@ -73,6 +75,8 @@
             <strong>Essential Qualification</strong> 
             B.E/B.Tech/ or ME/M.Tech or PG Diploma in Electronics/Electrical/ Instrumentation
         </p>
+        <p><strong>Advertisement Reference code:</strong> IRCC/EXT271/2022<br>
+        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4QUY4Njc1NzFGQzUzNUEmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
         <strong>Job Profile:</strong>        
         <ul class="list-disc ml-8">
             <li>Design and development of embedded systems platforms.</li>
@@ -102,7 +106,8 @@
             <strong>Essential Qualification</strong> 
             Master of Design / M.Tech in Mechanical
         </p>
-        <strong>Positions: 2</strong><br>
+        <p><strong>Advertisement Reference code:</strong> IRCC/EXT270/2022<br>
+        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4QUY1NDI5Mzg4MTEyQjUmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
         <strong>Job Profile:</strong>        
         <ul class="list-disc ml-8">
             <li>Product design and development of robotics system, graphic designing, media handling, content creation</li>
@@ -130,6 +135,8 @@
             Bachelor degree in any discipline, Public Relations, Journalism, Communications or a related field 
         </p>
         <strong>Positions: 2</strong><br>
+        <p><strong>Advertisement Reference code:</strong> IRCC/EXT269/2022<br>
+        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4OUQ5RTI4QTYwNjlDODUmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
         <strong>Job Profile:</strong>        
         <ul class="list-disc ml-8">
             <li>Develop PR campaigns and media relations strategies</li>
@@ -150,6 +157,8 @@
         <h3 class="text-xl">Project Research Associate</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
         <p><strong>Positions:</strong> 1</p>
+        <p><strong>Advertisement Reference code:</strong> IRCC/EXT268/2022<br>
+        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4OUQ3RDA3OTVFOTVDMzAmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
         <p>
             <strong>Essential Qualification</strong> 
             Bachelor degree in any discipline / MBA in marketing / Public Relations, Journalism, Communications or a related field  
