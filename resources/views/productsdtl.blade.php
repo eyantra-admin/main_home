@@ -16,7 +16,7 @@
           <tr>
             <td class="border border-gray-600 p-2 bg-gray-200 text-gray-800">Hardware Manual</td>
             <td class="border border-gray-600 p-2 bg-gray-200 text-gray-800 text-center">
-              <a href="/hardware_doc" class="bg-red-400 hover:bg-red-300 text-gray-800 text-sm font-bold py-2 px-2 rounded inline-flex items-center">
+              <a href="https://raw.githubusercontent.com/eyantra-products/eyfi-mega-docs/master/eYFi_Mega_Hardware_Manual.pdf" class="bg-red-400 hover:bg-red-300 text-gray-800 text-sm font-bold py-2 px-2 rounded inline-flex items-center" target="_blank">
               <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
               <span>Download</span>
               </a>
@@ -25,7 +25,7 @@
           <tr>
             <td class="border border-gray-600 p-2 bg-gray-200 text-gray-800">Software Manual</td>
             <td class="border border-gray-600 p-2 bg-gray-200 text-gray-800 text-center">
-              <a href="/software_doc" class="bg-red-400 hover:bg-red-300 text-gray-800 text-sm font-bold py-2 px-2 rounded inline-flex items-center">
+              <a href="https://raw.githubusercontent.com/eyantra-products/eyfi-mega-docs/master/eYFi_Mega_Software_Manual.pdf" class="bg-red-400 hover:bg-red-300 text-gray-800 text-sm font-bold py-2 px-2 rounded inline-flex items-center" target="_blank">
               <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
               <span>Download</span>
               </a>
