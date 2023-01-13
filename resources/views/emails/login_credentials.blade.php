@@ -16,12 +16,12 @@
 
       The Zoom meeting details are as follows -<br/><br/> 
       <b>
-      <a href="https://us02web.zoom.us/j/81538353651?pwd=bnk1T2NCdzJSMGxhU1VPNERNQTBzZz09" target="_blank">https://us02web.zoom.us/j/81538353651?pwd=bnk1T2NCdzJSMGxhU1VPNERNQTBzZz09</a> 
+      <a href="https://us02web.zoom.us/j/81538353651?pwd=bnk1T2NCdzJSMGxhU1VPNERNQTBzZz09" target="_blank">https://us02web.zoom.us/j/81538353651?pwd=bnk1T2NCdzJSMGxhU1VPNERNQTBzZz09</a> <br/>
       Meeting ID: 815 3835 3651<br/>
       Passcode: 596642<br/>
       Date & Time: January 28th, 2023 3PM to 5PM IST<br/><br/> 
       </b>
-      The Grand Finale of Virtual Museum Competition will also be live streamed on our YouTube channel at this link - https://youtu.be/ErsXcqmHmPw.<br/><br/> 
+      The Grand Finale of Virtual Museum Competition will also be live streamed on our YouTube channel at this link - <a href="https://www.youtube.com/eyantra/live">https://www.youtube.com/eyantra/live</a>.<br/><br/> 
 
       Looking forward to seeing you in the event online!<br/><br/> 
 

@@ -285,7 +285,7 @@ class HomeController extends Controller
             SchoolSahodaya::where('email',$feed->email)->update(['reg_complete' => 12]);
 
             $num_accs += 1;
-            return redirect()->route('school_present')->with('success', 'You have successfully registered for the workshop. We have sent the details to you via email!');
+            return redirect()->route('school_present')->with('success', 'You have successfully registered to attend the Grand Finale. We have sent the details to you via email!');
             }
 
         public function dashboard() {
