@@ -6,18 +6,28 @@
 <div style="padding: 20px 50px; background-color: #FFFFFF ; font-family: Verdana, Geneva, sans-serif;font-size:14px;">
 	<div class="content">
       Dear {{ $mailData['name'] }},<br/><br/>
+
       Greetings from e-Yantra!<br/><br/>
-      Thank you for showing your interest in attending the Two-Day workshop on Blender, Photogrammetry and Handling History!
+
+      Thank you for showing your interest in attending the Grand Finale of Virtual Museum Competition - Edition 2!
       <br/><br/>    
-      The detailed schedule is available on the website - <a href="https://school.e-yantra.org/schedule" target="_blank">https://school.e-yantra.org/schedule</a>
-      <br/>
 
-      Please note the payment for workshop is online. Please refer to this video to do one time registration on our school website and complete the payment - <a href="https://www.youtube.com/watch?v=eXeTkV2FQho" target="_blank">Registration Reference Video</a> <br/><br/>
+      The detailed schedule is available on the website - www.e-yantra.org/events<br/><br/> 
 
+      The Zoom meeting details are as follows -<br/><br/> 
+      <b>
+      <a href="https://us02web.zoom.us/j/81538353651?pwd=bnk1T2NCdzJSMGxhU1VPNERNQTBzZz09" target="_blank">https://us02web.zoom.us/j/81538353651?pwd=bnk1T2NCdzJSMGxhU1VPNERNQTBzZz09</a> 
+      Meeting ID: 815 3835 3651<br/>
+      Passcode: 596642<br/>
+      Date & Time: January 28th, 2023 3PM to 5PM IST<br/><br/> 
+      </b>
+      The Grand Finale of Virtual Museum Competition will also be live streamed on our YouTube channel at this link - https://youtu.be/ErsXcqmHmPw.<br/><br/> 
 
-      Looking forward to seeing you in the workshop !<br/><br/>
-      For any queries, you can write to us at <a href="mailto:school@e-yantra.org">school@e-yantra.org</a> or call us at +91 8939705489.<br/>
-      <br/>
+      Looking forward to seeing you in the event online!<br/><br/> 
+
+      For any queries, you can write to us at school@e-yantra.org or call us at +91 8939705489.
+      <br/><br/><br/> 
+
       With Regards,<br/>
       e-Yantra Team<br/>
   </div>
