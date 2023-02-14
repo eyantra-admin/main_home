@@ -142,3 +142,8 @@ Route::get("/playground", function(){
 });
 
 require __DIR__.'/auth.php';
+
+//e-yantra symposium
+Route::get('/eys', function(){
+    return view('eys/index');
+})->name('eys.home'); 
