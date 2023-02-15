@@ -77,8 +77,8 @@
         <main>
             <!-- hero -->
             <div class="relative pt-10 pb-20 sm:py-24">
-                <div class="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden bg-indigo-50">
-                    <!-- <img alt="" src="/_next/static/media/background.6c3571e0.jpg" decoding="async" data-nimg="1" style="color:transparent" class="absolute top-10 right-10 translate-y-[-10%] translate-x-[-55%] -scale-x-100 sm:left-1/2 sm:translate-y-[-6%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]" width="918" height="1495"> -->
+                <div class="absolute -left-3/4 lg:-left-48 md:-left-48 -top-20 -bottom-14 overflow-hidden bg-white">
+                   <img alt="" src="{!!asset('img/elogo.png')!!}" decoding="async" data-nimg="1" class="blur-lg" style="color:transparent" width="800" height="1024">
                     <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
                     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
                 </div>
@@ -296,11 +296,11 @@
                                         <p>Top prejects chose to showcase ...</p>
                                     </div>
                                 </li>
-                                <li class="flex mb-2 border-l-2 border-green-600 items-center bg-green-100 py-2">
-                                    <div class="w-1/4 font-mono text-gray-600 text-green-600 ml-4">
+                                <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
+                                    <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
                                         01:15 PM <br> 02:00 PM
                                     </div>
-                                    <div class="w-3/4 text-green-900">
+                                    <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Lunch</h3>
                                     </div>
                                 </li>
