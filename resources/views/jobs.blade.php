@@ -97,7 +97,6 @@
     <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Research Associate</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
-        <p><strong>Positions:</strong> 2</p>
         <p>
             <strong>Essential Qualification</strong> 
             Master of Design / M.Tech in Mechanical
