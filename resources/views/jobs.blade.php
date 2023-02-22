@@ -146,12 +146,10 @@
     </div> -->
 
     <!-- PR Person -->
-    <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
+    <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Research Associate</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
-        <p><strong>Positions:</strong> 1</p>
-        <p><strong>Advertisement Reference code:</strong> IRCC/EXT268/2022<br>
-        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4OUQ3RDA3OTVFOTVDMzAmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
+       
         <p>
             <strong>Essential Qualification</strong> 
             Bachelor degree in any discipline / MBA in marketing / Public Relations, Journalism, Communications or a related field  
@@ -163,7 +161,7 @@
             <li>Develop PR campaigns and media relations strategies</li>
             <li>Experience in graphics creation and video editing tools</li>
             <li>Write creative content for website</li>
-            <li>Manage promotions and Social Media handles</li>
+            <li>Product Marketing</li>
         </ul>    
         <strong>Essential Experience:</strong>
         <ul class="list-disc ml-8">
@@ -172,7 +170,7 @@
             <li>Knowledge of consumer marketing and ability to think both creatively and strategically</li>
             <li>Project and budget management skills</li>
         </ul>    
-    </div> -->
+    </div>
 
 </div>          
 @stop
