@@ -76,7 +76,7 @@
         <!-- main -->
         <main>
             <!-- hero -->
-            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(238.72deg, #EBFF00 0%, #8F00FF 100%), linear-gradient(64.82deg, #AD00FF 0%, #FF0000 100%), linear-gradient(65.03deg, #00FFFF 0%, #FF0000 99.79%), radial-gradient(67.08% 100% at 50% 100%, #FF00C7 0%, #50005E 100%), radial-gradient(100% 140% at 100% 0%, #5ED500 0%, #2200AA 100%); background-blend-mode: color-dodge, difference, lighten, color-dodge, normal;">
+            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">
                 <!-- <div class="absolute -left-3/4 lg:-left-48 md:-left-48 -top-20 -bottom-14 overflow-hidden bg-white">
                    <img alt="" src="{!!asset('img/elogo.png')!!}" decoding="async" data-nimg="1" class="blur-lg" style="color:transparent" width="800" height="1024">
                     <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
@@ -84,13 +84,13 @@
                 </div> -->
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                     <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-                        <h2 class="font-display text-3xl font-bold tracking-tighter text-red-400 sm:text-4xl">
+                        <h2 class="font-display text-3xl font-bold tracking-tighter text-yellow-200 sm:text-4xl">
                             e-Yantra Symposium
                         </h2>
-                        <h1 class="font-display text-5xl font-bold tracking-tighter text-red-600 sm:text-7xl mt-2">
+                        <h1 class="font-display text-5xl font-bold tracking-tighter text-yellow-300 sm:text-7xl mt-2">
                             Bridging the gap between design and engineering
                         </h1>
-                        <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-red-900 text-justify">
+                        <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-white text-justify">
                             <p>
                                 The e-Yantra Symposium is a national-level event that brings together researchers, educators, industry experts, and students from different parts of the country to discuss and explore innovative approaches to embedded system, design thinking, robotics and automation.
                             </p>
@@ -105,20 +105,20 @@
 
                         <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                             <div>
-                                <dt class="font-mono text-sm text-red-600">Speakers</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-red-900">5</dd>
+                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Speakers</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">5</dd>
                             </div>
                             <div>
-                                <dt class="font-mono text-sm text-red-600">Projects Exibiting</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-red-900">15</dd>
+                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Projects Exibiting</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">15</dd>
                             </div>
                             <div>
-                                <dt class="font-mono text-sm text-red-600">Venue</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-red-900">VMCC</dd>
+                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Venue</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">VMCC</dd>
                             </div>
                             <div>
-                                <dt class="font-mono text-sm text-red-600">Location</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-red-900">IIT Bombay, Mumbai</dd>
+                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Location</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">IIT Bombay, Mumbai</dd>
                             </div>
                         </dl>
                     </div>
@@ -126,38 +126,38 @@
             </div>
 
             <!-- speaker -->
-            <section class="py-20 sm:py-32" style="background: linear-gradient(45deg, #C7F5FE 10%, #C7F5FE 40%, #FCC8F8 40%, #FCC8F8 60%, #EAB4F8 60%, #EAB4F8 65%, #F3F798 65%, #F3F798 90%);">
+            <section class="py-20 sm:py-32" style="background: radial-gradient(100% 225% at 100% 0%, #FAFF00 0%, #000000 100%), linear-gradient(235deg, #FF7A00 0%, #000000 100%), linear-gradient(20deg, #241E92 0%, #241E92 30%, #5432D3 calc(30% + 1px), #5432D3 35%, #7B6CF6 calc(35% + 1px), #7B6CF6 50%, #E5A5FF calc(50% + 1px), #E5A5FF 100%), linear-gradient(120deg, #110133 0%, #110133 40%, #00918E calc(40% + 1px), #00918E 60%, #4DD599 calc(60% + 1px), #4DD599 70%, #FFDC34 calc(70% + 1px), #FFDC34 100%); background-blend-mode: overlay, hard-light, overlay, normal;">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
-                        <h2 class="font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-5xl"> 
-                            Project Exibition & Speakers 
+                        <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl"> 
+                            Speakers & Panellists
                         </h2>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-red-900">
-                            Best from enginnering colleges showcasing their Projects. Come join us to cheers them....
+                        <p class="mt-4 font-display text-2xl tracking-tight text-white">
+                            Interesting talks and panel discussion with eminent speakers
                         </p>
                     </div>
 
                     <!-- days -->
                     <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                         <div>
-                            <dt class="font-mono text-sm text-red-600">
+                            <dt class="font-mono text-sm text-yellow-200">
                                 <span class="font-bold">Day 1</span> <br>
                                 Opening Day & eYIC Project Exibition
                             </dt>
-                            <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-red-900">
-                                <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-red-900">
-                                April 5 <sup>th</sup>
+                            <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
+                                <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
+                                April 5<sup>th</sup>
                                 </time>
                             </dd>
                         </div>
                         <div>
-                            <dt class="font-mono text-sm text-red-600">
+                            <dt class="font-mono text-sm text-yellow-200">
                                 <span class="font-bold">Day 2</span><br>
-                                Speakers, Workshops & Pannel Discussion
+                                Keynote, Workshops & Pannel Discussion
                             </dt>
-                            <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-red-900">
-                                <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-red-900">
-                                April 6 <sup>th</sup>
+                            <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
+                                <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
+                                April 6<sup>th</sup>
                             </time>
                             </dd>
                         </div>                        
@@ -165,7 +165,7 @@
 
                     <!-- speakers photo -->
                     <div class="mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mt-8">
-                        <div class="bg-white rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -176,7 +176,7 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-white rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -187,7 +187,7 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-white rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -198,7 +198,7 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-white rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -209,14 +209,14 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-white rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Prof. Devdip Puryakayastha
+                                    Dr. Anuradha Narasimhan
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    MoE
+                                    DSSE, IIT Bombay
                                 </p>
                             </div>                            
                         </div>
@@ -236,13 +236,13 @@
                 </div>                  
             </section><!-- end -->    
             <!-- schedule -->
-            <section class="py-20 sm:py-32" style="background: linear-gradient(40deg, #155263 9%, #155263 43%, #FF6F3C calc(43% + 1px), #FF6F3C 52%, #FF9A3C calc(52% + 1px), #FF9A3C 80%, #FFC93C calc(80% + 1px), #FFC93C 100%);">
+            <section class="py-20 sm:py-32" style="background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%); background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                     <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-                        <h2 class="font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-5xl">
+                        <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
                             Two day schedule
                         </h2>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-red-900">
+                        <p class="mt-4 font-display text-2xl tracking-tight text-white">
                             We will make sure you will not get bore during this two days. It's packed with fun activities which motivates you to Innovate. Create. Design.
                         </p>
                     </div>
