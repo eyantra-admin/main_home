@@ -7,7 +7,7 @@
         <p class="text-xl text-justify">
             e-Yantra is looking to fill the following positions,
         </p>           
-        <p class="text-lg text-red-500 text-justify">If interested, please send your resume to <a href="mailto:placements@e-yantra.org" class="text-blue-700">placements@e-yantra.org</a></p>
+        <p class="text-lg text-red-500 text-justify">If interested, please fill this form <a href="https://forms.gle/q39s1Vxoj41Bxez37" class="text-blue-700">Placement Opportunity at e-Yantra</a></p>
     </div>
 
     <!-- computer/IT -->
