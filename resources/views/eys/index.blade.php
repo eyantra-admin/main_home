@@ -126,7 +126,7 @@
             </div>
 
             <!-- speaker -->
-            <section class="py-20 sm:py-32" style="background: radial-gradient(100% 225% at 100% 0%, #FAFF00 0%, #000000 100%), linear-gradient(235deg, #FF7A00 0%, #000000 100%), linear-gradient(20deg, #241E92 0%, #241E92 30%, #5432D3 calc(30% + 1px), #5432D3 35%, #7B6CF6 calc(35% + 1px), #7B6CF6 50%, #E5A5FF calc(50% + 1px), #E5A5FF 100%), linear-gradient(120deg, #110133 0%, #110133 40%, #00918E calc(40% + 1px), #00918E 60%, #4DD599 calc(60% + 1px), #4DD599 70%, #FFDC34 calc(70% + 1px), #FFDC34 100%); background-blend-mode: overlay, hard-light, overlay, normal;">
+            <section class="py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl"> 
@@ -165,7 +165,7 @@
 
                     <!-- speakers photo -->
                     <div class="mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mt-8">
-                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -176,7 +176,7 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -187,7 +187,7 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -198,7 +198,7 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -209,7 +209,7 @@
                                 </p>
                             </div>                            
                         </div>
-                        <div class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
