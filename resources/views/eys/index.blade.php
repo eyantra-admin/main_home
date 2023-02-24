@@ -142,7 +142,7 @@
                         <div>
                             <dt class="font-mono text-sm text-yellow-200">
                                 <span class="font-bold">Day 1</span> <br>
-                                Opening Day & eYIC Project Exibition
+                                Design Workshop & eYIC Project Exibition
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
@@ -153,7 +153,7 @@
                         <div>
                             <dt class="font-mono text-sm text-yellow-200">
                                 <span class="font-bold">Day 2</span><br>
-                                Keynote, Workshops & Pannel Discussion
+                                Keynote, Panel Discussion
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
@@ -167,7 +167,7 @@
                     <div class="mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mt-8">
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
+                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Prof. Kavi Arya
                                 </h3>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
+                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Sudhanshu Mani
                                 </h3>
@@ -189,34 +189,34 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
+                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Dinesh_Singh.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Prof. Dinesh Singh
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    PI, e-Yantra
+                                    Chancellor, K.R. Mangalam University
                                 </p>
                             </div>                            
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
+                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Vivek Pawar
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Founder
+                                    Founder, Sankalp Semiconductor
                                 </p>
                             </div>                            
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
+                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Gaurav_Raheja.png') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Dr. Anuradha Narasimhan
+                                    Prof. Gaurav Raheja
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    DSSE, IIT Bombay
+                                   IIT Roorkee 
                                 </p>
                             </div>                            
                         </div>
@@ -243,7 +243,7 @@
                             Two day schedule
                         </h2>
                         <p class="mt-4 font-display text-2xl tracking-tight text-white">
-                            We will make sure you will not get bore during this two days. It's packed with fun activities which motivates you to Innovate. Create. Design.
+                            We will make sure you will not get bored during this two days. It's packed with fun activities which motivates you to Innovate. Create. Design.
                         </p>
                     </div>
                 </div>
@@ -259,7 +259,7 @@
                             <ul>
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
                                     <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
-                                        09:00 AM <br> 10:00 AM
+                                        09:30 AM <br> 10:00 AM
                                     </div>
                                     <div class="w-3/4 text-red-900">Registration and Breakfast</div>
                                 </li>
@@ -269,6 +269,7 @@
                                         10:00 AM <br> 10:30 AM
                                     </div>
                                     <div class="w-3/4 text-red-900">
+                                        <p><span class="font-semibold">Introduction:</span> Prof. Kavi Arya, e-Yantra project</p> 
                                         <h3 class="font-semibold">Inauguration of the event</h3>
                                         <p>Address: Director (IITB) + Head (CSE)</p>
                                     </div>
@@ -276,25 +277,24 @@
 
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
                                     <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
-                                        10:30 AM <br> 11:15 AM
+                                        10:30 AM <br> 11:30 AM
                                     </div>
-                                    <div class="w-3/4 text-red-900">
-                                        <p><span class="font-semibold">Introduction:</span> Prof. Kavi Arya, e-Yantra project</p> 
-                                        <p><span class="font-semibold">Address:</span> Introduction to Inclusivity, Prof. Gaurav Raheja</p>   
+                                    <div class="w-3/4 text-red-900">                                        
+                                        <p>Introduction to Inclusivity By Prof. Gaurav Raheja</p>   
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
                                     <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
-                                        11:15 AM <br> 01:00 PM
+                                        11:30 AM <br> 01:00 PM
                                     </div>
                                     <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">eYIC Exhibition</h3>
-                                        <p>Top prejects chose to showcase ...</p>
+                                        <p>Top projects chosen to be showcased</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
                                     <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
-                                        01:15 PM <br> 02:00 PM
+                                        01:00 PM <br> 02:00 PM
                                     </div>
                                     <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Lunch</h3>
@@ -306,7 +306,7 @@
                                     </div>
                                     <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">eYIC Exhibition</h3>
-                                        <p>Top prejects chose to showcase ...</p>
+                                        <p>Top projects chosen to be showcased</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
@@ -317,7 +317,6 @@
                                         <ul class="list-disc">
                                             Workshop/Event by DesignUp
                                             <li class="ml-8">Designers and Engineers Conclave</li>
-                                            <li class="ml-8">Team to decide the event</li>
                                         </ul>
                                     </div>
                                 </li>
@@ -331,16 +330,15 @@
                                 </li>
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
                                     <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
-                                        05:30 PM <br> 07:00 PM
+                                        05:30 PM <br> 06:30 PM
                                     </div>
                                     <div class="w-3/4 text-red-900">
                                         <ul class="list-disc">
                                             Workshop/Event by DesignUp
                                             <li class="ml-8">Designers and Engineers Conclave</li>
-                                            <li class="ml-8">Team to decide the event</li>
                                         </ul>
                                     </div>
-                                </li>
+                                </li>                               
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
                                     <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
                                         07:00 PM <br> Onwards
@@ -365,22 +363,13 @@
                                     </div>
                                     <div class="w-3/4 text-red-900">Registration and Breakfast</div>
                                 </li>
-
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
                                     <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
-                                        10:00 AM <br> 10:15 AM
+                                        10:00 AM <br> 11:00 AM
                                     </div>
                                     <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Welcome</h3>
                                         <p>Address: Associate Dean R&D, IIT Bombay</p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
-                                    <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
-                                        10:15 AM <br> 11:00 AM
-                                    </div>
-                                    <div class="w-3/4 text-red-900">
                                         <p><span class="font-semibold">e-Yantra Status Report</span> </p> 
                                         Prof. Kavi Arya   
                                     </div>
@@ -401,9 +390,6 @@
                                     <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Panel Discussion</h3>
                                         <p>Role of e-Yantra Labs in Industry/Academia interaction</p>
-                                        <p>Discussion between Academics and Industry with the audience.
-                                        Panellists: Prof. Dinesh Singh, Vivek Pawar, 
-                                        Prof. Devdip Puryakayastha, (MoE person)</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
@@ -421,9 +407,7 @@
                                     </div>
                                     <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Innovative Projects from eLSI</h3>
-                                        <p>eLSI Presentation by Top 5 Colleges
-                                            Speakers: Shubha Pandit, etc. (based on survey)
-                                        </p>
+                                        <p>eLSI Presentation by Top 5 Colleges</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
