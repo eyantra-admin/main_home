@@ -7,7 +7,7 @@
         <p class="text-xl text-justify">
             e-Yantra is looking to fill the following positions,
         </p>           
-        <p class="text-lg text-red-500 text-justify">If you're interested, please apply at the respective link available in the Job Description</p>
+        <p class="text-lg text-red-500 text-justify">If interested, please fill this form <a href="https://forms.gle/q39s1Vxoj41Bxez37" target="_blank" class="text-blue-700"><strong>Placement Opportunity at e-Yantra</a></strong></p>
     </div>
 
     <!-- computer/IT -->
@@ -19,9 +19,7 @@
             <strong>Essential Qualification</strong> 
             B.E/B.Tech in Computer Science or IT / MCA  / M.Tech CS/IT
         </p>
-        <p><strong>Positions:</strong> 2</p>
-        <p><strong>Advertisement Reference code:</strong> IRCC/EXT273/2022<br>
-        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4QUZGRkE5NjE3RkQ0QTQmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
+        
         <strong>Job Profile:</strong>        
         <ul class="list-disc ml-8">
             <li>Managing application software & web related activities.</li>
@@ -38,7 +36,7 @@
     </div>
 
     <!-- Experienced computer/IT -->
-    <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
+    <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Software Engineer</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
         <p><strong>Positions:</strong> 2</p>
@@ -64,19 +62,17 @@
             <li>Should possess excellent analytical, logical skills and communication skills</li>
             <li>Knowledge of Linux platform and Open Source technologies, systems administration & network administration</li>
         </ul>    
-    </div>
+    </div> -->
 
     <!-- ET -->
     <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Sr. Project Technical Assistant (Robotics/ Embedded Systems)</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
-        <p><strong>Positions:</strong> 10</p>
         <p>
             <strong>Essential Qualification</strong> 
             B.E/B.Tech/ or ME/M.Tech or PG Diploma in Electronics/Electrical/ Instrumentation
         </p>
-        <p><strong>Advertisement Reference code:</strong> IRCC/EXT271/2022<br>
-        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4QUY4Njc1NzFGQzUzNUEmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
+        
         <strong>Job Profile:</strong>        
         <ul class="list-disc ml-8">
             <li>Design and development of embedded systems platforms.</li>
@@ -90,7 +86,7 @@
             </li>
             <li>
                 Applicants must be familiar with Electronic hardware design, Image processing,
-                Robotic Operating System (ROS), Machine Learning etc. Applicants who have
+                Robotic Operating System (ROS) etc. Applicants who have
                 performed well in robotics competitions will be given preference.</li> 
             <li>Should possess excellent analytical, logical skills and communication skills.</li>
                 
@@ -101,13 +97,10 @@
     <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Research Associate</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
-        <p><strong>Positions:</strong> 2</p>
         <p>
             <strong>Essential Qualification</strong> 
             Master of Design / M.Tech in Mechanical
         </p>
-        <p><strong>Advertisement Reference code:</strong> IRCC/EXT270/2022<br>
-        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4QUY1NDI5Mzg4MTEyQjUmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
         <strong>Job Profile:</strong>        
         <ul class="list-disc ml-8">
             <li>Product design and development of robotics system, graphic designing, media handling, content creation</li>
@@ -126,7 +119,7 @@
     </div>
 
     <!-- Project Assistant - eLSI -->
-    <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
+    <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Assistant</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
         <p><strong>Positions:</strong> 2</p>
@@ -150,15 +143,13 @@
             <li>Knowledge of consumer marketing and ability to think both creatively and strategically</li>
             <li>Project and budget management skills</li>
         </ul>    
-    </div>
+    </div> -->
 
     <!-- PR Person -->
     <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Research Associate</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
-        <p><strong>Positions:</strong> 1</p>
-        <p><strong>Advertisement Reference code:</strong> IRCC/EXT268/2022<br>
-        <a href="https://ep.iitb.ac.in/sap/bc/webdynpro/sap/hrrcf_a_posting_apply?PARAM=cG9zdF9pbnN0X2d1aWQ9MDA1MDU2QUU5RkI4MUVFRDk4OUQ3RDA3OTVFOTVDMzAmY2FuZF90eXBlPUVYVA%3d%3d&sap-theme=sap_corbu&sap-client=300&sap-language=EN#" target="_blank" class="text-blue-500 text-lg font-semibold">Click here to Apply</a> </p>
+       
         <p>
             <strong>Essential Qualification</strong> 
             Bachelor degree in any discipline / MBA in marketing / Public Relations, Journalism, Communications or a related field  
@@ -170,7 +161,7 @@
             <li>Develop PR campaigns and media relations strategies</li>
             <li>Experience in graphics creation and video editing tools</li>
             <li>Write creative content for website</li>
-            <li>Manage promotions and Social Media handles</li>
+            <li>Product Marketing</li>
         </ul>    
         <strong>Essential Experience:</strong>
         <ul class="list-disc ml-8">
