@@ -76,32 +76,28 @@
         <!-- main -->
         <main>
             <!-- hero -->
-            <div class="relative pt-10 pb-20 sm:py-24">
-                <div class="absolute -left-3/4 lg:-left-48 md:-left-48 -top-20 -bottom-14 overflow-hidden bg-white">
+            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(238.72deg, #EBFF00 0%, #8F00FF 100%), linear-gradient(64.82deg, #AD00FF 0%, #FF0000 100%), linear-gradient(65.03deg, #00FFFF 0%, #FF0000 99.79%), radial-gradient(67.08% 100% at 50% 100%, #FF00C7 0%, #50005E 100%), radial-gradient(100% 140% at 100% 0%, #5ED500 0%, #2200AA 100%); background-blend-mode: color-dodge, difference, lighten, color-dodge, normal;">
+                <!-- <div class="absolute -left-3/4 lg:-left-48 md:-left-48 -top-20 -bottom-14 overflow-hidden bg-white">
                    <img alt="" src="{!!asset('img/elogo.png')!!}" decoding="async" data-nimg="1" class="blur-lg" style="color:transparent" width="800" height="1024">
                     <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
                     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
-                </div>
+                </div> -->
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                     <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
                         <h2 class="font-display text-3xl font-bold tracking-tighter text-red-400 sm:text-4xl">
                             e-Yantra Symposium
                         </h2>
-                        <h1 class="font-display text-5xl font-bold tracking-tighter text-red-600 sm:text-7xl">
+                        <h1 class="font-display text-5xl font-bold tracking-tighter text-red-600 sm:text-7xl mt-2">
                             Bridging the gap between design and engineering
                         </h1>
-                        <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-red-900">
-                            <p>The e-Yantra Symposium is a celebration of innovation activities around the family of e-Yantra Labs across the country.
+                        <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-red-900 text-justify">
+                            <p>
+                                The e-Yantra Symposium is a national-level event that brings together researchers, educators, industry experts, and students from different parts of the country to discuss and explore innovative approaches to embedded system, design thinking, robotics and automation.
                             </p>
-                            <ul class="list-disc">
-                                The Symposium is a platform for our stakeholders to:
-                                <li class="ml-6 mt-4">Network with teachers and students  from colleges having e-Yantra labs,</li>
-                                <li class="ml-6">Share best practices</li>
-                                <li class="ml-6">Learn how best to make use of e-Yantra labs (and benchmark oneself  against the other 440+ labs in the e-Yantra universe)</li>
-                                <li class="ml-6">Most importantly to be inspired to take your labs to the next level</li>
-                            </ul>
-                            <p>This year at symposium you’ll learn to Innovate. Create. Design through top design speakers and eYIC projets exibition.
+                            <p>
+                                The event includes Design thinking activities/workshops, keynote speeches, panel discussions, and paper presentations from experts in the field, and features exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
                             </p>
+                            <p>The e-Yantra Symposium provides an excellent platform for networking and exchanging ideas with peers and experts from various fields.</p>
                         </div>
                         
                         <a class="inline-flex justify-center rounded-2xl bg-blue-600 p-4 text-base font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70 mt-10 w-full sm:hidden" href="/#">Book Your Seat
@@ -130,7 +126,7 @@
             </div>
 
             <!-- speaker -->
-            <section class="py-20 sm:py-32">
+            <section class="py-20 sm:py-32" style="background: linear-gradient(45deg, #C7F5FE 10%, #C7F5FE 40%, #FCC8F8 40%, #FCC8F8 60%, #EAB4F8 60%, #EAB4F8 65%, #F3F798 65%, #F3F798 90%);">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-5xl"> 
@@ -240,7 +236,7 @@
                 </div>                  
             </section><!-- end -->    
             <!-- schedule -->
-            <section class="py-20 sm:py-32">
+            <section class="py-20 sm:py-32" style="background: linear-gradient(40deg, #155263 9%, #155263 43%, #FF6F3C calc(43% + 1px), #FF6F3C 52%, #FF9A3C calc(52% + 1px), #FF9A3C 80%, #FFC93C calc(80% + 1px), #FFC93C 100%);">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                     <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-red-600 sm:text-5xl">
@@ -252,7 +248,7 @@
                     </div>
                 </div>
 
-                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative mt-4">
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                         <!-- day 1 -->
                         <div class="p-4 bg-white shadow rounded-lg">
@@ -325,11 +321,11 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="flex mb-2 border-l-2 border-green-600 items-center bg-green-100 py-2">
-                                    <div class="w-1/4 font-mono text-gray-600 text-green-600 ml-4">
+                                <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
+                                    <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
                                         05:00 PM <br> 05:30 PM
                                     </div>
-                                    <div class="w-3/4 text-green-900">
+                                    <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Tea Break</h3>
                                     </div>
                                 </li>
@@ -345,11 +341,11 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="flex mb-2 border-l-2 border-green-600 items-center bg-green-100 py-2">
-                                    <div class="w-1/4 font-mono text-gray-600 text-green-600 ml-4">
+                                <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
+                                    <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
                                         07:00 PM <br> Onwards
                                     </div>
-                                    <div class="w-3/4 text-green-900">
+                                    <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Dinner</h3>
                                     </div>
                                 </li>
@@ -410,11 +406,11 @@
                                         Prof. Devdip Puryakayastha, (MoE person)</p>
                                     </div>
                                 </li>
-                                <li class="flex mb-2 border-l-2 border-green-600 items-center bg-green-100 py-2">
-                                    <div class="w-1/4 font-mono text-gray-600 text-green-600 ml-4">
+                                <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
+                                    <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
                                         01:00 PM <br> 02:00 PM
                                     </div>
-                                    <div class="w-3/4 text-green-900">
+                                    <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">Lunch</h3>
                                         <p>(Alongwith Poster Presentation and Exhibition)</p>
                                     </div>
@@ -446,11 +442,11 @@
                                         <h3 class="font-semibold">Vote of Thanks</h3>
                                     </div>
                                 </li>
-                                <li class="flex mb-2 border-l-2 border-green-600 items-center bg-green-100 py-2">
-                                    <div class="w-1/4 font-mono text-gray-600 text-green-600 ml-4">
+                                <li class="flex mb-2 border-l-2 border-red-600 items-center bg-red-100 py-2">
+                                    <div class="w-1/4 font-mono text-gray-600 text-red-600 ml-4">
                                         04:00 PM <br> Onwards
                                     </div>
-                                    <div class="w-3/4 text-green-900">
+                                    <div class="w-3/4 text-red-900">
                                         <h3 class="font-semibold">High Tea</h3>
                                     </div>
                                 </li>                                
