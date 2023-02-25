@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>e-Yantra Symposium-2023</title>
+        <title>e-Yantra Symposium 2023</title>
 
         <!-- Primary Meta Tags -->
         <meta name="title" content="e-Yantra: Engineering a better tomorrow">
@@ -47,7 +47,7 @@
     </head>
     <body>
         <!-- header -->
-        <header class="relative z-50 pb-11 lg:pt-11">
+        <header class="relative z-50 pb-4 lg:pt-4">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
                 <div class="mt-10 lg:mt-0 lg:grow lg:basis-0">
                     <div class="flex items-center flex-shrink-0 text-gray-600 mr-6">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
 
-                <div class="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-red-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
+                <div class="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-lg text-red-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
                     <div class="mx-auto flex items-center gap-4 px-4">
                         <p><time datetime="2022-04-04">05</time>-<time datetime="2022-04-06">06 of April, 2023</time></p>
                         <svg aria-hidden="true" viewBox="0 0 6 6" class="h-1.5 w-1.5 overflow-visible fill-current stroke-current">
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-                    <a class="inline-flex justify-center rounded-2xl bg-red-600 p-4 text-base font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="/#">Book Your Seat</a>
+                    <a class="inline-flex justify-center rounded-2xl bg-red-600 p-4 text-base font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
                 </div>
             </div>
         </header>
@@ -88,19 +88,19 @@
                             e-Yantra Symposium
                         </h2>
                         <h1 class="font-display text-5xl font-bold tracking-tighter text-yellow-300 sm:text-7xl mt-2">
-                            Bridging the gap between design and engineering
+                            Bridging the gap between Design and Engineering
                         </h1>
                         <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-white text-justify">
                             <p>
-                                The e-Yantra Symposium is a national-level event that brings together researchers, educators, industry experts, and students from different parts of the country to discuss and explore innovative approaches to embedded system, design thinking, robotics and automation.
+                                The e-Yantra Symposium is a national-level event that brings together researchers, educators, industry experts, and students from different parts of the country to discuss and explore innovative approaches to embedded systems, design thinking, robotics and automation.
                             </p>
                             <p>
-                                The event includes Design thinking activities/workshops, keynote speeches, panel discussions, and paper presentations from experts in the field, and features exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
+                                The event includes design thinking activities/workshops, keynote, panel discussion from experts in the field and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
                             </p>
                             <p>The e-Yantra Symposium provides an excellent platform for networking and exchanging ideas with peers and experts from various fields.</p>
                         </div>
 
-                        <a class="inline-flex justify-center rounded-2xl bg-blue-600 p-4 text-base font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70 mt-10 w-full sm:hidden" href="/#">Book Your Seat
+                        <a class="inline-flex justify-center rounded-2xl bg-blue-600 p-4 text-base font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70 mt-10 w-full sm:hidden" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat
                         </a>
 
                         <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
@@ -109,7 +109,7 @@
                                 <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">5</dd>
                             </div>
                             <div>
-                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Projects Exibiting</dt>
+                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Projects Exhibiting</dt>
                                 <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">15</dd>
                             </div>
                             <div>
@@ -183,7 +183,7 @@
                                     Sudhanshu Mani
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Vande Bharat
+                                    Innovator of Vande Bharat Express
                                 </p>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <ul class="list-disc">
-                                            Workshop/Event by DesignUp
+                                            DesignUp: Talks and Workshop
                                             <li class="ml-8">Designers and Engineers Conclave</li>
                                         </ul>
                                     </div>
@@ -334,7 +334,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <ul class="list-disc">
-                                            Workshop/Event by DesignUp
+                                            DesignUp: Talks and Workshop
                                             <li class="ml-8">Designers and Engineers Conclave</li>
                                         </ul>
                                     </div>
@@ -436,6 +436,9 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="mx-auto max-w-4xl">
+                        <a class="flex justify-center rounded-2xl bg-red-600 p-4 text-4xl font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
                     </div>
                 </div>
             </section>
