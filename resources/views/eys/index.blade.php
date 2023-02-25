@@ -58,12 +58,19 @@
                 </div>
 
                 <div class="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-lg text-red-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
-                    <div class="mx-auto flex items-center gap-4 px-4">
-                        <p><time datetime="2022-04-04">05</time>-<time datetime="2022-04-06">06 of April, 2023</time></p>
+                    <div class="mx-auto flex flex-cols items-center gap-4 px-4">
+                        <div class="text-center">
+                            <p>
+                                <time datetime="2022-04-04">05</time>-<time datetime="2022-04-06">06 of April, 2023</time>
+                            </p>
+                            <p>IIT Bombay, Mumbai</p>
+                        </div>
+                        <!-- <div>
                         <svg aria-hidden="true" viewBox="0 0 6 6" class="h-1.5 w-1.5 overflow-visible fill-current stroke-current">
                             <path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round"></path>
                         </svg>
                         <p>IIT Bombay, Mumbai</p>
+                        </div> -->
                     </div>
                 </div>
                 <div class="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
@@ -84,10 +91,10 @@
                 </div> -->
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                     <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-                        <h2 class="font-display text-3xl font-bold tracking-tighter text-yellow-200 sm:text-4xl">
+                        <h2 class="font-display text-3xl font-bold tracking-tighter text-gray-500 lg:text-yellow-200  md:text-yellow-200 sm:text-4xl">
                             e-Yantra Symposium
                         </h2>
-                        <h1 class="font-display text-5xl font-bold tracking-tighter text-yellow-300 sm:text-7xl mt-2">
+                        <h1 class="font-display text-5xl font-bold tracking-tighter text-gray-700 lg:text-yellow-300  md:text-yellow-300 sm:text-7xl mt-2">
                             Bridging the gap between Design and Engineering
                         </h1>
                         <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-white text-justify">
@@ -106,7 +113,7 @@
                         <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                             <div>
                                 <dt class="font-mono text-xl text-yellow-300 font-semibold">Speakers</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">5</dd>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">06</dd>
                             </div>
                             <div>
                                 <dt class="font-mono text-xl text-yellow-300 font-semibold">Projects Exhibiting</dt>
@@ -125,12 +132,31 @@
                 </div>
             </div>
 
+            <!-- workshops -->
+            <section class="py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="mx-auto max-w-2xl lg:mx-0">
+                        <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
+                            Design Workshop 
+                        </h2>
+                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                            In this workshop, we will explore the fundamental principles of design and how they can be applied to engineering projects. Through hands-on activities, we will learn how to ideate, prototype, and refine our designs to create innovative and functional solutions. Whether you are an experienced engineer or a curious beginner, this workshop will provide you with valuable skills and insights to take your designs to the next level. Let's get creative!
+                        </p>
+                        <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
+                        <div class="mx-auto max-w-4xl mt-8">
+                            <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
+                        </div>
+                    </div>  
+                                      
+                </div>
+            </section><!-- end -->
+
             <!-- speaker -->
             <section class="py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
-                            Speakers & Panellists
+                            Speakers & Panelists
                         </h2>
                         <p class="mt-4 font-display text-2xl tracking-tight text-white">
                             Interesting talks and panel discussion with eminent speakers
@@ -140,9 +166,9 @@
                     <!-- days -->
                     <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                         <div>
-                            <dt class="font-mono text-sm text-yellow-200">
+                            <dt class="font-mono text-lg text-yellow-200">
                                 <span class="font-bold">Day 1</span> <br>
-                                Design Workshop & eYIC Project Exibition
+                                Design Workshop, Project Exhibition
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
@@ -151,9 +177,9 @@
                             </dd>
                         </div>
                         <div>
-                            <dt class="font-mono text-sm text-yellow-200">
+                            <dt class="font-mono text-lg text-yellow-200">
                                 <span class="font-bold">Day 2</span><br>
-                                Keynote, Panel Discussion
+                                Keynote Talks, Panel Discussion
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
@@ -164,10 +190,10 @@
                     </dl>
 
                     <!-- speakers photo -->
-                    <div class="mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mt-8">
+                    <div class="mt-6 grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-4 mt-8">
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Prof. Kavi Arya
                                 </h3>
@@ -178,7 +204,7 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Sudhanshu Mani
                                 </h3>
@@ -189,7 +215,7 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Dinesh_Singh.jpg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Dinesh_Singh.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Prof. Dinesh Singh
                                 </h3>
@@ -200,7 +226,7 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Vivek Pawar
                                 </h3>
@@ -211,7 +237,7 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="{!! asset('img/speakers/Gaurav_Raheja.png') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Gaurav_Raheja.png') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
                                     Prof. Gaurav Raheja
                                 </h3>
@@ -220,30 +246,31 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="bg-white rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-32 w-32 rounded-full mx-auto" src="https://via.placeholder.com/150">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/b_ravi.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Prof. Kavi Arya
+                                    Prof. B. Ravi
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    PI, e-Yantra
+                                    IIT Bombay
                                 </p>
                             </div>
-                        </div> -->
+                        </div>
                         <!-- Add more team members as needed -->
                     </div>
                 </div>
             </section><!-- end -->
+
             <!-- schedule -->
             <section class="py-20 sm:py-32" style="background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%); background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                     <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
-                            Two day schedule
+                            Event Schedule
                         </h2>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white">
-                            We will make sure you will not get bored during this two days. It's packed with fun activities which motivates you to Innovate. Create. Design.
+                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                            We have planned exciting activities and sessions for the event. From informative keynote to engaging workshops, our schedule is designed to provide you with a memorable and enriching experience.
                         </p>
                     </div>
                 </div>
@@ -269,9 +296,8 @@
                                         10:00 AM <br> 10:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <p><span class="font-semibold">Introduction:</span> Prof. Kavi Arya, e-Yantra project</p>
                                         <h3 class="font-semibold">Inauguration of the event</h3>
-                                        <p>Address: Director (IITB) + Head (CSE)</p>
+                                        <p>Address: Director (IIT Bombay), HoD (CSE Dept.)</p>
                                     </div>
                                 </li>
 
@@ -280,7 +306,10 @@
                                         10:30 AM <br> 11:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <p>Introduction to Inclusivity By Prof. Gaurav Raheja</p>
+                                        <p>
+                                            <span class="font-bold">Introduction to Inclusivity</span> 
+                                            <br>Talk by Prof. Gaurav Raheja
+                                        </p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -379,8 +408,8 @@
                                         11:00 AM <br> 12:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Keynote: Building Vandebharat</h3>
-                                        <p>Sudhanshu Mani</p>
+                                        <h3><b>Building Vandebharat Express</b></h3>
+                                        <p>Keynote by Sudhanshu Mani</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -403,11 +432,19 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        02:00 PM <br> 03:00 PM
+                                        02:00 PM <br> 02:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Innovative Projects from eLSI</h3>
-                                        <p>eLSI Presentation by Top 5 Colleges</p>
+                                        <p>e-Yantra Lab Presentation by Top 5 Colleges</p>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        02:30 PM <br> 03:00 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <h3 class="font-semibold">Design meets Engineering</h3>
+                                        <p>Talk By Prof. B. Ravi</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
