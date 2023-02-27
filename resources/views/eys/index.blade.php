@@ -99,10 +99,10 @@
                         </h1>
                         <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-white text-justify">
                             <p>
-                                The e-Yantra Symposium is a national-level event that brings together researchers, educators, industry experts, and students from different parts of the country to discuss and explore innovative approaches to embedded systems, design thinking, robotics and automation.
+                                The e-Yantra Symposium is a national event that brings together researchers, educators, industry experts, and students from different parts of the country to explore innovative approaches to embedded systems, design thinking, robotics and automation.
                             </p>
                             <p>
-                                The event includes design thinking activities/workshops, keynote, panel discussion from experts in the field and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
+                                The event includes design thinking activities/workshops, keynote, panel discussion and poster presentations from Top 5 eLSI Colleges and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
                             </p>
                             <p>The e-Yantra Symposium provides an excellent platform for networking and exchanging ideas with peers and experts from various fields.</p>
                         </div>
@@ -140,6 +140,9 @@
                             Design Workshop 
                         </h2>
                         <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                            This year our Design partner, <a class="font-bold text-blue-500" href="https://designup.io/" target="_blank">"DesignUp"</a> has collaborated with e-Yantra to create a special workshop to sensitise engineers to the importance of Design Thinking. We plan an exciting workshop to give insights to ensure they give customers a wow experience while solving their problems. 
+                        </p>
+                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
                             In this workshop, we will explore the fundamental principles of design and how they can be applied to engineering projects. Through hands-on activities, we will learn how to ideate, prototype, and refine our designs to create innovative and functional solutions. Whether you are an experienced engineer or a curious beginner, this workshop will provide you with valuable skills and insights to take your designs to the next level. Let's get creative!
                         </p>
                         <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
@@ -164,7 +167,7 @@
                     </div>
 
                     <!-- days -->
-                    <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+                    <dl class="mt-10 grid md:grid-cols-2 lg:grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-16 sm:gap-x-8 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                         <div>
                             <dt class="font-mono text-lg text-yellow-200">
                                 <span class="font-bold">Day 1</span> <br>
@@ -190,7 +193,7 @@
                     </dl>
 
                     <!-- speakers photo -->
-                    <div class="mt-6 grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-4 mt-8">
+                    <div class="mt-6 max-w-4xl grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3 mt-12">
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
@@ -198,7 +201,7 @@
                                     Prof. Kavi Arya
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    PI, e-Yantra
+                                    Principal Investigator, e-Yantra
                                 </p>
                             </div>
                         </div>
@@ -215,12 +218,12 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Dinesh_Singh.jpg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/deepak_pathak.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Prof. Dinesh Singh
+                                    Prof. Deepak B Phatak
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Chancellor, K.R. Mangalam University
+                                    IIT Bombay
                                 </p>
                             </div>
                         </div>
@@ -480,5 +483,80 @@
                 </div>
             </section>
         </main><!-- end -->
+        <!-- footer -->
+        <div class="items-center mx-auto relative bottom-0 bg-white">
+            <footer class="text-blue-700 bg-white">
+                <div class="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
+                    <a href="https://e-yantra.org" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
+                        <div class="inline-flex items-center">
+                            <img src="{!! asset('img/footer_iitb_eyantra.png') !!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
+                        </div>
+                    </a>
+                    <nav class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
+                        <a href="https://www.mooc.e-yantra.org" target="_blank" class="px-4 py-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                            MOOC
+                        </a>
+                        <a href="https://eyic.e-yantra.org" target="_blank" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                            eYIC
+                        </a>
+                        <a href="http://elsi.e-yantra.org" target="_blank" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                            eLSI
+                        </a>
+                        <a href="https://www.e-yantra.org/eyrdc" class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">
+                            eYRDC
+                        </a>
+                    </nav>
+                    <span class="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start text-xl">
+                        <a class="text-blue-500 hover:text-black">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-blue-500 hover:text-black">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-blue-500 hover:text-black">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-blue-500 hover:text-black">
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-8 h-8" viewBox="0 0 24 24">
+                                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                </path>
+                                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </footer>
+            <footer class="bg-blueGray-50">
+                <div class="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
+                    <a href="http://mhrd.gov.in/" target="_blank" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
+                        <div class="inline-flex items-center">
+                            <img src="{!!asset('img/moe.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
+                        </div>
+                    </a>
+                    <div class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
+                        <p class="lg:text-xl text-center">e-Yantra is a project sponsored by <br/><a class="text-blue-600" href="http://mhrd.gov.in/" target="_blank"> MoE</a> through the <a class="text-blue-600" href="//mhrd.gov.in/technology-enabled-learning-0" target="_blank">National Mission on Education through ICT (NMEICT)</a></p>
+                    </div>
+                    <div class="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start text-xl">
+                        <a href="https://www.makeinindia.com/" target="_blank" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none text-center">
+                            <div class="inline-flex items-center">
+                                <img src="{!! asset('img/make-in-india.png')!!}" class="d-inline-block align-top img-fluid h-18 w-60" alt="e-Yantra">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            <footer class="w-full py-2 text-center text-gray-500 pb-5">
+                <hr class="mb-5">
+                Copyright © {{ date("Y"); }} <a class="text-blue-600" href="//e-yantra.org" target="_blank">e-Yantra</a>. All rights reserved. <br>
+            </footer>
+        </div>
     </body>
 </html>
