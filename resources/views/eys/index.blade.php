@@ -130,8 +130,8 @@
                         </dl>
                     </div>
                 </div>
-                <div class="rotate-45 invisible md:invisible lg:visible absolute left-40 top-1/2">
-                    <img src="{!! asset('img/eys/1.svg') !!}" style="transform: scaleX(-1);">
+                <div class="invisible md:invisible lg:visible absolute left-10 top-1/3">
+                    <img src="{!! asset('img/eys/1.svg') !!}" style="transform: scale(-1.5,1.5);">
                 </div>    
             </div>
 
