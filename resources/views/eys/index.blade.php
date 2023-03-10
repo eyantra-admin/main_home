@@ -130,6 +130,9 @@
                         </dl>
                     </div>
                 </div>
+                <div class="rotate-45 invisible md:invisible lg:visible absolute left-40 top-1/2">
+                    <img src="{!! asset('img/eys/1.svg') !!}" style="transform: scaleX(-1);">
+                </div>    
             </div>
 
             <!-- workshops -->
