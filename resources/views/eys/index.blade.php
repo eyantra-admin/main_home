@@ -97,6 +97,7 @@
                 style="transform: scale(0.7);">
                     <img src="{!! asset('img/eys/2.png') !!}" >
                 </div>
+
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                     <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
                         <h2 class="font-display text-3xl font-bold tracking-tighter text-gray-500 lg:text-yellow-200  md:text-yellow-200 sm:text-4xl">
@@ -141,7 +142,13 @@
             </div>
 
             <!-- workshops -->
-            <section class="py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
+            <section class="relative py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
+
+                <div class="invisible md:invisible lg:visible absolute -right-0 bottom-0" 
+                style="transform: scale(0.7);">
+                    <img src="{!! asset('img/eys/3.png') !!}">
+                </div>
+
                 <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">                    
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
@@ -167,7 +174,7 @@
 
                 <div class="invisible md:invisible lg:visible absolute -right-40 bottom-0" 
                 style="transform: scale(0.6);">
-                    <img src="{!! asset('img/eys/4.png') !!}" style="z-index:-5;">
+                    <img src="{!! asset('img/eys/4.png') !!}">
                 </div>                   
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -207,7 +214,7 @@
                     </dl>
 
                     <!-- speakers photo -->
-                    <div class="mt-6 max-w-4xl grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3 mt-12">
+                    <div class="relative mt-6 max-w-4xl grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3 mt-12">
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
