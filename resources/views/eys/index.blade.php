@@ -89,6 +89,14 @@
                     <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
                     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
                 </div> -->
+                <div class="invisible md:invisible lg:visible absolute -left-10 top-1/3" 
+                style="transform: scale(0.7);">
+                    <img src="{!! asset('img/eys/1.png') !!}" >
+                </div>
+                <div class="invisible md:invisible lg:visible absolute -right-10 top-1/3" 
+                style="transform: scale(0.7);">
+                    <img src="{!! asset('img/eys/2.png') !!}" >
+                </div>
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                     <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
                         <h2 class="font-display text-3xl font-bold tracking-tighter text-gray-500 lg:text-yellow-200  md:text-yellow-200 sm:text-4xl">
@@ -129,15 +137,12 @@
                             </div>
                         </dl>
                     </div>
-                </div>
-                <div class="invisible md:invisible lg:visible absolute left-10 top-1/3">
-                    <img src="{!! asset('img/eys/1.svg') !!}" style="transform: scale(-1.5,1.5);">
-                </div>    
+                </div>                    
             </div>
 
             <!-- workshops -->
             <section class="py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
-                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">                    
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
                             Design Workshop 
@@ -158,7 +163,13 @@
             </section><!-- end -->
 
             <!-- speaker -->
-            <section class="py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
+            <section class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">   
+
+                <div class="invisible md:invisible lg:visible absolute -right-40 bottom-0" 
+                style="transform: scale(0.6);">
+                    <img src="{!! asset('img/eys/4.png') !!}" style="z-index:-5;">
+                </div>                   
+
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
@@ -178,7 +189,7 @@
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
-                                April 5<sup>th</sup>
+                                    April 5<sup>th</sup>
                                 </time>
                             </dd>
                         </div>
@@ -189,8 +200,8 @@
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
-                                April 6<sup>th</sup>
-                            </time>
+                                    April 6<sup>th</sup>
+                                </time>
                             </dd>
                         </div>
                     </dl>
@@ -248,25 +259,26 @@
                                     Prof. Gaurav Raheja
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                   IIT Roorkee
-                                </p>
-                            </div>
+                                 IIT Roorkee
+                             </p>
+                         </div>
+                     </div>
+                     <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="px-6 py-4 text-center">
+                            <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/b_ravi.jpeg') !!}">
+                            <h3 class="text-lg font-medium text-gray-900 mt-4">
+                                Prof. B. Ravi
+                            </h3>
+                            <p class="text-gray-500 mt-2">
+                                IIT Bombay
+                            </p>
                         </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/b_ravi.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Prof. B. Ravi
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    IIT Bombay
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Add more team members as needed -->
                     </div>
+                    <!-- Add more team members as needed -->
                 </div>
-            </section><!-- end -->
+            </div>            
+        </section><!-- end -->
+              
 
             <!-- schedule -->
             <section class="py-20 sm:py-32" style="background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%); background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;">
