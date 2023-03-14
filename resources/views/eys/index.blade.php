@@ -111,7 +111,7 @@
                                 The e-Yantra Symposium is a national event that brings together researchers, educators, industry experts, and students from different parts of the country to explore innovative approaches to embedded systems, design thinking, robotics and automation.
                             </p>
                             <p>
-                                The event includes design thinking activities/workshops, keynote, panel discussion and poster presentations from Top 5 eLSI Colleges and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
+                                The event includes design thinking activities/workshops, keynote, panel discussion and poster presentations from Top 15 eLSI Colleges and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
                             </p>
                             <p>The e-Yantra Symposium provides an excellent platform for networking and exchanging ideas with peers and experts from various fields.</p>
                         </div>
@@ -259,7 +259,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Gaurav_Raheja.png') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -269,8 +269,8 @@
                                  IIT Roorkee
                              </p>
                          </div>
-                     </div>
-                     <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                     </div> -->
+                     <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                         <div class="px-6 py-4 text-center">
                             <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/b_ravi.jpeg') !!}">
                             <h3 class="text-lg font-medium text-gray-900 mt-4">
@@ -280,7 +280,7 @@
                                 IIT Bombay
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Add more team members as needed -->
                 </div>
             </div>            
@@ -332,8 +332,8 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <p>
-                                            <span class="font-bold">Introduction to Inclusivity</span> 
-                                            <br>Talk by Prof. Gaurav Raheja
+                                            <!-- <span class="font-bold"></span> --> 
+                                            <br>Talk by Vivek Pawar
                                         </p>
                                     </div>
                                 </li>
@@ -460,7 +460,7 @@
                                         02:00 PM <br> 02:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <p>e-Yantra Lab Presentation by Top 5 Colleges</p>
+                                        <p>e-Yantra Lab Presentation by Top 15 Colleges</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -468,8 +468,8 @@
                                         02:30 PM <br> 03:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Design meets Engineering</h3>
-                                        <p>Talk By Prof. B. Ravi</p>
+                                        <h3 class="font-semibold">Talk On Design meets Engineering</h3>
+                                        <!-- <p>Talk</p> -->
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
