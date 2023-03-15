@@ -111,7 +111,7 @@
                                 The e-Yantra Symposium is a national event that brings together researchers, educators, industry experts, and students from different parts of the country to explore innovative approaches to embedded systems, design thinking, robotics and automation.
                             </p>
                             <p>
-                                The event includes design thinking activities/workshops, keynote, panel discussion and poster presentations from Top 15 eLSI Colleges and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
+                                The event includes design thinking activities/workshops, keynote, panel discussion and poster presentations from Top eLSI Colleges and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
                             </p>
                             <p>The e-Yantra Symposium provides an excellent platform for networking and exchanging ideas with peers and experts from various fields.</p>
                         </div>
@@ -460,7 +460,7 @@
                                         02:00 PM <br> 02:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <p>e-Yantra Lab Presentation by Top 15 Colleges</p>
+                                        <p>e-Yantra Lab Presentations</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
