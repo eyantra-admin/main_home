@@ -230,7 +230,7 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Sudhanshu Mani
+                                    Mr. Sudhanshu Mani
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Innovator of Vande Bharat Express
@@ -244,7 +244,7 @@
                                     Prof. Deepak B Phatak
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    IIT Bombay
+                                    Padma Shri <br> Doyen of Distance Eduction <br>IIT Bombay
                                 </p>
                             </div>
                         </div>
@@ -252,7 +252,7 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Vivek Pawar
+                                    Mr. Vivek Pawar
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Founder, Sankalp Semiconductor
