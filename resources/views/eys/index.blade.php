@@ -203,7 +203,7 @@
                         <div>
                             <dt class="font-mono text-lg text-yellow-200">
                                 <span class="font-bold">Day 2</span><br>
-                                Keynote Talks, Panel Discussion
+                                Keynote, Talks & Panel Discussion
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
