@@ -452,7 +452,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Lunch</h3>
-                                        <p>(Alongwith Poster Presentation and Exhibition)</p>
+                                        <p>(Along with Poster Presentation and Exhibition)</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
