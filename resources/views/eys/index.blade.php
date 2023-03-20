@@ -259,28 +259,28 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Gaurav_Raheja.png') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-vikas-rastogi.jpg') !!}">
                                 <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Prof. Gaurav Raheja
+                                    Mr. Vikas Rastogi
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                 IIT Roorkee
-                             </p>
-                         </div>
-                     </div> -->
-                     <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                        <div class="px-6 py-4 text-center">
-                            <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/b_ravi.jpeg') !!}">
-                            <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                Prof. B. Ravi
-                            </h3>
-                            <p class="text-gray-500 mt-2">
-                                IIT Bombay
-                            </p>
+                                   Principal Secretary, <br>Higher & Technical Education
+                               </p>
+                           </div>
                         </div>
-                    </div> -->
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-kiran-deshpande.jpg') !!}">
+                                <h3 class="text-lg font-medium text-gray-900 mt-4">
+                                    Mr. Kiran Deshpande
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Former CEO TechM, Co-Founder - Mojo networks
+                                </p>
+                            </div>
+                        </div>
                     <!-- Add more team members as needed -->
                 </div>
             </div>            
@@ -322,24 +322,24 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Inauguration of the event</h3>
-                                        <p>Address: Director (IIT Bombay), HoD (CSE Dept.)</p>
+                                        <p>Address: Dean R&D, IIT Bombay & Head, CSE</p>
                                     </div>
                                 </li>
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:30 AM <br> 11:30 AM
+                                        10:30 AM <br> 11:00 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <p>
                                             <!-- <span class="font-bold"></span> --> 
-                                            <br>Talk by Vivek Pawar
+                                            Talk by Dr. Rupesh Ghyar - <a class="text-blue-700" href="https://www.betic.org/" target="_blank">BETiC Lab</a>
                                         </p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:30 AM <br> 01:00 PM
+                                        11:00 AM <br> 01:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">eYIC Exhibition</h3>
@@ -395,7 +395,17 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        07:00 PM <br> Onwards
+                                        07:00 PM <br> 08:00 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <ul class="list-disc">
+                                            Stand Up Comedy by Piyush Sharma
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        08:00 PM <br> Onwards
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Dinner</h3>
@@ -423,7 +433,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Welcome</h3>
-                                        <p>Address: Associate Dean R&D, IIT Bombay</p>
+                                        <p>Address: Director, IIT Bombay</p>
                                         <p><span class="font-semibold">e-Yantra Status Report</span> </p>
                                         Prof. Kavi Arya
                                     </div>
@@ -433,7 +443,7 @@
                                         11:00 AM <br> 12:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3><b>Building Vandebharat Express</b></h3>
+                                        <h3><b>Building Vande Bharat Express</b></h3>
                                         <p>Keynote by Sudhanshu Mani</p>
                                     </div>
                                 </li>
@@ -460,7 +470,8 @@
                                         02:00 PM <br> 02:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <p>e-Yantra Lab Presentations</p>
+                                        “Innovative Projects from eLSI”
+                                        <br><p>e-Yantra Lab Presentations</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -468,7 +479,7 @@
                                         02:30 PM <br> 03:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Talk On Design meets Engineering</h3>
+                                        <h3 class="font-semibold">Talk by Mr. Vivek Pawar</h3>
                                         <!-- <p>Talk</p> -->
                                     </div>
                                 </li>
