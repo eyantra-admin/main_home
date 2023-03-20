@@ -203,7 +203,7 @@
                         <div>
                             <dt class="font-mono text-lg text-yellow-200">
                                 <span class="font-bold">Day 2</span><br>
-                                Keynote Talks, Panel Discussion
+                                Keynote, Talks & Panel Discussion
                             </dt>
                             <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-200">
                                 <time datetime="2022-04-04" class="mt-1.5 block text-2xl font-semibold tracking-tight text-yellow-400">
@@ -449,7 +449,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        12:00 AM <br> 01:00 PM
+                                        12:00 PM <br> 01:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Panel Discussion</h3>
@@ -462,7 +462,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Lunch</h3>
-                                        <p>(Alongwith Poster Presentation and Exhibition)</p>
+                                        <p>(Along with Poster Presentation and Exhibition)</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
