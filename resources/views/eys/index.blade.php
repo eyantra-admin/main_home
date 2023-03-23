@@ -311,7 +311,7 @@
                             <ul>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:30 AM <br> 10:00 AM
+                                        09:00 AM <br> 10:00 AM
                                     </div>
                                     <div class="w-3/4 text-white">Registration and Breakfast</div>
                                 </li>
@@ -322,7 +322,9 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Inauguration of the event</h3>
-                                        <p>Address: Dean R&D, IIT Bombay & Head, CSE</p>
+                                        <p>Address: Director, IIT Bombay</p>
+                                        <p><span class="font-semibold">e-Yantra Status Report - Prof. Kavi Arya</span> </p>
+                                        
                                     </div>
                                 </li>
 
@@ -331,12 +333,11 @@
                                         10:30 AM <br> 11:00 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <p>
-                                            <!-- <span class="font-bold"></span> --> 
-                                            Talk by Dr. Rupesh Ghyar - <a class="text-blue-700" href="https://www.betic.org/" target="_blank">BETiC Lab</a>
-                                        </p>
+                                        <h3 class="font-semibold">Panel Discussion</h3>
+                                        <p></p>
                                     </div>
                                 </li>
+
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
                                         11:00 AM <br> 01:00 PM
@@ -433,9 +434,9 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Welcome</h3>
-                                        <p>Address: Director, IIT Bombay</p>
-                                        <p><span class="font-semibold">e-Yantra Status Report</span> </p>
-                                        Prof. Kavi Arya
+                                        <p>Address: Deputy Director, IIT Bombay</p>
+                                        <p><span class="font-semibold">e-Yantra Overview - Prof. Kavi Arya</span> </p>
+                                        
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -479,13 +480,25 @@
                                         02:30 PM <br> 03:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Talk by Mr. Vivek Pawar</h3>
-                                        <!-- <p>Talk</p> -->
+                                        <h3 class="font-semibold">“Taking Ideas to Products in MedTech - A BETIC Perspective”</h3>
+                                        <p>
+                                            <!-- <span class="font-bold"></span>  -->
+                                            Talk by Dr. Rupesh Ghyar - <a class="text-red-400" href="https://www.betic.org/" target="_blank">BETiC Lab</a>
+                                        </p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:00 PM <br> 03:45 PM
+                                        03:00 PM <br> 03:30 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <h3 class="font-semibold">“A Model for Building High-Tech Startups”</h3>
+                                        <p>Talk by Mr. Vivek Pawar (Founder, Sankalp Semiconductors)</p>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        03:30 PM <br> 04:15 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Awards Ceremony and Valedictory function</h3>
@@ -493,7 +506,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:45 PM <br> 04:00 PM
+                                        04:15 PM <br> 04:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Vote of Thanks</h3>
@@ -501,7 +514,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:00 PM <br> Onwards
+                                        04:30 PM <br> Onwards
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">High Tea</h3>
