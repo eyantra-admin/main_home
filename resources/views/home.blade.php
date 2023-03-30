@@ -4,13 +4,13 @@
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
             <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6 mt-2">
-              <!--   <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
+              <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md ml-4 mt-24 md:mt-0">
                 <p style="line-height: 120%;">
                   Amazing News!!!🤩<br/>
-                  Grand Finals of Virtual Museum Competition (Edition 2) is on January 28th, 2023.<br>To know more, please click <a href="/events" target="_blank" class="text-blue-300 text-semibold">e-yantra.org/events</a>. <br/>Register Now - to experience the 3D museum <i>"built by students, for students!"</i>
-                              </p>  
-                 <a href="https://portal.e-yantra.org/notify" target="_blank"><span class="mt-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Visit</span></a>
-                </div> -->
+                  National Finals of e-Yantra Robotics Competition is on March 31st & April 1st, 2023.<br>
+
+                 <a href="https://portal.e-yantra.org/finale" target="_blank"><span class="mt-2 pt-2 pb-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-full">Please Visit</span></a>
+                </div>
 
                 <p class="mt-4 ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
                 The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.</p>
