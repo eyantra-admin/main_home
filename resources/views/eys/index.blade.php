@@ -230,7 +230,7 @@
                                     <a href="https://www.it.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Principal Investigator, e-Yantra
+                                    Principal Investigator, <br> e-Yantra
                                 </p>
                             </div>
                         </div>
@@ -263,7 +263,7 @@
                                     <a href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Founder, Sankalp Semiconductor
+                                    Founder, <br> Sankalp Semiconductor
                                 </p>
                             </div>
                         </div>
@@ -280,7 +280,7 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/vinod-mohitkar.png') !!}">
+                                <img class="h-40 w-35 rounded-full mx-auto" src="{!! asset('img/speakers/vinod-mohitkar.png') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
                                 </h3>
@@ -296,7 +296,7 @@
                                     <a href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Former CEO TechM, Co-Founder - Mojo networks
+                                    Former CEO TechM, <br> Co-Founder - Mojo networks
                                 </p>
                             </div>
                         </div>
@@ -307,7 +307,7 @@
                                     <a href="https://www.ispp.org.in/faculties/amit-krishn-gulati/" target="_blank">Mr. Amit Krishn Gulati</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Industrial Designer, Entrepreneur and Educator
+                                    Industrial Designer, <br> Entrepreneur and Educator
                                 </p>
                             </div>
                         </div>
@@ -318,7 +318,7 @@
                                     <a href="https://in.linkedin.com/in/krishashok" target="_blank">Mr. Krish Ashok</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Techie, Musician & Author of Masala Lab
+                                    Techie, Musician & <br> Author of Masala Lab
                                 </p>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                                     <a href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Service Design Lead, Jiva Agservices
+                                    Service Design Lead,<br> Jiva Agservices
                                 </p>
                             </div>
                         </div>
@@ -340,7 +340,7 @@
                                     <a href="https://in.linkedin.com/in/nishitamohta" target="_blank">Ms. Nishita Mohta</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                   Sr. Project Manager, Thought Over DesignWriter, Designer, <br>Creator of 'Vaccines For Fear
+                                   Sr. Project Manager, <br> Thought Over Design
                                </p>
                            </div>
                         </div>
@@ -351,7 +351,7 @@
                                     <a href="https://in.linkedin.com/in/tanvi-shrivastava-290aa8178" target="_blank">Ms. Tanvi Srivastava</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Product Designer at Postman,Illustrator and Storyteller
+                                    Product Designer at Postman,<br> Illustrator and Storyteller
                                 </p>
                             </div>
                         </div>
