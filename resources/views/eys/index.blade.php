@@ -218,8 +218,8 @@
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Prof. Kavi Arya
+                                <h3 class="text-lg font-medium text-blue-900 mt-4 ">
+                                    <a href="https://www.it.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Principal Investigator, e-Yantra
