@@ -20,9 +20,11 @@
               </ul>
             </p>
             
-            <button class="bg-blue-200 rounded-md px-4 py-2">
-                <a target="_blank" href="//portal.e-yantra.org">Visit eYRC Portal</a>
-            </button>              
+            <p class="font-bold mt-8 text-center">For More Information on eYRC, please 
+               <a href="https://portal.e-yantra.org/" target="_blank" class="bg-blue-400 rounded-md p-2">
+                 Click Me!!
+               </a>
+            </p>             
           </div>
 
           <div class="container mt-8 py-4 lg:w-2/3 md:6/12 mt-8 rounded mx-auto bg-white lg:text-xl md:text-lg text-gray-700">
