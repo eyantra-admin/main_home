@@ -77,6 +77,14 @@
                     <a class="inline-flex justify-center rounded-2xl bg-red-600 p-4 text-base font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
                 </div>
             </div>
+
+            <nav class="sticky flex flex-col text-center py-4 px-6 w-full border-t">
+                <div class="mx-auto">
+                    <a href="#workshop" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-2">Workshop</a>
+                    <a href="#speakers" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-4">Speakers</a>
+                    <a href="#schedule" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-4">Schedule</a>
+                </div>
+            </nav>
         </header>
         <!-- end -->
 
@@ -89,11 +97,11 @@
                     <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
                     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
                 </div> -->
-                <div class="invisible md:invisible lg:visible absolute -left-10 top-1/3" 
+                <div class="invisible md:invisible lg:visible absolute -left-10 top-1/3"
                 style="transform: scale(0.7);">
                     <img src="{!! asset('img/eys/1.png') !!}" >
                 </div>
-                <div class="invisible md:invisible lg:visible absolute -right-10 top-1/3" 
+                <div class="invisible md:invisible lg:visible absolute -right-10 top-1/3"
                 style="transform: scale(0.7);">
                     <img src="{!! asset('img/eys/2.png') !!}" >
                 </div>
@@ -138,24 +146,24 @@
                             </div>
                         </dl>
                     </div>
-                </div>                    
+                </div>
             </div>
 
             <!-- workshops -->
-            <section class="relative py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
+            <section id="workshop" class="relative py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
 
-                <div class="invisible md:invisible lg:visible absolute -right-0 bottom-0" 
+                <div class="invisible md:invisible lg:visible absolute -right-0 bottom-0"
                 style="transform: scale(0.7);">
                     <img src="{!! asset('img/eys/3.png') !!}">
                 </div>
 
-                <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">                    
+                <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
-                            Design Workshop 
+                            Design Workshop
                         </h2>
                         <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            This year our Design partner, <a class="font-bold text-blue-500" href="https://designup.io/" target="_blank">"DesignUp"</a> has collaborated with e-Yantra to create a special workshop to sensitise engineers to the importance of Design Thinking. We plan an exciting workshop to give insights to ensure they give customers a wow experience while solving their problems. 
+                            This year our Design partner, <a class="font-bold text-blue-500" href="https://designup.io/" target="_blank">"DesignUp"</a> has collaborated with e-Yantra to create a special workshop to sensitise engineers to the importance of Design Thinking. We plan an exciting workshop to give insights to ensure they give customers a wow experience while solving their problems.
                         </p>
                         <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
                             In this workshop, we will explore the fundamental principles of design and how they can be applied to engineering projects. Through hands-on activities, we will learn how to ideate, prototype, and refine our designs to create innovative and functional solutions. Whether you are an experienced engineer or a curious beginner, this workshop will provide you with valuable skills and insights to take your designs to the next level. Let's get creative!
@@ -164,18 +172,18 @@
                         <div class="mx-auto max-w-4xl mt-8">
                             <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
                         </div>
-                    </div>  
-                                      
+                    </div>
+
                 </div>
             </section><!-- end -->
 
             <!-- speaker -->
-            <section class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">   
+            <section id="speakers" class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
 
-                <div class="invisible md:invisible lg:visible absolute -right-40 bottom-0" 
+                <div class="invisible md:invisible lg:visible absolute -right-40 bottom-0"
                 style="transform: scale(0.6);">
                     <img src="{!! asset('img/eys/4.png') !!}">
-                </div>                   
+                </div>
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
@@ -283,12 +291,12 @@
                         </div>
                     <!-- Add more team members as needed -->
                 </div>
-            </div>            
+            </div>
         </section><!-- end -->
-              
+
 
             <!-- schedule -->
-            <section class="py-20 sm:py-32" style="background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%); background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;">
+            <section id="schedule" class="py-20 sm:py-32" style="background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%); background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                     <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
@@ -311,7 +319,7 @@
                             <ul>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:30 AM <br> 10:00 AM
+                                        09:00 AM <br> 10:00 AM
                                     </div>
                                     <div class="w-3/4 text-white">Registration and Breakfast</div>
                                 </li>
@@ -322,7 +330,9 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Inauguration of the event</h3>
-                                        <p>Address: Dean R&D, IIT Bombay & Head, CSE</p>
+                                        <p>Address: Director, IIT Bombay</p>
+                                        <p><span class="font-semibold">e-Yantra Status Report - Prof. Kavi Arya</span> </p>
+
                                     </div>
                                 </li>
 
@@ -331,12 +341,11 @@
                                         10:30 AM <br> 11:00 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <p>
-                                            <!-- <span class="font-bold"></span> --> 
-                                            Talk by Dr. Rupesh Ghyar - <a class="text-blue-700" href="https://www.betic.org/" target="_blank">BETiC Lab</a>
-                                        </p>
+                                        <h3 class="font-semibold">Panel Discussion</h3>
+                                        <p></p>
                                     </div>
                                 </li>
+
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
                                         11:00 AM <br> 01:00 PM
@@ -433,9 +442,9 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Welcome</h3>
-                                        <p>Address: Director, IIT Bombay</p>
-                                        <p><span class="font-semibold">e-Yantra Status Report</span> </p>
-                                        Prof. Kavi Arya
+                                        <p>Address: Deputy Director, IIT Bombay</p>
+                                        <p><span class="font-semibold">e-Yantra Overview - Prof. Kavi Arya</span> </p>
+
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -479,13 +488,25 @@
                                         02:30 PM <br> 03:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Talk by Mr. Vivek Pawar</h3>
-                                        <!-- <p>Talk</p> -->
+                                        <h3 class="font-semibold">“Taking Ideas to Products in MedTech - A BETIC Perspective”</h3>
+                                        <p>
+                                            <!-- <span class="font-bold"></span>  -->
+                                            Talk by Dr. Rupesh Ghyar - <a class="text-red-400" href="https://www.betic.org/" target="_blank">BETiC Lab</a>
+                                        </p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:00 PM <br> 03:45 PM
+                                        03:00 PM <br> 03:30 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <h3 class="font-semibold">“A Model for Building High-Tech Startups”</h3>
+                                        <p>Talk by Mr. Vivek Pawar (Founder, Sankalp Semiconductors)</p>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        03:30 PM <br> 04:15 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Awards Ceremony and Valedictory function</h3>
@@ -493,7 +514,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:45 PM <br> 04:00 PM
+                                        04:15 PM <br> 04:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Vote of Thanks</h3>
@@ -501,7 +522,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:00 PM <br> Onwards
+                                        04:30 PM <br> Onwards
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">High Tea</h3>
