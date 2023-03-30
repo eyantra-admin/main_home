@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <nav class="sticky flex flex-col text-center py-4 px-6 w-full border-t">
+            <nav class="sticky flex flex-col text-center py-4 px-6 w-full border-t font-mono">
                 <div class="mx-auto">
                     <a href="#workshop" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-2">Workshop</a>
                     <a href="#speakers" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-4">Speakers</a>
@@ -180,7 +180,7 @@
             <!-- speaker -->
             <section id="speakers" class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
 
-                <div class="invisible md:invisible lg:visible absolute -right-40 bottom-0"
+                <div class="invisible md:invisible lg:visible absolute -right-80 bottom-0"
                 style="transform: scale(0.6);">
                     <img src="{!! asset('img/eys/4.png') !!}">
                 </div>
@@ -222,11 +222,11 @@
                     </dl>
 
                     <!-- speakers photo -->
-                    <div class="relative mt-6 max-w-4xl grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3 mt-12">
+                    <div class="relative mt-6 max-w-6xl grid grid-cols-1 gap-12 md:grid-cols-3 lg:grid-cols-4 mt-12">
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-blue-900 mt-4 ">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://www.it.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
@@ -237,8 +237,8 @@
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
-                                <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Mr. Sudhanshu Mani
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Innovator of Vande Bharat Express
@@ -248,8 +248,8 @@
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/deepak_pathak.jpg') !!}">
-                                <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Prof. Deepak B Phatak
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.cse.iitb.ac.in/~dbp/" target="_blank">Prof. Deepak B Phatak</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Padma Shri <br> Doyen of Distance Eduction <br>IIT Bombay
@@ -259,8 +259,8 @@
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
-                                <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Mr. Vivek Pawar
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Founder, Sankalp Semiconductor
@@ -270,8 +270,8 @@
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-vikas-rastogi.jpg') !!}">
-                                <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Mr. Vikas Rastogi
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.mkcl.org/directors/mr-vikas-rastogi" target="_blank">Mr. Vikas Rastogi</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                    Principal Secretary, <br>Higher & Technical Education
@@ -280,12 +280,78 @@
                         </div>
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/vinod-mohitkar.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                   Director, <br>MSBTE
+                               </p>
+                           </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-kiran-deshpande.jpg') !!}">
-                                <h3 class="text-lg font-medium text-gray-900 mt-4">
-                                    Mr. Kiran Deshpande
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Former CEO TechM, Co-Founder - Mojo networks
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amit-gulati.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.ispp.org.in/faculties/amit-krishn-gulati/" target="_blank">Mr. Amit Krishn Gulati</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Industrial Designer, Entrepreneur and Educator
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ashok-krish.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/krishashok" target="_blank">Mr. Krish Ashok</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Techie, Musician & Author of Masala Lab
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/juneza.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Service Design Lead, Jiva Agservices
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/nishita.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/nishitamohta" target="_blank">Ms. Nishita Mohta</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                   Sr. Project Manager, Thought Over DesignWriter, Designer, <br>Creator of 'Vaccines For Fear
+                               </p>
+                           </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/tanvi.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/tanvi-shrivastava-290aa8178" target="_blank">Ms. Tanvi Srivastava</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Product Designer at Postman,Illustrator and Storyteller
                                 </p>
                             </div>
                         </div>
@@ -326,33 +392,59 @@
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:00 AM <br> 10:30 AM
+                                        10:00 AM <br> 10:15 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Inauguration of the event</h3>
-                                        <p>Address: Director, IIT Bombay</p>
-                                        <p><span class="font-semibold">e-Yantra Status Report - Prof. Kavi Arya</span> </p>
+                                        <h3 class="font-semibold">Inauguration of the event</h3>                       
+                                    </div>
+                                </li>
+
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        10:15 AM <br> 10:45 AM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <p><span class="font-semibold">e-Yantra Status Report <br> Prof. Kavi Arya</span> </p>
 
                                     </div>
                                 </li>
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:30 AM <br> 11:00 AM
+                                        10:45 AM <br> 11:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Panel Discussion</h3>
-                                        <p></p>
+                                        <ul class="ml-4 list-disc text-sm">
+                                            <li>
+                                                <a class="text-yellow-200 font-semibold" href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
+                                            </li>                                            
+                                            <li>
+                                                <a class="text-yellow-200 font-semibold" href="https://www.mkcl.org/directors/mr-vikas-rastogi" target="_blank">Mr. Vikas Rastogi</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-yellow-200 font-semibold" href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a></li>
+                                            <li>
+                                                <a class="text-yellow-200 font-semibold" href="https://atlasuniversity.edu.in/dr-rajan-welukar/" target="_blank">Dr. Rajan Welukar</a> 
+                                            </li>
+                                            <li><a class="text-yellow-200 font-semibold" href="https://in.linkedin.com/in/ashank-desai-553b121b" target="_blank">Mr. Ashank Desai</a></li>
+                                        </ul>                                        
                                     </div>
                                 </li>
-
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:00 AM <br> 01:00 PM
+                                        11:30 AM <br> 12:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">eYIC Exhibition</h3>
-                                        <p>Top projects chosen to be showcased</p>
+                                        <h3 class="font-semibold">Innovation Challenge Business Pitch</h3>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        12:30 PM <br> 01:00 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <h3 class="font-semibold">Innovation Challenge Exhibition</h3>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -366,21 +458,21 @@
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
                                         02:00 PM <br> 04:00 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">eYIC Exhibition</h3>
-                                        <p>Top projects chosen to be showcased</p>
-                                    </div>
+                                    </div>                                    
+                                    <div clas="w-3/4 text-white">
+                                        <ul class="ml-4 list-disc text-sm text-white">
+                                            <li>Innovation Challenge - Exhibition</li>
+                                            <li>IIT Bombay - Research Presentation for e-Yantra Lab Representatives</li>
+                                        </ul>                                            
+                                    </div>    
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
                                         04:00 PM <br> 05:00 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <ul class="list-disc">
-                                            DesignUp: Talks and Workshop
-                                            <li class="ml-8">Designers and Engineers Conclave</li>
-                                        </ul>
+                                    <div class="w-3/4 text-white">                                        
+                                        <p>DesignUp: "Jab We Met - Design meets Engineering"</p>
+                                        <a class="text-red-400" href="https://www.ispp.org.in/faculties/amit-krishn-gulati/" target="_blank">Mr. Amit Krishn Gulati</a>                                        
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -393,13 +485,38 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        05:30 PM <br> 06:30 PM
+                                        05:30 PM <br> 06:00 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <ul class="list-disc">
-                                            DesignUp: Talks and Workshop
-                                            <li class="ml-8">Designers and Engineers Conclave</li>
-                                        </ul>
+                                    <div class="w-3/4 text-white">                                        
+                                        <p>Algorithms for Strategic Laziness</p>
+                                        <a class="text-red-400" href="https://in.linkedin.com/in/krishashok" target="_blank">Mr. Krish Ashok</a>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        06:00 PM <br> 06:10 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">                                        
+                                        <p>Beyond assumptions : a journey of co-creations with small holder farmers</p>
+                                        <a class="text-red-400" href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        06:10 PM <br> 06:20 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">                                        
+                                        <p>Creativity & The Inner Critic</p>
+                                        <a class="text-red-400" href="https://in.linkedin.com/in/nishitamohta" target="_blank">Ms. Nishita Mohta</a>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        06:20 PM <br> 06:30 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">                                        
+                                        <p>Storytelling for Products</p>
+                                        <a class="text-red-400" href="https://in.linkedin.com/in/tanvi-shrivastava-290aa8178" target="_blank">Ms. Tanvi Srivastava</a>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -408,7 +525,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <ul class="list-disc">
-                                            Stand Up Comedy by Piyush Sharma
+                                            Stand Up Comedy by <a class="text-red-400" href="https://www.youtube.com/user/piyush08004041" target="_blank">Piyush Sharma</a>
                                         </ul>
                                     </div>
                                 </li>
@@ -438,7 +555,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:00 AM <br> 11:00 AM
+                                        10:00 AM <br> 10:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Welcome</h3>
@@ -449,20 +566,42 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:00 AM <br> 12:00 PM
+                                        10:30 AM <br> 11:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3><b>Building Vande Bharat Express</b></h3>
-                                        <p>Keynote by Sudhanshu Mani</p>
+                                        <h3>Keynote: <b>Building Vande Bharat Express</b></h3>
+                                        <a href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        12:00 PM <br> 01:00 PM
+                                        11:30 AM <br> 11:45 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Panel Discussion</h3>
-                                        <p>Role of e-Yantra Labs in Industry/Academia interaction</p>
+                                        <h3 class="font-semibold">Break</h3>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        11:45 AM <br> 01:00 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <h3 class="font-semibold">Panel Discussion: (Building High - Tech Startups)</h3>
+                                        <p>Role of e-Yantra Labs in Industry/Academia Interaction</p>
+                                        <ul class="ml-4 list-disc text-sm">                                            
+                                            <li>
+                                                <a class="text-red-400 font-semibold" href="https://www.cse.iitb.ac.in/~dbp/" target="_blank">Prof. Deepak B Phatak</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-red-400 font-semibold" href="https://in.linkedin.com/in/sriram-parthasarathy-2606866" target="_blank">Mr. Sriram Parthasarthy</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-red-400 font-semibold" href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-red-400 font-semibold" href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
@@ -490,7 +629,6 @@
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">“Taking Ideas to Products in MedTech - A BETIC Perspective”</h3>
                                         <p>
-                                            <!-- <span class="font-bold"></span>  -->
                                             Talk by Dr. Rupesh Ghyar - <a class="text-red-400" href="https://www.betic.org/" target="_blank">BETiC Lab</a>
                                         </p>
                                     </div>
@@ -501,12 +639,20 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">“A Model for Building High-Tech Startups”</h3>
-                                        <p>Talk by Mr. Vivek Pawar (Founder, Sankalp Semiconductors)</p>
+                                        <p>Talk by <a class="text-red-400 font-semibold" href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a> (Founder, Sankalp Semiconductors)</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:30 PM <br> 04:15 PM
+                                        03:30 PM <br> 03:45 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <h3 class="font-semibold">Break</h3>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        03:45 PM <br> 04:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Awards Ceremony and Valedictory function</h3>
@@ -514,7 +660,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:15 PM <br> 04:30 PM
+                                        04:30 PM <br> 04:45 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Vote of Thanks</h3>
@@ -522,7 +668,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:30 PM <br> Onwards
+                                        04:45 PM <br> Onwards
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">High Tea</h3>
