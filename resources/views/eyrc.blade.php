@@ -20,8 +20,8 @@
               </ul>
             </p>
             
-            <button class="bg-gray-200 rounded-md px-4 py-2">
-                <a target="_blank" href="//portal.e-yantra.org">Visit Portal</a>
+            <button class="bg-blue-200 rounded-md px-4 py-2">
+                <a target="_blank" href="//portal.e-yantra.org">Visit eYRC Portal</a>
             </button>              
           </div>
 
