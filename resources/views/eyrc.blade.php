@@ -19,6 +19,10 @@
                 <li>Compete with International students</li>
               </ul>
             </p>
+            
+            <button class="bg-gray-200 rounded-md px-4 py-2">
+                <a target="_blank" href="//portal.e-yantra.org">Visit Portal</a>
+            </button>              
           </div>
 
           <div class="container mt-8 py-4 lg:w-2/3 md:6/12 mt-8 rounded mx-auto bg-white lg:text-xl md:text-lg text-gray-700">
