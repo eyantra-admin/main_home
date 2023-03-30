@@ -225,83 +225,6 @@
                     <div class="relative mt-6 max-w-6xl grid grid-cols-1 gap-12 md:grid-cols-3 lg:grid-cols-4 mt-12">
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
-                                    <a href="https://www.it.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Principal Investigator, <br> e-Yantra
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Innovator of Vande Bharat Express
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/deepak_pathak.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.cse.iitb.ac.in/~dbp/" target="_blank">Prof. Deepak B Phatak</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Padma Shri <br> Doyen of Distance Eduction <br>IIT Bombay
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Founder, <br> Sankalp Semiconductor
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-vikas-rastogi.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.mkcl.org/directors/mr-vikas-rastogi" target="_blank">Mr. Vikas Rastogi</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                   Principal Secretary, <br>Higher & Technical Education
-                               </p>
-                           </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-35 rounded-full mx-auto" src="{!! asset('img/speakers/vinod-mohitkar.png') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                   Director, <br>MSBTE
-                               </p>
-                           </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-kiran-deshpande.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Former CEO TechM, <br> Co-Founder - Mojo networks
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amit-gulati.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.ispp.org.in/faculties/amit-krishn-gulati/" target="_blank">Mr. Amit Krishn Gulati</a>
@@ -311,61 +234,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ashok-krish.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/krishashok" target="_blank">Mr. Krish Ashok</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Techie, Musician & <br> Author of Masala Lab
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/juneza.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Service Design Lead,<br> Jiva Agservices
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/nishita.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/nishitamohta" target="_blank">Ms. Nishita Mohta</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                   Sr. Project Manager, <br> Thought Over Design
-                               </p>
-                           </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/tanvi.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/tanvi-shrivastava-290aa8178" target="_blank">Ms. Tanvi Srivastava</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Product Designer at Postman,<br> Illustrator and Storyteller
-                                </p>
-                            </div>
-                        </div>
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/rupesh-ghyar.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://drive.google.com/file/d/1fI_Z52oJqv0lPEMlbUZ8Oz-K5MmmJyao/view?usp=sharing" target="_blank">Dr. Rupesh Ghyar</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Senior Executive Officer,<br> BETiC
-                                </p>
-                            </div>
-                        </div>
+
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ashank-desai.jpg') !!}">
@@ -377,17 +246,79 @@
                                 </p>
                             </div>
                         </div>
+
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ranjan-welukar.jpeg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/deepak_pathak.jpg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Dr. Rajan Welukar</a>
+                                    <a href="https://www.cse.iitb.ac.in/~dbp/" target="_blank">Prof. Deepak B Phatak</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Vice Chancellor, <br> ATLAS SkillTech University
+                                    Padma Shri <br> Doyen of Distance Eduction <br>IIT Bombay
                                 </p>
                             </div>
                         </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/juneza.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Service Design Lead,<br> Jiva Agservices
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
+                                    <a href="https://www.it.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Principal Investigator, <br> e-Yantra
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-kiran-deshpande.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Former CEO TechM, <br> Co-Founder - Mojo networks
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ashok-krish.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/krishashok" target="_blank">Mr. Krish Ashok</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Techie, Musician & <br> Author of Masala Lab
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/nishita.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/nishitamohta" target="_blank">Ms. Nishita Mohta</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                   Sr. Project Manager, <br> Thought Over Design
+                               </p>
+                           </div>
+                        </div>
+
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/paritosh-pandya.jpg') !!}">
@@ -399,6 +330,91 @@
                                 </p>
                             </div>
                         </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ranjan-welukar.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Dr. Rajan Welukar</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Vice Chancellor, <br> ATLAS SkillTech University
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/rupesh-ghyar.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://drive.google.com/file/d/1fI_Z52oJqv0lPEMlbUZ8Oz-K5MmmJyao/view?usp=sharing" target="_blank">Dr. Rupesh Ghyar</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Senior Executive Officer,<br> BETiC
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Innovator of Vande Bharat Express
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/tanvi.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/tanvi-shrivastava-290aa8178" target="_blank">Ms. Tanvi Srivastava</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Product Designer at Postman,<br> Illustrator and Storyteller
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-vikas-rastogi.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.mkcl.org/directors/mr-vikas-rastogi" target="_blank">Mr. Vikas Rastogi</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                   Principal Secretary, <br>Higher & Technical Education
+                               </p>
+                           </div>
+                        </div>
+                        
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-35 rounded-full mx-auto" src="{!! asset('img/speakers/vinod-mohitkar.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                   Director, <br>MSBTE
+                               </p>
+                           </div>
+                        </div>
+
+                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Founder, <br> Sankalp Semiconductor
+                                </p>
+                            </div>
+                        </div>
+                        
                     <!-- Add more team members as needed -->
                 </div>
             </div>
@@ -459,6 +475,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Panel Discussion</h3>
+                                        <p><i>"The Challenges of Implementing NEP 2020"</i></p>
                                         <ul class="ml-4 list-disc text-sm">
                                             <li>
                                                 <a class="text-yellow-200 font-semibold" href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
@@ -504,9 +521,10 @@
                                         02:00 PM <br> 04:00 PM
                                     </div>                                    
                                     <div clas="w-3/4 text-white">
-                                        <ul class="ml-4 list-disc text-sm text-white">
+                                        <ul class="ml-4 list-disc text-white">
                                             <li>Innovation Challenge - Exhibition</li>
-                                            <li>IIT Bombay - Research Presentation for e-Yantra Lab Representatives</li>
+                                            <li>IIT Bombay Research Presentations <br>
+                                            <span class="text-sm">IITB Research meets e-Yantra College Faculties</span></li> 
                                         </ul>                                            
                                     </div>    
                                 </li>
@@ -541,7 +559,7 @@
                                         06:00 PM <br> 06:10 PM
                                     </div>
                                     <div class="w-3/4 text-white">                                        
-                                        <p>Beyond assumptions : a journey of co-creations with small holder farmers</p>
+                                        <p>Beyond assumptions : A journey of co-creations with small holder farmers</p>
                                         <a class="text-red-400" href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
                                     </div>
                                 </li>
@@ -569,7 +587,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <ul class="list-disc">
-                                            Stand Up Comedy by <a class="text-red-400" href="https://www.youtube.com/user/piyush08004041" target="_blank">Piyush Sharma</a>
+                                            Stand-up Comedy by <a class="text-red-400" href="https://www.youtube.com/user/piyush08004041" target="_blank">Piyush Sharma</a>
                                         </ul>
                                     </div>
                                 </li>
@@ -631,7 +649,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Panel Discussion: (Building High - Tech Startups)</h3>
-                                        <p>Role of e-Yantra Labs in Industry/Academia Interaction</p>
+                                        <span><i>Role of e-Yantra Labs in Industry/Academia Interaction</i></span>
                                         <ul class="ml-4 list-disc text-sm">                                            
                                             <li>
                                                 <a class="text-red-400 font-semibold" href="https://www.cse.iitb.ac.in/~dbp/" target="_blank">Prof. Deepak B Phatak</a>
@@ -662,7 +680,7 @@
                                         02:00 PM <br> 02:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        “Innovative Projects from eLSI”
+                                        “Innovative Projects from e-Yantra Colleges”
                                         <br><p>e-Yantra Lab Presentations</p>
                                     </div>
                                 </li>
