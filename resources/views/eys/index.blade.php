@@ -355,6 +355,50 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/rupesh-ghyar.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://drive.google.com/file/d/1fI_Z52oJqv0lPEMlbUZ8Oz-K5MmmJyao/view?usp=sharing" target="_blank">Dr. Rupesh Ghyar</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Senior Executive Officer,<br> BETiC
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ashank-desai.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Mr. Ashank Desai</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Co-founder & former Chairperson,<br> Mastek
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ranjan-welukar.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Dr. Rajan Welukar</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Vice Chancellor, <br> ATLAS SkillTech University
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/paritosh-pandya.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    IIT <br> Bombay
+                                </p>
+                            </div>
+                        </div>
                     <!-- Add more team members as needed -->
                 </div>
             </div>
@@ -427,7 +471,7 @@
                                             <li>
                                                 <a class="text-yellow-200 font-semibold" href="https://atlasuniversity.edu.in/dr-rajan-welukar/" target="_blank">Dr. Rajan Welukar</a> 
                                             </li>
-                                            <li><a class="text-yellow-200 font-semibold" href="https://in.linkedin.com/in/ashank-desai-553b121b" target="_blank">Mr. Ashank Desai</a></li>
+                                            <li><a class="text-yellow-200 font-semibold" href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Mr. Ashank Desai</a></li>
                                         </ul>                                        
                                     </div>
                                 </li>
@@ -570,7 +614,7 @@
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3>Keynote: <b>Building Vande Bharat Express</b></h3>
-                                        <a href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
+                                        <a class="text-red-400 font-semibold" href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
