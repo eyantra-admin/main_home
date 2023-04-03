@@ -445,23 +445,24 @@
                             <ul>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:00 AM <br> 10:00 AM
+                                        08:30 AM <br> 09:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">Registration and Breakfast</div>
                                 </li>
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:00 AM <br> 10:15 AM
+                                        09:30 AM <br> 09:45 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Inauguration of the event</h3>                       
+                                        <h3 class="font-semibold">Inauguration of the event</h3>
+                                        <p><i>"Address: Dean (R&D) - Prof. Milind Atrey"</i></p>                       
                                     </div>
                                 </li>
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:15 AM <br> 10:45 AM
+                                        09:45 AM <br> 10:15 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <p><span class="font-semibold">e-Yantra Status Report <br> Prof. Kavi Arya</span> </p>
@@ -471,30 +472,40 @@
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:45 AM <br> 11:30 AM
+                                        10:15 AM <br> 11:00 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Panel Discussion</h3>
                                         <p><i>"The Challenges of Implementing NEP 2020"</i></p>
                                         <ul class="ml-4 list-disc text-sm">
                                             <li>
-                                                <a class="text-yellow-200 font-semibold" href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
-                                            </li>                                            
-                                            <li>
                                                 <a class="text-yellow-200 font-semibold" href="https://www.mkcl.org/directors/mr-vikas-rastogi" target="_blank">Mr. Vikas Rastogi</a>
                                             </li>
+                                            <li>
+                                                <a class="text-yellow-200 font-semibold" href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
+                                            </li>                                            
+                                            
                                             <li>
                                                 <a class="text-yellow-200 font-semibold" href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a></li>
                                             <li>
                                                 <a class="text-yellow-200 font-semibold" href="https://atlasuniversity.edu.in/dr-rajan-welukar/" target="_blank">Dr. Rajan Welukar</a> 
                                             </li>
                                             <li><a class="text-yellow-200 font-semibold" href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Mr. Ashank Desai</a></li>
+                                            <li><a class="text-yellow-200 font-semibold" href="https://www.somaiya.edu/en/view-member/160504?type=faculty" target="_blank">Prof. Shubha Pandit</a></li>
                                         </ul>                                        
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:30 AM <br> 12:30 PM
+                                        11:00 AM <br> 11:15 AM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <h3 class="font-semibold">Tea Break</h3>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        11:15 AM <br> 12:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Innovation Challenge Business Pitch</h3>
@@ -502,15 +513,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        12:30 PM <br> 01:00 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Innovation Challenge Exhibition</h3>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        01:00 PM <br> 02:00 PM
+                                        12:30 PM <br> 01:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Lunch</h3>
@@ -518,15 +521,15 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        02:00 PM <br> 04:00 PM
-                                    </div>                                    
-                                    <div clas="w-3/4 text-white">
+                                        01:30 PM <br> 04:00 PM
+                                    </div>
+                                    <div class="w-3/4 text-white">
                                         <ul class="ml-4 list-disc text-white">
                                             <li>Innovation Challenge - Exhibition</li>
                                             <li>IIT Bombay Research Presentations <br>
                                             <span class="text-sm">IITB Research meets e-Yantra College Faculties</span></li> 
-                                        </ul>                                            
-                                    </div>    
+                                        </ul> 
+                                    </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
