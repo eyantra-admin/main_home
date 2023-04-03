@@ -398,7 +398,7 @@
                                     <a href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                   Director, <br>MSBTE
+                                   Director, <br>Technical Education
                                </p>
                            </div>
                         </div>
