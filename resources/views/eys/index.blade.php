@@ -634,7 +634,7 @@
                                         10:30 AM <br> 11:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">
-                                        <h3>Keynote: <b>Building Vande Bharat Express</b></h3>
+                                        <h3>Keynote:<br/><b>Lessons and Messages from Vande Bharat Project</b></h3>
                                         <a class="text-red-400 font-semibold" href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
                                     </div>
                                 </li>
