@@ -614,24 +614,31 @@
                             <ul>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:00 AM <br> 10:00 AM
+                                        08:30 AM <br> 09:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">Registration and Breakfast</div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:00 AM <br> 10:30 AM
+                                        09:30 AM <br> 09:45 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Welcome</h3>
-                                        <p>Address: Deputy Director, IIT Bombay</p>
-                                        <p><span class="font-semibold">e-Yantra Overview - Prof. Kavi Arya</span> </p>
-
+                                        <p>Address: Dean (Educational Outreach) - Prof. Siddhartha Ghosh</p>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:30 AM <br> 11:30 AM
+                                        09:45 AM <br> 10:15 AM
+                                    </div>
+                                    <div class="w-3/4 text-white">
+                                        <p><span class="font-semibold">e-Yantra Overview - Prof. Kavi Arya</span> </p>
+                                        <h3><b>"Measuring the Josh on e-Yantra Campuses" - e-Yantra Lab Ranking</b></h3>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                        10:15 AM <br> 11:15 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3>Keynote:<br/><b>Lessons and Messages from Vande Bharat Project</b></h3>
@@ -640,7 +647,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:30 AM <br> 11:45 AM
+                                        11:15 AM <br> 11:30 AM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Break</h3>
@@ -648,7 +655,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:45 AM <br> 01:00 PM
+                                        11:30 AM <br> 12:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Panel Discussion: (Building High - Tech Startups)</h3>
@@ -666,12 +673,15 @@
                                             <li>
                                                 <a class="text-red-400 font-semibold" href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
                                             </li>
+                                            <li>
+                                                <a class="text-red-400 font-semibold" href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        01:00 PM <br> 02:00 PM
+                                        12:30 PM <br> 01:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Lunch</h3>
@@ -680,16 +690,21 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        02:00 PM <br> 02:30 PM
+                                        01:30 PM <br> 02:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         “Innovative Projects from e-Yantra Colleges”
                                         <br><p>e-Yantra Lab Presentations</p>
+                                        <ul class="ml-4 list-disc text-sm">
+                                            <li>Prof. Bejoy Varghese (FISAT, Kerala)</li>
+                                            <li>Prof. Rohan Vaidya (SVPCET, Maharashtra)</li>
+                                            <li>Prof. Ankit Muley from (IIST, Madhya Pradesh)</li>
+                                        </ul>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        02:30 PM <br> 03:00 PM
+                                        02:00 PM <br> 02:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">“Taking Ideas to Products in MedTech - A BETIC Perspective”</h3>
@@ -700,7 +715,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:00 PM <br> 03:30 PM
+                                        02:30 PM <br> 03:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">“A Model for Building High-Tech Startups”</h3>
@@ -709,7 +724,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:30 PM <br> 03:45 PM
+                                        03:00 PM <br> 03:15 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Break</h3>
@@ -717,7 +732,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:45 PM <br> 04:30 PM
+                                        03:15 PM <br> 04:00 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Awards Ceremony and Valedictory function</h3>
@@ -725,7 +740,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:30 PM <br> 04:45 PM
+                                        04:00 PM <br> 04:30 PM
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">Vote of Thanks</h3>
@@ -733,7 +748,7 @@
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:45 PM <br> Onwards
+                                        04:30 PM <br> Onwards
                                     </div>
                                     <div class="w-3/4 text-white">
                                         <h3 class="font-semibold">High Tea</h3>
