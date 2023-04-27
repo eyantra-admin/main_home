@@ -19,6 +19,13 @@
                          <li>Encourage startup culture</li>
                          <li>Create sustainable innovation ecosystem in college</li>
                     </ul>
+
+                    <p class="font-bold">Certificate Criteria:</p>
+                    <p>Certificates are awarded based on the overall performance of all the teams in a given edition.</p>
+                    <ul class="list-disc leading-loose m-6">
+                         <li><b>Certificate of Merit:</b> Awarded to the finalists, belonging to the Top 5%.</li>
+                         <li><b>Certificate of Participation:</b> Awarded to Top 20% who have completed at least one iteration of their project</li>                         
+                    </ul>
                </div>
                <!-- <div class="lg:w-1/3 sm:w-1/3 md:pt-12">
                     <img class="mx-auto" src="">
