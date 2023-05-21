@@ -65,7 +65,7 @@
     </div> -->
 
     <!-- ET -->
-    <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
+    <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Sr. Project Technical Assistant (Robotics/ Embedded Systems)</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
         <p>
@@ -91,10 +91,10 @@
             <li>Should possess excellent analytical, logical skills and communication skills.</li>
                 
         </ul>    
-    </div>
+    </div> -->
 
     <!-- Experienced Design and Product Designer -->
-    <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
+    <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Research Associate</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
         <p>
@@ -116,7 +116,7 @@
             <li>Adobe Suite, Autodesk, CAD, Woodworking, Mechanical designing, CorelDraw, Google Sketchup, Animation, Video Creation, After effects video editing, cinematography</li>  
             <li>Should possess excellent analytical and logical skills</li>
         </ul>  
-    </div>
+    </div> -->
 
     <!-- Project Assistant - eLSI -->
     <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
