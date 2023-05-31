@@ -34,6 +34,28 @@ class HomeController extends Controller
         return view('elsi')->with('countries', $countries);
     }//end
 
+    //show lab ranking page
+    public function labranking(){
+        $states = Colleges::select('state')->where('IS_eLSI', 1)->distinct('state')->get();
+        
+        return view('labranking')->with('states', $states);
+    }//end
+
+    public function getStateLab(Request $request)
+    {
+        $data['college_name'] = Colleges::where('state', $request->state)
+            ->orderBy('college_name','asc')->get(["college_name","id"]);
+        return response()->json($data);
+    }
+
+    public function elsi_labranking(Request $request)
+    {
+        $data = Colleges::where('college_name', $request->college_name)
+            ->get(['college_name','rank', 'grade']);
+
+            $getdata = ['lab_list' => $data];
+            return response()->json($getdata);
+    }
 
     public function country()
     {

@@ -51,6 +51,9 @@ Route::post('/school_records', [Home\HomeController::class, 'school_records'])->
 /*School Routes Ends*/
 
 Route::get('/elsi', [Home\HomeController::class, 'elsiFamily'])->name('elsiFamily');
+Route::get('/labranking', [Home\HomeController::class, 'labranking'])->name('labranking');
+Route::post('/getStateLab', [Home\HomeController::class, 'getStateLab'])->name('getStateLab');
+Route::post('/elsi_labranking', [Home\HomeController::class, 'elsi_labranking'])->name('elsi_labranking');
 
 Route::get('/country', [Home\HomeController::class, 'country'])->name('country');
 Route::post('/getstates', [Home\HomeController::class, 'getState'])->name('getstates');
