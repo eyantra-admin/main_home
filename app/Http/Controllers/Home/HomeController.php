@@ -51,7 +51,7 @@ class HomeController extends Controller
     public function elsi_labranking(Request $request)
     {
         $data = Colleges::where('college_name', $request->college_name)
-            ->get(['college_name','rank', 'grade']);
+            ->get(['college_name','labrank', 'grade']);
 
             $getdata = ['lab_list' => $data];
             return response()->json($getdata);

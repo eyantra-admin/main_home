@@ -108,7 +108,7 @@ $.ajax({
             {
               html += '<tr class="border border-gray-600 p-2">'
               html += '<td class="border border-gray-600 p-2">'+data.lab_list[i].college_name+'</td>'
-              html += '<td class="border text-center border-gray-600 p-2">'+data.lab_list[i].rank+'</td>'
+              html += '<td class="border text-center border-gray-600 p-2">'+data.lab_list[i].labrank+'</td>'
               html += '<td class="border border-gray-600 p-2 text-center">'+data.lab_list[i].grade+'</td>'
              }
           }//end for
