@@ -43,7 +43,7 @@ class HomeController extends Controller
 
     public function getStateLab(Request $request)
     {
-        $data['college_name'] = Colleges::where('state', $request->state)
+        $data['college_name'] = Colleges::where('state', $request->state)->where('IS_eLSI', 1)
             ->orderBy('college_name','asc')->get(["college_name","id"]);
         return response()->json($data);
     }
