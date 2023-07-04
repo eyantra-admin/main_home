@@ -28,10 +28,10 @@
 
             <div class="mt-8 px-2 lg:px-8">
               <h2 class="text-xl text-center text-gray-700">
-               Grand Finale of Virtual Museum Competition - Edition 2
-                <span style="color: #EF4444;"><br>Registration Form</span></h2>
+               e-Yantra Summer Internship Program (eYSIP 2023) - Exhibition
+                <span style="color: #EF4444;"><br>Guest Registration Form</span></h2>
               <hr class="my-2">
-              <p class="text-lg" style="padding-bottom: 20px; text-align: center;">Submit the registration form to be part of the Grand Finale scheduled on 28th January 2023</p>
+              <p class="text-lg" style="padding-bottom: 20px; text-align: center;">Submit the registration form to be part of the exhibition scheduled on 7th July 2023</p>
               <form id="msform" method="POST" action="/school_records">
                 @csrf
                <p class="py-8 font-bold">School Details</p>
