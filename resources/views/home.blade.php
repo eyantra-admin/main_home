@@ -6,8 +6,8 @@
             <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6 mt-2">
               <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md my-4 mt-24 md:mt-0 w-full">
                 <!-- <p style="line-height: 120%;"> -->
-                  Amazing News!!!🤩 e-Yantra School - Game Inventor Competition 2023 has been launched.<br>
-                  <a href="https://eysrc.e-yantra.org" target="_blank"><span class="mt-2 pt-2 pb-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-md">Please Visit</span></a>
+                  Amazing News!!!🤩 <br>Grand Finals of Virtual Museum Competition Edition 3 is scheduled on October 21st, 2023.<br>
+                  <a href="https://e-yantra.org/events" target="_blank"><span class="mt-2 pt-2 pb-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-md">Please Visit</span></a>
                 </div>
 
                 <p class="mt-4 ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
