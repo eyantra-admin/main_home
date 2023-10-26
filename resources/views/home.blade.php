@@ -164,7 +164,7 @@
                                   <li>Domain specific training to build real-world problem solving abilities</li>
                                   <li>Create a sustainable ecosystem with  students and faculty</li>
                                   <li>The goal is for students to solve real problems, to do startups and be inspired to pursue higher level R&D skills</li>
-                                  <li>We have established robotics labs in more than 400 colleges across India</li>
+                                  <li>We have established robotics labs in more than 500+ colleges across India</li>
                                 </ul>
                         </div>
                         <div class="w-full sm:w-1/3 md:pt-2"><!-- http://epic.e-yantra.org/img/FOSS.gif -->
