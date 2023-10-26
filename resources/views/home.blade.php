@@ -4,11 +4,11 @@
         <div class="container-fluid mx-auto flex flex-col md:flex-row items-center bg-gray-200 md:pt-24 justify-center shade">
             <!--Left Col-->
             <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6 mt-2">
-              <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md my-4 mt-24 md:mt-0 w-full">
-                <!-- <p style="line-height: 120%;"> -->
+              <!-- <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md my-4 mt-24 md:mt-0 w-full">
+                
                   Amazing News!!!🤩 <br>Grand Finals of Virtual Museum Competition Edition 3 is scheduled on October 21st, 2023.<br>
                   <a href="https://e-yantra.org/events" target="_blank"><span class="mt-2 pt-2 pb-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-md">Please Visit</span></a>
-                </div>
+                </div> -->
 
                 <p class="mt-4 ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
                 The goal is to harness the talent of young engineers to solve problems using technology across a variety of domains such as: agriculture, manufacturing, defence, home, smart-city maintenance and service industries.</p>
@@ -19,8 +19,8 @@
             </div>
             <!--Right Col-->
             <div class="w-full sm:w-1/2 rounded-md transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 justify-center mt-2">
-                <a href="https://youtu.be/1_y7o812WE8" class="mb-4">
-                    <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/1_y7o812WE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://youtu.be/CzWOwGzS0oQ" class="mb-4">
+                    <iframe class="js-modal-btn rounded w-full p-4" width="560" height="315" src="https://www.youtube.com/embed/CzWOwGzS0oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </a>
             </div>
         </div>
