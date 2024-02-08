@@ -97,12 +97,12 @@
                     <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
                     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
                 </div> -->
-                <div class="invisible md:invisible lg:visible absolute -left-10 top-1/3"
-                style="transform: scale(0.7);">
+                <div class="invisible md:invisible lg:visible absolute -left-20 top-1/5"
+                style="transform: scale(0.6);">
                     <img src="{!! asset('img/eys/1.png') !!}" >
                 </div>
-                <div class="invisible md:invisible lg:visible absolute -right-10 top-1/3"
-                style="transform: scale(0.7);">
+                <div class="invisible md:invisible lg:visible absolute -right-20 top-1/2"
+                style="transform: scale(0.6);">
                     <img src="{!! asset('img/eys/2.png') !!}" >
                 </div>
 
@@ -156,7 +156,7 @@
 
                 <div class="invisible md:invisible lg:visible absolute -right-0 bottom-0"
                 style="transform: scale(0.7);">
-                    <img src="{!! asset('img/eys/3.png') !!}">
+                    <img src="{!! asset('img/eys/2.png') !!}">
                 </div>
 
                 <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -209,17 +209,17 @@
 
                 <div class="invisible md:invisible lg:visible absolute -left-0 bottom-0"
                 style="transform: scale(0.7);">
-                    <img style="-webkit-transform: scaleX(-1); transform: scaleX(-1);" src="{!! asset('img/eys/3.png') !!}">
+                    <img src="{!! asset('img/eys/1.png') !!}">
                 </div>
             </section>
 
             <!-- speaker -->
             <section id="speakers" class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
 
-                <div class="invisible md:invisible lg:visible absolute -right-80 bottom-0"
+               <!--  <div class="invisible md:invisible lg:visible absolute -right-80 bottom-0"
                 style="transform: scale(0.6);">
-                    <img src="{!! asset('img/eys/4.png') !!}">
-                </div>
+                    <img src="{!! asset('img/eys/2.png') !!}">
+                </div> -->
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
