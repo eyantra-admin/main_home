@@ -248,7 +248,7 @@ footer p strong {
             </div>
             <div class="item wow fadeInUpBig animated animated" data-number="400" style="visibility: visible;">
                 <i class="fa fa-camera"></i>
-                <p id="number4" class="number">400 +</p>
+                <p id="number4" class="number">500 +</p>
                 <span></span>
                 <p>e-Yantra Labs</p>
             </div>
