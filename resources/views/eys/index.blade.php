@@ -476,98 +476,154 @@
                         <div class="p-4">
                             <h2 class="text-lg font-semibold mb-4 text-white text-center">
                                 Day 1 <br>
-                                Wednesday, April 5 <sup>th</sup>
+                                Friday, April 5 <sup>th</sup>, 2024
                             </h2>
                             <ul>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        08:30 AM <br> 09:30 AM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        09:00 AM <br> 10:00 AM
                                     </div>
-                                    <div class="w-3/4 text-white">Registration and Breakfast</div>
-                                </li>
-
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:30 AM <br> 09:45 AM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Inauguration of the event</h3>
-                                        <p><i>"Address: Dean (R&D) - Prof. Milind Atrey"</i></p>                       
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <p class="ml-4">Registration and Breakfast</p>
                                     </div>
                                 </li>
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:45 AM <br> 10:15 AM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        10:00 AM <br> 10:15 AM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <p><span class="font-semibold">e-Yantra Status Report <br> Prof. Kavi Arya</span> </p>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">                                        
+                                            <h3 class="font-semibold">Inauguration of the event</h3>
+                                            <p><i>"___________________________"</i></p>                       
+                                        </div>
+                                    </div>
+                                </li>
 
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        10:15 AM <br> 10:45 AM
+                                    </div>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <p class="ml-4"><span class="font-semibold">e-Yantra Status Report <br> Prof. Kavi Arya</span> </p>
                                     </div>
                                 </li>
 
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        10:15 AM <br> 11:00 AM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        10:45 AM <br> 11:30 AM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Panel Discussion</h3>
-                                        <p><i>"The Challenges of Implementing NEP 2020"</i></p>
-                                        <ul class="ml-4 list-disc text-sm">
-                                            <li>
-                                                <a class="text-yellow-200 font-semibold" href="https://www.mkcl.org/directors/mr-vikas-rastogi" target="_blank">Mr. Vikas Rastogi</a>
-                                            </li>
-                                            <li>
-                                                <a class="text-yellow-200 font-semibold" href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
-                                            </li>                                            
-                                            
-                                            <li>
-                                                <a class="text-yellow-200 font-semibold" href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a></li>
-                                            <li>
-                                                <a class="text-yellow-200 font-semibold" href="https://atlasuniversity.edu.in/dr-rajan-welukar/" target="_blank">Dr. Rajan Welukar</a> 
-                                            </li>
-                                            <li><a class="text-yellow-200 font-semibold" href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Mr. Ashank Desai</a></li>
-                                            <li><a class="text-yellow-200 font-semibold" href="https://www.somaiya.edu/en/view-member/160504?type=faculty" target="_blank">Prof. Shubha Pandit</a></li>
-                                        </ul>                                        
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">
+                                            <h3 class="font-semibold">Panel Discussion</h3>
+                                            <p><i>"Building a Defence Startup Ecosystem"</i></p>
+                                            <ul class="ml-4 list-disc text-sm">
+                                                <li>
+                                                    <a class="text-yellow-200 font-semibold" href="#" target="_blank">Vice Admiral Sandeep Naithani</a>
+                                                </li>
+                                                <li>
+                                                    <a class="text-yellow-200 font-semibold" href="#" target="_blank">Mr. Sundeep Waslekar</a>
+                                                </li>                                            
+                                                
+                                                <!-- <li>
+                                                    <a class="text-yellow-200 font-semibold" href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a></li>
+                                                <li>
+                                                    <a class="text-yellow-200 font-semibold" href="https://atlasuniversity.edu.in/dr-rajan-welukar/" target="_blank">Dr. Rajan Welukar</a> 
+                                                </li>
+                                                <li><a class="text-yellow-200 font-semibold" href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Mr. Ashank Desai</a></li>
+                                                <li><a class="text-yellow-200 font-semibold" href="https://www.somaiya.edu/en/view-member/160504?type=faculty" target="_blank">Prof. Shubha Pandit</a></li> -->
+                                            </ul>                                        
+                                        </div>    
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2 bg-gray-400">
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        11:30 AM <br> 11:45 AM
+                                    </div>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Tea Break</h3>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:00 AM <br> 11:15 AM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        11:45 AM <br> 12:45 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Tea Break</h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">
+                                            <ul class="ml-4 list-disc">
+                                                <li>
+                                                    <a class="font-semibold">eYIC Exhibition</a>
+                                                </li>
+                                                <li>
+                                                    <a class="font-semibold">Panel Discussion</a>
+                                                    <ul class="ml-4 list-disc text-sm">
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">Representative from Startup India / Mr. Gireendra Kasmalkar (I4C)</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">Prof. Shubha Pandit</a>
+                                                        </li> 
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">Prof. Shobha Bagai (Director CIC)</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">Dr. MJ Shankar Raman (CEO Pravartak, IITM Research Park)</a>
+                                                        </li>   
+                                                    </ul>
+                                                </li>
+                                            </ul>                                        
+                                        </div>   
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2 bg-gray-400">
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        01:00 PM <br> 02:00 PM
+                                    </div>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Lunch</h3>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        11:15 AM <br> 12:30 PM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        02:00 PM <br> 04:30 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Innovation Challenge Business Pitch</h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                         <div class="ml-4">
+                                            <ul class="ml-4 list-disc">
+                                                <li>
+                                                    <a class="font-semibold">eYIC Exhibition</a>
+                                                </li>
+                                                <li>
+                                                    <a class="font-semibold">IITB Lab Visits</a>
+                                                    <!-- <ul class="ml-4 list-disc text-sm">
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">BETiC Lab, Heat Pump lab</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">IDC, Dept. Aerospace Engineering</a>
+                                                        </li> 
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">CSE, KCDH, Trust Lab, Centre for Machine Intelligence and Data Science</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">Tinkerers Lab</a>
+                                                        </li> 
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">Graphics Lab</a>
+                                                        </li> 
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">Prof. Rajesh Zele, EE Lab</a>
+                                                        </li> 
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">SINE, DSSE - (Presentation on how they are grooming students in Marketing, Finance, Business pitch development)</a>
+                                                        </li>  
+                                                    </ul> -->
+                                                </li>
+                                            </ul>                                        
+                                        </div> 
                                     </div>
                                 </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        12:30 PM <br> 01:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Lunch</h3>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        01:30 PM <br> 04:00 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <ul class="ml-4 list-disc text-white">
-                                            <li>Innovation Challenge - Exhibition</li>
-                                            <li>IIT Bombay Research Presentations <br>
-                                            <span class="text-sm">IITB Research meets e-Yantra College Faculties</span></li> 
-                                        </ul> 
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                <!-- <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
                                         04:00 PM <br> 05:00 PM
                                     </div>
@@ -575,67 +631,63 @@
                                         <p>DesignUp: "Jab We Met - Design meets Engineering"</p>
                                         <a class="text-red-400" href="https://www.ispp.org.in/faculties/amit-krishn-gulati/" target="_blank">Mr. Amit Krishn Gulati</a>                                        
                                     </div>
-                                </li>
+                                </li> -->
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        05:00 PM <br> 05:30 PM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        04:00 PM <br> 04:15 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Tea Break</h3>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        05:30 PM <br> 06:00 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">                                        
-                                        <p>Algorithms for Strategic Laziness</p>
-                                        <a class="text-red-400" href="https://in.linkedin.com/in/krishashok" target="_blank">Mr. Krish Ashok</a>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Tea Break</h3>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        06:00 PM <br> 06:10 PM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        04:15 PM <br> 05:00 PM
                                     </div>
-                                    <div class="w-3/4 text-white">                                        
-                                        <p>Beyond assumptions : A journey of co-creations with small holder farmers</p>
-                                        <a class="text-red-400" href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        06:10 PM <br> 06:20 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">                                        
-                                        <p>Creativity & The Inner Critic</p>
-                                        <a class="text-red-400" href="https://in.linkedin.com/in/nishitamohta" target="_blank">Ms. Nishita Mohta</a>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        06:20 PM <br> 06:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">                                        
-                                        <p>Storytelling for Products</p>
-                                        <a class="text-red-400" href="https://in.linkedin.com/in/tanvi-shrivastava-290aa8178" target="_blank">Ms. Tanvi Srivastava</a>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">                                        
+                                        <div class="ml-4">
+                                            <ul class="ml-4 list-disc">
+                                                <li>
+                                                    <a class="font-semibold">e-Yantra New Vision</a>
+                                                </li>
+                                                <li>
+                                                    <a class="font-semibold">e-Yantra Tech Stack demos - Drone, Control Systems, FPGA, KrishBot</a>
+                                                </li>
+                                            </ul>                                        
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        07:00 PM <br> 08:00 PM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        05:00 PM <br> 06:00 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <ul class="list-disc">
-                                            Stand-up Comedy by <a class="text-red-400" href="https://www.youtube.com/user/piyush08004041" target="_blank">Piyush Sharma</a>
-                                        </ul>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">                                        
+                                        <div class="ml-4">
+                                            <ul class="ml-4 list-disc">
+                                                <li>
+                                                    <a class="font-semibold">e-Yantra at Schools!</a>
+                                                    <ul class="ml-4 list-disc text-sm">
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">7th - 12th school to Post graduation</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">College students training school students (e-Yantra Students - Finalists & Interns)</a>
+                                                        </li> 
+                                                        <li>
+                                                            <a class="text-yellow-200 font-semibold" href="#" target="_blank">VMC Exhibition 20’ VM present</a>
+                                                        </li>                                                         
+                                                    </ul>
+                                                </li>                                                
+                                            </ul>                                        
+                                        </div>
                                     </div>
-                                </li>
+                                </li>                                
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        08:00 PM <br> Onwards
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        07:00 PM <br> Onwards
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Dinner</h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Dinner</h3>
                                     </div>
                                 </li>
                             </ul>
@@ -645,111 +697,122 @@
                         <div class="p-4">
                             <h2 class="text-lg font-semibold mb-4 text-white text-center">
                                 Day 2 <br>
-                                Thursday, April 6 <sup>th</sup>
+                                Saturday, April 6 <sup>th</sup>, 2024
                             </h2>
                             <ul>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        08:30 AM <br> 09:30 AM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        09:00 AM <br> 10:00 AM
                                     </div>
-                                    <div class="w-3/4 text-white">Registration and Breakfast</div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:30 AM <br> 09:45 AM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Welcome</h3>
-                                        <p>Address: Dean (Educational Outreach) - Prof. Siddhartha Ghosh</p>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <span class="ml-4">Registration and Breakfast</span>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        09:45 AM <br> 10:15 AM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        10:00 AM <br> 11:15 AM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <p><span class="font-semibold">e-Yantra Overview - Prof. Kavi Arya</span> </p>
-                                        <h3><b>"Measuring the Josh on e-Yantra Campuses" - e-Yantra Lab Ranking</b></h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">
+                                            <h3 class="font-semibold">Welcome</h3>
+                                            <p>Address: _________________________</p>
+                                        </div>    
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                    <div class="w-1/4 font-mono text-white mx-4">
                                         10:15 AM <br> 11:15 AM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3>Keynote:<br/><b>Lessons and Messages from Vande Bharat Project</b></h3>
-                                        <a class="text-red-400 font-semibold" href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">
+                                            <h3 class="font-semibold">Panel Discussion</h3>
+                                            <p><i>"Rising India / Implementing NEP2020"</i></p>
+                                            <ul class="ml-4 list-disc text-sm">
+                                                <li>
+                                                    <a class="text-yellow-200 font-semibold" href="#" target="_blank">Prof. Dinesh Singh - implement NEP2020</a>
+                                                </li>
+                                                <li>
+                                                    <a class="text-yellow-200 font-semibold" href="#" target="_blank">Prof. Umesh Rai</a>
+                                                </li>                                            
+                                                
+                                                <!-- <li>
+                                                    <a class="text-yellow-200 font-semibold" href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a></li>
+                                                <li>
+                                                    <a class="text-yellow-200 font-semibold" href="https://atlasuniversity.edu.in/dr-rajan-welukar/" target="_blank">Dr. Rajan Welukar</a> 
+                                                </li>
+                                                <li><a class="text-yellow-200 font-semibold" href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Mr. Ashank Desai</a></li>
+                                                <li><a class="text-yellow-200 font-semibold" href="https://www.somaiya.edu/en/view-member/160504?type=faculty" target="_blank">Prof. Shubha Pandit</a></li> -->
+                                            </ul>    
+                                            <p><i>e-Yantra Book Launch</i></p>                                    
+                                        </div> 
                                     </div>
                                 </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2 bg-gray-400">
+                                    <div class="w-1/4 font-mono text-white mx-4">
                                         11:15 AM <br> 11:30 AM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Break</h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Tea Break</h3>
                                     </div>
-                                </li>
+                                </li>                                
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                    <div class="w-1/4 font-mono text-white mx-4">
                                         11:30 AM <br> 12:30 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Panel Discussion: (Building High - Tech Startups)</h3>
-                                        <span><i>Role of e-Yantra Labs in Industry/Academia Interaction</i></span>
-                                        <ul class="ml-4 list-disc text-sm">                                            
-                                            <li>
-                                                <a class="text-red-400 font-semibold" href="https://www.cse.iitb.ac.in/~dbp/" target="_blank">Prof. Deepak B Phatak</a>
-                                            </li>
-                                            <li>
-                                                <a class="text-red-400 font-semibold" href="https://in.linkedin.com/in/sriram-parthasarathy-2606866" target="_blank">Mr. Sriram Parthasarthy</a>
-                                            </li>
-                                            <li>
-                                                <a class="text-red-400 font-semibold" href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
-                                            </li>
-                                            <li>
-                                                <a class="text-red-400 font-semibold" href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
-                                            </li>
-                                            <li>
-                                                <a class="text-red-400 font-semibold" href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
-                                            </li>
-                                        </ul>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">                                            
+                                            <span><i>Group Discussion (6 Groups)</i></span>
+                                            <ul class="ml-4 list-disc text-sm">                                            
+                                                <li>
+                                                    <a class="text-red-400 font-semibold" href="#" target="_blank">30 mns - Discussion</a>
+                                                </li>
+                                                <li>
+                                                    <a class="text-red-400 font-semibold" href="#" target="_blank">30 mns - Presentation (5mns each)</a>
+                                                </li>                                                
+                                            </ul>
+                                        </div>    
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                    <div class="w-1/4 font-mono text-white mx-4">
                                         12:30 PM <br> 01:30 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Lunch</h3>
-                                        <p>(Along with Poster Presentation and Exhibition)</p>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">
+                                            <h3 class="font-semibold">Lunch</h3>
+                                            <p>(Along with Poster Presentation and Exhibition)</p>
+                                        </div>                                        
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        01:30 PM <br> 02:00 PM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        01:30 PM <br> 02:30 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        “Innovative Projects from e-Yantra Colleges”
-                                        <br><p>e-Yantra Lab Presentations</p>
-                                        <ul class="ml-4 list-disc text-sm">
-                                            <li>Prof. Bejoy Varghese (FISAT, Kerala)</li>
-                                            <li>Prof. Rohan Vaidya (SVPCET, Maharashtra)</li>
-                                            <li>Prof. Ankit Muley from (IIST, Madhya Pradesh)</li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        02:00 PM <br> 02:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">“Taking Ideas to Products in MedTech - A BETIC Perspective”</h3>
-                                        <p>
-                                            Talk by Dr. Rupesh Ghyar - <a class="text-red-400" href="https://www.betic.org/" target="_blank">BETiC Lab</a>
-                                        </p>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">
+                                            “Lightning Talks by IIT B Faculties”                                        
+                                            <ul class="ml-4 list-disc text-sm">
+                                                <li>Prof. Rajesh Zele - NAVIC</li>
+                                                <li>Prof. Ganesh Ramakrishnan - BharatGPT</li>
+                                                <li>Prof. Nandita Madhavan</li>
+                                                <li>Prof. Milind Rane</li>
+                                                <li>Prof. Kameswari Chebrolu (SAFE & BodhiTree)</li>
+                                                <li>Prof. Manoj Prabhakaran (Trust Lab)</li>
+                                            </ul>
+                                        </div>    
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        02:30 PM <br> 03:00 PM
+                                    </div>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <div class="ml-4">
+                                            <h3 class="font-semibold">“Innovative Projects from e-Yantra Colleges” <span class="text-sm">eLSI Presentation by Top 3 Colleges</span></h3>                                            
+                                        </div>                                        
+                                    </div>
+                                </li>
+                                <!-- <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
                                     <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
                                         02:30 PM <br> 03:00 PM
                                     </div>
@@ -757,37 +820,37 @@
                                         <h3 class="font-semibold">“A Model for Building High-Tech Startups”</h3>
                                         <p>Talk by <a class="text-red-400 font-semibold" href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a> (Founder, Sankalp Semiconductors)</p>
                                     </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
+                                </li> -->
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2 bg-gray-400">
+                                    <div class="w-1/4 font-mono text-white mx-4">
                                         03:00 PM <br> 03:15 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Break</h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Break</h3>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        03:15 PM <br> 04:00 PM
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        03:15 PM <br> 04:15 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Awards Ceremony and Valedictory function</h3>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:00 PM <br> 04:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">Vote of Thanks</h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Awards Ceremony and Valedictory function</h3>
                                     </div>
                                 </li>
                                 <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
-                                    <div class="w-1/4 font-mono text-white mx-4 border-r-2 border-yellow-200">
-                                        04:30 PM <br> Onwards
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        05:15 PM <br> 05:30 PM
                                     </div>
-                                    <div class="w-3/4 text-white">
-                                        <h3 class="font-semibold">High Tea</h3>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">Vote of Thanks</h3>
+                                    </div>
+                                </li>
+                                <li class="flex mb-2 border-2 border-yellow-200 rounded-md items-center py-2">
+                                    <div class="w-1/4 font-mono text-white mx-4">
+                                        05:30 PM <br> Onwards
+                                    </div>
+                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                        <h3 class="font-semibold ml-4">High Tea</h3>
                                     </div>
                                 </li>
                             </ul>
