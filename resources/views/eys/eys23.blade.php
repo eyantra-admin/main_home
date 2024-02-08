@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>e-Yantra Symposium 2024</title>
+        <title>e-Yantra Symposium 2023</title>
 
         <!-- Primary Meta Tags -->
         <meta name="title" content="e-Yantra: Engineering a better tomorrow">
@@ -61,7 +61,7 @@
                     <div class="mx-auto flex flex-cols items-center gap-4 px-4">
                         <div class="text-center">
                             <p>
-                                <time datetime="2022-04-04">05</time>-<time datetime="2022-04-06">06 of April, 2024</time>
+                                <time datetime="2022-04-04">05</time>-<time datetime="2022-04-06">06 of April, 2023</time>
                             </p>
                             <p>IIT Bombay, Mumbai</p>
                         </div>
@@ -112,18 +112,16 @@
                             e-Yantra Symposium
                         </h2>
                         <h1 class="font-display text-5xl font-bold tracking-tighter text-gray-700 lg:text-yellow-300  md:text-yellow-300 sm:text-7xl mt-2">
-                            Defence Startups & Education Design.<br> Shape Your Future!
+                            Bridging the gap between Design and Engineering
                         </h1>
                         <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-white text-justify">
                             <p>
-                                The e-Yantra Symposium is a national event that brings together researchers, educators, incubators, industry experts, and students from different parts of the country to explore innovative approaches to embedded systems, design thinking, robotics and automation.
+                                The e-Yantra Symposium is a national event that brings together researchers, educators, industry experts, and students from different parts of the country to explore innovative approaches to embedded systems, design thinking, robotics and automation.
                             </p>
                             <p>
-                                The variety of engagements, such as panel discussions, lightning talks by IITB faculties, lab visits, poster presentations, and exhibitions of cutting-edge technologies, contributes to a holistic experience for attendees. The focus on showcasing projects developed by e-Yantra Innovation Challenge finalist teams adds a practical and competitive element to the event, allowing participants to witness real-world applications and innovations in the field.
+                                The event includes design thinking activities/workshops, keynote, panel discussion and poster presentations from Top eLSI Colleges and exhibitions of cutting-edge technologies and demonstrations of projects developed by e-Yantra Innovation Challenge finalist teams from different colleges and universities.
                             </p>
-                            <p>
-                                Moreover, the networking opportunities provided by the symposium offer a valuable chance for individuals to connect with peers and experts from different backgrounds. This exchange of ideas and experiences can lead to fruitful collaborations, knowledge sharing, and the exploration of new possibilities in the realm of embedded systems, design thinking, robotics, and automation.
-                            </p>
+                            <p>The e-Yantra Symposium provides an excellent platform for networking and exchanging ideas with peers and experts from various fields.</p>
                         </div>
 
                         <a class="inline-flex justify-center rounded-2xl bg-blue-600 p-4 text-base font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70 mt-10 w-full sm:hidden" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat
@@ -151,7 +149,7 @@
                 </div>
             </div>
 
-            <!-- talk -->
+            <!-- workshops -->
             <section id="workshop" class="relative py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
 
                 <div class="invisible md:invisible lg:visible absolute -right-0 bottom-0"
@@ -160,58 +158,24 @@
                 </div>
 
                 <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div class="max-w-2xl lg:mr-0">
+                    <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
-                            Building a Defence Startup Ecosystem
+                            Design Workshop
                         </h2>
-                        <div class="flex font-mono text-lg text-yellow-500 mt-4">
-                            <p>Day 1: <span class="font-bold">Friday, April 5<sup>th</sup></span></p>                                 
-                        </div>
-                        <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
                         <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            The vision of e-Yantra is to establish connections with over 500 e-Yantra labs, engaging them in addressing societal issues that can serve as foundational projects and eventually lead to startup initiatives within colleges. It places equal emphasis on familiarizing participants with challenges in the defence sector.
+                            This year our Design partner, <a class="font-bold text-blue-500" href="https://designup.io/" target="_blank">"DesignUp"</a> has collaborated with e-Yantra to create a special workshop to sensitise engineers to the importance of Design Thinking. We plan an exciting workshop to give insights to ensure they give customers a wow experience while solving their problems.
                         </p>
                         <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            In this panel discussion, the panellists will explore the essential requirements for constructing a defence startup ecosystem. Following this, there will be a discussion involving incubators, educators, government officials, and startup stakeholders to strategize and accomplish the specified objectives. This discussion aims to provide insights into enhancing the engagement of the e-Yantra Community with these challenges.
-                        </p>
-                        <!-- <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
-                        <div class="mx-auto max-w-4xl mt-8">
-                            <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
-                        </div> -->
-                    </div>
-
-                </div>
-            </section><!-- end -->
-
-            <section class="relative py-20 sm:py-32" style="background: linear-gradient(to left bottom, rgb(16, 185, 129), rgb(55, 48, 163), rgb(244, 63, 94));">                
-
-                <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div class="max-w-2xl lg:ml-auto">
-                        <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
-                            Implementing NEP 2020 <br> “Design your Degree”
-                        </h2>
-                        <div class="flex font-mono text-lg text-yellow-500 mt-4">
-                            <p>Day 2: <span class="font-bold">Sat, April 6<sup>th</sup></span></p>                                 
-                        </div>
-                        <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            The National Education Policy (NEP) aims to revamp and modernize India's education system, giving importance to a holistic approach that highlights skill development, flexibility, and a thorough understanding of subjects.
-                        </p>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            NEP's objective is to deliver a well-rounded, multidisciplinary undergraduate education, creating graduates with integrated personalities and improved employability. This panel discussion will centre on addressing the ongoing question among educators: "How can we incorporate NEP 2020 into the curriculum?" With a special emphasis on the University of Jammu's "Design your degree" program, which aligns with the principles of NEP 2020.
+                            In this workshop, we will explore the fundamental principles of design and how they can be applied to engineering projects. Through hands-on activities, we will learn how to ideate, prototype, and refine our designs to create innovative and functional solutions. Whether you are an experienced engineer or a curious beginner, this workshop will provide you with valuable skills and insights to take your designs to the next level. Let's get creative!
                         </p>
                         <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
                         <div class="mx-auto max-w-4xl mt-8">
                             <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
                         </div>
                     </div>
-                </div>
 
-                <div class="invisible md:invisible lg:visible absolute -left-0 bottom-0"
-                style="transform: scale(0.7);">
-                    <img style="-webkit-transform: scaleX(-1); transform: scaleX(-1);" src="{!! asset('img/eys/3.png') !!}">
                 </div>
-            </section>
+            </section><!-- end -->
 
             <!-- speaker -->
             <section id="speakers" class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
