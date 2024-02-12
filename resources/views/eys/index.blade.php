@@ -80,7 +80,7 @@
 
             <nav class="sticky flex flex-col text-center py-4 px-6 w-full border-t font-mono">
                 <div class="mx-auto">
-                    <a href="#workshop" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-2">Workshop</a>
+                    <a href="#workshop" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-2">Talks</a>
                     <a href="#speakers" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-4">Speakers</a>
                     <a href="#schedule" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-4">Schedule</a>
                 </div>
@@ -232,7 +232,7 @@
                     </div>
 
                     <!-- days -->
-                    <dl class="mt-10 grid md:grid-cols-2 lg:grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-16 sm:gap-x-8 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+                    <!-- <dl class="mt-10 grid md:grid-cols-2 lg:grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-16 sm:gap-x-8 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                         <div>
                             <dt class="font-mono text-lg text-yellow-200">
                                 <span class="font-bold">Day 1</span> <br>
@@ -255,11 +255,11 @@
                                 </time>
                             </dd>
                         </div>
-                    </dl>
+                    </dl> -->
 
                     <!-- speakers photo -->
                     <div class="relative mt-6 max-w-6xl grid grid-cols-1 gap-12 md:grid-cols-3 lg:grid-cols-4 mt-12">
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amit-gulati.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
@@ -305,7 +305,7 @@
                                     Service Design Lead,<br> Jiva Agservices
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
@@ -319,7 +319,7 @@
                             </div>
                         </div>
 
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-kiran-deshpande.jpg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
@@ -353,7 +353,7 @@
                                    Sr. Project Manager, <br> Thought Over Design
                                </p>
                            </div>
-                        </div>
+                        </div> -->
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
@@ -367,7 +367,7 @@
                             </div>
                         </div>
 
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ranjan-welukar.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
@@ -449,10 +449,13 @@
                                     Founder, <br> Sankalp Semiconductor
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                         
                     <!-- Add more team members as needed -->
                 </div>
+                <div class="mx-auto w-full">
+                    <p class="font-bold text-white text-2xl mt-4">Coming soon....</p>
+                </div>    
             </div>
         </section><!-- end -->
 
