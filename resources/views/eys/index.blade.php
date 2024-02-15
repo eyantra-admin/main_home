@@ -80,7 +80,7 @@
 
             <nav class="sticky flex flex-col text-center py-4 px-6 w-full border-t font-mono">
                 <div class="mx-auto">
-                    <a href="#workshop" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-2">Talks</a>
+                    <a href="#workshop" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-2">Discussion</a>
                     <a href="#speakers" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-4">Speakers</a>
                     <a href="#schedule" class="text-lg no-underline text-grey-darkest hover:text-red-600 ml-4">Schedule</a>
                 </div>
@@ -101,8 +101,8 @@
                 style="transform: scale(0.6);">
                     <img src="{!! asset('img/eys/1.png') !!}" >
                 </div>
-                <div class="invisible md:invisible lg:visible absolute -right-20 top-1/2"
-                style="transform: scale(0.6);">
+                <div class="invisible md:invisible lg:visible absolute -right-20 top-1/3"
+                style="transform: scale(0.7);">
                     <img src="{!! asset('img/eys/2.png') !!}" >
                 </div>
 
@@ -157,8 +157,8 @@
             <!-- talk -->
             <section id="workshop" class="relative py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
 
-                <div class="invisible md:invisible lg:visible absolute -right-0 bottom-0"
-                style="transform: scale(0.7);">
+                <div class="invisible md:invisible lg:visible absolute -right-0 top-1/4"
+                style="transform: scale(0.8);">
                     <img src="{!! asset('img/eys/2.png') !!}">
                 </div>
 
