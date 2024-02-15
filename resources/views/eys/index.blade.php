@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-                    <a class="inline-flex justify-center rounded-2xl bg-red-600 p-4 text-base font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
+                    <a class="inline-flex justify-center rounded-2xl bg-red-600 px-4 py-2 text-base font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank"><code>Book Your Seat</code></a>
                 </div>
             </div>
 
@@ -91,12 +91,7 @@
         <!-- main -->
         <main>
             <!-- hero -->
-            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">
-                <!-- <div class="absolute -left-3/4 lg:-left-48 md:-left-48 -top-20 -bottom-14 overflow-hidden bg-white">
-                   <img alt="" src="{!!asset('img/elogo.png')!!}" decoding="async" data-nimg="1" class="blur-lg" style="color:transparent" width="800" height="1024">
-                    <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
-                    <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
-                </div> -->
+            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">                
                 <div class="invisible md:invisible lg:visible absolute -left-20 top-1/5"
                 style="transform: scale(0.6);">
                     <img src="{!! asset('img/eys/1.png') !!}" >
@@ -155,75 +150,72 @@
             </div>
 
             <!-- talk -->
-            <section id="workshop" class="relative py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
-
-                <div class="invisible md:invisible lg:visible absolute -right-0 top-1/4"
-                style="transform: scale(0.8);">
-                    <img src="{!! asset('img/eys/2.png') !!}">
-                </div>
-
-                <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div class="max-w-2xl lg:mr-0">
-                        <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
-                            Building a Defence Startup Ecosystem
-                        </h2>
-                        <div class="flex font-mono text-lg text-yellow-500 mt-4">
-                            <p>Day 1: <span class="font-bold">Friday, April 5<sup>th</sup></span></p>                                 
-                        </div>
-                        <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            The vision of e-Yantra is to establish connections with over 500+ e-Yantra labs, engaging them in addressing societal issues that can serve as foundational projects that eventually lead to startups within colleges. It places equal emphasis on familiarizing participants with challenges in the defence sector.
-                        </p>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            In this panel discussion, the panellists explore the essential requirements for constructing a defence startup ecosystem. Following this, there will be a discussion involving incubators, educators, government officials, and startup stakeholders to strategize and accomplish the specified objectives. This discussion aims to provide insights into enhancing the engagement of the e-Yantra Community with these challenges.
-                        </p>
-                        <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
-                        <div class="mx-auto max-w-4xl mt-8">
-                            <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
+            <section id="workshop" class="py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
+                <div class="flex flex-col lg:flex-row lg:w-5/6 mx-auto">
+                    <!-- Text div on the left -->
+                    <div class="lg:w-1/2 lg:order-1">
+                        <div class="p-8">
+                            <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
+                                Building a Defence Startup Ecosystem
+                            </h2>
+                            <div class="flex font-mono text-lg text-yellow-500 mt-4">
+                                <p>Day 1: <span class="font-bold">Friday, April 5<sup>th</sup></span></p>                                 
+                            </div>
+                            <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
+                            <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                                The vision of e-Yantra is to establish connections with over 500+ e-Yantra labs, engaging them in addressing societal issues that can serve as foundational projects that eventually lead to startups within colleges. It places equal emphasis on familiarizing participants with challenges in the defence sector.
+                            </p>
+                            <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                                In this panel discussion, the panellists explore the essential requirements for constructing a defence startup ecosystem. Following this, there will be a discussion involving incubators, educators, government officials, and startup stakeholders to strategize and accomplish the specified objectives. This discussion aims to provide insights into enhancing the engagement of the e-Yantra Community with these challenges.
+                            </p>
+                            <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
+                            <div class="mx-auto max-w-4xl mt-8">
+                                <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
+                            </div>  
                         </div>
                     </div>
-
+              
+                    <!-- Image on the right -->
+                    <div class="lg:w-1/2 lg:order-2 hidden lg:block md:my-auto">
+                        <img src="{!! asset('img/eys/2.png') !!}" alt="Defence Startup Ecosystem" class="w-full h-auto">
+                    </div>
                 </div>
-            </section><!-- end -->
+            </section>   
 
-            <section class="relative py-20 sm:py-32" style="background: linear-gradient(to left bottom, rgb(16, 185, 129), rgb(55, 48, 163), rgb(244, 63, 94));">                
-
-                <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div class="max-w-2xl lg:ml-auto">
-                        <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
-                            Implementing NEP2020 <br> “Design your Degree”
-                        </h2>
-                        <div class="flex font-mono text-lg text-yellow-500 mt-4">
-                            <p>Day 2: <span class="font-bold">Sat, April 6<sup>th</sup></span></p>                                 
-                        </div>
-                        <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            The National Education Policy (NEP) aims to revamp and modernize India's education system, giving importance to a holistic approach that highlights skill development, flexibility, and a thorough understanding of subjects.
-                        </p>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            NEP's objective is to deliver a well-rounded, multidisciplinary undergraduate education, creating graduates with integrated personalities and improved employability. This panel discussion will centre on addressing the ongoing question among educators: "How can we incorporate NEP 2020 into the curriculum?" With a special emphasis on the University of Jammu's "Design your degree" program, which aligns with the principles of NEP 2020.
-                        </p>
-                        <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
-                        <div class="mx-auto max-w-4xl mt-8">
-                            <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
+            <section class="py-20 sm:py-32" style="background: linear-gradient(to left bottom, rgb(16, 185, 129), rgb(55, 48, 163), rgb(244, 63, 94));">
+                <div class="flex flex-col lg:flex-row lg:w-5/6 mx-auto">
+                    <!-- Image on the left (hidden on tablet and mobile) -->
+                    <div class="lg:w-1/2 hidden lg:block md:my-auto">
+                        <img src="{!! asset('img/eys/1.png') !!}" alt="NEP2020" class="w-full h-auto">
+                    </div>
+                    <!-- Text div on the right -->
+                    <div class="lg:w-1/2">
+                        <div class="p-8">
+                            <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl font-bold">
+                                Implementing NEP2020 <br> “Design your Degree”
+                            </h2>
+                            <div class="flex font-mono text-lg text-yellow-500 mt-4">
+                                <p>Day 2: <span class="font-bold">Sat, April 6<sup>th</sup></span></p>                                 
+                            </div>
+                            <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
+                            <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                                The National Education Policy (NEP) aims to revamp and modernize India's education system, giving importance to a holistic approach that highlights skill development, flexibility, and a thorough understanding of subjects.
+                            </p>
+                            <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                                NEP's objective is to deliver a well-rounded, multidisciplinary undergraduate education, creating graduates with integrated personalities and improved employability. This panel discussion will centre on addressing the ongoing question among educators: "How can we incorporate NEP 2020 into the curriculum?" With a special emphasis on the University of Jammu's "Design your degree" program, which aligns with the principles of NEP 2020.
+                            </p>
+                            <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
+                            <div class="mx-auto max-w-4xl mt-8">
+                                <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="invisible md:invisible lg:visible absolute -left-0 bottom-0"
-                style="transform: scale(0.7);">
-                    <img src="{!! asset('img/eys/1.png') !!}">
-                </div>
-            </section>
+            </section>                
 
             <!-- speaker -->
             <section id="speakers" class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
-
-               <!--  <div class="invisible md:invisible lg:visible absolute -right-80 bottom-0"
-                style="transform: scale(0.6);">
-                    <img src="{!! asset('img/eys/2.png') !!}">
-                </div> -->
-
+               
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
@@ -314,49 +306,13 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Kavi_Arya.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
-                                    <a href="https://www.it.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
+                                    <a href="https://www.cse.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
                                     Principal Investigator, <br> e-Yantra
                                 </p>
                             </div>
-                        </div>
-
-                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-kiran-deshpande.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Former CEO TechM, <br> Co-Founder - Mojo networks
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ashok-krish.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/krishashok" target="_blank">Mr. Krish Ashok</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Techie, Musician & <br> Author of Masala Lab
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/nishita.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/nishitamohta" target="_blank">Ms. Nishita Mohta</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                   Sr. Project Manager, <br> Thought Over Design
-                               </p>
-                           </div>
-                        </div> -->
+                        </div>                        
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
@@ -365,97 +321,12 @@
                                     <a href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    IIT <br> Bombay
+                                    Adjunct Professor, <br> IIT Bombay
                                 </p>
                             </div>
                         </div>
-
-                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ranjan-welukar.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Dr. Rajan Welukar</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Vice Chancellor, <br> ATLAS SkillTech University
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/rupesh-ghyar.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://drive.google.com/file/d/1fI_Z52oJqv0lPEMlbUZ8Oz-K5MmmJyao/view?usp=sharing" target="_blank">Dr. Rupesh Ghyar</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Senior Executive Officer,<br> BETiC
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Sudhanshu_Mani.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://manisudhanshu.com/wp-content/uploads/2019/11/Resume-S-Mani.pdf" target="_blank">Mr. Sudhanshu Mani</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Innovator of Vande Bharat Express
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/tanvi.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/tanvi-shrivastava-290aa8178" target="_blank">Ms. Tanvi Srivastava</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Product Designer at Postman,<br> Illustrator and Storyteller
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/mr-vikas-rastogi.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.mkcl.org/directors/mr-vikas-rastogi" target="_blank">Mr. Vikas Rastogi</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                   Principal Secretary, <br>Higher & Technical Education
-                               </p>
-                           </div>
-                        </div>
-                        
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-35 rounded-full mx-auto" src="{!! asset('img/speakers/vinod-mohitkar.png') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://msbte.org.in/portal/director_profile/" target="_blank">Dr. Vinod M. Mohitkar</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                   Director, <br>Technical Education
-                               </p>
-                           </div>
-                        </div>
-
-                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/Vivek_Pawar.jpg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.linkedin.com/in/vivekgpawar" target="_blank">Mr. Vivek Pawar</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Founder, <br> Sankalp Semiconductor
-                                </p>
-                            </div>
-                        </div> -->
-                        
-                    <!-- Add more team members as needed -->
-                </div>
+                        <!-- Add more team members as needed -->
+                    </div>
                 <div class="mx-auto w-full">
                     <p class="font-bold text-white text-2xl mt-4">Coming soon....</p>
                 </div>    
@@ -557,7 +428,7 @@
                                             <ul class="ml-4 list-disc text-xl">
                                                 <li>
                                                     <p class="font-semibold">eYIC Exhibition</p>
-                                                    <p class="text-sm">eYIC finalist will showcase their projects.</p>
+                                                    <p class="text-sm">eYIC finalists will showcase their projects.</p>
                                                 </li>
                                                 <li>
                                                     <p class="font-semibold text-xl">Building a Defence Startup Ecosystem</p>                                    
@@ -678,7 +549,7 @@
                                             <ul class="ml-4 list-disc text-xl">
                                                 <li>
                                                     <p class="font-semibold">eYIC Exhibition</p>
-                                                    <p class="text-sm">eYIC finalist will showcase their projects.</p>
+                                                    <p class="text-sm">eYIC finalists will showcase their projects.</p>
                                                 </li>
                                                 <li>
                                                     <p class="font-semibold text-xl">Implementing NEP2020 <br> "Design your Degree"</p>                                
@@ -737,7 +608,7 @@
                                     </div>
                                     <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
                                         <div class="ml-4">
-                                            <p class="fond-semibold text-xl">Lightning Talks by IIT Bombay Faculties</p>
+                                            <p class="fond-semibold text-xl">Lightning Talks by IIT Bombay Faculty</p>
                                             <span class="bg-yellow-500 rounded-md text-sm px-2">Talk</span>                                            
                                         </div>    
                                     </div>
