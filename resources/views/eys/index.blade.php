@@ -92,14 +92,18 @@
         <main>
             <!-- hero -->
             <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">                
-                <div class="invisible md:invisible lg:visible absolute -left-20 top-1/5"
-                style="transform: scale(0.6);">
-                    <img src="{!! asset('img/eys/1.png') !!}" >
+                
+                <!-- left image -->
+                <div class="invisible md:invisible lg:visible absolute -left-20 top-1/5 bg-purple-400" 
+                style="transform: scale(0.6); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;">
+                    <img src="{!! asset('img/eys/1.png') !!}" class="object-cover w-full h-full">
                 </div>
-                <div class="invisible md:invisible lg:visible absolute -right-20 top-1/3"
-                style="transform: scale(0.7);">
-                    <img src="{!! asset('img/eys/2.png') !!}" >
-                </div>
+
+                <!-- right image -->
+                <div class="invisible md:invisible lg:visible absolute -right-20 top-1/3 bg-green-200"
+                style="transform: scale(0.7); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;">
+                    <img src="{!! asset('img/eys/2.png') !!}" class="object-cover w-full h-full">
+                </div>              
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                     <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
@@ -334,326 +338,326 @@
         </section><!-- end -->
 
 
-            <!-- schedule -->
-            <section id="schedule" class="py-20 sm:py-32" style="background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%); background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;">
-                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-                        <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
-                            Event Schedule
+        <!-- schedule -->
+        <section id="schedule" class="py-20 sm:py-32" style="background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%); background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
+                    <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
+                        Event Schedule
+                    </h2>
+                    <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
+                        We have planned exciting activities and sessions for the event. From informative keynote to engaging workshops, our schedule is designed to provide you with a memorable and enriching experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative mt-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                    <!-- day 1 -->
+                    <div class="p-4">
+                        <h2 class="text-2xl font-semibold mb-4 text-white text-center">
+                            Day 1 <br>
+                            Friday, April 5 <sup>th</sup>, 2024
                         </h2>
-                        <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
-                            We have planned exciting activities and sessions for the event. From informative keynote to engaging workshops, our schedule is designed to provide you with a memorable and enriching experience.
-                        </p>
+                        <ul class="border-2 border-yellow-200 rounded-md">                                
+                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    09:00 AM <br> 10:00 AM
+                                </div>
+                                <div class="w-3/4 border-l-2 py-2 border-yellow-200 text-lg">
+                                    <p class="ml-4"><code>Registration and Breakfast</code></p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 items-center py-2 text-white">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    10:00 AM <br> 10:15 AM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2">
+                                    <div class="ml-4">                                        
+                                        <p class="font-bold text-lg">Inauguration of the event</p>                                            
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    10:15 AM <br> 10:30 AM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
+                                    <p class="ml-4 font-bold text-lg">e-Yantra Overview & Status Report</p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    10:30 AM <br> 11:00 AM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                    <div class="ml-4">
+                                        <p class="font-bold text-lg">The person behind Tejas LCA</p>
+                                        <p class="text-md"><i>by Mr. Kota Harinarayana</i></p>
+                                        <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Keynote</span>
+                                    </div>                                        
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    11:00 AM <br> 11:45 AM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200">
+                                    <div class="ml-4">
+                                        <p class="font-semibold text-lg">Building a Defence Startup Ecosystem</p>                                    
+                                        <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Panel Discussion</span>                                      
+                                    </div>    
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    11:45 AM <br> 12:00 PM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2">
+                                    <p class="font-semibold ml-4"><code>Tea Break;</code></p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    12:00 PM <br> 01:00 PM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                    <div class="ml-4">
+                                        <ul class="ml-4 list-disc text-lg">
+                                            <li>
+                                                <p class="font-semibold">eYIC Exhibition</p>
+                                                <p class="text-sm">eYIC finalists will showcase their projects.</p>
+                                            </li>
+                                            <li>
+                                                <p class="font-semibold text-lg">Building a Defence Startup Ecosystem</p>                                    
+                                                <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Panel Discussion</span>
+                                            </li>
+                                        </ul>                                        
+                                    </div>   
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    01:00 PM <br> 02:00 PM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2">
+                                    <p class="font-semibold ml-4"><code>Lunch;</code></p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    02:00 PM <br> 02:45 PM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200">                                        
+                                    <div class="ml-4">
+                                        <ul class="ml-4 list-disc text-lg">
+                                            <li class="font-bold">
+                                                e-Yantra New Vision
+                                            </li>
+                                            <li class="font-bold">
+                                                <p>e-Yantra Tech Stack demos</p>
+                                                <p class="text-sm">Drone, Control Systems, FPGA, KrishBot</p>
+                                            </li>
+                                        </ul>                                        
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    02:45 PM <br> 03:30 PM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
+                                    <p class="ml-4 font-bold text-lg">e-Yantra at Schools!</p>
+                                </div>                                    
+                            </li> 
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    03:30 PM <br> 03:45 PM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2">
+                                    <h3 class="font-semibold ml-4"><code>Tea Break;</code></h3>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    03:45 PM <br> 05:30 PM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                    <div class="ml-4">
+                                        <ul class="ml-4 list-disc text-lg">
+                                            <li>
+                                                <p class="font-semibold">eYIC Exhibition</p>
+                                                <p class="text-sm">eYIC finalist will showcase their projects.</p>
+                                            </li>
+                                            <li>
+                                                <p class="font-semibold text-lg">IITB Lab Visits</p>                                    
+                                            </li>
+                                        </ul>                                        
+                                    </div>   
+                                </div>
+                            </li>
+                                                          
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    07:00 PM <br> Onwards
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2">
+                                    <p class="font-semibold ml-4"><code>Dinner;</code></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- day 2 -->
+                    <div class="p-4">
+                        <h2 class="text-2xl font-semibold mb-4 text-white text-center">
+                            Day 2 <br>
+                            Saturday, April 6 <sup>th</sup>, 2024
+                        </h2>
+                        <ul class="border-2 border-yellow-200 rounded-md">
+                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    09:00 AM <br> 10:00 AM
+                                </div>
+                                <div class="w-3/4 border-l-2 py-2 border-yellow-200">
+                                    <p class="ml-4 text-lg"><code>Registration and Breakfast</code></p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    10:00 AM <br> 10:15 AM
+                                </div>
+                                <div class="w-3/4 border-l-2 py-2 border-yellow-200">
+                                    <p class="ml-4 text-lg"><code>Welcome</code></p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 items-center text-white py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    10:15 AM <br> 11:15 AM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                    <div class="ml-4">
+                                        <ul class="ml-4 list-disc text-lg">
+                                            <li>
+                                                <p class="font-semibold">eYIC Exhibition</p>
+                                                <p class="text-sm">eYIC finalists will showcase their projects.</p>
+                                            </li>
+                                            <li>
+                                                <p class="font-semibold text-lg">Implementing NEP2020 <br> "Design your Degree"</p>                                
+                                                <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Panel Discussion</span>
+                                            </li>
+                                            <li>
+                                                <p class="font-semibold">e-Yantra Book Launch</p>
+                                            </li>
+                                        </ul>                                        
+                                    </div>   
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    11:15 AM <br> 11:30 AM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2 text-lg">
+                                    <p class="font-semibold ml-4"><code>Tea Break;</code></p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    11:30 AM <br> 12:30 PM
+                                </div>
+                                <div class="w-3/4 border-l-2 py-2 border-yellow-200 text-lg">
+                                    <p class="ml-4"><code>Group Discussion</code></p>
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 items-center text-white py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    12:30 PM <br> 01:30 PM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                    <div class="ml-4 text-lg">
+                                        <p class="font-semibold"><code>Lunch;</code></p>
+                                        <p>(Along with Poster Presentation and Exhibition)</p>
+                                    </div>                                        
+                                </div>
+                            </li>
+
+                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    01:30 PM <br> 02:00 PM
+                                </div>
+                                <div class="w-3/4 border-l-2 py-2 border-yellow-200 text-lg">
+                                    <p class="ml-4"><code>Innovative Projects from e-Yantra Colleges</code></p>
+                                </div>
+                            </li>
+                            
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    02:00 PM <br> 03:00 PM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
+                                    <div class="ml-4">
+                                        <p class="fond-semibold text-lg">Lightning Talks by IIT Bombay Faculty</p>
+                                        <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Talk</span>                                            
+                                    </div>    
+                                </div>
+                            </li>                                
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    03:00 PM <br> 03:15 PM
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2">
+                                    <p class="font-semibold ml-4 text-lg"><code>Break;</code></p>
+                                </div>
+                            </li>
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    03:15 PM <br> 04:15 PM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200">
+                                    <p class="font-semibold ml-4 text-lg"><code>Awards Ceremony and Valedictory function</code></p>
+                                </div>
+                            </li>
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    05:15 PM <br> 05:30 PM
+                                </div>
+                                <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
+                                    <p class="font-semibold ml-4 text-lg"><code>Vote of Thanks</code></p>
+                                </div>
+                            </li>
+                            <li class="flex mb-2 text-white items-center py-2">
+                                <div class="w-1/4 font-mono mx-4 text-right">
+                                    05:30 PM <br> Onwards
+                                </div>
+                                <div class="w-3/4 border-l-2 border-yellow-200 py-2">
+                                    <p class="font-semibold ml-4 text-lg"><code>High Tea;</code></p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-
-                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative mt-4">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-                        <!-- day 1 -->
-                        <div class="p-4">
-                            <h2 class="text-2xl font-semibold mb-4 text-white text-center">
-                                Day 1 <br>
-                                Friday, April 5 <sup>th</sup>, 2024
-                            </h2>
-                            <ul class="border-2 border-yellow-200 rounded-md">                                
-                                <li class="flex mb-2 items-center py-2 text-white">                                    
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        09:00 AM <br> 10:00 AM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 py-2 border-yellow-200">
-                                        <p class="ml-4"><code>Registration and Breakfast</code></p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 items-center py-2 text-white">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        10:00 AM <br> 10:15 AM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <div class="ml-4">                                        
-                                            <p class="font-bold text-lg">Inauguration of the event</p>                                            
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        10:15 AM <br> 10:30 AM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
-                                        <p class="ml-4 font-bold text-lg">e-Yantra Overview & Status Report</p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        10:30 AM <br> 11:00 AM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
-                                        <div class="ml-4">
-                                            <p class="font-bold text-xl">The person behind Tejas LCA</p>
-                                            <p class="text-md"><i>by Mr. Kota Harinarayana</i></p>
-                                            <span class="bg-yellow-500 rounded-md text-sm px-2">Keynote</span>
-                                        </div>                                        
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        11:00 AM <br> 11:45 AM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200">
-                                        <div class="ml-4">
-                                            <p class="font-semibold text-xl">Building a Defence Startup Ecosystem</p>                                    
-                                            <span class="bg-yellow-500 rounded-md text-sm px-2">Panel Discussion</span>                                      
-                                        </div>    
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        11:45 AM <br> 12:00 PM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <p class="font-semibold ml-4"><code>Tea Break;</code></p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        12:00 PM <br> 01:00 PM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
-                                        <div class="ml-4">
-                                            <ul class="ml-4 list-disc text-xl">
-                                                <li>
-                                                    <p class="font-semibold">eYIC Exhibition</p>
-                                                    <p class="text-sm">eYIC finalists will showcase their projects.</p>
-                                                </li>
-                                                <li>
-                                                    <p class="font-semibold text-xl">Building a Defence Startup Ecosystem</p>                                    
-                                                    <span class="bg-yellow-500 rounded-md text-sm px-2">Panel Discussion</span>
-                                                </li>
-                                            </ul>                                        
-                                        </div>   
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        01:00 PM <br> 02:00 PM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <p class="font-semibold ml-4"><code>Lunch;</code></p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        02:00 PM <br> 02:45 PM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200">                                        
-                                        <div class="ml-4">
-                                            <ul class="ml-4 list-disc text-xl">
-                                                <li class="font-bold">
-                                                    e-Yantra New Vision
-                                                </li>
-                                                <li class="font-bold">
-                                                    <p>e-Yantra Tech Stack demos</p>
-                                                    <p class="text-sm">Drone, Control Systems, FPGA, KrishBot</p>
-                                                </li>
-                                            </ul>                                        
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        02:45 PM <br> 03:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
-                                        <p class="ml-4 font-bold text-lg">e-Yantra at Schools!</p>
-                                    </div>                                    
-                                </li> 
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        03:30 PM <br> 03:45 PM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <h3 class="font-semibold ml-4"><code>Tea Break;</code></h3>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        03:45 PM <br> 05:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
-                                        <div class="ml-4">
-                                            <ul class="ml-4 list-disc text-xl">
-                                                <li>
-                                                    <p class="font-semibold">eYIC Exhibition</p>
-                                                    <p class="text-sm">eYIC finalist will showcase their projects.</p>
-                                                </li>
-                                                <li>
-                                                    <p class="font-semibold text-xl">IITB Lab Visits</p>                                    
-                                                </li>
-                                            </ul>                                        
-                                        </div>   
-                                    </div>
-                                </li>
-                                                              
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        07:00 PM <br> Onwards
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <p class="font-semibold ml-4"><code>Dinner;</code></p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- day 2 -->
-                        <div class="p-4">
-                            <h2 class="text-2xl font-semibold mb-4 text-white text-center">
-                                Day 2 <br>
-                                Saturday, April 6 <sup>th</sup>, 2024
-                            </h2>
-                            <ul class="border-2 border-yellow-200 rounded-md">
-                                <li class="flex mb-2 items-center py-2 text-white">                                    
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        09:00 AM <br> 10:00 AM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 py-2 border-yellow-200">
-                                        <p class="ml-4"><code>Registration and Breakfast</code></p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 items-center py-2 text-white">                                    
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        10:00 AM <br> 10:15 AM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 py-2 border-yellow-200">
-                                        <p class="ml-4"><code>Welcome</code></p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 items-center text-white py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        10:15 AM <br> 11:15 AM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
-                                        <div class="ml-4">
-                                            <ul class="ml-4 list-disc text-xl">
-                                                <li>
-                                                    <p class="font-semibold">eYIC Exhibition</p>
-                                                    <p class="text-sm">eYIC finalists will showcase their projects.</p>
-                                                </li>
-                                                <li>
-                                                    <p class="font-semibold text-xl">Implementing NEP2020 <br> "Design your Degree"</p>                                
-                                                    <span class="bg-yellow-500 rounded-md text-sm px-2">Panel Discussion</span>
-                                                </li>
-                                                <li>
-                                                    <p class="font-semibold">e-Yantra Book Launch</p>
-                                                </li>
-                                            </ul>                                        
-                                        </div>   
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        11:15 AM <br> 11:30 AM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <p class="font-semibold ml-4"><code>Tea Break;</code></p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 items-center py-2 text-white">                                    
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        11:30 AM <br> 12:30 PM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 py-2 border-yellow-200">
-                                        <p class="ml-4"><code>Group Discussion</code></p>
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 items-center text-white py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        12:30 PM <br> 01:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
-                                        <div class="ml-4">
-                                            <p class="font-semibold"><code>Lunch;</code></p>
-                                            <p>(Along with Poster Presentation and Exhibition)</p>
-                                        </div>                                        
-                                    </div>
-                                </li>
-
-                                <li class="flex mb-2 items-center py-2 text-white">                                    
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        01:30 PM <br> 02:00 PM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 py-2 border-yellow-200">
-                                        <p class="ml-4"><code>Innovative Projects from e-Yantra Colleges</code></p>
-                                    </div>
-                                </li>
-                                
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        02:00 PM <br> 03:00 PM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
-                                        <div class="ml-4">
-                                            <p class="fond-semibold text-xl">Lightning Talks by IIT Bombay Faculty</p>
-                                            <span class="bg-yellow-500 rounded-md text-sm px-2">Talk</span>                                            
-                                        </div>    
-                                    </div>
-                                </li>                                
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        03:00 PM <br> 03:15 PM
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <p class="font-semibold ml-4"><code>Break;</code></p>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        03:15 PM <br> 04:15 PM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200">
-                                        <p class="font-semibold ml-4 text-lg"><code>Awards Ceremony and Valedictory function</code></p>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        05:15 PM <br> 05:30 PM
-                                    </div>
-                                    <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
-                                        <p class="font-semibold ml-4 text-lg"><code>Vote of Thanks</code></p>
-                                    </div>
-                                </li>
-                                <li class="flex mb-2 text-white items-center py-2">
-                                    <div class="w-1/4 font-mono mx-4 text-right">
-                                        05:30 PM <br> Onwards
-                                    </div>
-                                    <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                        <p class="font-semibold ml-4"><code>High Tea;</code></p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="mx-auto max-w-4xl">
-                        <p class="text-red-400 mb-4 text-2xl text-center">There is no registration fee to attend the event. </p>
-                        <a class="flex justify-center rounded-2xl bg-red-600 p-4 text-4xl font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
-                    </div>
+                <div class="mx-auto max-w-4xl">
+                    <p class="text-red-400 mb-4 text-2xl text-center">There is no registration fee to attend the event. </p>
+                    <a class="flex justify-center rounded-2xl bg-red-600 p-4 text-4xl font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
                 </div>
-            </section>
+            </div>
+        </section>
         </main><!-- end -->
         <!-- footer -->
         <div class="items-center mx-auto relative bottom-0 bg-white">
