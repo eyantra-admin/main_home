@@ -114,12 +114,12 @@
 
                 <!-- Left Animated Blob Image -->
                 <div class="absolute top-1/4 left-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible">
-                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full opacity-75">
+                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full opacity-60">
                 </div>
 
                 <!-- Right Animated Blob Image -->
                 <div class="absolute top-1/2 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible bg-purple-400 blob">
-                    <img src="{!! asset('img/eys/2.png') !!}" alt="Right Blob" class="object-cover w-full h-full opacity-75">
+                    <img src="{!! asset('img/eys/2.png') !!}" alt="Right Blob" class="object-cover w-full h-full opacity-60">
                 </div>              
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
