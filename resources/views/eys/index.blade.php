@@ -89,20 +89,17 @@
         <!-- end -->
 
         <!-- main -->
-        <main>
-            <!-- hero -->
-            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">                
-                
-                <!-- left image -->
-                <div class="invisible md:invisible lg:visible absolute -left-20 top-1/5 bg-purple-400" 
-                style="transform: scale(0.6); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;">
-                    <img src="{!! asset('img/eys/1.png') !!}" class="object-cover w-full h-full">
+        <main><!-- hero -->
+            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">
+
+                <!-- Left Animated Blob Image -->
+                <div class="absolute top-1/4 left-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible">
+                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full animate-blob-left">
                 </div>
 
-                <!-- right image -->
-                <div class="invisible md:invisible lg:visible absolute -right-20 top-1/3 bg-green-200"
-                style="transform: scale(0.7); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;">
-                    <img src="{!! asset('img/eys/2.png') !!}" class="object-cover w-full h-full">
+                <!-- Right Animated Blob Image -->
+                <div class="absolute top-1/2 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible bg-yellow-400" style="border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;">
+                    <img src="{!! asset('img/eys/2.png') !!}" alt="Right Blob" class="object-cover w-full h-full animate-blob-right">
                 </div>              
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
