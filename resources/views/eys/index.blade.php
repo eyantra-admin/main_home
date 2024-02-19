@@ -43,6 +43,26 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+
+            /* blob */
+            .blob{                
+                background-size: cover;
+                -webkit-background-position: center;
+                background-position: center center;
+                margin: 20px;
+                box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+                animation: animate 5s ease-in-out infinite;
+                transition: all 1s ease-in-out;
+            }
+
+            @keyframes animate {
+                0%, 100%{
+                    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+                }
+                50%{
+                    border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+                }
+            }
         </style>
     </head>
     <body>
@@ -73,7 +93,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
+                <div class="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end animate-bounce">
                     <a class="inline-flex justify-center rounded-2xl bg-red-600 px-4 py-2 text-base font-semibold text-white hover:bg-red-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank"><code>Book Your Seat</code></a>
                 </div>
             </div>
@@ -90,19 +110,19 @@
 
         <!-- main -->
         <main><!-- hero -->
-            <div class="relative pt-10 pb-20 sm:py-24" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">
+            <div class="relative pt-10 pb-20 sm:py-24 overflow-hidden" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">
 
                 <!-- Left Animated Blob Image -->
                 <div class="absolute top-1/4 left-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible">
-                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full animate-blob-left">
+                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full opacity-75">
                 </div>
 
                 <!-- Right Animated Blob Image -->
-                <div class="absolute top-1/2 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible bg-yellow-400" style="border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;">
-                    <img src="{!! asset('img/eys/2.png') !!}" alt="Right Blob" class="object-cover w-full h-full animate-blob-right">
+                <div class="absolute top-1/2 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible bg-purple-400 blob">
+                    <img src="{!! asset('img/eys/2.png') !!}" alt="Right Blob" class="object-cover w-full h-full opacity-75">
                 </div>              
 
-                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                     <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
                         <h2 class="font-display text-3xl font-bold tracking-tighter text-gray-500 lg:text-yellow-200  md:text-yellow-200 sm:text-4xl">
                             e-Yantra Symposium
