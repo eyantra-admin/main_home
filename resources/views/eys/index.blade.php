@@ -110,25 +110,25 @@
 
         <!-- main -->
         <main><!-- hero -->
-            <div class="relative pt-10 pb-20 sm:py-24 overflow-hidden" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">
+            <section class="relative overflow-hidden py-10" style="background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); background-blend-mode: screen, overlay, hard-light, normal;">
 
                 <!-- Left Animated Blob Image -->
                 <div class="absolute top-1/4 left-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible">
-                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full">
+                    <img src="{!! asset('img/eys/1.png') !!}" alt="e-Yantra" class="object-cover w-full h-full">
                 </div>
 
                 <!-- Right Animated Blob Image -->
-                <div class="absolute top-1/4 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible">
-                    <img src="{!! asset('img/eys/3.png') !!}" alt="Right Blob" class="object-cover w-full h-full">
+                <div class="absolute -bottom-10 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible" style="transform: scale(0.8);">
+                    <img src="{!! asset('img/eys/3.png') !!}" alt="e-Yantra" class="object-cover w-full h-full">
                 </div>              
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div class="mx-auto max-w-2xl lg:max-w-3xl lg:px-12">
-                        <h2 class="font-display text-3xl font-bold tracking-tighter text-gray-500 lg:text-yellow-200  md:text-yellow-200 sm:text-4xl">
+                    <div class="mx-auto max-w-3xl lg:max-w-4xl lg:px-12">
+                        <h2 class="font-display text-3xl font-bold tracking-tighter text-gray-500 lg:text-yellow-200  md:text-yellow-200 sm:text-3xl">
                             e-Yantra Symposium
                         </h2>
-                        <h1 class="font-display text-5xl font-bold tracking-tighter text-gray-700 lg:text-yellow-300  md:text-yellow-300 sm:text-7xl mt-2">
-                            NEP2020 &<br> Building a Defence Ecosystem!
+                        <h1 class="font-display text-3xl font-bold tracking-tighter text-gray-700 lg:text-yellow-300  md:text-yellow-300 sm:text-3xl mt-2">
+                            NEP2020 & Building a Defence Ecosystem!
                         </h1>
                         <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-white text-justify">
                             <p>
@@ -168,10 +168,10 @@
                         </dl>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- talk -->
-            <section id="workshop" class="py-20 sm:py-32" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
+            <section id="workshop" class="py-10" style="background: linear-gradient(125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(55deg, #0014C9 0%, #410060 100%), linear-gradient(300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%); background-blend-mode: overlay, screen, overlay, overlay, normal;">
                 <div class="flex flex-col lg:flex-row lg:w-5/6 mx-auto">
                     <!-- Text div on the left -->
                     <div class="lg:w-1/2 lg:order-1">
@@ -203,7 +203,7 @@
                 </div>
             </section>   
 
-            <section class="py-20 sm:py-32" style="background: linear-gradient(to left bottom, rgb(16, 185, 129), rgb(55, 48, 163), rgb(244, 63, 94));">
+            <section class="py-10" style="background: linear-gradient(to left bottom, rgb(16, 185, 129), rgb(55, 48, 163), rgb(244, 63, 94));">
                 <div class="flex flex-col lg:flex-row lg:w-5/6 mx-auto">
                     <!-- Image on the left (hidden on tablet and mobile) -->
                     <div class="lg:w-1/2 hidden lg:block md:my-auto">
