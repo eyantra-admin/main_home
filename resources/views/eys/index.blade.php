@@ -114,16 +114,16 @@
 
                 <!-- Left Animated Blob Image -->
                 <div class="absolute top-1/4 left-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible">
-                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full opacity-60">
+                    <img src="{!! asset('img/eys/1.png') !!}" alt="Left Blob" class="object-cover w-full h-full">
                 </div>
 
                 <!-- Right Animated Blob Image -->
-                <div class="absolute top-1/2 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible bg-purple-400 blob">
-                    <img src="{!! asset('img/eys/2.png') !!}" alt="Right Blob" class="object-cover w-full h-full opacity-60">
+                <div class="absolute top-1/4 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible">
+                    <img src="{!! asset('img/eys/3.png') !!}" alt="Right Blob" class="object-cover w-full h-full">
                 </div>              
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div class="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+                    <div class="mx-auto max-w-2xl lg:max-w-3xl lg:px-12">
                         <h2 class="font-display text-3xl font-bold tracking-tighter text-gray-500 lg:text-yellow-200  md:text-yellow-200 sm:text-4xl">
                             e-Yantra Symposium
                         </h2>
