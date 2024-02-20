@@ -150,20 +150,20 @@
 
                         <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                             <div>
-                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Speakers</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">06</dd>
+                                <dt class="font-mono text-xl text-white font-semibold" style="text-shadow: 2px 2px #FF0000;">Speakers</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">06</dd>
                             </div>
                             <div>
-                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Projects Exhibiting</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">15</dd>
+                                <dt class="font-mono text-xl text-white font-semibold" style="text-shadow: 2px 2px #FF0000;">Projects Exhibiting</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">15</dd>
                             </div>
                             <div>
-                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Venue</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">VMCC</dd>
+                                <dt class="font-mono text-xl text-white font-semibold" style="text-shadow: 2px 2px #FF0000;">Venue</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">VMCC</dd>
                             </div>
                             <div>
-                                <dt class="font-mono text-xl text-yellow-300 font-semibold">Location</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400">IIT Bombay, Mumbai</dd>
+                                <dt class="font-mono text-xl text-white font-semibold" style="text-shadow: 2px 2px #FF0000;">Location</dt>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">IIT Bombay, Mumbai</dd>
                             </div>
                         </dl>
                     </div>
