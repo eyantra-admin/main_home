@@ -45,7 +45,7 @@
             }
 
             /* blob */
-            .blob{                
+            .blob{
                 background-size: cover;
                 -webkit-background-position: center;
                 background-position: center center;
@@ -120,7 +120,7 @@
                 <!-- Right Animated Blob Image -->
                 <div class="absolute -bottom-10 right-0 w-1/2 lg:w-1/3 invisible md:invisible lg:visible" style="transform: scale(0.8);">
                     <img src="{!! asset('img/eys/3.png') !!}" alt="e-Yantra" class="object-cover w-full h-full">
-                </div>              
+                </div>
 
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                     <div class="mx-auto max-w-3xl lg:max-w-4xl lg:px-12">
@@ -180,7 +180,7 @@
                                 Building a Defence Startup Ecosystem
                             </h2>
                             <div class="flex font-mono text-lg text-yellow-500 mt-4">
-                                <p>Day 1: <span class="font-bold">Friday, April 5<sup>th</sup></span></p>                                 
+                                <p>Day 1: <span class="font-bold">Friday, April 5<sup>th</sup></span></p>
                             </div>
                             <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
                             <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
@@ -192,16 +192,16 @@
                             <p class="text-red-400 mt-4 text-2xl">There is no registration fee to attend the event. </p>
                             <div class="mx-auto max-w-4xl mt-8">
                                 <a class="flex justify-center rounded-2xl bg-blue-600 p-4 text-4xl font-semibold text-white hover:bg-blue-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:text-white/70" href="https://portal.e-yantra.org/eys.register" target="_blank">Book Your Seat</a>
-                            </div>  
+                            </div>
                         </div>
                     </div>
-              
+
                     <!-- Image on the right -->
                     <div class="lg:w-1/2 lg:order-2 hidden lg:block md:my-auto">
                         <img src="{!! asset('img/eys/2.png') !!}" alt="Defence Startup Ecosystem" class="w-full h-auto">
                     </div>
                 </div>
-            </section>   
+            </section>
 
             <section class="py-10" style="background: linear-gradient(to left bottom, rgb(16, 185, 129), rgb(55, 48, 163), rgb(244, 63, 94));">
                 <div class="flex flex-col lg:flex-row lg:w-5/6 mx-auto">
@@ -216,7 +216,7 @@
                                 Implementing NEP2020 <br> “Design your Degree”
                             </h2>
                             <div class="flex font-mono text-lg text-yellow-500 mt-4">
-                                <p>Day 2: <span class="font-bold">Sat, April 6<sup>th</sup></span></p>                                 
+                                <p>Day 2: <span class="font-bold">Sat, April 6<sup>th</sup></span></p>
                             </div>
                             <div class="mt-2"><span class="font-mono text-sm text-yellow-600 bg-yellow-50 rounded-md px-2 py-1 font-semibold">Panel Disussion</span></div>
                             <p class="mt-4 font-display text-2xl tracking-tight text-white text-justify">
@@ -232,11 +232,11 @@
                         </div>
                     </div>
                 </div>
-            </section>                
+            </section>
 
             <!-- speaker -->
             <section id="speakers" class="relative py-20 sm:py-32" style="background-color: #000000; background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E&quot;); background-size: cover;">
-               
+
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <h2 class="font-display text-4xl font-medium tracking-tighter text-yellow-200 sm:text-5xl">
@@ -275,53 +275,65 @@
 
                     <!-- speakers photo -->
                     <div class="relative mt-6 max-w-6xl grid grid-cols-1 gap-12 md:grid-cols-3 lg:grid-cols-4 mt-12">
-                        <!-- <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amit-gulati.jpeg') !!}">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amit-kalyani.jpg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.ispp.org.in/faculties/amit-krishn-gulati/" target="_blank">Mr. Amit Krishn Gulati</a>
+                                    <a href="https://www.linkedin.com/in/amit-kalyani-3806375/" target="_blank">Mr. Amit Kalyani</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Industrial Designer, <br> Entrepreneur and Educator
+                                    Joint Managing Director, <br> Bharat Forge Ltd.
                                 </p>
                             </div>
                         </div>
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ashank-desai.jpg') !!}">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amulpreet-singh-sethi.png') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://saiuniversity.edu.in/team/ashank-desai/" target="_blank">Mr. Ashank Desai</a>
+                                    <a href="https://www.linkedin.com/in/amulpreet-singh-sethi-38a863184/" target="_blank">Mr. Amulpreet Singh Sethi</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Co-founder & former Chairperson,<br> Mastek
+                                    Rear Admiral
                                 </p>
                             </div>
                         </div>
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/deepak_pathak.jpg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/deepak-kumar-goswami.jpg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.cse.iitb.ac.in/~dbp/" target="_blank">Prof. Deepak B Phatak</a>
+                                    Mr. Deepak Kumar Goswami
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Padma Shri <br> Doyen of Distance Eduction <br>IIT Bombay
+                                    Rear Admiral
                                 </p>
                             </div>
                         </div>
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/juneza.jpg') !!}">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/dinesh-singh.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://in.linkedin.com/in/junezaniyazi" target="_blank">Ms. Juneza Niyazi</a>
+                                    <a href="https://www.linkedin.com/in/dinesh-singh-074213146" target="_blank">Prof. Dinesh Singh</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2">
-                                    Service Design Lead,<br> Jiva Agservices
+                                    Padma Shri <br> Vice Chair & Chair EC, <br> J & K Higher Education Council.
                                 </p>
                             </div>
-                        </div> -->
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/ganesh-ramakrishnan.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.cse.iitb.ac.in/~ganesh/" target="_blank">Prof. Ganesh Ramakrishnan</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Institute Chair Professor, <br> IIT Bombay
+                                </p>
+                            </div>
+                        </div>
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
@@ -333,9 +345,45 @@
                                     Principal Investigator, <br> e-Yantra
                                 </p>
                             </div>
-                        </div>                        
+                        </div>
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/kiran-shesh.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.linkedin.com/in/kiranshesh" target="_blank">Mr. Kiran Shesh</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    CEO, <br> TIH Foundation for IoT and IoE, IIT Bombay
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/kota-harinarayana.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://klorofeelschool.ac.in/kota-harinarayana/" target="_blank">Dr. Kota Harinarayana</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Padma Shri
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/milind-rane.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.me.iitb.ac.in/?q=faculty/Prof%20M%20V%20Rane" target="_blank">Prof. Milind Rane</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Professor <br> Heat Pump Laboratory, IIT Bombay
+                                </p>
+                            </div>
+                        </div>
+
+                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/paritosh-pandya.jpg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
@@ -346,13 +394,105 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- Add more team members as needed -->
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/raghunath-iyer.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.linkedin.com/in/raghunathiyer" target="_blank">Mr. Raghunath Iyer</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    CTO Network Security, <br> Qualys
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/richa-verma.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://www.7iworldschool.com/principal-desk.html" target="_blank">Ms. Richa Verma</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Principal, <br> 7i World School
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/shakil-ahmad-romshoo.jpeg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
+                                    <a href="https://www.iust.ac.in/vice-chancellor.aspx" target="_blank">Prof. Shakil Ahmad Romshoo</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Vice Chancellor, <br> IUST, Kashmir
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/shobha-bagai.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
+                                    <a href="https://cic.du.ac.in/userfiles/media/Faculty_Proforma%20_Shobha_Bagai_July2023.pdf" target="_blank">Prof. Shobha Bagai</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Professor, <br> CIC, Delhi
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/shubha-pandit.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
+                                    <a href="https://www.linkedin.com/in/shubha-pandit-96a3a747" target="_blank">Prof. Shubha Pandit</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Principal, <br> K J Somaiya College of Engineering
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/surya-durbha.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
+                                    <a href="https://iitb.irins.org/profile/164582" target="_blank">Prof. Surya S Durbha</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Professor, <br> IIT Bombay
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/umesh-rai.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
+                                    <a href="https://www.jammuuniversity.ac.in/sites/default/files/inline-files/Curriculam%20vitae%20of%20Prof.%20Umesh%20Rai.pdf" target="_blank">Prof. Umesh Rai</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Vice-Chancellor, <br> University of Jammu
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/varsha-apte.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4 ">
+                                    <a href="https://www.cse.iitb.ac.in/~varsha/" target="_blank">Prof. Varsha Apte</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2">
+                                    Professor, <br> CSE, IIT Bombay
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                <div class="mx-auto w-full">
-                    <p class="font-bold text-white text-2xl mt-4">Coming soon....</p>
-                </div>    
-            </div>
-        </section><!-- end -->
+                </div>
+            </section><!-- end -->
 
 
         <!-- schedule -->
@@ -376,8 +516,8 @@
                             Day 1 <br>
                             Friday, April 5 <sup>th</sup>, 2024
                         </h2>
-                        <ul class="border-2 border-yellow-200 rounded-md">                                
-                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                        <ul class="border-2 border-yellow-200 rounded-md">
+                            <li class="flex mb-2 items-center py-2 text-white">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     09:00 AM <br> 10:00 AM
                                 </div>
@@ -391,8 +531,8 @@
                                     10:00 AM <br> 10:15 AM
                                 </div>
                                 <div class="w-3/4 border-l-2 border-yellow-200 py-2">
-                                    <div class="ml-4">                                        
-                                        <p class="font-bold text-lg">Inauguration of the event</p>                                            
+                                    <div class="ml-4">
+                                        <p class="font-bold text-lg">Inauguration of the event</p>
                                     </div>
                                 </div>
                             </li>
@@ -415,7 +555,7 @@
                                         <p class="font-bold text-lg">The person behind Tejas LCA</p>
                                         <p class="text-md"><i>by Mr. Kota Harinarayana</i></p>
                                         <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Keynote</span>
-                                    </div>                                        
+                                    </div>
                                 </div>
                             </li>
 
@@ -425,9 +565,9 @@
                                 </div>
                                 <div class="w-3/4 border-l-2 border-yellow-200">
                                     <div class="ml-4">
-                                        <p class="font-semibold text-lg">Building a Defence Startup Ecosystem</p>                                    
-                                        <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Panel Discussion</span>                                      
-                                    </div>    
+                                        <p class="font-semibold text-lg">Building a Defence Startup Ecosystem</p>
+                                        <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Panel Discussion</span>
+                                    </div>
                                 </div>
                             </li>
 
@@ -444,11 +584,11 @@
                                                 <p class="text-sm">eYIC finalists will showcase their projects.</p>
                                             </li>
                                             <li>
-                                                <p class="font-semibold">eYIC Business Pitch</p>                
+                                                <p class="font-semibold">eYIC Business Pitch</p>
                                             </li>
-                                        </ul>    
-                                        <p class="font-semibold"><code>Tea;</code></p>                
-                                    </div>   
+                                        </ul>
+                                        <p class="font-semibold"><code>Tea;</code></p>
+                                    </div>
                                 </div>
                             </li>
 
@@ -465,7 +605,7 @@
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     02:00 PM <br> 02:30 PM
                                 </div>
-                                <div class="w-3/4 border-l-2 border-yellow-200">                                        
+                                <div class="w-3/4 border-l-2 border-yellow-200">
                                     <div class="ml-4">
                                         <ul class="ml-4 list-disc text-lg">
                                             <li class="font-bold">
@@ -475,7 +615,7 @@
                                                 <p>e-Yantra Tech Stack demos</p>
                                                 <p class="text-sm">Drone, Control Systems, FPGA, KrishBot</p>
                                             </li>
-                                        </ul>                                        
+                                        </ul>
                                     </div>
                                 </div>
                             </li>
@@ -486,15 +626,15 @@
                                 </div>
                                 <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
                                     <p class="ml-4 font-bold text-lg">GD based on Defence Panel Discussion </p>
-                                </div>                                    
-                            </li> 
+                                </div>
+                            </li>
                             <li class="flex mb-2 text-white items-center py-2">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     03:45 PM <br> 04:45 PM
                                 </div>
                                 <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
                                     <p class="ml-4 font-bold text-lg">e-Yantra at Schools!</p>
-                                </div>                                    
+                                </div>
                             </li>
                             <li class="flex mb-2 text-white items-center py-2">
                                 <div class="w-1/4 font-mono mx-4 text-right">
@@ -504,7 +644,7 @@
                                     <h3 class="font-semibold ml-4"><code>Tea Break;</code></h3>
                                 </div>
                             </li>
-                                                          
+
                             <li class="flex mb-2 text-white items-center py-2">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     07:00 PM <br> Onwards
@@ -525,7 +665,7 @@
                             Saturday, April 6 <sup>th</sup>, 2024
                         </h2>
                         <ul class="border-2 border-yellow-200 rounded-md">
-                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                            <li class="flex mb-2 items-center py-2 text-white">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     09:00 AM <br> 10:00 AM
                                 </div>
@@ -534,7 +674,7 @@
                                 </div>
                             </li>
 
-                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                            <li class="flex mb-2 items-center py-2 text-white">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     10:00 AM <br> 10:15 AM
                                 </div>
@@ -555,14 +695,14 @@
                                                 <p class="text-sm">eYIC finalists will showcase their projects.</p>
                                             </li>
                                             <li>
-                                                <p class="font-semibold text-lg">Implementing NEP2020 <br> "Design your Degree"</p>                                
+                                                <p class="font-semibold text-lg">Implementing NEP2020 <br> "Design your Degree"</p>
                                                 <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Panel Discussion</span>
                                             </li>
                                             <li>
                                                 <p class="font-semibold">e-Yantra Book Launch</p>
                                             </li>
-                                        </ul>                                        
-                                    </div>   
+                                        </ul>
+                                    </div>
                                 </div>
                             </li>
 
@@ -575,7 +715,7 @@
                                 </div>
                             </li>
 
-                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                            <li class="flex mb-2 items-center py-2 text-white">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     11:45 AM <br> 01:15 PM
                                 </div>
@@ -592,7 +732,7 @@
                                     <div class="ml-4 text-lg">
                                         <p class="font-semibold"><code>Lunch;</code></p>
                                         <p>(Along with Exhibition)</p>
-                                    </div>                                        
+                                    </div>
                                 </div>
                             </li>
                             <li class="flex mb-2 text-white items-center py-2">
@@ -602,11 +742,11 @@
                                 <div class="w-3/4 text-white border-l-2 border-yellow-200 py-2">
                                     <div class="ml-4">
                                         <p class="fond-semibold text-lg">Lightning Talks by IIT Bombay Faculties</p>
-                                        <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Talk</span>                                            
-                                    </div>    
+                                        <span class="bg-yellow-500 rounded-md text-sm px-2 text-gray-900">Talk</span>
+                                    </div>
                                 </div>
-                            </li> 
-                            <li class="flex mb-2 items-center py-2 text-white">                                    
+                            </li>
+                            <li class="flex mb-2 items-center py-2 text-white">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     03:00 PM <br> 03:30 PM
                                 </div>
@@ -614,7 +754,7 @@
                                     <p class="ml-4"><code>Innovative Projects from e-Yantra Colleges</code></p>
                                 </div>
                             </li>
-                                                           
+
                             <li class="flex mb-2 text-white items-center py-2">
                                 <div class="w-1/4 font-mono mx-4 text-right">
                                     03:30 PM <br> 03:45 PM
