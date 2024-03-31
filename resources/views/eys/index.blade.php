@@ -284,7 +284,7 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.linkedin.com/in/amit-kalyani-3806375/" target="_blank">Mr. Amit Kalyani</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
+                                <p class="text-gray-500 mt-2 text-sm">
                                     Joint Managing Director, <br> Bharat Forge Ltd.
                                 </p>
                             </div>
@@ -294,10 +294,10 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amulpreet-singh-sethi.png') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.linkedin.com/in/amulpreet-singh-sethi-38a863184/" target="_blank">Mr. Amulpreet Singh Sethi</a>
+                                    <a href="https://www.linkedin.com/in/amulpreet-singh-sethi-38a863184/" target="_blank">Rear Admiral AS Sethi (Retd.)</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Rear Admiral
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Director General, WESEE
                                 </p>
                             </div>
                         </div>
@@ -306,10 +306,10 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/deepak-kumar-goswami.jpg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    Mr. Deepak Kumar Goswami
+                                    Rear Admiral. DK Goswami
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Rear Admiral
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Admiral Superintendent, <br>Naval Dockyard, Mumbai
                                 </p>
                             </div>
                         </div>
@@ -318,10 +318,10 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/dinesh-singh.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.linkedin.com/in/dinesh-singh-074213146" target="_blank">Prof. Dinesh Singh</a>
+                                    <a href="https://www.linkedin.com/in/dinesh-singh-074213146" target="_blank">Padma Shri Prof. Dinesh Singh</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Padma Shri <br> Vice Chair & Chair EC, <br> J & K Higher Education Council.
+                                <p class="text-gray-500 mt-2 text-sm">
+                                   Vice Chair & Chair EC, <br> J & K Higher Education Council.
                                 </p>
                             </div>
                         </div>
@@ -332,8 +332,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.cse.iitb.ac.in/~ganesh/" target="_blank">Prof. Ganesh Ramakrishnan</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Institute Chair Professor, <br> IIT Bombay
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Professor, <br> CSE, IIT Bombay
                                 </p>
                             </div>
                         </div>
@@ -356,7 +356,7 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.linkedin.com/in/kiranshesh" target="_blank">Mr. Kiran Shesh</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
+                                <p class="text-gray-500 mt-2 text-sm">
                                     CEO, <br> TIH Foundation for IoT and IoE, IIT Bombay
                                 </p>
                             </div>
@@ -366,10 +366,10 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/kota-harinarayana.png') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://klorofeelschool.ac.in/kota-harinarayana/" target="_blank">Dr. Kota Harinarayana</a>
+                                    <a href="https://klorofeelschool.ac.in/kota-harinarayana/" target="_blank">Padma Shri Dr. Kota Harinarayana</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Padma Shri
+                                <p class="text-gray-500 mt-2 text-sm text-justify">
+                                    Aircraft Designer, Programme Director and Chief Designer of India’s Light Combat Aircraft
                                 </p>
                             </div>
                         </div>
@@ -380,7 +380,7 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.me.iitb.ac.in/?q=faculty/Prof%20M%20V%20Rane" target="_blank">Prof. Milind Rane</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
+                                <p class="text-gray-500 mt-2 text-sm">
                                     Professor <br> Heat Pump Laboratory, IIT Bombay
                                 </p>
                             </div>
@@ -404,8 +404,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.linkedin.com/in/raghunathiyer" target="_blank">Mr. Raghunath Iyer</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    CTO Network Security, <br> Qualys
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    CTO, <br> Qualys
                                 </p>
                             </div>
                         </div>
@@ -416,7 +416,7 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.7iworldschool.com/principal-desk.html" target="_blank">Ms. Richa Verma</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
+                                <p class="text-gray-500 mt-2 text-sm">
                                     Principal, <br> 7i World School
                                 </p>
                             </div>
@@ -440,8 +440,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://cic.du.ac.in/userfiles/media/Faculty_Proforma%20_Shobha_Bagai_July2023.pdf" target="_blank">Prof. Shobha Bagai</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Professor, <br> CIC, Delhi
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Director, <br> CIC, New Delhi
                                 </p>
                             </div>
                         </div>
@@ -452,8 +452,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://www.linkedin.com/in/shubha-pandit-96a3a747" target="_blank">Prof. Shubha Pandit</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Principal, <br> K J Somaiya College of Engineering
+                                <p class="text-gray-500 mt-2 text-sm">
+                                     Ex-Principal, <br> K J Somaiya College of Engineering
                                 </p>
                             </div>
                         </div>
@@ -464,8 +464,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://iitb.irins.org/profile/164582" target="_blank">Prof. Surya S Durbha</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Professor, <br> IIT Bombay
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Professor & Head, <br> CSRE, IIT Bombay
                                 </p>
                             </div>
                         </div>
@@ -476,8 +476,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://www.jammuuniversity.ac.in/sites/default/files/inline-files/Curriculam%20vitae%20of%20Prof.%20Umesh%20Rai.pdf" target="_blank">Prof. Umesh Rai</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Vice-Chancellor, <br> University of Jammu
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Vice Chancellor, <br> University of Jammu
                                 </p>
                             </div>
                         </div>
@@ -488,8 +488,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://www.cse.iitb.ac.in/~varsha/" target="_blank">Prof. Varsha Apte</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Professor, <br> CSE, IIT Bombay
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Professor & Head, <br> CSE, IIT Bombay
                                 </p>
                             </div>
                         </div>
@@ -514,8 +514,8 @@
             <!-- new -->
             <div class="container mx-auto h-full flex flex-col justify-center items-stretch p-2 sm:p-8" x-data="{tab: 1}">
                 <div class="ml-6 flex justify-start">
-                    <a class="block px-6 py-3 text-lg uppercase text-white rounded-tl-lg font-medium" :class="{'bg-black': tab === 1, 'bg-pink-800': tab !== 1}" href="#" @click.prevent="tab = 1">Day 1, April 5 <sup>th</sup></a>
-                    <a class="block px-6 py-3 text-lg uppercase text-white font-medium" :class="{'bg-black': tab === 2, 'bg-pink-800': tab !== 2}" href="#" @click.prevent="tab = 2" @click.prevent="tab = 2">Day 2, April 6 <sup>th</sup></a>
+                    <a class="block px-6 py-3 text-lg uppercase rounded-tl-lg font-medium" :class="{'bg-gray-200 text-gray-900 border-t-4 border-l-4 border-gray-900': tab === 1, 'bg-gray-50 text-gray-500': tab !== 1}" href="#" @click.prevent="tab = 1">Day 1, April 5 <sup>th</sup></a>
+                    <a class="block px-6 py-3 text-lg uppercase rounded-tr-lg font-medium" :class="{'bg-gray-200 text-gray-900 border-t-4 border-r-4 border-gray-900': tab === 2, 'bg-gray-50 text-gray-500': tab !== 2}" href="#" @click.prevent="tab = 2" @click.prevent="tab = 2">Day 2, April 6 <sup>th</sup></a>
                 </div>
 
                 <div class="bg-gray-200 rounded-lg shadow-lg p-8" x-show="tab === 1">
@@ -558,12 +558,12 @@
                                 <td class="p-4">11:00 AM - 12:00 PM</td>
                                 <td class="p-4 border-2 border-l border-gray-300" colspan="4">
                                     <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Panel Discussion</span> Building a Defence Startup Ecosystem</p>
+                                    <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                                     <ul class="list-disc ml-6">
-                                        Panelists: ( Moderator - Prof. Kavi Arya)
-                                        <li>RAdmiral Deepak Kumar Goswami, ASD, ND (Mumbai)</li>
-                                        <li>RAdmiral Amulpreet Singh Sethi (Retd.), DG, WESEE</li>
-                                        <li>Mr. Amit Kalyani, Joint MD, Bharat Forge Ltd.</li>
-                                        <li>Mr. Raghunath Iyer, CTO, Qualys</li>
+                                        <li>RAdmiral Deepak Kumar Goswami, <span class="text-sm">ASD, ND (Mumbai)</span></li>
+                                        <li>RAdmiral Amulpreet Singh Sethi (Retd.), <span class="text-sm">DG, WESEE</span></li>
+                                        <li>Mr. Amit Kalyani, <span class="text-sm">Joint MD, Bharat Forge Ltd.</span></li>
+                                        <li>Mr. Raghunath Iyer, <span class="text-sm">CTO, Qualys</span></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -604,28 +604,19 @@
                             <tr class="border-2 border-gray-300">
                                 <td class="p-4">02:00 PM - 02:30 PM</td>
                                 <td class="p-4 border-2 border-l border-gray-300" colspan="4">
-                                    <p>
-                                        <ul class="list-disc ml-2">
-                                            <li><span class="font-semibold">e-Yantra NEP 2020 program for Labs</span></li>
-                                            <li>Engagement from Sem 1 to 8th (Problem Based Learning) + Menti polls</li>
-                                        </ul>
-                                    </p>
+                                    <p><span class="font-semibold">e-Yantra NEP 2020 program for Labs</span></p>
                                 </td>
                             </tr>
                             <tr class="border-2 border-gray-300 bg-yellow-50">
                                 <td class="p-4">2.30 PM - 3:45 PM</td>
                                 <td class="p-4 border-2 border-l border-gray-300" colspan="4">
                                     <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Group Discussion</span> Transforming Defence Requirements into startup ventures with academic collaborations</p>
+                                    <p><span class="font-semibold">Panelists: ( Moderator - Prof. Kavi Arya)</span></p>
                                     <ul class="list-disc ml-6">
-                                        <li>How to convert Defence  requirements into startups?</li>
-                                        <li>Problems → Research→Industry & the role of IITB and e-Yantra ecosystems)</li>
-                                    </ul>
-                                    <ul class="list-disc ml-6">
-                                        <span class="font-semibold">Panelists: ( Moderator - Prof. Kavi Arya)</span>
-                                        <li>Commodore Sandeep Wadhwa</li>
-                                        <li>Captain Victor Pratap Singh</li>
-                                        <li>Dr. VK Rai</li>
-                                        <li>Lt Colonel Prasad Bansod</li>
+                                        <li>Commodore Sandeep Wadhwa, <span class="text-sm">Indian Navy</span></li>
+                                        <li>Captain Victor Pratap Singh, <span class="text-sm">Indian Navy</span></li>
+                                        <li>Dr. VK Rai, <span class="text-sm">Retd. Naval Officer</span></li>
+                                        <li>Lt Colonel Prasad Bansod, <span class="text-sm">Indian Army, DRDO</span></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -639,16 +630,12 @@
                                 <td class="p-4">04:00 PM - 04:45 PM</td>
                                 <td class="p-4 border-2 border-l border-gray-300" colspan="4">
                                     <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Presentation</span> e-Yantra at Schools!</p>
-                                    <ul class="list-disc ml-6">
-                                        <li>7th - 12th School to Post graduation</li>
-                                        <li>College students training school students (e-Yantra Students - Finalists & Interns)</li>
-                                    </ul>
                                 </td>
                             </tr>
                             <tr class="border-2 border-gray-300">
                                 <td class="p-4">07:00 PM onwards</td>
                                 <td class="p-4 border-2 border-l border-gray-300" colspan="4">
-                                    <code>Dinner at VMCC 1st floor</code>
+                                    <code>Dinner</code>
                                 </td>
                             </tr>
                         </tbody>
@@ -677,15 +664,15 @@
                                 <td class="p-4">
                                     <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Keynote</span></p>
                                     <p>-  Prof. Dinesh</p>
-                                    <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Panel Discussion</span> Implementing NEP2020 - “Design your Degree”</p>
+                                    <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Panel Discussion</span> Implementing NEP2020 - "Design your Degree"</p>
+                                    <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                                     <ul class="list-disc ml-6">
-                                        Panelists: ( Moderator - Prof. Kavi Arya)
-                                        <li>Prof. Dinesh Singh - Implementing NEP2020</li>
-                                        <li>Prof. Umesh Rai</li>
-                                        <li>Prof. Shakil Ahmad Romshoo</li>
+                                        <li>Prof. Dinesh Singh, <span class="text-sm">Vice Chairman, Jammu & Kashmir Higher Education Council</span></li>
+                                        <li>Prof. Umesh Rai, <span class="text-sm">Vice Chancellor, university of Jammu</span></li>
+                                        <li>Prof. Shakil Ahmad Romshoo,  <span class="text-sm">Vice Chancellor, Islamic University of Science & Technology, Kashmir</span></li>
                                     </ul>
                                 </td>
-                                <td class="p-4"><span>eYIC Exhibition</span></td>
+                                <td class="p-4 border-l border-gray-300"><span>eYIC National Finals - Exhibition</span></td>
                             </tr>
                             <tr class="border-2 border-gray-300">
                                 <td class="p-4">11:15 AM - 11:30 AM</td>
@@ -696,19 +683,19 @@
                             <tr class="border-2 border-gray-300 bg-yellow-50">
                                 <td class="p-4">11:30 AM to 11:45 AM</td>
                                 <td class="p-4 border-2 border-l border-gray-300" colspan="2">
-                                    <p>e-Yantra - a ToolBox for a New India (Book Launch)</p>
+                                    <p><span class="bg-yellow-200 rounded-md px-2">Book Launch</span> e-Yantra - a ToolBox for a New India</p>
                                 </td>
                             </tr>
                             <tr class="border-2 border-gray-300">
                                 <td class="p-4">11:45 AM – 01:15 PM</td>
-                                <td class="p-4 border-2 border-l border-gray-300" colspan="4">
+                                <td class="p-4 border-2 border-l border-gray-300" colspan="2">
                                     <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Group Discussion</span> NEP 2020 at Colleges vs Schools</p>
+                                    <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                                     <ul class="list-disc ml-6">
-                                        Panel: ( Moderator - Prof. Kavi Arya)
-                                        <li>Prof. Paritosh Pandya, Adjunct Professor, IIT Bombay</li>
-                                        <li>Prof. Shobha Bagai, Director, Cluster innovation Centre, New Delhi</li>
-                                        <li>Prof. Shubha Pandit, Ex-principal, KJ Somaiya College of Engineering, Mumbai</li>
-                                        <li>Mrs. Richa Verma, 7i World School, Gwalior</li>
+                                        <li>Prof. Paritosh Pandya, <span class="text-sm">Adjunct Professor, IIT Bombay</span></li>
+                                        <li>Prof. Shobha Bagai, Director, <span class="text-sm">Cluster innovation Centre, New Delhi</span></li>
+                                        <li>Prof. Shubha Pandit, <span class="text-sm">Ex-principal, KJ Somaiya College of Engineering, Mumbai</span></li>
+                                        <li>Mrs. Richa Verma, <span class="text-sm">7i World School, Gwalior</span></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -720,15 +707,14 @@
                             </tr>
                             <tr class="border-2 border-gray-300">
                                 <td class="p-4">02:00 PM – 03:00 PM</td>
-                                <td class="p-4 border-2 border-l border-gray-300" colspan="4">
+                                <td class="p-4 border-2 border-l border-gray-300" colspan="2">
                                     <p class="font-semibold"><span class="bg-yellow-200 rounded-md px-2">Lightning Talks</span> by IIT B Faculties</p>
                                     <ul class="list-disc ml-6">
-                                        Panel: ( Moderator - Prof. Kavi Arya)
-                                        <li>Prof. Varsha Apte, Professor & Head, CSE</li>
-                                        <li>Prof. Ganesh Ramakrishnan , Professor, CSE</li>
-                                        <li>Prof. Milind Rane, Professor, Heat Pump Laboratory</li>
-                                        <li>Prof. Surya S. Durbha, Professor & Head, CSRE</li>
-                                        <li>Mr. Kiran Shesh, CEO, TIH Foundation</li>
+                                        <li>Prof. Varsha Apte, <span class="text-sm">Professor & Head, CSE</span></li>
+                                        <li>Prof. Ganesh Ramakrishnan , <span class="text-sm">Professor, CSE</span></li>
+                                        <li>Prof. Milind Rane, <span class="text-sm">Professor, Heat Pump Laboratory</span></li>
+                                        <li>Prof. Surya S. Durbha, <span class="text-sm">Professor & Head, CSRE</span></li>
+                                        <li>Mr. Kiran Shesh, <span class="text-sm">CEO, TIH Foundation</span></li>
                                     </ul>
                                 </td>
                             </tr>
