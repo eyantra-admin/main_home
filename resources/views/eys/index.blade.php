@@ -344,8 +344,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://www.cse.iitb.ac.in/~kavi/" target="_blank">Prof. Kavi Arya</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
-                                    Principal Investigator, <br> e-Yantra
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Principal Investigator, <br> e-Yantra, IIT Bombay
                                 </p>
                             </div>
                         </div>
@@ -368,8 +368,8 @@
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://klorofeelschool.ac.in/kota-harinarayana/" target="_blank">Padma Shri Dr. Kota Harinarayana</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2 text-sm text-justify">
-                                    Aircraft Designer, Programme Director and Chief Designer of India’s Light Combat Aircraft
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Aircraft Designer, <br> Programme Director and Chief Designer <br>of India’s Light Combat Aircraft
                                 </p>
                             </div>
                         </div>
@@ -386,14 +386,26 @@
                             </div>
                         </div>
 
-                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/paritosh-pandya.jpg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.cse.iitb.ac.in/~pandya58/" target="_blank">Prof. Paritosh Pandya</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
+                                <p class="text-gray-500 mt-2 text-sm">
                                     Adjunct Professor, <br> IIT Bombay
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/prasad-bansod.png') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    Lt Colonel Prasad Bansod
+                                </h3>
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Indian Army, DRDO
                                 </p>
                             </div>
                         </div>
@@ -424,11 +436,23 @@
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/sandeep-wadhwa.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    Commodore Sandeep Wadhwa
+                                </h3>
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Indian Navy
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/shakil-ahmad-romshoo.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4 ">
                                     <a href="https://www.iust.ac.in/vice-chancellor.aspx" target="_blank">Prof. Shakil Ahmad Romshoo</a>
                                 </h3>
-                                <p class="text-gray-500 mt-2">
+                                <p class="text-gray-500 mt-2 text-sm">
                                     Vice Chancellor, <br> IUST, Kashmir
                                 </p>
                             </div>
@@ -490,6 +514,30 @@
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
                                     Professor & Head, <br> CSE, IIT Bombay
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/vk-rai.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    Dr. VK Rai
+                                </h3>
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Retd. Naval Officer
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/vp-singh.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    Captain Victor Pratap Singh
+                                </h3>
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Indian Navy
                                 </p>
                             </div>
                         </div>
