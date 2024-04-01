@@ -297,7 +297,7 @@
                                     <a href="https://www.linkedin.com/in/amulpreet-singh-sethi-38a863184/" target="_blank">Rear Admiral AS Sethi (Retd.)</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
-                                    Director General, WESEE
+                                    Ex-Director General, WESEE
                                 </p>
                             </div>
                         </div>
@@ -429,7 +429,7 @@
                                     <a href="https://www.7iworldschool.com/principal-desk.html" target="_blank">Ms. Richa Verma</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
-                                    Principal, <br> 7i World School
+                                    Principal, <br> 7i World School, Gwalior
                                 </p>
                             </div>
                         </div>
@@ -563,18 +563,18 @@
             <div class="mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
 
                 <!-- Day 1 -->
-                <div class="bg-gray-100 p-4 rounded shadow-md m-2">
+                <div class="bg-gray-200 p-4 rounded shadow-md m-2">
                     <h2 class="text-lg font-bold mb-4">Day 1: Friday, April 5<sup>th</sup>, 2024</h2>
                     <!-- Sessions -->
                     <div class="space-y-4">
                         <!-- Session 1 -->
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">9:00 AM - 10:00 AM</h3>
                             <p><code>Registration and Breakfast</code></p>
                         </div>
 
                         <!-- Session 2 -->
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">10:00 AM - 10:15 AM</h3>
                             <p><span class="font-semibold">Introduction:</span> Prof. Kavi Arya</p>
                             <p><span class="font-semibold">Inauguration of the event:</span> Prof. S. Sudarshan</p>
@@ -582,79 +582,79 @@
                         </div>
 
                         <!-- Session 3 -->
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">10:15 AM - 10:30 AM</h3>
                             <p class="font-bold">e-Yantra Overview & Status Report</p>
                             <p class="text-sm">- Prof. Kavi Arya</p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">10:30 AM - 11:00 AM</h3>
                             <p class="font-bold">The person behind Tejas LCA <span class="bg-yellow-400 rounded-md px-2">Keynote</span></p>
                             <p class="text-sm">- Dr. Kota Harinarayana</p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">11:00 AM - 12:00 PM</h3>
                             <p class="font-bold">Building a Defence Startup Ecosystem <span class="bg-yellow-400 rounded-md px-2">Panel Discussion</span></p>
                             <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                             <ul class="list-disc ml-6">
                                 <li>Mr. Amit Kalyani, <span class="text-sm">Joint MD, Bharat Forge Ltd.</span></li>
-                                <li>RAdmiral Amulpreet Singh Sethi (Retd.), <span class="text-sm">DG, WESEE</span></li>
+                                <li>RAdmiral Amulpreet Singh Sethi (Retd.), <span class="text-sm">Ex-DG, WESEE</span></li>
                                 <li>RAdmiral Deepak Kumar Goswami, <span class="text-sm">ASD, ND (Mumbai)</span></li>
                                 <li>Mr. Raghunath Iyer, <span class="text-sm">CTO, Qualys</span></li>
                             </ul>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">12:00 PM - 01:00 PM</h3>
 
                             <div class="ml-8 mt-2">
-                                <div class="border-b border-gray-300 py-2">
+                                <div class="border-b border-red-300 py-2">
                                     <h3 class="text-base font-semibold text-yellow-600">12:00 PM - 01:00 PM</h3>
                                     <p>Discussion with Faculty</p>
                                 </div>
 
-                                <div class="border-b border-gray-300 py-2">
+                                <div class="border-b border-red-300 py-2">
                                     <h3 class="text-base font-semibold text-yellow-600">12:00 PM - 12:30 PM</h3>
                                     <p>Lab Ranking Discussion</p>
-                                    <span class="bg-yellow-400 rounded-md px-2">Parallel Session</span>
+                                    <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                                 </div>
 
-                                <div class="border-b border-gray-300 py-2">
+                                <div class="border-b border-red-300 py-2">
                                     <h3 class="text-base font-semibold text-yellow-600">12:30 PM - 01:00 PM</h3>
                                     <p>Drone Show</p>
-                                    <span class="bg-yellow-400 rounded-md px-2">Parallel Session</span>
+                                    <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                                 </div>
                             </div>
 
-                            <div class="border-b border-gray-300 py-2">
+                            <div class="border-b border-red-300 py-2">
                                 <p>Business Pitch evaluation</p>
-                                <span class="bg-yellow-400 rounded-md px-2">Parallel Session</span>
+                                <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                             </div>
-                            <div class="border-b border-gray-300 py-2">
+                            <div class="border-b border-red-300 py-2">
                                 <ul class="list-disc ml-6">
                                     <li>eYIC National Finals - Exhibition</li>
                                     <li>e-Yantra Tech Stack Display</li>
                                 </ul>
-                                <span class="bg-yellow-400 rounded-md px-2">Parallel Session</span>
+                                <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                             </div>
                             <div class="py-2">
                                 <code>Tea Break</code>
                             </div>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">01:00 PM - 02: 00 PM</h3>
                             <p><code>Lunch</code></p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">02:00 PM - 02:30 PM</h3>
                             <p class="font-semibold">e-Yantra NEP 2020 program for Labs</p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">2.30 PM - 3:45 PM</h3>
                             <p class="font-bold">Transforming Defence Requirements into startup ventures with academic collaborations <span class="bg-yellow-400 rounded-md px-2">Group Discussion</span></p>
                             <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
@@ -666,12 +666,12 @@
                             </ul>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">03:45 PM - 04:00 PM</h3>
                             <p><code>Tea Break</code></p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">04:00 PM - 04:45 PM</h3>
                              <p class="font-bold">
                                 e-Yantra at Schools!
@@ -679,7 +679,7 @@
                             </p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">07:00 PM onwards</h3>
                             <p><code>Dinner</code></p>
                         </div>
@@ -687,29 +687,29 @@
                 </div>
 
                 <!-- Day 2 -->
-                <div class="bg-gray-100 p-4 rounded shadow-md m-2">
+                <div class="bg-gray-200 p-4 rounded shadow-md m-2">
                     <h2 class="text-lg font-bold mb-4">Day 2: Saturday, April 6<sup>th</sup>, 2024</h2>
                     <!-- Sessions -->
                     <div class="space-y-4">
                         <!-- Session 1 -->
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">9:00 AM - 10:00 AM</h3>
                             <p><code>Registration and Breakfast</code></p>
                         </div>
 
                         <!-- Session 2 -->
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">10:00 AM - 10:15 AM</h3>
                             <p><span class="font-semibold">Welcome:</span> Prof. Kavi Arya</p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">10:15 AM - 11:15 AM</h3>
                             <div class="ml-8 mt-2 py-2">
                                 <p class="font-bold">Keynote By Prof. Dinesh Singh
                                     <span class="bg-yellow-400 rounded-md px-2">Keynote</span>
                                 </p>
-                                <div class="border-b border-gray-300 my-4"></div>
+                                <div class="border-b border-red-300 my-4"></div>
                                 <p class="font-bold"> Implementing NEP2020 - "Design your Degree" <br>
                                     <span class="bg-yellow-400 rounded-md px-2">Panel Discussion</span>
                                 </p>
@@ -720,41 +720,41 @@
                                     <li>Prof. Shakil Ahmad Romshoo,  <br><span class="text-sm">Vice Chancellor, Islamic University of Science & Technology, Kashmir</span></li>
                                 </ul>
                             </div>
-                            <div class="mt-4 pt-2 border-t border-gray-300">
+                            <div class="mt-4 pt-2 border-t border-red-300">
                                 <p>eYIC National Finals - Exhibition</p>
-                                <span class="bg-yellow-400 rounded-md px-2">Parallel Session</span>
+                                <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                             </div>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">11:15 AM - 11:30 AM</h3>
                             <p><code>Tea Break</code></p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">11:30 AM to 11:45 AM</h3>
+                        <div class="border-b border-red-300 pb-4">
+                            <h3 class="text-base font-semibold text-yellow-600">11:30 AM to 12:30 PM</h3>
                             <p class="font-semibold">e-Yantra - a ToolBox for a New India</p>
-                            <span class="bg-yellow-400 rounded-md px-2">Book Launch</span>
+                            <span class="bg-yellow-400 rounded-md px-2 font-semibold">Book Launch</span>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">11:45 AM – 01:15 PM</h3>
+                        <div class="border-b border-red-300 pb-4">
+                            <h3 class="text-base font-semibold text-yellow-600">12:00 PM – 01:15 PM</h3>
                             <p class="font-bold">NEP 2020 at Colleges vs Schools <span class="bg-yellow-400 rounded-md px-2">Group Discussion</span></p>
                             <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                             <ul class="list-disc ml-6">
                                 <li>Prof. Paritosh Pandya, <br><span class="text-sm">Adjunct Professor, IIT Bombay</span></li>
                                 <li>Prof. Shobha Bagai, Director, <br><span class="text-sm">Cluster innovation Centre, New Delhi</span></li>
                                 <li>Prof. Shubha Pandit, <br><span class="text-sm">Ex-principal, KJ Somaiya College of Engineering, Mumbai</span></li>
-                                <li>Mrs. Richa Verma, <br><span class="text-sm">7i World School, Gwalior</span></li>
+                                <li>Mrs. Richa Verma, <br><span class="text-sm">Principal, 7i World School, Gwalior</span></li>
                             </ul>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">01:00 PM - 02: 00 PM</h3>
                             <p><code>Lunch</code></p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">02:00 PM – 03:00 PM</h3>
                             <p class="font-bold">Talks By  by IIT B Faculties
                                 <span class="bg-yellow-400 rounded-md px-2">Lightning Talks</span>
@@ -769,14 +769,19 @@
                             </ul>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">03:00 PM - 04:00 PM</h3>
                             <p>Awards Ceremony and Valedictory Function</p>
                         </div>
 
-                        <div class="border-b border-gray-300 pb-4">
+                        <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">04:00 PM - 04:15 PM</h3>
                              <p>Vote of Thanks</p>
+                        </div>
+
+                        <div class="border-b border-red-300 pb-4">
+                            <h3 class="text-base font-semibold text-yellow-600">04:15 PM Onwards</h3>
+                             <p><code>High Tea</code></p>
                         </div>
                     </div>
                 </div>
