@@ -639,7 +639,7 @@
                                 </ul>
                                 <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                             </div>
-                            <div class="py-2">
+                            <div class="pt-4">
                                 <code>Tea Break</code>
                             </div>
                         </div>
@@ -706,9 +706,8 @@
                         <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">10:15 AM - 11:15 AM</h3>
                             <div class="ml-8 mt-2 py-2">
-                                <p class="font-bold">Keynote By Prof. Dinesh Singh
-                                    <span class="bg-yellow-400 rounded-md px-2">Keynote</span>
-                                </p>
+                                <p class="font-bold">Building a Knowledge Economy <span class="bg-yellow-400 rounded-md px-2">Keynote</span></p>
+                                <p class="text-sm">- Prof. Dinesh Singh</p>
                                 <div class="border-b border-red-300 my-4"></div>
                                 <p class="font-bold"> Implementing NEP2020 - "Design your Degree" <br>
                                     <span class="bg-yellow-400 rounded-md px-2">Panel Discussion</span>
@@ -732,7 +731,7 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">11:30 AM to 12:30 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">11:30 AM to 12:00 PM</h3>
                             <p class="font-semibold">e-Yantra - a ToolBox for a New India</p>
                             <span class="bg-yellow-400 rounded-md px-2 font-semibold">Book Launch</span>
                         </div>
@@ -750,7 +749,7 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">01:00 PM - 02: 00 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">01:15 PM - 02: 00 PM</h3>
                             <p><code>Lunch</code></p>
                         </div>
 
