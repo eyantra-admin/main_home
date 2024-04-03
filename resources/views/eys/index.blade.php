@@ -280,12 +280,12 @@
                     <div class="relative mt-6 max-w-6xl grid grid-cols-1 gap-12 md:grid-cols-3 lg:grid-cols-4 mt-12">
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/amit-kalyani.jpg') !!}">
+                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/ajay-sharma.jpeg') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.linkedin.com/in/amit-kalyani-3806375/" target="_blank">Mr. Amit Kalyani</a>
+                                    <a href="https://www.linkedin.com/in/amit-kalyani-3806375/" target="_blank">Commodore. Ajay Sharma (Retd.)</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
-                                    Joint Managing Director, <br> Bharat Forge Ltd.
+                                    Vice President, Head Marine Systems/Defence Electronics, R&D, Defence Business development, Bharat Forge Ltd
                                 </p>
                             </div>
                         </div>
@@ -346,6 +346,18 @@
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
                                     Principal Investigator, <br> e-Yantra, IIT Bombay
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
+                            <div class="px-6 py-4 text-center">
+                                <img class="h-40 w-40 rounded-full mx-auto" src="{!! asset('img/speakers/kiran-deshpande.jpg') !!}">
+                                <h3 class="text-lg font-medium text-blue-500 mt-4">
+                                    <a href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
+                                </h3>
+                                <p class="text-gray-500 mt-2 text-sm">
+                                    Co-Founder - Mojo networks & Ex-President - TiE Pune
                                 </p>
                             </div>
                         </div>
@@ -599,10 +611,10 @@
                             <p class="font-bold">Building a Defence Startup Ecosystem <span class="bg-yellow-400 rounded-md px-2">Panel Discussion</span></p>
                             <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                             <ul class="list-disc ml-6">
-                                <li>Mr. Amit Kalyani, <span class="text-sm">Joint MD, Bharat Forge Ltd.</span></li>
+                                <li>Commodore. Ajay Sharma (Retd.), <br><span class="text-sm">Vice President, Head Marine Systems/Defence Electronics, R&D, Defence Business development, Bharat Forge Ltd.</span></li>
                                 <li>RAdmiral Amulpreet Singh Sethi (Retd.), <span class="text-sm">Ex-DG, WESEE</span></li>
                                 <li>RAdmiral Deepak Kumar Goswami, <span class="text-sm">ASD, ND (Mumbai)</span></li>
-                                <li>Mr. Raghunath Iyer, <span class="text-sm">CTO, Qualys</span></li>
+                                <li>Mr. Kiran Deshpande, <br><span class="text-sm">Co-Founder - Mojo networks & Ex-President - TiE Pune</span></li>
                             </ul>
                         </div>
 
