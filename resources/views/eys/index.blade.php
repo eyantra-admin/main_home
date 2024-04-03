@@ -424,18 +424,6 @@
 
                         <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
                             <div class="px-6 py-4 text-center">
-                                <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/raghunath-iyer.jpeg') !!}">
-                                <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    <a href="https://www.linkedin.com/in/raghunathiyer" target="_blank">Mr. Raghunath Iyer</a>
-                                </h3>
-                                <p class="text-gray-500 mt-2 text-sm">
-                                    CTO, <br> Qualys
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 rounded-lg shadow divide-y divide-gray-200">
-                            <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/richa-verma.png') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
                                     <a href="https://www.7iworldschool.com/principal-desk.html" target="_blank">Ms. Richa Verma</a>
