@@ -589,13 +589,13 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">10:30 AM - 11:00 AM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">10:30 AM - 11:15 AM</h3>
                             <p class="font-bold">The person behind Tejas LCA <span class="bg-yellow-400 rounded-md px-2">Keynote</span></p>
                             <p class="text-sm">- Dr. Kota Harinarayana</p>
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">11:00 AM - 12:00 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">11:15 AM - 12:15 PM</h3>
                             <p class="font-bold">Building a Defence Startup Ecosystem <span class="bg-yellow-400 rounded-md px-2">Panel Discussion</span></p>
                             <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                             <ul class="list-disc ml-6">
@@ -607,22 +607,22 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">12:00 PM - 01:00 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">12:15 PM - 01:15 PM</h3>
 
                             <div class="ml-8 mt-2">
                                 <div class="border-b border-red-300 py-2">
-                                    <h3 class="text-base font-semibold text-yellow-600">12:00 PM - 01:00 PM</h3>
+                                    <h3 class="text-base font-semibold text-yellow-600">12:15 PM - 01:15 PM</h3>
                                     <p>Discussion with Faculty</p>
                                 </div>
 
                                 <div class="border-b border-red-300 py-2">
-                                    <h3 class="text-base font-semibold text-yellow-600">12:00 PM - 12:30 PM</h3>
+                                    <h3 class="text-base font-semibold text-yellow-600">12:15 PM - 12:45 PM</h3>
                                     <p>Lab Ranking Discussion</p>
                                     <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                                 </div>
 
                                 <div class="border-b border-red-300 py-2">
-                                    <h3 class="text-base font-semibold text-yellow-600">12:30 PM - 01:00 PM</h3>
+                                    <h3 class="text-base font-semibold text-yellow-600">12:45 PM - 01:15 PM</h3>
                                     <p>Drone Show</p>
                                     <span class="bg-yellow-200 rounded-md px-2">Parallel Session</span>
                                 </div>
@@ -645,7 +645,7 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">01:00 PM - 02: 00 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">01:15 PM - 02: 00 PM</h3>
                             <p><code>Lunch</code></p>
                         </div>
 
@@ -731,13 +731,7 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">11:30 AM to 12:00 PM</h3>
-                            <p class="font-semibold">e-Yantra - a ToolBox for a New India</p>
-                            <span class="bg-yellow-400 rounded-md px-2 font-semibold">Book Launch</span>
-                        </div>
-
-                        <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">12:00 PM – 01:15 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">11:30 AM – 01:00 PM</h3>
                             <p class="font-bold">NEP 2020 at Colleges vs Schools <span class="bg-yellow-400 rounded-md px-2">Group Discussion</span></p>
                             <p>Panelists: ( Moderator - Prof. Kavi Arya)</p>
                             <ul class="list-disc ml-6">
@@ -749,7 +743,7 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">01:15 PM - 02: 00 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">01:00 PM - 02: 00 PM</h3>
                             <p><code>Lunch</code></p>
                         </div>
 
@@ -769,17 +763,23 @@
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">03:00 PM - 04:00 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">03:00 PM to 03:45 PM</h3>
+                            <p class="font-semibold">e-Yantra - a ToolBox for a New India</p>
+                            <span class="bg-yellow-400 rounded-md px-2 font-semibold">Book Launch</span>
+                        </div>
+
+                        <div class="border-b border-red-300 pb-4">
+                            <h3 class="text-base font-semibold text-yellow-600">03:45 PM - 04:45 PM</h3>
                             <p>Awards Ceremony and Valedictory Function</p>
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">04:00 PM - 04:15 PM</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">04:45 PM - 05:00 PM</h3>
                              <p>Vote of Thanks</p>
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
-                            <h3 class="text-base font-semibold text-yellow-600">04:15 PM Onwards</h3>
+                            <h3 class="text-base font-semibold text-yellow-600">05:00 PM Onwards</h3>
                              <p><code>High Tea</code></p>
                         </div>
                     </div>
