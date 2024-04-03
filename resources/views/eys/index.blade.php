@@ -357,7 +357,7 @@
                                     <a href="https://in.linkedin.com/in/kiranydeshpande" target="_blank">Mr. Kiran Deshpande</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
-                                    Co-Founder - Mojo networks & Ex-President - TiE Pune
+                                    Co-Founder - Mojo networks, Past-President TIE Pune, TIE Global Board Member
                                 </p>
                             </div>
                         </div>
@@ -369,7 +369,7 @@
                                     <a href="https://www.linkedin.com/in/kiranshesh" target="_blank">Mr. Kiran Shesh</a>
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
-                                    CEO, <br> TIH Foundation for IoT and IoE, IIT Bombay
+                                    CEO, <br> TiH Foundation, IIT Bombay
                                 </p>
                             </div>
                         </div>
@@ -614,7 +614,7 @@
                                 <li>Commodore. Ajay Sharma (Retd.), <br><span class="text-sm">Vice President, Head Marine Systems/Defence Electronics, R&D, Defence Business development, Bharat Forge Ltd.</span></li>
                                 <li>RAdmiral Amulpreet Singh Sethi (Retd.), <span class="text-sm">Ex-DG, WESEE</span></li>
                                 <li>RAdmiral Deepak Kumar Goswami, <span class="text-sm">ASD, ND (Mumbai)</span></li>
-                                <li>Mr. Kiran Deshpande, <br><span class="text-sm">Co-Founder - Mojo networks & Ex-President - TiE Pune</span></li>
+                                <li>Mr. Kiran Deshpande, <br><span class="text-sm">Co-Founder - Mojo networks, Past-President TIE Pune, TIE Global Board Member</span></li>
                             </ul>
                         </div>
 
@@ -770,7 +770,7 @@
                                 <li>Prof. Ganesh Ramakrishnan , <span class="text-sm">Professor, CSE</span></li>
                                 <li>Prof. Milind Rane, <span class="text-sm">Professor, Heat Pump Laboratory</span></li>
                                 <li>Prof. Surya S. Durbha, <span class="text-sm">Professor & Head, CSRE</span></li>
-                                <li>Mr. Kiran Shesh, <span class="text-sm">CEO, TIH Foundation</span></li>
+                                <li>Mr. Kiran Shesh, <span class="text-sm">CEO, TiH Foundation IIT Bombay</span></li>
                             </ul>
                         </div>
 
