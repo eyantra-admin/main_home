@@ -651,7 +651,7 @@
 
                         <div class="border-b border-red-300 pb-4">
                             <h3 class="text-base font-semibold text-yellow-600">02:00 PM - 02:30 PM</h3>
-                            <p class="font-semibold">e-Yantra NEP 2020 program for Labs</p>
+                            <p class="font-semibold">e-Yantra New College Engagement Proposal</p>
                         </div>
 
                         <div class="border-b border-red-300 pb-4">
@@ -739,6 +739,7 @@
                                 <li>Prof. Shobha Bagai, Director, <br><span class="text-sm">Cluster innovation Centre, New Delhi</span></li>
                                 <li>Prof. Shubha Pandit, <br><span class="text-sm">Ex-principal, KJ Somaiya College of Engineering, Mumbai</span></li>
                                 <li>Mrs. Richa Verma, <br><span class="text-sm">Principal, 7i World School, Gwalior</span></li>
+                                <li>Mr. Kiran Deshpande, <br><span class="text-sm">Co-Founder - Mojo networks, Past-President TIE Pune, TIE Global Board Member</span></li>
                             </ul>
                         </div>
 
