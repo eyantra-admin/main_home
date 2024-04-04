@@ -154,11 +154,11 @@
                         <dl class="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
                             <div>
                                 <dt class="font-mono text-xl text-white font-semibold" style="text-shadow: 2px 2px #FF0000;">Speakers</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">06</dd>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">22</dd>
                             </div>
                             <div>
                                 <dt class="font-mono text-xl text-white font-semibold" style="text-shadow: 2px 2px #FF0000;">Projects Exhibiting</dt>
-                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">15</dd>
+                                <dd class="mt-0.5 text-2xl font-semibold tracking-tight text-yellow-400" style="text-shadow: 2px 2px #FF0000;">10</dd>
                             </div>
                             <div>
                                 <dt class="font-mono text-xl text-white font-semibold" style="text-shadow: 2px 2px #FF0000;">Venue</dt>
@@ -414,7 +414,7 @@
                             <div class="px-6 py-4 text-center">
                                 <img class="h-40 w-45 rounded-full mx-auto" src="{!! asset('img/speakers/prasad-bansod.png') !!}">
                                 <h3 class="text-lg font-medium text-blue-500 mt-4">
-                                    Lt Colonel Prasad Bansod
+                                    Colonel Prasad Bansod
                                 </h3>
                                 <p class="text-gray-500 mt-2 text-sm">
                                     Indian Army, DRDO
@@ -662,7 +662,7 @@
                                 <li>Commodore Sandeep Wadhwa, <span class="text-sm">Indian Navy</span></li>
                                 <li>Captain Victor Pratap Singh, <span class="text-sm">Indian Navy</span></li>
                                 <li>Dr. VK Rai, <span class="text-sm">Retd. Naval Officer</span></li>
-                                <li>Lt Colonel Prasad Bansod, <span class="text-sm">Indian Army, DRDO</span></li>
+                                <li>Colonel Prasad Bansod, <span class="text-sm">Indian Army, DRDO</span></li>
                             </ul>
                         </div>
 
