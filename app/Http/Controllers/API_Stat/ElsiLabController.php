@@ -28,8 +28,9 @@ class ElsiLabController extends Controller
 			->get(['state', 'year', 'number_of_labs']);
 
     	return response()->json([
-    		'api_title' => 'Number of eLSI Labs Established',
-    		'frequency' => 'Yearly',
+    		'KPI' => 'Number of eLSI Labs Established',
+    		'Category' => 'Administrative',
+    		'frequency' => 'Annually',
     		'description' => 'https://e-yantra.org/elsi', 
     		'data' => $data,
     	]);
