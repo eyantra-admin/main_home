@@ -22,4 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('elsi-lab-count/{year?}', [API_stat\ElsiLabController::class, 'elsiLabCount'])->where('year', '[0-9]+');
 Route::get('elsi-colleges/{year}/{state}', [API_stat\ElsiLabController::class, 'elsiCollegeList'])->where('year', '[0-9]+');
 
-Route::get('get-engagement-level/{year}', [API_stat\ElsiLabController::class, 'engagement_level'])->where('year', '[0-9]+');
+Route::get('get-engagement-level/{year?}', [API_stat\ElsiLabController::class, 'engagement_level'])->where('year', '[0-9]+');

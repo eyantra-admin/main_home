@@ -81,8 +81,8 @@ class ElsiLabController extends Controller
             $year = $current_year - 1;
         }
 
-        if($year <= 2013){
-            $year = 2013;
+        if($year <= 2018){
+            $year = 2018;
         }
 
         $data = InitiativeStat::where(['year' => $year])
