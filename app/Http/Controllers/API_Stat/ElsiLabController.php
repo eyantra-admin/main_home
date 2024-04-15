@@ -86,7 +86,17 @@ class ElsiLabController extends Controller
         }
 
         $data = InitiativeStat::where(['year' => $year])
-            ->get();
+            ->get([
+            	'initiative',
+            	'year',
+            	'number_of_colleges_participated',
+            	'registered_participants',
+            	'trained_participants',
+		      	'level_1',
+		      	'level_2',
+		      	'level_3',
+		      	'level_4',
+		  	]);
 
         return response()->json([
             'KPI' => 'Engagement level',
