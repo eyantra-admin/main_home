@@ -8,6 +8,7 @@ use DB;
 use DateTime;
 use App\Models\ElsiLabStat;
 use App\Models\InitiativeStat;
+use App\Models\Colleges;
 
 class ElsiLabController extends Controller
 {
@@ -27,6 +28,17 @@ class ElsiLabController extends Controller
 			->where('number_of_labs','>',0)
 			->orderBy('state', 'ASC')
 			->get(['state', 'year', 'number_of_labs']);
+		
+		$data->map(function ($countData) {
+        	$colleges = Colleges::where([
+        		['IS_eLSI', '=', 1], 
+        		['state', '=', $countData['state']],
+        		[DB::Raw('YEAR(inauguration_date)'), '=', $countData['year']]	
+        	])->get(['clg_code','IS_eLSI','college_name','district','city','pincode']);
+
+		    $countData['elsi_colleges_list'] = $colleges;
+		    return $countData;
+		});	
 
     	return response()->json([
     		'KPI' => 'Number of eLSI Labs Established',
