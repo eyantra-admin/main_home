@@ -90,6 +90,7 @@ class ElsiLabController extends Controller
             	'initiative',
             	'year',
             	'number_of_colleges_participated',
+            	'number_of_workshop_conducted',
             	'registered_participants',
             	'trained_participants',
 		      	'level_1',
