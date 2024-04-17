@@ -74,6 +74,28 @@ class ElsiLabController extends Controller
         ]);
     }
 
+    //get elsi colleges by state
+    public function elsiStateCollegeList(Request $request, $state){
+        if(Colleges::where(['country' => 'India', 'state' => $state])->exists()){        	
+        	$data = Colleges::where(['IS_eLSI' => 1, 'state' => $state, 'country' => 'India'])
+        		->orderBy('inauguration_date','asc')
+        		->orderBy('college_name','asc')
+        		->get(['clg_code','college_name','state','district','city','pincode','address','inauguration_date']);
+        	return response()->json([
+        		'KPI' => 'eLSI College List By State',
+        		'Category' => 'Administrative',
+        		'frequency' => 'Annually',
+        		'description' => 'https://e-yantra.org/elsi',
+        		'total_colleges' => $data->count(),
+        		'data' => $data,
+        	]);
+        } else {
+        	return response()->json([
+        		'message' => 'Given State is not exist in our list',
+        	], 404);
+        }        
+    }
+
     //get initiative stats yearwise
     public function engagement_level(Request $request, $year = null){
         $current_year = (new DateTime)->format("Y");
