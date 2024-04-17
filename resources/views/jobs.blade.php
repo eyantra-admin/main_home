@@ -32,6 +32,10 @@
             <li>Experience in version control tools like Git / Bitbucket</li>
             <li>Additional experience in Laravel, Java, PostgreSQL is appreciated</li>
             <li>Knowledge of Linux platform and Open Source technologies, systems administration & network administration</li>
+        </ul>
+        <strong>Pay Details:</strong>   
+        <ul class="list-disc ml-8">
+            <li>Level PR-A3: Salary range from Rs.25200 to Rs. 50400 + Rs.5000.00/- Out Of Campus Allowance (if applicable) p.m.</li>
         </ul>    
     </div>
 
@@ -65,7 +69,7 @@
     </div> -->
 
     <!-- ET -->
-    <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
+    <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Sr. Project Technical Assistant (Robotics/ Embedded Systems)</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
         <p>
@@ -88,10 +92,13 @@
                 Applicants must be familiar with Electronic hardware design, Image processing,
                 Robotic Operating System (ROS) etc. Applicants who have
                 performed well in robotics competitions will be given preference.</li> 
-            <li>Should possess excellent analytical, logical skills and communication skills.</li>
-                
-        </ul>    
-    </div> -->
+            <li>Should possess excellent analytical, logical skills and communication skills.</li>                
+        </ul> 
+        <strong>Pay Details:</strong>   
+        <ul class="list-disc ml-8">
+            <li>Level PR-A3: Salary range from Rs.25200 to Rs. 50400 + Rs.5000.00/- Out Of Campus Allowance (if applicable) p.m.</li>
+        </ul>
+    </div>
 
     <!-- Experienced Design and Product Designer -->
     <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
@@ -146,7 +153,7 @@
     </div> -->
 
     <!-- PR Person -->
-    <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
+    <!-- <div class="w-full md:w-3/4 mx-auto bg-gradient-to-b from-gray-200 via-gray-100 to-gray-300 rounded-md border-2 border-gray-400 mt-5 p-4">
         <h3 class="text-xl">Project Research Associate</h3>
         <div class="border-b-2 border-gray-400 my-4"></div>
        
@@ -170,7 +177,7 @@
             <li>Knowledge of consumer marketing and ability to think both creatively and strategically</li>
             <li>Project and budget management skills</li>
         </ul>    
-    </div>
+    </div> -->
 
 </div>          
 @stop
