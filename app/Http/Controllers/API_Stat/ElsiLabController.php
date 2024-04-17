@@ -9,6 +9,7 @@ use DateTime;
 use App\Models\ElsiLabStat;
 use App\Models\InitiativeStat;
 use App\Models\Colleges;
+use Str;
 
 class ElsiLabController extends Controller
 {
@@ -106,5 +107,63 @@ class ElsiLabController extends Controller
             'description' => '',
             'data' => $data,
         ]);
+    }
+
+    //get initiative stats yearwise
+    public function engagement_level_initiative(Request $request, $initiative){
+        if(InitiativeStat::where('initiative', $initiative)->exists()){        	
+        	if(Str::lower($initiative) == "workshops"){
+        		$get = [
+	            	'initiative',
+	            	'year',
+	            	'number_of_colleges_participated',
+	            	'number_of_workshop_conducted',
+	            	'registered_participants',
+	            	'trained_participants',
+			      	'level_1 as completion_certificate',				      	
+			  	];
+			} elseif(Str::lower($initiative) == "mooc") {
+				$get = [
+	            	'initiative',
+	            	'year',
+	            	'number_of_colleges_participated',
+	            	'registered_participants',
+	            	'trained_participants',
+			      	'level_1',
+			      	'level_2',
+			      	'level_3',
+			  	];
+			} else {
+			  	$get = [
+	            	'initiative',
+	            	'year',
+	            	'number_of_colleges_participated',
+	            	'registered_participants',
+	            	'trained_participants',
+			      	'level_1',
+			      	'level_2',
+			      	'level_3',
+			      	'level_4',
+			  	];
+			}     	
+
+        	$data = InitiativeStat::where(['initiative' => $initiative])->orderBy('year','desc')->get($get);
+
+	        return response()->json([
+	            'KPI' => 'Engagement level',
+	            'Category' => 'Operational',
+	            'frequency' => 'Annually',
+	            'description' => '',
+	            'data' => $data,
+	        ]);
+        } else {
+        	$data = InitiativeStat::distinct()->get(['initiative']);
+
+        	return response()->json([
+        		'message' => 'Given Initiative is not exist',
+        		'available_initiative' => $data,
+        	], 404);
+        }       
+
     }
 }
