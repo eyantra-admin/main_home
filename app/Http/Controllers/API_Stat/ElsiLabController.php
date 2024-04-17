@@ -185,7 +185,21 @@ class ElsiLabController extends Controller
         		'message' => 'Given Initiative is not exist',
         		'available_initiative' => $data,
         	], 404);
-        }       
+        }   
 
+    }
+
+    //research api
+    public function researchPublished(Request $request){
+    	$data = DB::table('api_research_publication')->orderBy('year','desc')->get(['year','number_of_research_paper_published']);
+
+    	return response()->json([
+            'KPI' => 'Number of research publications resulting from e-Yantra projects',
+            'Category' => 'Operational',
+            'frequency' => 'Annually',
+            'description' => 'https://e-yantra.org/publications',
+            //'total_count' => $data->count(),
+            'data' => $data,
+        ]);
     }
 }

@@ -26,3 +26,5 @@ Route::get('elsi-colleges-state/{state}', [API_stat\ElsiLabController::class, 'e
 Route::get('get-engagement-level/{year?}', [API_stat\ElsiLabController::class, 'engagement_level'])->where('year', '[0-9]+');
 Route::get('get-initiative-data/{initiative}', [API_stat\ElsiLabController::class, 'engagement_level_initiative']);
 
+Route::get('get-research-published', [API_stat\ElsiLabController::class, 'researchPublished']);
+
