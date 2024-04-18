@@ -28,3 +28,7 @@ Route::get('get-initiative-data/{initiative}', [API_stat\ElsiLabController::clas
 
 Route::get('get-research-published', [API_stat\ElsiLabController::class, 'researchPublished']);
 
+Route::get('get-demographic/{year}/{state}/{initiative}', [API_stat\ElsiLabController::class, 'getDemographic']);
+
+
+

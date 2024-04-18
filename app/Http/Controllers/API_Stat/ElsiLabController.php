@@ -9,6 +9,7 @@ use DateTime;
 use App\Models\ElsiLabStat;
 use App\Models\InitiativeStat;
 use App\Models\Colleges;
+use App\Models\DemographicStat;
 use Str;
 
 class ElsiLabController extends Controller
@@ -104,8 +105,8 @@ class ElsiLabController extends Controller
             $year = $current_year - 1;
         }
 
-        if($year <= 2018){
-            $year = 2018;
+        if($year <= 2013){
+            $year = 2013;
         }
 
         $data = InitiativeStat::where(['year' => $year])
@@ -201,5 +202,27 @@ class ElsiLabController extends Controller
             //'total_count' => $data->count(),
             'data' => $data,
         ]);
+    }
+
+    //get demographics
+    public function getDemographic(Request $request, $year, $state, $initiative){
+    	if(DemographicStat::where(['year' => $year, 'state' => $state, 'initiative' => $initiative])->exists()){        	
+        	$data = DemographicStat::where(['year' => $year, 'state' => $state, 'initiative' => $initiative])
+        		->orderBy('district','asc')
+        		->get(['year','state','district','number_of_registrations']);
+        	return response()->json([
+        		'KPI' => 'Geographical distribution of competition participants',
+        		'Category' => 'Administrative',
+        		'frequency' => 'Annually',
+        		'state' => Str::title($state),
+        		'year' => $year,
+        		'district_count' => $data->count(),
+        		'data' => $data,
+        	]);
+        } else {
+        	return response()->json([
+        		'message' => 'Given Parameter is not exist in our list',
+        	], 404);
+        }
     }
 }
