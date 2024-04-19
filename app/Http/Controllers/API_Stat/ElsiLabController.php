@@ -10,6 +10,7 @@ use App\Models\ElsiLabStat;
 use App\Models\InitiativeStat;
 use App\Models\Colleges;
 use App\Models\DemographicStat;
+use App\Models\InstituteStat;
 use Str;
 
 class ElsiLabController extends Controller
@@ -224,5 +225,32 @@ class ElsiLabController extends Controller
         		'message' => 'Given Parameter is not exist in our list',
         	], 404);
         }
+    }
+
+    public function getInstituteWise(Request $request, $year, $initiative){
+    	if(InstituteStat::where(['year' => $year, 'initiative' => $initiative])->exists()){
+	    	//$data = InstituteStat::with('college_dtl')->where(['initiative' => $initiative, 'year' => $year])->get(['clg_code','number_of_registrations']);
+	    	$data = DB::table('api_institute_stat')
+	    			->join('college_master_list.college_list','api_institute_stat.clg_code', '=', 'college_master_list.college_list.clg_code')
+	    			->where(['initiative' => $initiative, 'year' => $year, 'country' => "India"])
+	    			->select('api_institute_stat.clg_code','college_name','state','district','number_of_registrations')
+	    			->orderBy('state','asc')
+	    			->orderBy('college_name','asc')
+	    			->get();
+
+	    	return response()->json([
+	    		'KPI' => 'Institute wise distribution of participant',
+	    		'Category' => 'Administrative',
+	    		'frequency' => 'Annually',
+	    		'initiative' => Str::title($initiative),
+	    		'year' => $year,
+	    		'data' => collect($data)->groupBy('state'),
+	    	]);
+	    } else {
+	    	return response()->json([
+        		'message' => 'Given Parameter is not exist in our list',
+        		'available_options' => DB::table('api_institute_stat')->distinct()->get(['initiative','year'])->toArray(),
+        	], 404);
+	    }	
     }
 }
