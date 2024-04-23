@@ -27,28 +27,34 @@ class ElsiLabController extends Controller
     		$year = 2013;
     	}
 
-		$data = ElsiLabStat::where(['year' => $year, 'active' => 1])
+		/*$data = ElsiLabStat::where(['year' => $year, 'active' => 1])
 			->where('number_of_labs','>',0)
 			->orderBy('state', 'ASC')
-			->get(['state', 'year', 'number_of_labs']);
+			->get(['state', 'year', 'number_of_labs']);*/
+
+		$data = Colleges::where([
+        		['IS_eLSI', '=', 1], 
+        		['country', '=', 'India'],
+        		['IS_eLSI', '=', 1],
+        		[DB::Raw('YEAR(inauguration_date)'), '=', $year]	
+        	])->select('state', DB::raw('count(*) as number_of_labs'))
+		->groupBy('state')
+		->orderBy('state', 'asc')
+		->get();
 		
-		$data->map(function ($countData) {
+		$data->map(function ($countData) use ($year){
         	$colleges = Colleges::where([
         		['IS_eLSI', '=', 1], 
         		['state', '=', $countData['state']],
-        		[DB::Raw('YEAR(inauguration_date)'), '=', $countData['year']]	
-        	])->get(['clg_code','IS_eLSI','college_name','district','city','pincode']);
+        		[DB::Raw('YEAR(inauguration_date)'), '=', $year]	
+        	])->orderBy('college_name', 'asc')->get(['clg_code','college_name','district','city','pincode','address',DB::Raw('YEAR(inauguration_date) as inauguration_year')]);
 
 		    $countData['elsi_colleges_list'] = $colleges;
 		    return $countData;
 		});	
 
-    	return response()->json([
-    		'KPI' => 'Number of eLSI Labs Established',
-    		'Category' => 'Administrative',
-    		'frequency' => 'Annually',
-    		'description' => 'https://e-yantra.org/elsi',
-    		'data' => $data,
+    	return response()->json([    		
+    		'result' => $data,
     	]);
     }
 
