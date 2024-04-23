@@ -17,22 +17,8 @@ class ElsiLabController extends Controller
 {
     //get elsi lab count
     public function elsiLabCount(Request $request, $year = null){
-    	$current_year = (new DateTime)->format("Y");
-    	//if year is nu
-    	/*if($year == null || $year >= $current_year){
-    		$year = $current_year - 1;
-    	}
-
-    	if($year <= 2013){
-    		$year = 2013;
-    	}*/
-
-		/*$data = ElsiLabStat::where(['year' => $year, 'active' => 1])
-			->where('number_of_labs','>',0)
-			->orderBy('state', 'ASC')
-			->get(['state', 'year', 'number_of_labs']);*/
-
-		$data = Colleges::where([
+    	
+    	$data = Colleges::where([
         		['IS_eLSI', '=', 1], 
         		['country', '=', 'India'],
         		['IS_eLSI', '=', 1],
@@ -80,11 +66,7 @@ class ElsiLabController extends Controller
         $state = ElsiLabStat::where(['year' => $year, 'active' => 1, 'state' => $state])->first();
         $data = $state->elsi_colleges->where('IS_eLSI',1)->where('inauguration_year','=', $year);
 
-        return response()->json([
-            'KPI' => 'eLSI College List By State and Year',
-            'Category' => 'Administrative',
-            'frequency' => 'Annually',
-            'description' => 'https://e-yantra.org/elsi',
+        return response()->json([            
             'data' => $data,
         ]);
     }
@@ -97,11 +79,6 @@ class ElsiLabController extends Controller
         		->orderBy('college_name','asc')
         		->get(['clg_code','college_name','state','district','city','pincode','address','inauguration_date']);
         	return response()->json([
-        		'KPI' => 'eLSI College List By State',
-        		'Category' => 'Administrative',
-        		'frequency' => 'Annually',
-        		'description' => 'https://e-yantra.org/elsi',
-        		'total_colleges' => $data->count(),
         		'data' => $data,
         	]);
         } else {
@@ -135,7 +112,7 @@ class ElsiLabController extends Controller
 		      	'level_2',
 		      	'level_3',
 		      	'level_4',
-		  	]);
+		  	])->orderBy('initiative','asc');
 
         return response()->json([            
             'data' => $data,
@@ -182,11 +159,7 @@ class ElsiLabController extends Controller
 
         	$data = InitiativeStat::where(['initiative' => $initiative])->orderBy('year','desc')->get($get);
 
-	        return response()->json([
-	            'KPI' => 'Engagement level',
-	            'Category' => 'Operational',
-	            'frequency' => 'Annually',
-	            'description' => '',
+	        return response()->json([	            
 	            'data' => $data,
 	        ]);
         } else {
@@ -204,12 +177,7 @@ class ElsiLabController extends Controller
     public function researchPublished(Request $request){
     	$data = DB::table('api_research_publication')->orderBy('year','desc')->get(['year','number_of_research_paper_published']);
 
-    	return response()->json([
-            'KPI' => 'Number of research publications resulting from e-Yantra projects',
-            'Category' => 'Operational',
-            'frequency' => 'Annually',
-            'description' => 'https://e-yantra.org/publications',
-            //'total_count' => $data->count(),
+    	return response()->json([            
             'data' => $data,
         ]);
     }
@@ -221,9 +189,6 @@ class ElsiLabController extends Controller
         		->orderBy('district','asc')
         		->get(['year','state','district','number_of_registrations']);
         	return response()->json([
-        		'KPI' => 'Geographical distribution of competition participants',
-        		'Category' => 'Administrative',
-        		'frequency' => 'Annually',
         		'state' => Str::title($state),
         		'year' => $year,
         		'district_count' => $data->count(),
@@ -248,9 +213,6 @@ class ElsiLabController extends Controller
 	    			->get();
 
 	    	return response()->json([
-	    		'KPI' => 'Institute wise distribution of participant',
-	    		'Category' => 'Administrative',
-	    		'frequency' => 'Annually',
 	    		'initiative' => Str::title($initiative),
 	    		'year' => $year,
 	    		'data' => collect($data)->groupBy('state'),
