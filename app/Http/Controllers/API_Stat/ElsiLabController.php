@@ -54,7 +54,7 @@ class ElsiLabController extends Controller
 		});	
 
     	return response()->json([    		
-    		'result' => $data,
+    		'data' => $data,
     	]);
     }
 
@@ -130,11 +130,7 @@ class ElsiLabController extends Controller
 		      	'level_4',
 		  	]);
 
-        return response()->json([
-            'KPI' => 'Engagement level',
-            'Category' => 'Operational',
-            'frequency' => 'Annually',
-            'description' => '',
+        return response()->json([            
             'data' => $data,
         ]);
     }
