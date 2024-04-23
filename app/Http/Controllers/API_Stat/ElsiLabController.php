@@ -91,6 +91,7 @@ class ElsiLabController extends Controller
     //get initiative stats yearwise
     public function engagement_level(Request $request, $year = null){
         $data = InitiativeStat::where(['year' => $year])
+        	->orderBy('initiative','asc')
             ->get([
             	'initiative',
             	'year',
@@ -102,7 +103,7 @@ class ElsiLabController extends Controller
 		      	'level_2',
 		      	'level_3',
 		      	'level_4',
-		  	])->orderBy('initiative','asc');
+		  	]);
 
         if(!$data->count()){
 			return response()->json([
