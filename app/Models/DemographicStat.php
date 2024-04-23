@@ -10,5 +10,5 @@ class DemographicStat extends Model
 {
     use HasFactory;
 
-    protected $table = 'api_demographic_registration';
+    protected $table = 'api_geographic_registration';
 }

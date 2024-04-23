@@ -180,20 +180,17 @@ class ElsiLabController extends Controller
     }
 
     //get demographics
-    public function getDemographic(Request $request, $year, $state, $initiative){
-    	if(DemographicStat::where(['year' => $year, 'state' => $state, 'initiative' => $initiative])->exists()){        	
-        	$data = DemographicStat::where(['year' => $year, 'state' => $state, 'initiative' => $initiative])
-        		->orderBy('district','asc')
-        		->get(['year','state','district','number_of_registrations']);
-        	return response()->json([
-        		'state' => Str::title($state),
-        		'year' => $year,
-        		'district_count' => $data->count(),
+    public function getDemographic(Request $request, $year){
+    	if(DemographicStat::where(['year' => $year])->exists()){        	
+        	$data = DemographicStat::where(['year' => $year])
+        		->orderBy('state','asc')
+        		->get(['year','state','eyrc_number_of_registrations','eyic_number_of_registration']);
+        	return response()->json([        		
         		'data' => $data,
         	]);
         } else {
         	return response()->json([
-        		'message' => 'Given Parameter is not exist in our list',
+        		'message' => 'Data not available for year '.$year,
         	], 404);
         }
     }
