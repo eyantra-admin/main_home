@@ -19,13 +19,13 @@ class ElsiLabController extends Controller
     public function elsiLabCount(Request $request, $year = null){
     	$current_year = (new DateTime)->format("Y");
     	//if year is nu
-    	if($year == null || $year >= $current_year){
+    	/*if($year == null || $year >= $current_year){
     		$year = $current_year - 1;
     	}
 
     	if($year <= 2013){
     		$year = 2013;
-    	}
+    	}*/
 
 		/*$data = ElsiLabStat::where(['year' => $year, 'active' => 1])
 			->where('number_of_labs','>',0)
@@ -41,6 +41,13 @@ class ElsiLabController extends Controller
 		->groupBy('state')
 		->orderBy('state', 'asc')
 		->get();
+
+		if(!$data->count()){
+			return response()->json([
+        		'message' => 'No data exist for year '.$year,
+        		'available years' => '2013 - 2024',
+        	], 404);
+		}
 		
 		$data->map(function ($countData) use ($year){
         	$colleges = Colleges::where([
