@@ -184,7 +184,18 @@ class ElsiLabController extends Controller
     	if(DemographicStat::where(['year' => $year])->exists()){        	
         	$data = DemographicStat::where(['year' => $year])
         		->orderBy('state','asc')
-        		->get(['year','state','eyrc_number_of_registrations','eyic_number_of_registration','mooc_number_of_registration','workshop_number_of_registration']);
+        		->get([
+        			'year',
+        			'state',
+        			'eyrc_number_of_registrations',
+        			'eyrc_number_of_participation',
+        			'eyic_number_of_registration',
+        			'eyic_number_of_participation',
+        			'mooc_number_of_registration',
+        			'mooc_number_of_participation',
+        			'workshop_number_of_registration',
+        			'workshop_number_of_participation',
+        		]);
         	return response()->json([        		
         		'data' => $data,
         	]);
