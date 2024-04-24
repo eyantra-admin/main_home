@@ -195,21 +195,21 @@ class ElsiLabController extends Controller
         }
     }
 
-    public function getInstituteWise(Request $request, $year, $initiative){
-    	if(InstituteStat::where(['year' => $year, 'initiative' => $initiative])->exists()){
+    public function getInstituteWise(Request $request, $year){
+    	if(InstituteStat::where(['year' => $year])->exists()){
 	    	//$data = InstituteStat::with('college_dtl')->where(['initiative' => $initiative, 'year' => $year])->get(['clg_code','number_of_registrations']);
 	    	$data = DB::table('api_institute_stat')
 	    			->join('college_master_list.college_list','api_institute_stat.clg_code', '=', 'college_master_list.college_list.clg_code')
-	    			->where(['initiative' => $initiative, 'year' => $year, 'country' => "India"])
-	    			->select('api_institute_stat.clg_code','college_name','state','district','number_of_registrations')
+	    			->where(['year' => $year, 'country' => "India"])
+	    			->select('initiative','api_institute_stat.clg_code','college_name','IS_eLSI','state','district','pincode','number_of_registrations')
 	    			->orderBy('state','asc')
 	    			->orderBy('college_name','asc')
+	    			->orderBy('state','asc')
+	    			->orderBy('initiative','asc')
 	    			->get();
 
-	    	return response()->json([
-	    		'initiative' => Str::title($initiative),
-	    		'year' => $year,
-	    		'data' => collect($data)->groupBy('state'),
+	    	return response()->json([	    		
+	    		'data' => collect($data),
 	    	]);
 	    } else {
 	    	return response()->json([
