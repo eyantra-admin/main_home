@@ -30,7 +30,7 @@ Route::get('get-research-published', [API_stat\ElsiLabController::class, 'resear
 
 Route::get('get-demographic/{year}', [API_stat\ElsiLabController::class, 'getDemographic']);
 
-Route::get('get-institutewise-data/{year}/{initiative}', [API_stat\ElsiLabController::class, 'getInstituteWise']);
+Route::get('get-institutewise-data/{year}', [API_stat\ElsiLabController::class, 'getInstituteWise']);
 
 
 
