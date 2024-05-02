@@ -229,4 +229,21 @@ class ElsiLabController extends Controller
         	], 404);
 	    }	
     }
+
+    public function getSpendingCost(Request $request, $year){
+    	if(DB::table('api_spending')->where(['year' => $year])->exists()){        	
+        	$data = DB::table('api_spending')
+        		->select(DB::Raw("CONCAT(year, '-', year+1) as year"), 'funds_recevied', 'number_of_trained_participants', 'cost_per_participants')
+        		->where(['year' => $year])
+        		->orderBy('year','asc')
+        		->get();
+        	return response()->json([        		
+        		'data' => $data,
+        	]);
+        } else {
+        	return response()->json([
+        		'message' => 'Data not available for year '.$year,
+        	], 404);
+        }
+    }
 }

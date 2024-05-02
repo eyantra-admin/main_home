@@ -32,5 +32,7 @@ Route::get('get-demographic/{year}', [API_stat\ElsiLabController::class, 'getDem
 
 Route::get('get-institutewise-data/{year}', [API_stat\ElsiLabController::class, 'getInstituteWise']);
 
+Route::get('get-spending-cost/{year}', [API_stat\ElsiLabController::class, 'getSpendingCost']);
+
 
 
