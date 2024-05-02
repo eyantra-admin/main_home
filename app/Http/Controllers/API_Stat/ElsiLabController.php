@@ -233,7 +233,7 @@ class ElsiLabController extends Controller
     public function getSpendingCost(Request $request, $year){
     	if(DB::table('api_spending')->where(['year' => $year])->exists()){        	
         	$data = DB::table('api_spending')
-        		->select(DB::Raw("CONCAT(year, '-', year+1) as year"), 'funds_recevied', 'number_of_trained_participants', 'cost_per_participants')
+        		->select(DB::Raw("CONCAT(year, '-', year+1) as year"), 'funds_recevied', 'cost_per_participants')
         		->where(['year' => $year])
         		->orderBy('year','asc')
         		->get();
