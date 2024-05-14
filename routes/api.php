@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API_Stat;
+use App\Http\Controllers\Api\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +16,7 @@ use App\Http\Controllers\API_Stat;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+
 
 Route::get('elsi-lab-count/{year?}', [API_stat\ElsiLabController::class, 'elsiLabCount'])->where('year', '[0-9]+');
 Route::get('elsi-colleges/{year}/{state}', [API_stat\ElsiLabController::class, 'elsiCollegeList'])->where('year', '[0-9]+');
@@ -33,6 +32,18 @@ Route::get('get-demographic/{year}', [API_stat\ElsiLabController::class, 'getDem
 Route::get('get-institutewise-data/{year}', [API_stat\ElsiLabController::class, 'getInstituteWise']);
 
 Route::get('get-spending-cost/{year}', [API_stat\ElsiLabController::class, 'getSpendingCost']);
+
+//api authentication
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
+
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});
+
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('/logout', [AuthController::class, 'logout']);
+});
 
 
 
