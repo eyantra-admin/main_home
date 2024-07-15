@@ -11,12 +11,11 @@
               <div class="text-gray-700 text-2xl mb-8">
                   <p>Address</p><br>
                     <p class="text-lg">
-                        ERTS Lab,<br>
-                        First Floor, KReSIT Building,<br>
-                        IIT Bombay, Powai,<br>
+                        e-Yantra,<br>
+                        GR-17 (Old 102) Ground Floor, Kanwal Rekhi Building,<br>
+                        CSE Department, IIT Bombay, Powai,<br>
                         Mumbai - 400076, Maharashtra.<br>
                         022 2576 4986<br>
-                        022 25720184
                     </p> 
               </div>
               <div class="text-gray-700 text-2xl mb-8">
