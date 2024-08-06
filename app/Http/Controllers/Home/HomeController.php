@@ -24,6 +24,9 @@ use App\Mail\RegistrationSuccess;
 use App\Models\Designation;
 use App\Models\GamesList;
 use App\Mail\LogCredentials;
+use Carbon\Carbon;
+use Exception;
+
 class HomeController extends Controller
 {
 
@@ -358,6 +361,82 @@ class HomeController extends Controller
         return $num_accs;
         }
 
+        public function events(){
+            $currentDate = Carbon::now();
+            $live = DB::table('events')
+            ->whereDate('start_date', '<=', $currentDate)
+            ->whereDate('end_date', '>=', $currentDate)
+            ->orWhere('status',2)
+            ->get();
+            $upcoming = DB::table('events')
+            ->whereDate('start_date', '>=', $currentDate)
+            ->orWhere('status',1)
+            ->get();
+            $done = DB::table('events')
+            ->whereDate('end_date', '<=', $currentDate)
+            ->orWhere('status',3)
+            ->get();
+            // return $live;
+            return view('events',compact('live','upcoming','done'));
+        }
+        public function storeEvents(Request $request){
+            $validator = Validator::make($request->all(), [
+                'initiative-field' => 'required|max:255',
+                'status-dropdown' => 'required|integer|in:1,2,3',
+                'type-field' => 'required|integer|in:1,2',
+                'title-field' => 'required|max:255',
+                'description-field' => 'required|max:700',
+                'start-field' => 'required|date',
+                'end-field' => 'nullable|date|after:start-field',
+                'url-field' => 'required|url',
+                'poster' => 'required|image|mimes:jpg,jpeg,png,webp',
+                'passcode-field' => 'required|string',
+            ]);
+            if ($validator->fails()) {
+                return redirect()->back()
+                    ->withErrors($validator)
+                    ->withInput();
+            }
+        
+            if($request->input('passcode-field') != 'eyantraHomeEvents1958'){
+                return redirect()->back();
+            }
+            DB::beginTransaction();
+
+            try{
+                $eventId = DB::table('events')->insertGetId([
+                    'initiative' => $request->input('initiative-field'),
+                    'status' => $request->input('status-dropdown'),
+                    'title' => $request->input('title-field'),
+                    'description' => $request->input('description-field'),
+                    'start_date' => $request->input('start-field'),
+                    'end_date' => $request->input('end-field'),
+                    'type' => $request->input('type-field'),
+                    'url' => $request->input('url-field'),
+                    'created_at' => now(),
+                    'updated_at' => now(),
+                ]);
+                if ($request->hasFile('poster')) {
+
+                    $file = $request->file('poster');
+                    $filename = 'poster_' . $eventId . '.' . $file->getClientOriginalExtension();
+                    $path = $file->storeAs('public/event_posters', $filename);
+                    
+                    // Update the event record with the poster path
+                    DB::table('events')
+                        ->where('id', $eventId)
+                        ->update(['poster' => $path, 'updated_at' => now()]);
+                }
+                DB::commit();
+            }catch(Exception $e){
+                DB::rollback();
+
+                throw $e;
+            }
+            
+        
+            return redirect()->route('events.index')->with('success', 'Event created successfully!');
+        }
 
    //end
 }

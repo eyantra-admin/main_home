@@ -135,9 +135,15 @@ Route::get('/LoginCredentials', [App\Http\Controllers\Home\HomeController::class
     ->middleware(['auth'])
     ->name('login_credentials');
 
-Route::get("/events", function(){
-   return \File::get(public_path() . '/events/index.html');
+// Route::get("/events", function(){
+//    return \File::get(public_path() . '/events/index.html');
+// });
+
+Route::get('/event',[Home\HomeController::class, 'events'])->name('events.index');
+Route::get('/hYeMetUvtRNh',function(){
+    return view('manage_events');
 });
+Route::post('/store-events', [Home\HomeController::class, 'storeEvents'])->name('events.store');
 
 
 Route::get("/playground", function(){
