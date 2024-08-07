@@ -366,15 +366,13 @@ class HomeController extends Controller
             $live = DB::table('events')
             ->whereDate('start_date', '<=', $currentDate)
             ->whereDate('end_date', '>=', $currentDate)
-            ->orWhere('status',2)
             ->get();
             $upcoming = DB::table('events')
             ->whereDate('start_date', '>=', $currentDate)
-            ->orWhere('status',1)
             ->get();
             $done = DB::table('events')
             ->whereDate('end_date', '<=', $currentDate)
-            ->orWhere('status',3)
+            ->orderBy('id','desc')
             ->get();
             // return $live;
             return view('events',compact('live','upcoming','done'));
@@ -387,7 +385,7 @@ class HomeController extends Controller
                 'title-field' => 'required|max:255',
                 'description-field' => 'required|max:700',
                 'start-field' => 'required|date',
-                'end-field' => 'nullable|date|after:start-field',
+                'end-field' => 'required|date|after:start-field',
                 'url-field' => 'required|url',
                 'poster' => 'required|image|mimes:jpg,jpeg,png,webp',
                 'passcode-field' => 'required|string',
@@ -398,7 +396,7 @@ class HomeController extends Controller
                     ->withInput();
             }
         
-            if($request->input('passcode-field') != 'eyantraHomeEvents1958'){
+            if($request->input('passcode-field') != 'eY@498ntra#*tneve'){
                 return redirect()->back();
             }
             DB::beginTransaction();

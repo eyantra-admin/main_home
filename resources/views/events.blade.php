@@ -14,7 +14,7 @@
                         <div class="relative">
                             <div class="h-10 -z-50 w-10 bg-red-500 rounded-full absolute -top-3 -left-5 animate-ping">
                             </div>
-                            <h1 class="w-full relative z-50 my-2 text-2xl font-bold leading-tight text-left text-gray-800">Live Events</h1>
+                            <h1 class="w-full relative z-20 my-2 text-2xl font-bold leading-tight text-left text-gray-800">Live Events</h1>
                             
                         </div>
 
@@ -67,7 +67,7 @@
                         <div class="relative">
                             <div class="h-10 -z-50 w-10 bg-red-100 rounded-full absolute -top-3 -left-5 animate-bounce">
                             </div>
-                            <h1 class="w-full relative z-50 my-2 text-2xl font-bold leading-tight text-left text-gray-800">Upcoming Events</h1>
+                            <h1 class="w-full relative z-20 my-2 text-2xl font-bold leading-tight text-left text-gray-800">Upcoming Events</h1>
                             
                         </div>
 
@@ -120,7 +120,7 @@
                         <div class="relative">
                             <div class="h-10 -z-50 w-10 bg-red-100 rounded-full absolute -top-3 -left-5 animate-bounce">
                             </div>
-                            <h1 class="w-full relative z-50 my-2 text-2xl font-bold leading-tight text-left text-gray-800">Past Events</h1>
+                            <h1 class="w-full relative z-20 my-2 text-2xl font-bold leading-tight text-left text-gray-800">Past Events</h1>
                             
                         </div>
 
