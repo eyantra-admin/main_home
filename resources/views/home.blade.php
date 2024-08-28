@@ -6,8 +6,8 @@
             <div class="flex flex-col w-full justify-center items-start py-4 lg:ml-24 sm:ml-6 text-gray-700 text-xl pb-6 mt-2">
                 <div class="px-4 py-4 text-xl font-bold leading-none text-red-100 bg-gray-600 rounded-md my-4 mt-24 md:mt-0 w-full">
                 
-                  The e-Yantra Robotics Competition is now live! Join the premier contest to showcase your robotics skills, innovate, and compete with the best minds globally. 
-                  <a href="https://portal.e-yantra.org" target="_blank"><span class="mt-2 pt-2 pb-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-md">Please Visit</span></a>
+                  The e-Yantra School Robotics Competition- Intrepid Explorer Edition 2 (Grade 7th - 12th) is now live!! <br>
+                  <a href="https://school.e-yantra.org" target="_blank"><span class="mt-2 pt-2 pb-2 inline-flex items-center justify-center px-2 py-1 text-xl font-bold leading-none text-red-100 bg-red-600 rounded-md">Register Now!!</span></a>
                 </div>
 
                 <p class="mt-4 ml-6">e-Yantra is a robotics outreach program funded by the Ministry of Education and hosted at IIT Bombay.
